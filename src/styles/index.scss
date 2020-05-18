@@ -1,0 +1,95 @@
+/* VARIABLES */
+
+:root {
+  --white: #fff;
+  --grayWhite: #f6f9ff;
+  --lightBlue: #e9efff;
+  --primaryDark: #3831DF;
+  --primary: #5751ff;
+  --primaryLight: #4A43F5;
+  --darkGray: #2f4f75;
+  --denim: #182b57;
+  --porpoise: #495d74;
+  --coin: #929eac;
+  --cloud: #b6bec7;
+  --salt: #dbdfe3;
+  --lightSalt: #edeff1;
+}
+
+/* IMPORTS */
+
+@import "~bulma/sass/utilities/_all.sass";
+@import "~bulma/sass/base/_all.sass";
+@import "~bulma/sass/layout/_all.sass";
+@import "~bulma/sass/elements/container.sass";
+
+@import "fonts";
+@import "typography";
+@import "layout";
+@import "elements";
+@import "navbar";
+@import "hamburger";
+@import "features";
+@import "privacy";
+// @import "team";
+@import "faq";
+@import "press";
+
+/* GENERIC STYLES */
+
+* {
+  box-sizing: border-box;
+
+  &::after,
+  &::before {
+    box-sizing: border-box;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+html,
+body {
+  background-color: var(--grayWhite);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+button {
+  border: none;
+}
+
+/* HELPERS */
+
+.revealer {
+  visibility: hidden;
+  &.staggered {
+    visibility: visible;
+    > div {
+      visibility: hidden;
+    }
+  }
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* AVOID FOUC */
+
+html {
+  visibility: visible;
+  opacity: 1;
+}
