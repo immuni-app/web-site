@@ -1,0 +1,262 @@
+/* SECTION */
+
+.section {
+  position: relative;
+  padding: 120px 0;
+  @media screen and (max-width: 1024px) {
+    padding: 64px 0;
+  }
+  &.light {
+    background-color: var(--white);
+  }
+  &.dark {
+    background-color: var(--denim);
+  }
+  &.froster {
+    background-color: var(--lightBlue);
+  }
+  &.blue {
+    background-color: var(--primary);
+  }
+  &.hero {
+    padding: 120px 0 80px;
+  }
+  &.faq {
+    padding: 220px 0 80px;
+    @media screen and (max-width: 1024px) {
+      padding: 128px 0 80px;
+    }
+  }
+  &.press {
+    padding: 220px 0 0;
+  }
+  &.full-height {
+    height: 100vh;
+  }
+  &.small-padding {
+    padding: 88px 0;
+    @media screen and (max-width: 1024px) {
+      padding: 32px 0;
+    }
+  }
+  &.no-padding-bottom {
+    padding: 120px 0 0;
+    &--smaller {
+      @media screen and (max-width: 1024px) {
+        padding: 32px 0 0;
+      }
+    }
+  }
+  &.divider-bottom {
+    padding: 120px 0 600px;
+  }
+  &.divider-top {
+    padding: 280px 0 120px;
+    @media screen and (max-width: 1024px) {
+      padding: 160px 0 120px;
+    }
+    @media screen and (max-width: 768px) {
+      padding: 120px 0;
+    }
+  }
+  .section-divider {
+    display: none;
+    @supports (display: grid) {
+      display: initial;
+    }
+    position: absolute;
+    width: 100%;
+    left: 0;
+    &__top {
+      top: -1px;
+    }
+    &__bottom {
+      bottom: -1px;
+    }
+  }
+}
+
+/* CONTAINER */
+
+.container {
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  width: 100%;
+  @media screen and (min-width: 1024px) {
+    padding: 0;
+    max-width: 960px !important;
+  }
+  @media screen and (min-width: 1215px) {
+    max-width: 1120px !important;
+  }
+  &--align-left {
+    max-width: 830px !important;
+
+    p + p,
+    p + ul,
+    ul + p {
+      margin-top: 16px;
+    }
+    > h2,
+    h3,
+    h4,
+    h5,
+    p,
+    ul,
+    li {
+      width: 100%;
+      color: var(--porpoise);
+      max-width: 830px;
+      text-align: left;
+    }
+  }
+}
+
+/* FOOTER */
+
+.footer {
+  padding: 56px 0;
+  background: var(--primary);
+  @media screen and (max-width: 480px) {
+    padding: 40px 0;
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    @media screen and (max-width: 1024px) {
+      flex-direction: column;
+    }
+  }
+  &__brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @media screen and (max-width: 1024px) {
+      flex-direction: row;
+    }
+    .footer-logo {
+      max-width: 200px;
+      @media screen and (max-width: 480px) {
+        max-width: 160px;
+      }
+      path {
+        fill: var(--white);
+      }
+    }
+  }
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    @media screen and (max-width: 1024px) {
+      width: 100%;
+      margin-top: 40px;
+    }
+    .list-wrapper {
+      max-width: 160px;
+      &__title {
+        text-align: left;
+        margin-bottom: 16px;
+      }
+      &__list li {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 18px;
+        margin-bottom: 8px;
+        @media screen and (max-width: 320px) {
+          font-size: 14px;
+        }
+        @media screen and (max-width: 1024px) {
+          margin-bottom: 16px;
+        }
+        a {
+          color: var(--white);
+          transition: opacity 300ms ease;
+          &:hover {
+            opacity: 0.8;
+          }
+        }
+      }
+    }
+    .list-cta {
+      @media screen and (max-width: 1024px) {
+        display: none;
+      }
+    }
+  }
+}
+
+/* FOOTER FAQ CTA */
+
+.faqbg {
+  position: absolute;
+  bottom: 0;
+  max-width: 200px;
+  @media screen and (max-width: 1024px) {
+    display: none;
+  }
+  &__man {
+    left: 210px;
+    @media screen and (max-width: 1215px) {
+      left: 40px;
+    }
+  }
+  &__girl {
+    right: 210px;
+    @media screen and (max-width: 1215px) {
+      right: 40px;
+    }
+  }
+  &__mobile {
+    display: none;
+    @media screen and (max-width: 1024px) {
+      display: block;
+    }
+  }
+}
+
+/* HERO BACKGROUND */
+
+.hero-background {
+  display: block;
+  @media screen and (max-width: 1024px) {
+    display: none;
+  }
+  &--mobile {
+    display: none;
+    @media screen and (max-width: 1024px) {
+      display: block;
+    }
+  }
+}
+
+/* DIVIDERS */
+
+.large-divider {
+  height: 80px;
+  width: 100%;
+}
+
+.medium-divider {
+  height: 40px;
+  width: 100%;
+  @media screen and (max-width: 1024px) {
+    height: 10px;
+  }
+}
+
+/* CTA WRAPPER */
+
+.cta-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  h3 {
+    width: auto;
+  }
+  @media screen and (max-width: 1024px) {
+    flex-direction: column;
+  }
+}

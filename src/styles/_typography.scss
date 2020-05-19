@@ -1,0 +1,218 @@
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "Euclid Circular B", -apple-system, "BlinkMacSystemFont",
+    Helvetica, Arial;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  width: 100%;
+  font-weight: 500;
+  letter-spacing: -0.05em;
+  text-align: center;
+  color: var(--darkGray);
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 64px;
+  line-height: 72px;
+  margin-bottom: 40px;
+  @media screen and (max-width: 1215px) {
+    font-size: 60px;
+    line-height: 68px;
+  }
+  @media screen and (max-width: 1024px) {
+    font-size: 40px;
+    line-height: 44px;
+    &.low-margin-mobile {
+      margin-bottom: 16px;
+    }
+  }
+  &.colored {
+    color: var(--primary);
+  }
+}
+
+h2 {
+  font-size: 48px;
+  line-height: 56px;
+  margin: 0 auto 40px;
+  max-width: 800px;
+  @media screen and (max-width: 1215px) {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  @media screen and (max-width: 1024px) {
+    font-size: 34px;
+    line-height: 38px;
+    margin: 0 auto 20px;
+  }
+  &.light {
+    color: var(--lightBlue);
+  }
+  &.has-margin-bottom {
+    @media screen and (max-width: 1024px) {
+      margin-bottom: 80px;
+    }
+  }
+}
+
+h3 {
+  font-size: 36px;
+  line-height: 46px;
+  margin-bottom: 40px;
+  overflow: visible;
+  @media screen and (max-width: 1215px) {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  @media screen and (max-width: 1024px) {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  span {
+    color: var(--primary);
+    &.underlined {
+      color: inherit;
+      position: relative;
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: -4px;
+        left: 0;
+        width: 100%;
+        height: 4px;
+        border-radius: 8px;
+        background-color: var(--primary);
+      }
+    }
+  }
+  &.light {
+    color: var(--lightBlue);
+  }
+  &.no-margin {
+    margin-bottom: 0;
+  }
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  &.list-title {
+    width: auto;
+    margin: auto 0;
+    text-align: left;
+    color: var(--lightBlue);
+  }
+  &.legal {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 24px 0;
+  }
+}
+
+h5 {
+  font-size: 24px;
+  line-height: 30px;
+  @media screen and (max-width: 1215px) {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  &.white {
+    color: var(--white);
+  }
+  &.subtitle {
+    font-weight: bold;
+  }
+  &.tagline {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--primary);
+    margin-bottom: 64px;
+    @media screen and (max-width: 1024px) {
+      margin-bottom: 40px;
+    }
+    &__faq {
+      margin: 48px auto;
+    }
+    &.smaller {
+      font-size: 20px;
+      line-height: 25px;
+      color: var(--darkGray);
+      @media screen and (max-width: 1024px) {
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
+    &.white {
+      color: var(--white);
+    }
+  }
+}
+
+a {
+  transition: color 200ms ease;
+}
+
+p {
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  color: var(--darkGray);
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  @media screen and (max-width: 1024px) {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  &.white {
+    color: var(--white);
+  }
+  a {
+    color: var(--darkGray);
+    text-decoration: underline;
+    &:hover {
+      color: var(--primary);
+    }
+  }
+  &.smaller {
+    font-size: 16px;
+    line-height: 20px;
+    @media screen and (max-width: 1024px) {
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+  &.wide {
+    max-width: 830px;
+  }
+  &.has-margin-bottom {
+    margin-bottom: 48px;
+  }
+}
+
+ul {
+  &.footer-list {
+    li {
+      font-size: 16px;
+      line-height: 20px;
+      color: var(--white);
+    }
+  }
+}
+
+.text-wrapper {
+  position: relative;
+  overflow: hidden;
+}
