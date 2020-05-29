@@ -57,4 +57,10 @@
       transform: scale(1.08);
     }
   }
+  &.cookies {
+    color: var(--primary);
+    background-color: var(--white);
+    padding: 8px 24px;
+    cursor: pointer;
+  }
 }
