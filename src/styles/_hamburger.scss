@@ -3,18 +3,13 @@
 .hamburger {
   display: inline-block;
   cursor: pointer;
-  transition-property: opacity, filter;
-  transition-duration: 250ms;
-  transition-timing-function: linear;
-  font: inherit;
-  color: inherit;
-  text-transform: none;
-  background-color: transparent;
+  transition: background-color 300ms ease-in-out 400ms;
   border: 0;
   margin: 0;
   overflow: visible;
   padding: 10px;
-  background: var(--lightBlue);
+  background-color: transparent;
+  background-color: var(--lightBlue);
   border-radius: 100px;
 
   .hamburger-box {

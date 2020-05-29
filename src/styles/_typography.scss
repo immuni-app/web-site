@@ -22,15 +22,15 @@ h5 {
 
 h1 {
   font-size: 64px;
-  line-height: 72px;
+  line-height: 76px;
   margin-bottom: 40px;
   @media screen and (max-width: 1215px) {
     font-size: 60px;
-    line-height: 68px;
+    line-height: 70px;
   }
   @media screen and (max-width: 1024px) {
     font-size: 40px;
-    line-height: 44px;
+    line-height: 48px;
     &.low-margin-mobile {
       margin-bottom: 16px;
     }
@@ -51,7 +51,7 @@ h2 {
   }
   @media screen and (max-width: 1024px) {
     font-size: 34px;
-    line-height: 38px;
+    line-height: 42px;
     margin: 0 auto 20px;
   }
   &.light {

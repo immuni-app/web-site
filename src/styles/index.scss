@@ -4,9 +4,9 @@
   --white: #fff;
   --grayWhite: #f6f9ff;
   --lightBlue: #e9efff;
-  --primaryDark: #3831DF;
+  --primaryDark: #3831df;
   --primary: #5751ff;
-  --primaryLight: #4A43F5;
+  --primaryLight: #4a43f5;
   --darkGray: #2f4f75;
   --denim: #182b57;
   --porpoise: #495d74;
@@ -27,11 +27,11 @@
 @import "typography";
 @import "layout";
 @import "elements";
+@import "select";
 @import "navbar";
 @import "hamburger";
 @import "features";
 @import "privacy";
-// @import "team";
 @import "faq";
 @import "press";
 
@@ -39,7 +39,8 @@
 
 * {
   box-sizing: border-box;
-
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-tap-highlight-color: transparent;
   &::after,
   &::before {
     box-sizing: border-box;

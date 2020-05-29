@@ -23,6 +23,7 @@
   }
   &.faq {
     padding: 220px 0 80px;
+    min-height: calc(100vh - 222px);
     @media screen and (max-width: 1024px) {
       padding: 128px 0 80px;
     }
@@ -52,11 +53,9 @@
   }
   &.divider-top {
     padding: 280px 0 120px;
-    @media screen and (max-width: 1024px) {
-      padding: 160px 0 120px;
-    }
+    padding: 20vw 0 120px;
     @media screen and (max-width: 768px) {
-      padding: 120px 0;
+      padding-top: 30vw;
     }
   }
   .section-divider {
@@ -136,8 +135,8 @@
     @media screen and (max-width: 1024px) {
       flex-direction: row;
     }
-    .footer-logo {
-      max-width: 200px;
+    .footer__logo {
+      width: 200px;
       @media screen and (max-width: 480px) {
         max-width: 160px;
       }
@@ -156,6 +155,7 @@
     }
     .list-wrapper {
       max-width: 160px;
+      min-width: 150px;
       &__title {
         text-align: left;
         margin-bottom: 16px;
@@ -165,7 +165,7 @@
         font-size: 16px;
         line-height: 18px;
         margin-bottom: 8px;
-        @media screen and (max-width: 320px) {
+        @media screen and (max-width: 360px) {
           font-size: 14px;
         }
         @media screen and (max-width: 1024px) {

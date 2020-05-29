@@ -4,7 +4,7 @@
   display: flex;
   @supports (display: grid) {
     display: grid;
-    gap: 40px;
+    gap: 32px;;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
   @media screen and (max-width: 1024px) {

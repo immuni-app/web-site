@@ -1,8 +1,33 @@
 import gsap, { Expo } from "gsap";
 import { withinViewport } from "./reveal-helper";
 import * as imgUrl from "../assets/img/search-illustration.png";
+import faqIt from "../res/faq/faq_it.json";
+import faqEn from "../res/faq/faq_en.json";
+import faqDe from "../res/faq/faq_en.json";
+import faqEs from "../res/faq/faq_en.json";
+import faqFr from "../res/faq/faq_en.json";
+import faqPt from "../res/faq/faq_en.json";
+const resources = {
+  it: faqIt,
+  en: faqEn,
+  de: faqEn,
+  es: faqEn,
+  fr: faqEn,
+  pt: faqEn,
+};
 
-export function handleFaq(faq) {
+const empty = {
+  it: "Nessun risultato trovato",
+  en: "No matches found",
+  de: "de",
+  es: "es",
+  fr: "fr",
+  pt: "pt",
+};
+
+export function handleFaq() {
+  const lang = localStorage.getItem("language");
+  const faq = resources[lang];
   const list = document.querySelector(".accordion-wrapper");
   const search = document.querySelector(".search__input");
   const clearBtn = document.querySelector(".search__clear");
@@ -18,7 +43,7 @@ export function handleFaq(faq) {
         });
       });
     } else {
-      li = `<div class="no-results revealer"><p>Nessun risultato trovato</p><img src="${imgUrl.default}" alt="Illustration of two text bubbles saying nothing found" class="search-illustration"/></div>`;
+      li = `<div class="no-results revealer"><p>${empty[lang]}</p><img src="${imgUrl.default}" alt="Illustration of two text bubbles saying nothing found" class="search-illustration"/></div>`;
     }
     list.innerHTML = li;
 

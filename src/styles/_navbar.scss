@@ -33,11 +33,12 @@
     width: 100%;
     background-color: var(--grayWhite);
     box-shadow: 0px 0px 20px rgba(105, 147, 255, 0.1);
+    transition: background-color 300ms ease-in-out 400ms;
     @media screen and (max-width: 1024px) {
       padding: 20px;
       display: flex;
     }
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 360px) {
       padding: 20px 10px;
     }
     a:first-child {
@@ -45,16 +46,10 @@
       align-items: center;
     }
     &.colored {
-      transition: background-color 300ms ease-in-out 400ms;
-      background-color: var(--primary);
+      background-color: var(--lightBlue);
       box-shadow: none;
-      .nav-button {
-        color: var(--primary) !important;
+      .hamburger {
         background-color: var(--white);
-      }
-      .navigation__logo path {
-        transition: fill 300ms ease-in-out 400ms;
-        fill: var(--white);
       }
     }
   }
@@ -63,7 +58,7 @@
     @media screen and (max-width: 1024px) {
       max-width: 140px;
     }
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 360px) {
       max-width: 110px;
     }
   }
@@ -76,6 +71,9 @@
       line-height: 23px;
       color: var(--primary);
       transition: color 200ms ease;
+      @media screen and (max-width: 1215px) {
+        margin: auto 12px;
+      }
       @media screen and (max-width: 1024px) {
         font-size: 16px;
         line-height: 20px;
@@ -102,19 +100,23 @@
     position: fixed;
     top: 0;
     right: -100%;
-    background-color: var(--primary);
+    background-color: var(--lightBlue);
     will-change: transform;
   }
-  &__list {
+  &__list,
+  &__legal {
     z-index: 25;
     width: 100%;
     text-align: center;
     position: fixed;
-    top: 30vh;
+    top: 23vh;
     left: 0;
     list-style: none;
-    color: var(--white);
+    color: var(--primary);
     margin: auto;
+    @media screen and (max-width: 360px) {
+      top: 20vh;
+    }
     li {
       pointer-events: initial;
       font-size: 24px;
@@ -125,8 +127,29 @@
       left: 100%;
       cursor: pointer;
       will-change: transform;
+      @media screen and (max-width: 360px) {
+        font-size: 22px;
+        line-height: 24px;
+        margin-bottom: 16px;
+      }
       a {
         color: inherit;
+      }
+    }
+  }
+  &__legal {
+    bottom: 5vh;
+    top: auto;
+    color: var(--darkGray);
+    @media screen and (max-width: 360px) {
+      bottom: 4vh;
+    }
+    li {
+      font-size: 16px;
+      line-height: 20px;
+      margin-bottom: 16px;
+      @media screen and (max-width: 360px) {
+        margin-bottom: 8px;
       }
     }
   }
