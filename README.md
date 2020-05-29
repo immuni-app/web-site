@@ -5,8 +5,8 @@ A website for the Immuni App.
 - Open your terminal
 - Clone this repo
 - Move to the folder
-- Use _npm_ or _yarn_ to install all the packages (ex. _yarn install_)
-- Use _npm_ or _yarn_ to serve / build the web site
+- Use _npm_ or _yarn_ _install_ to setup the packages (ex. _yarn install_)
+- Use _npm_ / _yarn_ _start_ to serve the web site
 - Open your browser and visit _http://localhost:8080_
 
 ### Notes
