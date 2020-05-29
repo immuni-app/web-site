@@ -88,6 +88,20 @@ button {
   height: 100%;
 }
 
+table {
+  margin: 32px auto;
+  overflow-x: scroll;
+  overflow: scroll;
+  max-width: 100%;
+}
+
+table,
+th,
+td {
+  padding: 8px;
+  border: 1px solid var(--darkGray);
+}
+
 /* AVOID FOUC */
 
 html {
