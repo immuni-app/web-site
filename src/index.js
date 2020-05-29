@@ -1,12 +1,14 @@
 import "./styles/index.scss";
 import { handleHamburger, fixNav, anchorScroll } from "./scripts/menu-helper";
 import { withinViewport } from "./scripts/reveal-helper";
+import { handleCookies } from "./scripts/cookies-helper";
 import { handleFaq } from "./scripts/faq-helper";
 import { animateTitle } from "./scripts/text-animation";
 import { cssVarSupport } from "./scripts/browser-helper";
+import { selectSupport } from "./scripts/drop-down-helper";
+import Translator from "./scripts/translation-helper";
 import smoothscroll from "smoothscroll-polyfill";
 import cssVars from "css-vars-ponyfill";
-import faq from "./res/faq_it.json";
 
 cssVarSupport();
 
@@ -34,15 +36,33 @@ cssVars({
 // smoothscroll polyfill
 smoothscroll.polyfill();
 
+const translator = new Translator({
+  persist: true,
+  languages: ["it", "en", "de", "es", "fr", "pt"],
+  defaultLanguage: "it",
+  detectLanguage: true,
+});
+
+translator.load();
+
+selectSupport(translator);
+
+const selectors = [...document.querySelectorAll("select.cs-select")];
+
+selectors.forEach(function (el) {
+  new SelectFx(el);
+});
+
 const intro = document.querySelectorAll(".intro");
 
+handleCookies();
 handleHamburger();
 anchorScroll();
 intro.forEach((el) => {
   animateTitle(el);
 });
 if (window.location.href.indexOf("faq") != -1) {
-  handleFaq(faq);
+  handleFaq();
 }
 withinViewport();
 window.addEventListener("scroll", fixNav);

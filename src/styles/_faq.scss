@@ -81,6 +81,9 @@
       padding-left: 24px;
       li {
         margin-bottom: 8px;
+        p {
+          padding-bottom: 0;
+        }
       }
     }
     > *:first-child {
@@ -103,6 +106,9 @@
   @media screen and (max-width: 1024px) {
     margin: 8px auto 32px;
   }
+  span {
+    width: 100%;
+  }
   &__icon {
     margin: auto 16px auto 16px;
     width: 24px;
@@ -119,6 +125,7 @@
     padding: 14px 8px 16px;
     border: none;
     background: transparent;
+    text-overflow: ellipsis;
     &::placeholder {
       color: var(--porpoise);
       opacity: 0.5;
