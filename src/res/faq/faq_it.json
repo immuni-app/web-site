@@ -14,7 +14,7 @@
     },
     {
       "title": "Come viene tutelata la mia privacy?",
-      "content": "<p>Durante l&#39;intero processo di design e sviluppo di immuni, abbiamo posto grande attenzione sulla tutela della tua privacy.</p><p>Eccoti una lista di alcune delle misure con cui Immuni protegge i tuoi dati:</p><ul><li><p>L&#39;app non raccoglie alcun dato personale che consentirebbe di risalire alla tua identità. Per esempio, non ti chiede e non è in grado di ottenere il tuo nome, cognome, data di nascita, indirizzo, numero di telefono o indirizzo email.</p></li><li><p>L&#39;app non raccoglie alcun dato di geolocalizzazione, inclusi i dati del GPS. I tuoi spostamenti non sono tracciati in alcun modo.</p></li><li><p>Il codice Bluetooth Low Energy trasmesso dall&#39;app è generato in maniera casuale e non contiene alcuna informazione riguardo al tuo smartphone, né su di te. Inoltre, questo codice cambia svariate volte ogni ora, per tutelare ancora meglio la tua privacy.</p></li><li><p>I dati salvati sul tuo smartphone sono cifrati.</p></li><li><p>Le connessioni tra l&#39;app e il server sono cifrate.</p></li><li><p>Tutti i dati, siano essi salvati sul dispositivo o sul server, saranno cancellati non appena non saranno più necessari e in ogni caso non oltre il 31 dicembre 2020.</p></li><li><p>È il Ministero della Salute il soggetto che raccoglie i tuoi dati. I dati verranno usati solo per contenere l&#39;epidemia del COVID-19 o per la ricerca scientifica.</p></li><li><p>I dati sono salvati su server in Italia e gestiti da soggetti pubblici.</p></li></ul>"
+      "content": "<p>Durante l&#39;intero processo di design e sviluppo di Immuni, abbiamo posto grande attenzione sulla tutela della tua privacy.</p><p>Eccoti una lista di alcune delle misure con cui Immuni protegge i tuoi dati:</p><ul><li><p>L&#39;app non raccoglie alcun dato che consentirebbe di risalire alla tua identità. Per esempio, non ti chiede e non è in grado di ottenere il tuo nome, cognome, data di nascita, indirizzo, numero di telefono o indirizzo email.</p></li><li><p>L&#39;app non raccoglie alcun dato di geolocalizzazione, inclusi i dati del GPS. I tuoi spostamenti non sono tracciati in alcun modo.</p></li><li><p>Il codice Bluetooth Low Energy trasmesso dall&#39;app è generato in maniera casuale e non contiene alcuna informazione riguardo al tuo smartphone, né su di te. Inoltre, questo codice cambia svariate volte ogni ora, per tutelare ancora meglio la tua privacy.</p></li><li><p>I dati salvati sul tuo smartphone sono cifrati.</p></li><li><p>Le connessioni tra l&#39;app e il server sono cifrate.</p></li><li><p>Tutti i dati, siano essi salvati sul dispositivo o sul server, saranno cancellati non appena non saranno più necessari e in ogni caso non oltre il 31 dicembre 2020.</p></li><li><p>È il Ministero della Salute il soggetto che raccoglie i tuoi dati. I dati verranno usati solo per contenere l&#39;epidemia del COVID-19 o per la ricerca scientifica.</p></li><li><p>I dati sono salvati su server in Italia e gestiti da soggetti pubblici.</p></li></ul>"
     },
     {
       "title": "Il codice è open source?",
@@ -86,7 +86,7 @@
     },
     {
       "title": "Devo fare una registrazione con indirizzo email e password?",
-      "content": "<p>No. L&#39;app non raccoglie alcun dato personale che consentirebbe di risalire alla tua identità. Per esempio, non ti chiede e non è in grado di ottenere il tuo nome, cognome, data di nascita, indirizzo, numero di telefono o indirizzo email.</p>"
+      "content": "<p>No. L&#39;app non raccoglie alcun dato che consentirebbe di risalire alla tua identità. Per esempio, non ti chiede e non è in grado di ottenere il tuo nome, cognome, data di nascita, indirizzo, numero di telefono o indirizzo email.</p>"
     },
     {
       "title": "Devo tenere l’app aperta per farla funzionare correttamente? Posso usare altre app?",
@@ -118,7 +118,7 @@
     },
     {
       "title": "Posso cambiare la lingua dell’app?",
-      "content": "<p>Le lingue attualmente supportate dall’app sono l’italiano, l’inglese, il tedesco, il francese, lo spagnolo e il portoghese. L’app usa la stessa lingua che hai impostato sul tuo smartphone, se disponibile, altrimenti l’inglese. Perciò per cambiare la lingua dell’app dovrai cambiare la lingua del tuo dispositivo.</p>"
+      "content": "<p>Le lingue attualmente supportate dall’app sono l’italiano, l’inglese, il tedesco, il francese e lo spagnolo. L’app usa la stessa lingua che hai impostato sul tuo smartphone, se disponibile, altrimenti l’inglese. Perciò per cambiare la lingua dell’app dovrai cambiare la lingua del tuo dispositivo.</p>"
     }
   ]
 }
