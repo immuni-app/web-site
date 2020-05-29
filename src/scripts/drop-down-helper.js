@@ -1,4 +1,5 @@
 import { handleFaq } from "./faq-helper";
+import { updateCookiesLang } from "./cookies-helper";
 
 export function selectSupport(translator) {
   /**
@@ -271,6 +272,7 @@ export function selectSupport(translator) {
     // callback
     this.options.onChange(this.el.value);
     translator.load(this.el.value);
+    updateCookiesLang();
     if (window.location.href.indexOf("faq") != -1) {
       handleFaq();
     }
