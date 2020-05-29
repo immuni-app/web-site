@@ -1,7 +1,7 @@
 const message = {
   it: {
     message:
-      "Questo sito utilizza cookie tecnici, di analytics e di terze parti. Proseguendo la navigazione accetti la nostra Informativa Privacy.",
+      "Questo sito utilizza cookie tecnici e di analytics. Cliccando su “Accetto”, accetti l’utilizzo dei cookie descritto nell’informativa privacy.",
     policy: "Informativa privacy",
     button: "Accetto",
   },
@@ -60,4 +60,6 @@ export function updateCookiesLang() {
   const lang = localStorage.getItem("language");
   const cookieBanner = document.getElementById("cookie-banner");
   cookieBanner.innerHTML = `<div><span>${message[lang].message}</span><a href="/pn.html" class="pn-link">${message[lang].policy}</a><button class="button cookies" id="accept-btn">${message[lang].button}</button>`;
+  const acceptButton = document.getElementById("accept-btn");
+  acceptButton.addEventListener("click", okWithCookies);
 }
