@@ -100,11 +100,6 @@ module.exports = {
       inject: "body",
     }),
     new HtmlWebpackPlugin({
-      filename: "tos.html",
-      template: "src/pages/tos.html",
-      inject: "body",
-    }),
-    new HtmlWebpackPlugin({
       filename: "press.html",
       template: "src/pages/press.html",
       inject: "body",
