@@ -82,9 +82,9 @@ module.exports = {
           },
         ],
       },
-      // Load pdf files
+      // Load downloadable files
       {
-        test: /\.(pdf)$/,
+        test: /\.(pdf|zip)$/,
         use: [
           {
             loader: "file-loader",
