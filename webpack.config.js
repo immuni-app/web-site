@@ -1,0 +1,208 @@
+const path = require("path");
+
+const FaviconsWebpackPlugin = require("favicons-webpack-plugin");
+const CleanWebpackPlugin = require("clean-webpack-plugin"); //installed via npm
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const OptimizeCssAssetsPlugin = require("optimize-css-assets-webpack-plugin");
+
+const buildPath = path.resolve(__dirname, "dist");
+
+module.exports = (args, env) => {
+
+    const production = env.mode === 'production'
+
+    const devCssLoaders = [
+        {
+            // creates style nodes from JS strings
+            loader: "style-loader",
+            options: {
+                sourceMap: true,
+            },
+        },
+        {
+            // translates CSS into CommonJS
+            loader: "css-loader",
+            options: {
+                sourceMap: true,
+            },
+        },
+        {
+            // compiles Sass to CSS
+            loader: "sass-loader",
+            options: {
+                outputStyle: "expanded",
+                sourceMap: true,
+                sourceMapContents: true,
+            },
+        }
+        // Please note we are not running postcss here
+    ]
+
+    const prodCssLoaders = [
+        {
+            loader: MiniCssExtractPlugin.loader,
+        },
+        {
+            // translates CSS into CommonJS
+            loader: "css-loader",
+            options: {
+                sourceMap: true,
+            },
+        },
+        {
+            // Runs compiled CSS through postcss for vendor prefixing
+            loader: "postcss-loader",
+            options: {
+                sourceMap: true,
+            },
+        },
+        {
+            // compiles Sass to CSS
+            loader: "sass-loader",
+            options: {
+                outputStyle: "expanded",
+                sourceMap: true,
+                sourceMapContents: true,
+            },
+        }
+    ]
+
+    const prodPlugins = [
+        new CleanWebpackPlugin(buildPath),
+        new FaviconsWebpackPlugin({
+            // Your source logo
+            logo: "./src/assets/icon.png",
+            // The prefix for all image files (might be a folder or a name)
+            prefix: "icons-[hash]/",
+            // Generate a cache file with control hashes and
+            // don't rebuild the favicons until those hashes change
+            persistentCache: true,
+            // Inject the html into the html-webpack-plugin
+            inject: true,
+            // favicon background color (see https://github.com/haydenbleasel/favicons#usage)
+            background: "#fff",
+            // favicon app title (see https://github.com/haydenbleasel/favicons#usage)
+            title: "WEBSITETITLE",
+
+            // which icons should be generated (see https://github.com/haydenbleasel/favicons#usage)
+            icons: {
+                android: true,
+                appleIcon: true,
+                appleStartup: true,
+                coast: false,
+                favicons: true,
+                firefox: true,
+                opengraph: false,
+                twitter: false,
+                yandex: false,
+                windows: false,
+            },
+        }),
+        new MiniCssExtractPlugin({
+            filename: "styles.[contenthash].css",
+        }),
+        new OptimizeCssAssetsPlugin({
+            cssProcessor: require("cssnano"),
+            cssProcessorOptions: {
+                map: {
+                    inline: false,
+                },
+                discardComments: {
+                    removeAll: true,
+                },
+                discardUnused: false,
+            },
+            canPrint: true,
+        }),
+    ]
+
+    const extraPlugins = production ? prodPlugins : []
+
+    return {
+
+        devtool: production ? "source-map" : "eval-cheap-module-source-map",
+        entry: ["babel-polyfill", "./src/index.js"],
+        devServer: {
+            port: 8080,
+            contentBase: path.join(__dirname, "dist"),
+        },
+        output: {
+            filename: "[name].[hash:20].js",
+            path: buildPath,
+        },
+        node: {
+            fs: "empty",
+        },
+        module: {
+            rules: [
+                {
+                    test: /\.js$/,
+                    exclude: /node_modules/,
+                    loader: "babel-loader",
+                    options: {
+                        presets: ["env"],
+                    },
+                },
+                {
+                    test: production ? /\.(scss|css|sass)$/ : /\.(scss|css)$/,
+                    use: production ? prodCssLoaders : devCssLoaders,
+                },
+                {
+                    // Load all images as base64 encoding if they are smaller than 8192 bytes
+                    test: /\.(png|jpg|gif)$/,
+                    use: [
+                        {
+                            loader: "url-loader",
+                            options: {
+                                // On development we want to see where the file is coming from, hence we preserve the [path]
+                                name: production ? "[name].[hash:20].[ext]" : "[path][name].[ext]?hash=[hash:20]",
+                                limit: 8192,
+                            },
+                        },
+                    ],
+                },
+                {
+                    // Load all icons
+                    test: /\.(eot|woff|woff2|svg|ttf|otf)([\?]?.*)$/,
+                    use: [
+                        {
+                            loader: "file-loader",
+                        },
+                    ],
+                },
+                // Load downloadable files
+                {
+                    test: /\.(pdf|zip)$/,
+                    use: [
+                        {
+                            loader: "file-loader",
+                            options: {
+                                name: "[name].[ext]",
+                            },
+                        },
+                    ],
+                },
+            ],
+        },
+        plugins: [
+            new HtmlWebpackPlugin({
+                template: "./index.html",
+                // Inject the js bundle at the end of the body of the given template
+                inject: "body",
+            }),
+            new HtmlWebpackPlugin({
+                filename: "faq.html",
+                template: "src/pages/faq.html",
+                inject: "body",
+            }),
+            new HtmlWebpackPlugin({
+                filename: "press.html",
+                template: "src/pages/press.html",
+                inject: "body",
+            }),
+            ...extraPlugins
+        ],
+    }
+
+}
