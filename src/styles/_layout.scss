@@ -39,6 +39,11 @@
     @media screen and (max-width: 1024px) {
       padding: 32px 0;
     }
+    &.is-legal {
+      @media screen and (max-width: 1024px) {
+        padding: 64px 0;
+      }
+    }
   }
   &.no-padding-bottom {
     padding: 120px 0 0;
@@ -92,7 +97,14 @@
   }
   &--align-left {
     max-width: 830px !important;
-
+    ul {
+      margin-top: 16px;
+      list-style: disc;
+      padding-left: 20px;
+      li {
+        margin-bottom: 8px;
+      }
+    }
     p + p,
     p + ul,
     ul + p {
@@ -109,6 +121,13 @@
       color: var(--porpoise);
       max-width: 830px;
       text-align: left;
+    }
+    h3.legal {
+      margin: 32px auto 16px;
+    }
+    strong {
+      display: block;
+      padding-top: 16px;
     }
   }
 }
