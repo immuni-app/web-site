@@ -4,7 +4,9 @@
     "documentation": "Documentation",
     "press": "Press",
     "faq": "FAQ",
-    "faqMobile": "FAQ"
+    "faqMobile": "FAQ",
+    "download": "Download the app",
+    "downloadMobile": "Download"
   },
   "footer": {
     "sitemap": {
@@ -30,7 +32,8 @@
     },
     "cta": {
       "span": "Help <span class='underlined'>yourself</span>, your <span class='underlined'>family</span>, and your <span class='underlined'>country</span>.",
-      "button": "App available soon"
+      "button": "Download the app",
+      "cta": "Available now"
     },
     "feats": {
       "tag": "What is it?",

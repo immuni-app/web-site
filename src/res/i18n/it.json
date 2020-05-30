@@ -3,8 +3,10 @@
     "home": "Home",
     "documentation": "Documentazione",
     "press": "Sala stampa",
-    "faq": "Domande frequenti",
-    "faqMobile": "Domande"
+    "faq": "FAQ",
+    "faqMobile": "Domande",
+    "download": "Scarica l'app",
+    "downloadMobile": "Scarica"
   },
   "footer": {
     "sitemap": {
@@ -30,7 +32,8 @@
     },
     "cta": {
       "span": "Per aiutare <span class='underlined'>te stesso</span>, la tua <span class='underlined'>famiglia</span> e il tuo <span class='underlined'>Paese</span>",
-      "button": "App presto disponibile"
+      "button": "Scarica l'applicazione",
+      "cta": "Disponibile ora"
     },
     "feats": {
       "tag": "cos'è",

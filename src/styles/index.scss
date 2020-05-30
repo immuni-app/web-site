@@ -68,26 +68,6 @@ button {
   border: none;
 }
 
-/* HELPERS */
-
-.revealer {
-  visibility: hidden;
-  &.staggered {
-    visibility: visible;
-    > div {
-      visibility: hidden;
-    }
-  }
-}
-
-.overlay {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-}
-
 .table-wrapper {
   overflow-x: scroll;
   table {
@@ -109,6 +89,26 @@ th,
 td {
   padding: 8px;
   border: 1px solid var(--darkGray);
+}
+
+/* HELPERS */
+
+.revealer {
+  visibility: hidden;
+  &.staggered {
+    visibility: visible;
+    > div {
+      visibility: hidden;
+    }
+  }
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /* AVOID FOUC */

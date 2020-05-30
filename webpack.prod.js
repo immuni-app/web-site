@@ -103,6 +103,26 @@ module.exports = {
       inject: "body",
     }),
     new HtmlWebpackPlugin({
+      filename: "faq.html",
+      template: "src/pages/faq.html",
+      inject: "body",
+    }),
+    new HtmlWebpackPlugin({
+      filename: "press.html",
+      template: "src/pages/press.html",
+      inject: "body",
+    }),
+    new HtmlWebpackPlugin({
+      filename: "tou.html",
+      template: "src/pages/tou.html",
+      inject: "body",
+    }),
+    new HtmlWebpackPlugin({
+      filename: "pn.html",
+      template: "src/pages/pn.html",
+      inject: "body",
+    }),
+    new HtmlWebpackPlugin({
       filename: "app-pn.html",
       template: "src/pages/app-pn.html",
       inject: "body",

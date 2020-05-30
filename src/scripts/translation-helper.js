@@ -3,7 +3,6 @@ import lang_en from "../res/i18n/en.json";
 import lang_de from "../res/i18n/de.json";
 import lang_es from "../res/i18n/es.json";
 import lang_fr from "../res/i18n/fr.json";
-import lang_pt from "../res/i18n/pt.json";
 
 class Translator {
   constructor(options = {}) {
@@ -45,7 +44,6 @@ class Translator {
       de: lang_de,
       es: lang_es,
       fr: lang_fr,
-      pt: lang_pt,
     };
 
     var translation = resources[this._lang];
