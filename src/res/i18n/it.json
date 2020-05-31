@@ -2,7 +2,7 @@
   "navigation": {
     "home": "Home",
     "documentation": "Documentazione",
-    "press": "Sala stampa",
+    "press": "Grafica",
     "faq": "FAQ",
     "faqMobile": "Domande",
     "download": "Scarica l'app",
@@ -10,11 +10,11 @@
   },
   "footer": {
     "sitemap": {
-      "title": "Mappa del sito",
+      "title": "Sezioni",
       "list": {
         "documentation": "Documentazione",
-        "press": "Sala stampa",
-        "faq": "Domande frequenti"
+        "press": "Grafica",
+        "faq": "FAQ"
       }
     },
     "info": {
@@ -32,29 +32,29 @@
     },
     "cta": {
       "span": "Per aiutare <span class='underlined'>te stesso</span>, la tua <span class='underlined'>famiglia</span> e il tuo <span class='underlined'>Paese</span>",
-      "button": "Scarica l'applicazione",
+      "button": "Scarica l'app",
       "cta": "Disponibile ora"
     },
     "feats": {
-      "tag": "cos'è",
+      "tag": "Che cosa è?",
       "title": "Uno strumento in più contro l’epidemia",
-      "content": "Immuni è un'app creata per aiutarci a combattere l'epidemia di COVID-19. L'app sfrutta la tecnologia per avvertire gli utenti potenzialmente contagiati il prima possibile, anche quando sono asintomatici. Lo fa più efficientemente e con anticipo rispetto ai metodi alternativi."
+      "content": "Immuni è un'app creata per aiutarci a combattere l'epidemia di COVID-19. L'app utilizza la tecnologia per avvertire gli utenti che hanno avuto un'esposizione a rischio, anche se sono asintomatici."
     },
     "benefits": {
       "tag": "Benefici",
       "title": "Proteggiamo noi stessi e i nostri cari",
-      "isolation": "Gli utenti potenzialmente contagiati possono isolarsi per evitare di contagiare altri. Così facendo, aiutano a contenere l'epidemia e a consentire un rapido ritorno alla normalità.",
-      "oldPeople": "Venendo informati tempestivamente, gli utenti possono anche contattare il proprio medico di medicina generale prima e ridurre così il rischio di complicanze."
+      "isolation": "Gli utenti che vengono informati da una notifica dell’app di essere potenzialmente stati contagiati possono isolarsi per evitare di contagiare altri. Così facendo, aiutano a contenere l'epidemia e a favorire un rapido ritorno alla normalità.",
+      "oldPeople": "Venendo informati tempestivamente, gli utenti possono contattare il proprio medico di medicina generale e ridurre così il rischio di complicanze."
     },
     "tech": {
       "tag": "Tecnologia",
       "title": "Innovazione al servizio della comunità",
-      "content": "Utilizzando in modo innovativo la tecnologia Bluetooth, l’app invia una notifica a chi si è trovato a stretto contatto con un utente positivo al SARS-CoV-2, per avvertirlo del potenziale rischio di aver contratto il virus. Questo avviene senza raccogliere dati sull’identità o la posizione dell’utente."
+      "content": "A chi si è trovato a stretto contatto con un utente positivo al virus del COVID-19, l’app invia una notifica che lo avverte del potenziale rischio di essere stato contagiato. Anche grazie all’uso della tecnologia Bluetooth Low Energy, questo avviene senza raccogliere dati sull’identità o la posizione dell’utente."
     },
     "privacy": {
       "tag": "Privacy",
       "title": "La tua privacy è tutelata",
-      "content": "Durante l’intero processo di design e sviluppo di Immuni, è stata posta grande attenzione sulla tutela della tua privacy. I tuoi dati, raccolti e gestiti dal Ministero della Salute e da soggetti pubblici, sono salvati su server in Italia. I dati e le connessioni dell'app con il server sono cifrati.",
+      "content": "Immuni è stata progettata e sviluppata ponendo grande attenzione alla tutela della privacy. I dati, raccolti e gestiti dal Ministero della Salute e da soggetti pubblici, sono salvati su server che si trovano in Italia. I dati e le connessioni dell'app con il server sono protetti.",
       "subtitle": "Immuni <span>non</span> raccoglie:",
       "icons": {
         "position": "La tua posizione o i tuoi movimenti",
@@ -66,13 +66,13 @@
     },
     "faq": {
       "title": "Vuoi saperne di più?",
-      "button": "Esplora le domande frequenti"
+      "button": "Leggi le domande frequenti"
     }
   },
   "press": {
-    "title": "Sala stampa",
+    "title": "Grafica",
     "content": "Risorse grafiche ufficiali disponibili per il download",
-    "button": "Press kit"
+    "button": "Scarica"
   },
   "faq": {
     "title": "Hai qualche domanda?",

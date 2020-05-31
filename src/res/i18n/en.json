@@ -2,7 +2,7 @@
   "navigation": {
     "home": "Home",
     "documentation": "Documentation",
-    "press": "Press",
+    "press": "Graphics",
     "faq": "FAQ",
     "faqMobile": "FAQ",
     "download": "Download the app",
@@ -10,10 +10,10 @@
   },
   "footer": {
     "sitemap": {
-      "title": "Sitemap",
+      "title": "Sections",
       "list": {
         "documentation": "Documentation",
-        "press": "Press",
+        "press": "Graphics",
         "faq": "FAQ"
       }
     },
@@ -38,23 +38,23 @@
     "feats": {
       "tag": "What is it?",
       "title": "An extra tool to fight the epidemic",
-      "content": "Immuni is an app that helps us fight the COVID-19 epidemic. The app uses technology to alert people at risk of carrying the virus as early as possible—even when they are asymptomatic. It can do so more quickly and efficiently than any of the alternative methods."
+      "content": "Immuni is an app that helps us fight the COVID-19 epidemic. The app uses technology to alert the users who have had a risky exposure—even if they are asymptomatic."
     },
     "benefits": {
       "tag": "Benefits",
       "title": "Protection for ourselves and our loved ones",
-      "isolation": "Users who may have the virus can isolate themselves to avoid infecting other people. By doing so, they help contain the epidemic and speed up the return to a normal life.",
-      "oldPeople": "By being alerted early, the users can also contact their general practitioner more quickly and lower the risk of serious consequences."
+      "isolation": "Users who have been notified by the app that they may have been infected can isolate themselves to avoid infecting other people. By doing so, they help contain the epidemic and speed up the return to a normal life.",
+      "oldPeople": "By being alerted early, the users can contact their general practitioner and lower the risk of serious consequences."
     },
     "tech": {
       "tag": "Technology",
       "title": "Innovation to serve the community",
-      "content": "With its innovative use of Bluetooth technology, the app sends a notification to those who were in close contact with a SARS-CoV-2-positive user, alerting them of the risk of infection. This takes place without the app gathering any data on the identity or the location of its users."
+      "content": "The app sends a notification to those who were in close contact with a user positive to the COVID-19 virus, alerting them of the risk of infection. Also thanks to Bluetooth Low Energy technology, this takes place without the app gathering any data on the identity or the location of its users."
     },
     "privacy": {
       "tag": "Privacy",
       "title": "Your privacy is protected",
-      "content": "Throughout Immuni’s entire design and development process, great care has been taken to safeguard your privacy. Any data, collected and managed by the Ministry of Health and by public entities, are stored on servers located in Italy. All the data and app connections with the server are encrypted.",
+      "content": "Immuni has been designed and developed while taking great care to safeguard user privacy. Any data, collected and managed by the Ministry of Health and by public bodies, is stored on servers located in Italy. All the data and app connections with the server are protected.",
       "subtitle": "Immuni <span>does not</span> gather:",
       "icons": {
         "position": "Your location or your movements",
@@ -70,9 +70,9 @@
     }
   },
   "press": {
-    "title": "Press",
+    "title": "Graphics",
     "content": "Official graphic assets available for download",
-    "button": "Press kit"
+    "button": "Download"
   },
   "faq": {
     "title": "Do you have any questions?",

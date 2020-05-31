@@ -111,6 +111,12 @@ h4 {
     margin: auto 0;
     text-align: left;
     color: var(--lightBlue);
+    &.copyright {
+      @media screen and (max-width: 1024px) {
+        margin-left: 24px;
+        text-align: right;
+      }
+    }
   }
   &.legal {
     font-weight: 700;

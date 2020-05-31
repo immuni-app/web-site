@@ -1418,9 +1418,9 @@ caniuse-api@^1.5.2:
     lodash.uniq "^4.5.0"
 
 caniuse-db@^1.0.30000529, caniuse-db@^1.0.30000634, caniuse-db@^1.0.30000639:
-  version "1.0.30001069"
-  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30001069.tgz#32ddb662e20ae21f3123eaae28504261b2d732b1"
-  integrity sha512-eW2e5Tar+M5lG2eV5+cvlOOm/ayktZV/rdU+rECFqXv5hnfcrHr1ilwiH2ZxDOtnW72qH/XMHFeIg0e3AhhWyA==
+  version "1.0.30001072"
+  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30001072.tgz#27b22a0b521c2c5cfb50ce500a101d9f2ee90d49"
+  integrity sha512-eq399BkQ22B+Li+U4L+j5+a6CiEm+buhNsGGli6vEote1Vb86VzV9rXOWG9Nax0Wdd4FuraOTGTn2HvkhZli3Q==
 
 caniuse-lite@^1.0.30000844, caniuse-lite@^1.0.30001043, caniuse-lite@^1.0.30001061:
   version "1.0.30001066"
@@ -2324,7 +2324,12 @@ ee-first@1.1.1:
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-electron-to-chromium@^1.2.7, electron-to-chromium@^1.3.413, electron-to-chromium@^1.3.47:
+electron-to-chromium@^1.2.7:
+  version "1.3.455"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.455.tgz#fd65a3f5db6ffa83eb7c84f16ea9b1b7396f537d"
+  integrity sha512-4lwnxp+ArqOX9hiLwLpwhfqvwzUHFuDgLz4NTiU3lhygUzWtocIJ/5Vix+mWVNE2HQ9aI1k2ncGe5H/0OktMvA==
+
+electron-to-chromium@^1.3.413, electron-to-chromium@^1.3.47:
   version "1.3.453"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.453.tgz#758a8565a64b7889b27132a51d2abb8b135c9d01"
   integrity sha512-IQbCfjJR0NDDn/+vojTlq7fPSREcALtF8M1n01gw7nQghCtfFYrJ2dfhsp8APr8bANoFC8vRTFVXMOGpT0eetw==
