@@ -118,7 +118,7 @@
     },
     {
       "title": "Posso cambiare la lingua dell’app?",
-      "content": "<p>Le lingue attualmente supportate dall’app sono l’italiano, l’inglese, il tedesco, il francese e lo spagnolo. L’app usa la stessa lingua che hai impostato sul tuo smartphone, se disponibile, altrimenti l’inglese. Perciò per cambiare la lingua dell’app dovrai cambiare la lingua del tuo dispositivo.</p>"
+      "content": "<p>Le lingue attualmente supportate dall’app sono l’italiano e l’inglese. Il supporto per il tedesco, il francese e lo spagnolo verrà aggiunto a brevissimo. L’app usa la stessa lingua che hai impostato sul tuo smartphone, se disponibile, altrimenti l’inglese. Perciò per cambiare la lingua dell’app dovrai cambiare la lingua del tuo dispositivo.</p>"
     }
   ]
 }

@@ -118,7 +118,7 @@
     },
     {
       "title": "Can I change the language of the app?",
-      "content": "<p>The languages currently supported are Italian, English, German, French, and Spanish. The app uses the same language that’s set on your smartphone, where available. Otherwise, it uses English. Therefore, to change the language of the app, you’ll need to change the language of your device.</p>"
+      "content": "<p>The languages currently supported are Italian and English. Support for German, French, and Spanish is coming very soon. The app uses the same language that’s set on your smartphone, where available. Otherwise, it uses English. Therefore, to change the language of the app, you’ll need to change the language of your device.</p>"
     }
   ]
 }
