@@ -3,7 +3,7 @@ import { handleHamburger, fixNav, anchorScroll } from "./scripts/menu-helper";
 import { withinViewport } from "./scripts/reveal-helper";
 import { handleCookies } from "./scripts/cookies-helper";
 import { handleFaq } from "./scripts/faq-helper";
-import { animateTitle, animateButton } from "./scripts/text-animation";
+import { animateTitle } from "./scripts/text-animation";
 import { cssVarSupport } from "./scripts/browser-helper";
 import { selectSupport } from "./scripts/drop-down-helper";
 import Translator from "./scripts/translation-helper";
@@ -61,7 +61,6 @@ anchorScroll();
 intro.forEach((el) => {
   animateTitle(el);
 });
-animateButton();
 if (window.location.href.indexOf("faq") != -1) {
   handleFaq();
 }

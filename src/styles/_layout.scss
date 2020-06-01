@@ -32,6 +32,9 @@
   &.press {
     padding: 220px 0 0;
   }
+  &.download {
+    padding: 220px 0 128px;
+  }
   &.full-height {
     height: 100vh;
   }
@@ -128,7 +131,7 @@
       margin: 32px auto 16px;
     }
     strong {
-      color: #6D72A6;
+      color: #6d72a6;
       display: block;
       padding-top: 16px;
     }
@@ -175,9 +178,20 @@
       width: 100%;
       margin-top: 40px;
     }
+    .mobile-phone {
+      display: none;
+      @media screen and (max-width: 1024px) {
+        display: block;
+      }
+    }
     .list-wrapper {
       max-width: 160px;
       min-width: 150px;
+      &.mobile-hidden {
+        @media screen and (max-width: 1024px) {
+          display: none;
+        }
+      }
       &__title {
         text-align: left;
         margin-bottom: 16px;
@@ -200,23 +214,13 @@
             opacity: 0.8;
           }
         }
-      }
-    }
-    .list-cta {
-      max-width: 160px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      .app-icon {
-        margin: 16px auto;
-        width: 56px;
-        height: 56px;
-      }
-      .apple {
-        margin-bottom: 4px;
-      }
-      @media screen and (max-width: 1024px) {
-        display: none;
+        p {
+          font-size: 12px;
+          line-height: 16px;
+          font-weight: 400;
+          color: var(--white);
+          text-align: left;
+        }
       }
     }
   }

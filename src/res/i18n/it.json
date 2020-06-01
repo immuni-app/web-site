@@ -3,7 +3,7 @@
     "home": "Home",
     "documentation": "Documentazione",
     "press": "Grafica",
-    "faq": "FAQ",
+    "faq": "Domande",
     "faqMobile": "Domande",
     "download": "Scarica l'app",
     "downloadMobile": "Scarica"
@@ -12,9 +12,11 @@
     "sitemap": {
       "title": "Sezioni",
       "list": {
+        "home": "Home",
         "documentation": "Documentazione",
         "press": "Grafica",
-        "faq": "FAQ"
+        "faq": "Domande",
+        "download": "Scarica l'app"
       }
     },
     "info": {
@@ -22,7 +24,9 @@
       "list": {
         "privacy": "Informativa privacy",
         "tos": "Termini di utilizzo"
-      }
+      },
+      "phone": "Supporto",
+      "phoneInfo": "(8-20, numero verde)"
     }
   },
   "home": {
@@ -31,7 +35,7 @@
       "content": "Tornare a vivere normalmente è possibile.<br />Immuni ci aiuta a farlo prima e senza rinunciare alla privacy."
     },
     "cta": {
-      "span": "Per aiutare <span class='underlined'>te stesso</span>, la tua <span class='underlined'>famiglia</span> e il tuo <span class='underlined'>Paese</span>",
+      "span": "Aiuta <span class='underlined'>te stesso</span>, la tua <span class='underlined'>famiglia</span> e il tuo <span class='underlined'>Paese</span>",
       "button": "Scarica l'app",
       "cta": "Disponibile ora"
     },
@@ -43,13 +47,13 @@
     "benefits": {
       "tag": "Benefici",
       "title": "Proteggiamo noi stessi e i nostri cari",
-      "isolation": "Gli utenti che vengono informati da una notifica dell’app di essere potenzialmente stati contagiati possono isolarsi per evitare di contagiare altri. Così facendo, aiutano a contenere l'epidemia e a favorire un rapido ritorno alla normalità.",
+      "isolation": "Gli utenti che vengono avvertiti dall’app di un possibile contagio possono isolarsi per evitare di contagiare altri. Così facendo, aiutano a contenere l'epidemia e a favorire un rapido ritorno alla normalità.",
       "oldPeople": "Venendo informati tempestivamente, gli utenti possono contattare il proprio medico di medicina generale e ridurre così il rischio di complicanze."
     },
     "tech": {
       "tag": "Tecnologia",
       "title": "Innovazione al servizio della comunità",
-      "content": "A chi si è trovato a stretto contatto con un utente positivo al virus del COVID-19, l’app invia una notifica che lo avverte del potenziale rischio di essere stato contagiato. Anche grazie all’uso della tecnologia Bluetooth Low Energy, questo avviene senza raccogliere dati sull’identità o la posizione dell’utente."
+      "content": "A chi si è trovato a stretto contatto con un utente risultato positivo al virus del COVID-19, l’app invia una notifica che lo avverte del potenziale rischio di essere stato contagiato. Grazie all’uso della tecnologia Bluetooth Low Energy, questo avviene senza raccogliere dati sull’identità o la posizione dell’utente."
     },
     "privacy": {
       "tag": "Privacy",
@@ -77,5 +81,13 @@
   "faq": {
     "title": "Hai qualche domanda?",
     "search": "<input class='search__input' type='text' placeholder='Cerca argomento...' />"
+  },
+  "download": {
+    "title": "Scarica Immuni",
+    "content": "Scegli la versione compatibile col tuo smartphone. Non tutti i dispositivi sono supportati.",
+    "button": "Scarica",
+    "appleOs": "iPhone con iOS versione 13.5 o superiore. Aggiorna iOS all’ultima versione disponibile prima di effettuare il download di Immuni. I modelli di iPhone che supportano iOS 13.5 sono i seguenti: 11, 11 Pro, 11 Pro Max, Xr, Xs, Xs Max, X, SE (2nd generation), 8, 8 Plus, 7, 7 Plus, 6s, 6s Plus, SE (1st generation).",
+    "googleOs": "Smartphone con Bluetooth Low Energy, Android versione 6 (Marshmallow, API 23) o superiore e Google Play Services versione 20.18.13 o superiore (tutti e tre i requisiti sono necessari per usare Immuni). Aggiorna Android e Google Play Services all’ultima versione disponibile prima di effettuare il download di Immuni.",
+    "huaweiOs": "Stiamo lavorando per permettere di scaricare Immuni anche da AppGallery al più presto. Questo consentirà ai possessori di alcuni modelli di smartphone Huawei di usare Immuni."
   }
 }

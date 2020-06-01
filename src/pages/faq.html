@@ -15,7 +15,7 @@
       content="Immuni è un’app che sfrutta la tecnologia per avvertire persone potenzialmente positive al COVID-19 anche con sintomi lievi o assenti. Lo fa più efficientemente e con anticipo rispetto ai metodi alternativi."
     />
     <!-- No index -->
-   
+
     <!-- Twitter Card data -->
     <meta
       name="twitter:card"
@@ -30,7 +30,6 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="www.immuni.italia.it" />
 
-    
     <!-- Mobile header color for Chrome, Firefox OS and Opera -->
     <meta name="theme-color" content="#5751ff" />
     <!-- Mobile header color Windows Phone -->
@@ -81,9 +80,7 @@
         >
         <a href="/press.html" data-i18n="navigation.press">Sala stampa</a>
         <a href="/faq.html" data-i18n="navigation.faq"></a>
-        <a href="https://apps.apple.com/app/id1513940977" class="button nav-button" data-i18n="navigation.download"
-          >Scarica l'app</a
-        >
+        <a href="/download.html" class="button nav-button" data-i18n="navigation.download">Scarica l'app</a>
 
         <select class="cs-select">
           <option value="it">Italiano</option>
@@ -101,10 +98,10 @@
       </a>
       <div class="navigation__wrapper">
         <a
-          href="/faq.html"
+          href="/download.html"
           class="button nav-button"
-          data-i18n="navigation.faqMobile"
-          >Domande</a
+          data-i18n="navigation.downloadMobile"
+          >Scarica</a
         >
         <button class="hamburger hamburger--spring" type="button">
           <span class="hamburger-box">
@@ -121,17 +118,17 @@
         </li>
         <li>
           <a
-            href="http://onelink.to/cmezf6"
-            class="button nav-button"
-            data-i18n="navigation.downloadMobile"
-            >Scarica</a
+            href="https://github.com/immuni-app/documentation/"
+            target="_blank"
+            data-i18n="navigation.documentation"
+            >Documentazione</a
           >
         </li>
         <li>
-          <a href="/faq.html" data-i18n="navigation.faq">Domande frequenti</a>
+          <a href="/press.html" data-i18n="navigation.press">Sala stampa</a>
         </li>
         <li>
-          <a href="/press.html" data-i18n="navigation.press">Sala stampa</a>
+          <a href="/faq.html" data-i18n="navigation.faq">Domande frequenti</a>
         </li>
       </ul>
       <ul class="menu-mobile__legal">
@@ -147,7 +144,7 @@
           >
         </li>
         <li class="legal-link">
-          <a  href="/tou.html" data-i18n="footer.info.list.tos"
+          <a href="/tou.html" data-i18n="footer.info.list.tos"
             >Termini di utilizzo</a
           >
         </li>
@@ -195,7 +192,9 @@
               class="footer__logo"
             />
 
-            <h4 class="list-title copyright">© 2020 Presidenza del Consiglio dei Ministri</h4>
+            <h4 class="list-title copyright">
+              © 2020 Presidenza del Consiglio dei Ministri
+            </h4>
           </div>
           <div class="footer__content">
             <div class="list-wrapper">
@@ -203,9 +202,12 @@
                 class="list-title list-wrapper__title"
                 data-i18n="footer.sitemap.title"
               >
-                Mappa del sito
+                Sezioni
               </h4>
               <ul class="list-wrapper__list">
+                <li>
+                  <a href="/" data-i18n="footer.sitemap.list.home">Home</a>
+                </li>
                 <li>
                   <a
                     data-i18n="footer.sitemap.list.documentation"
@@ -224,6 +226,11 @@
                     >Domande frequenti</a
                   >
                 </li>
+                <li>
+                  <a href="/download.html" data-i18n="footer.sitemap.list.download"
+                    >Download</a
+                  >
+                </li>
               </ul>
             </div>
             <div class="list-wrapper">
@@ -235,7 +242,7 @@
               </h4>
               <ul class="list-wrapper__list">
                 <li>
-                  <a  href="/tou.html" data-i18n="footer.info.list.tos"
+                  <a href="/tou.html" data-i18n="footer.info.list.tos"
                     >Termini di utilizzo</a
                   >
                 </li>
@@ -245,28 +252,35 @@
                   >
                 </li>
               </ul>
+              <div class="mobile-phone">
+                <h4
+                  class="list-title list-wrapper__title"
+                  style="margin-top: 24px;"
+                  data-i18n="footer.phone"
+                >
+                  Supporto
+                </h4>
+                <ul class="list-wrapper__list">
+                  <li>
+                    <a href="tel:800912491">800 91 24 91</a><br />
+                    <p data-i18n="footer.phoneInfo">(8-20, numero verde)</p>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div class="list-cta">
-              <h4 class="list-title">Scarica l'app</h4>
-              <img
-                src="<%= require('../assets/img/app-icon.png') %>"
-                alt="Immuni app icon"
-                class="app-icon"
-              />
-              <a href="https://apps.apple.com/app/id1513940977">
-                <img
-                  src="<%= require('../assets/img/helpers/apple-white.svg') %>"
-                  alt="App Store Button"
-                  class="apple"
-                />
-              </a>
-              <a href="https://play.google.com/store/apps/details?id=it.ministerodellasalute.immuni">
-                <img
-                  src="<%= require('../assets/img/helpers/google-white.svg') %>"
-                  alt="Google Play Button"
-                  class="goolge"
-                />
-              </a>
+            <div class="list-wrapper mobile-hidden">
+              <h4
+                class="list-title list-wrapper__title"
+                data-i18n="footer.phone"
+              >
+                Supporto
+              </h4>
+              <ul class="list-wrapper__list">
+                <li>
+                  <a href="tel:800912491">800 91 24 91</a><br />
+                  <p data-i18n="footer.phoneInfo">(8-20, numero verde)</p>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
