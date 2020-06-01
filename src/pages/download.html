@@ -80,37 +80,9 @@
         >
         <a href="/press.html" data-i18n="navigation.press">Sala stampa</a>
         <a href="/faq.html" data-i18n="navigation.faq"></a>
-        <button id="nav_btn" class="button nav-button hoverable">
-          <span data-i18n="navigation.download">Scarica l'app</span>
-          <div id="nav_tooltip" class="tooltip">
-            <img
-              src="<%= require('../assets/img/app-icon.png') %>"
-              alt="Immuni app icon"
-              class="tooltip__icon"
-            />
-            <span class="tooltip__text" data-i18n="home.cta.cta">
-              Disponibile ora
-            </span>
-            <div class="tooltip__buttons">
-              <a href="https://apps.apple.com/app/id1513940977">
-                <img
-                  src="<%= require('../assets/img/helpers/apple-white.svg') %>"
-                  alt="App Store Button"
-                  class="apple"
-                />
-              </a>
-              <a
-                href="https://play.google.com/store/apps/details?id=it.ministerodellasalute.immuni"
-              >
-                <img
-                  src="<%= require('../assets/img/helpers/google-white.svg') %>"
-                  alt="Google Play Button"
-                  class="goolge"
-                />
-              </a>
-            </div>
-          </div>
-        </button>
+        <a href="/download.html" class="button nav-button" data-i18n="navigation.download"
+          >Scarica l'app</a
+        >
 
         <select class="cs-select">
           <option value="it">Italiano</option>
@@ -204,7 +176,11 @@
                   <p data-i18n="download.appleOs"></p>
                 </div>
               </div>
-              <a href="https://apps.apple.com/app/id1513940977" download class="button button--press">
+              <a
+                href="https://apps.apple.com/app/id1513940977"
+                download
+                class="button button--press"
+              >
                 <img
                   src="<%= require('../assets/img/icons/download.png') %>"
                   alt="Download icon"
@@ -227,7 +203,11 @@
                   <p data-i18n="download.googleOs"></p>
                 </div>
               </div>
-              <a href="https://play.google.com/store/apps/details?id=it.ministerodellasalute.immuni" download class="button button--press">
+              <a
+                href="https://play.google.com/store/apps/details?id=it.ministerodellasalute.immuni"
+                download
+                class="button button--press"
+              >
                 <img
                   src="<%= require('../assets/img/icons/download.png') %>"
                   alt="Download icon"
@@ -310,7 +290,9 @@
                   >
                 </li>
                 <li>
-                  <a href="/download.html" data-i18n="footer.sitemap.list.download"
+                  <a
+                    href="/download.html"
+                    data-i18n="footer.sitemap.list.download"
                     >Download</a
                   >
                 </li>
