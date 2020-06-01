@@ -24,10 +24,10 @@
       "list": {
         "privacy": "Informativa privacy",
         "tos": "Termini di utilizzo"
-      },
-      "phone": "Supporto",
-      "phoneInfo": "(8-20, numero verde)"
-    }
+      }
+    },
+    "phone": "Supporto",
+    "phoneInfo": "(8-20, numero verde)"
   },
   "home": {
     "hero": {
