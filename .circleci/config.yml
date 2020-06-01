@@ -1,0 +1,51 @@
+version: 2
+jobs:
+  deploy-staging:
+    docker:
+      - image: google/cloud-sdk:281.0.0
+    environment:
+      - GOOGLE_PROJECT_ID: immuni-website-staging-42
+      - COMPONENT: website
+      - INSTANCE_GROUP: website
+      - ZONE: us-central1-a
+    steps:
+      - checkout
+      - setup_remote_docker:
+          docker_layer_caching: true
+      - run:
+          name: '[gcp] Authenticate with GCP'
+          command: |
+            echo "${GCP_DEPLOY_SERVICE_ACCOUNT_BASE64}" | base64 -d > /tmp/.service-account-key.json
+            gcloud auth activate-service-account --key-file /tmp/.service-account-key.json
+      - checkout:
+          name: '[gcp] Checkout the code'
+      - run:
+          name: '[gcp] Configure docker with GCP'
+          command: gcloud auth configure-docker
+      - run:
+          name: '[gcp] Build docker image'
+          command: |
+            docker build --build-arg HTPASSWD --tag "gcr.io/${GOOGLE_PROJECT_ID}/${COMPONENT}:${CIRCLE_SHA1}" .
+      - run:
+          name: '[gcp] Push docker image'
+          command: docker push "gcr.io/${GOOGLE_PROJECT_ID}/${COMPONENT}:${CIRCLE_SHA1}"
+      - run:
+          name: '[gcp] Authenticate with GCP'
+          command: |
+            echo "${GCP_DEPLOY_SERVICE_ACCOUNT_BASE64}" | base64 -d > /tmp/.service-account-key.json
+            gcloud auth activate-service-account --key-file /tmp/.service-account-key.json
+      - run:
+          name: '[gcp] Add a tag to the image being deployed'
+          command: |
+            export IMAGE_TO_DEPLOY="gcr.io/${GOOGLE_PROJECT_ID}/${COMPONENT}"
+            gcloud container images add-tag "${IMAGE_TO_DEPLOY}:${CIRCLE_SHA1}" "${IMAGE_TO_DEPLOY}:latest"
+      - run:
+          command: gcloud compute instance-groups managed rolling-action replace ${INSTANCE_GROUP} --max-unavailable=0 --project="${GOOGLE_PROJECT_ID}" --zone="${ZONE}"
+workflows:
+  version: 2
+  release:
+    jobs:
+      - deploy:
+          filters:
+            branches:
+              only: master
