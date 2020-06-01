@@ -104,5 +104,30 @@ module.exports = {
       template: "src/pages/press.html",
       inject: "body",
     }),
+    new HtmlWebpackPlugin({
+      filename: "download.html",
+      template: "src/pages/download.html",
+      inject: "body",
+    }),
+    new HtmlWebpackPlugin({
+      filename: "tou.html",
+      template: "src/pages/tou.html",
+      inject: "body",
+    }),
+    new HtmlWebpackPlugin({
+      filename: "pn.html",
+      template: "src/pages/pn.html",
+      inject: "body",
+    }),
+    new HtmlWebpackPlugin({
+      filename: "app-pn.html",
+      template: "src/pages/app-pn.html",
+      inject: "body",
+    }),
+    new HtmlWebpackPlugin({
+      filename: "app-tou.html",
+      template: "src/pages/app-tou.html",
+      inject: "body",
+    }),
   ],
 };

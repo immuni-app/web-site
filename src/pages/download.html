@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <style>
+      html {
+        visibility: hidden;
+        opacity: 0;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Immuni - Download Immuni</title>
+    <meta
+      name="Description"
+      content="Immuni è un’app che sfrutta la tecnologia per avvertire persone potenzialmente positive al COVID-19 anche con sintomi lievi o assenti. Lo fa più efficientemente e con anticipo rispetto ai metodi alternativi."
+    />
+    <!-- No index -->
+
+    <!-- Twitter Card data -->
+    <meta
+      name="twitter:card"
+      value="Tornare a vivere normalmente è possibile. Immuni ci aiuta a farlo prima e senza rinunciare alla privacy."
+    />
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Immuni - Download Immuni" />
+    <meta
+      property="og:description"
+      content="Tornare a vivere normalmente è possibile. Immuni ci aiuta a farlo prima e senza rinunciare alla privacy."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="www.immuni.italia.it" />
+
+    <!-- Mobile header color for Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#5751ff" />
+    <!-- Mobile header color Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#5751ff" />
+    <!-- Mobile header color for iOS Safari (supports black, black-translucent or default) -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "https://www.google-analytics.com/analytics.js",
+        "ga"
+      );
+      ga("create", "UA-96140462-10", "auto");
+    </script>
+  </head>
+
+  <body>
+    <nav class="navigation navigation--desktop">
+      <a href="/">
+        <img
+          src="<%= require('../assets/img/logo.svg') %>"
+          alt="Immuni Logo"
+          class="navigation__logo"
+        />
+      </a>
+      <div class="navigation__wrapper">
+        <a href="/" data-i18n="navigation.home">Home</a>
+        <a
+          href="https://github.com/immuni-app/documentation/"
+          target="_blank"
+          data-i18n="navigation.documentation"
+          >Documentazione</a
+        >
+        <a href="/press.html" data-i18n="navigation.press">Sala stampa</a>
+        <a href="/faq.html" data-i18n="navigation.faq"></a>
+        <button id="nav_btn" class="button nav-button hoverable">
+          <span data-i18n="navigation.download">Scarica l'app</span>
+          <div id="nav_tooltip" class="tooltip">
+            <img
+              src="<%= require('../assets/img/app-icon.png') %>"
+              alt="Immuni app icon"
+              class="tooltip__icon"
+            />
+            <span class="tooltip__text" data-i18n="home.cta.cta">
+              Disponibile ora
+            </span>
+            <div class="tooltip__buttons">
+              <a href="https://apps.apple.com/app/id1513940977">
+                <img
+                  src="<%= require('../assets/img/helpers/apple-white.svg') %>"
+                  alt="App Store Button"
+                  class="apple"
+                />
+              </a>
+              <a
+                href="https://play.google.com/store/apps/details?id=it.ministerodellasalute.immuni"
+              >
+                <img
+                  src="<%= require('../assets/img/helpers/google-white.svg') %>"
+                  alt="Google Play Button"
+                  class="goolge"
+                />
+              </a>
+            </div>
+          </div>
+        </button>
+
+        <select class="cs-select">
+          <option value="it">Italiano</option>
+          <option value="en">English</option>
+        </select>
+      </div>
+    </nav>
+    <nav class="navigation navigation--mobile">
+      <a href="/">
+        <img
+          src="<%= require('../assets/img/logo.png') %>"
+          alt="Immuni Logo"
+          class="navigation__logo"
+        />
+      </a>
+      <div class="navigation__wrapper">
+        <a
+          href="http://onelink.to/cmezf6"
+          class="button nav-button"
+          data-i18n="navigation.downloadMobile"
+          >Scarica</a
+        >
+        <button class="hamburger hamburger--spring" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+      </div>
+    </nav>
+    <div class="menu-mobile">
+      <div class="menu-mobile__overlay"></div>
+      <ul class="menu-mobile__list">
+        <li>
+          <a href="/" data-i18n="navigation.home">Home</a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/immuni-app/documentation/"
+            target="_blank"
+            data-i18n="navigation.documentation"
+            >Documentazione</a
+          >
+        </li>
+        <li>
+          <a href="/press.html" data-i18n="navigation.press">Sala stampa</a>
+        </li>
+        <li>
+          <a href="/faq.html" data-i18n="navigation.faq">Domande frequenti</a>
+        </li>
+      </ul>
+      <ul class="menu-mobile__legal">
+        <li class="legal-link">
+          <select class="cs-select cs-select--mobile">
+            <option value="it">Italiano</option>
+            <option value="en">English</option>
+          </select>
+        </li>
+        <li class="legal-link">
+          <a href="/pn.html" data-i18n="footer.info.list.privacy"
+            >Informativa privacy</a
+          >
+        </li>
+        <li class="legal-link">
+          <a href="/tou.html" data-i18n="footer.info.list.tos"
+            >Termini di utilizzo</a
+          >
+        </li>
+      </ul>
+    </div>
+    <section class="section download froster">
+      <div class="container">
+        <div class="has-text-centered">
+          <h1>
+            <div class="text-wrapper intro" data-i18n="download.title">
+              Scarica Immuni
+            </div>
+          </h1>
+          <p class="intro delayed" data-i18n="download.content">
+            Scegli la versione compatibile con il tuo dispositivo mobile
+          </p>
+          <div class="download-wrapper">
+            <div class="download-row intro delayed">
+              <div class="copy-wrapper">
+                <img
+                  src="<%= require('../assets/img/icon-appstore.png') %>"
+                  alt="Immuni app icon"
+                  class="download-row__icon"
+                />
+                <div class="download-row__copy">
+                  <h4>Apple App Store</h4>
+                  <p data-i18n="download.appleOs"></p>
+                </div>
+              </div>
+              <a href="https://apps.apple.com/app/id1513940977" download class="button button--press">
+                <img
+                  src="<%= require('../assets/img/icons/download.png') %>"
+                  alt="Download icon"
+                  class="icon"
+                />
+                <span data-i18n="download.button">
+                  Scarica
+                </span>
+              </a>
+            </div>
+            <div class="download-row intro delayed">
+              <div class="copy-wrapper">
+                <img
+                  src="<%= require('../assets/img/icon-playstore.png') %>"
+                  alt="Immuni app icon"
+                  class="download-row__icon"
+                />
+                <div class="download-row__copy">
+                  <h4>Google Play Store</h4>
+                  <p data-i18n="download.googleOs"></p>
+                </div>
+              </div>
+              <a href="https://play.google.com/store/apps/details?id=it.ministerodellasalute.immuni" download class="button button--press">
+                <img
+                  src="<%= require('../assets/img/icons/download.png') %>"
+                  alt="Download icon"
+                  class="icon"
+                />
+                <span data-i18n="download.button">
+                  Scarica
+                </span>
+              </a>
+            </div>
+            <div class="download-row intro delayed">
+              <div class="copy-wrapper">
+                <img
+                  src="<%= require('../assets/img/icon-huawei.png') %>"
+                  alt="Immuni app icon"
+                  class="download-row__icon"
+                />
+                <div class="download-row__copy">
+                  <h4>Huawei AppGallery</h4>
+                  <p data-i18n="download.huaweiOs"></p>
+                </div>
+              </div>
+              <a href="" download class="button button--press disabled">
+                <img
+                  src="<%= require('../assets/img/icons/download.png') %>"
+                  alt="Download icon"
+                  class="icon"
+                />
+                <span data-i18n="download.button">
+                  Scarica
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__brand">
+            <img
+              src="<%= require('../assets/img/logo-white.svg') %>"
+              alt="Immuni Logo"
+              class="footer__logo"
+            />
+
+            <h4 class="list-title copyright">
+              © 2020 Presidenza del Consiglio dei Ministri
+            </h4>
+          </div>
+          <div class="footer__content">
+            <div class="list-wrapper">
+              <h4
+                class="list-title list-wrapper__title"
+                data-i18n="footer.sitemap.title"
+              >
+                Sezioni
+              </h4>
+              <ul class="list-wrapper__list">
+                <li>
+                  <a href="/" data-i18n="footer.sitemap.list.home">Home</a>
+                </li>
+                <li>
+                  <a
+                    data-i18n="footer.sitemap.list.documentation"
+                    href="https://github.com/immuni-app/documentation/"
+                    target="_blank"
+                    >Documentazione</a
+                  >
+                </li>
+                <li>
+                  <a href="/press.html" data-i18n="footer.sitemap.list.press"
+                    >Sala stampa</a
+                  >
+                </li>
+                <li>
+                  <a href="/faq.html" data-i18n="footer.sitemap.list.faq"
+                    >Domande frequenti</a
+                  >
+                </li>
+                <li>
+                  <a href="/download.html" data-i18n="footer.sitemap.list.download"
+                    >Download</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="list-wrapper">
+              <h4
+                class="list-title list-wrapper__title"
+                data-i18n="footer.info.title"
+              >
+                Informazioni
+              </h4>
+              <ul class="list-wrapper__list">
+                <li>
+                  <a href="/tou.html" data-i18n="footer.info.list.tos"
+                    >Termini di utilizzo</a
+                  >
+                </li>
+                <li>
+                  <a href="/pn.html" data-i18n="footer.info.list.privacy"
+                    >Informativa privacy</a
+                  >
+                </li>
+              </ul>
+              <div class="mobile-phone">
+                <h4
+                  class="list-title list-wrapper__title"
+                  style="margin-top: 24px;"
+                  data-i18n="footer.phone"
+                >
+                  Supporto
+                </h4>
+                <ul class="list-wrapper__list">
+                  <li>
+                    <a href="tel:800912491">800 91 24 91</a><br />
+                    <p data-i18n="footer.phoneInfo">(8-20, numero verde)</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="list-wrapper mobile-hidden">
+              <h4
+                class="list-title list-wrapper__title"
+                data-i18n="footer.phone"
+              >
+                Supporto
+              </h4>
+              <ul class="list-wrapper__list">
+                <li>
+                  <a href="tel:800912491">800 91 24 91</a><br />
+                  <p data-i18n="footer.phoneInfo">(8-20, numero verde)</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

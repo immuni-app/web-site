@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      html {
+        visibility: hidden;
+        opacity: 0;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Immuni - Terms of Service</title>
+    <meta
+      name="Description"
+      content="Immuni è un’app che sfrutta la tecnologia per avvertire persone potenzialmente positive al COVID-19 anche con sintomi lievi o assenti. Lo fa più efficientemente e con anticipo rispetto ai metodi alternativi."
+    />
+    <!-- No index -->
+
+    <!-- Twitter Card data -->
+    <meta
+      name="twitter:card"
+      value="Tornare a vivere normalmente è possibile. Immuni ci aiuta a farlo prima e senza rinunciare alla privacy."
+    />
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Immuni - Terms of Service" />
+    <meta
+      property="og:description"
+      content="Tornare a vivere normalmente è possibile. Immuni ci aiuta a farlo prima e senza rinunciare alla privacy."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="www.immuni.italia.it" />
+
+    <!-- Mobile header color for Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#5751ff" />
+    <!-- Mobile header color Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#5751ff" />
+    <!-- Mobile header color for iOS Safari (supports black, black-translucent or default) -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "https://www.google-analytics.com/analytics.js",
+        "ga"
+      );
+      ga("create", "UA-96140462-10", "auto");
+    </script>
+  </head>
+
+  <body>
+    <nav class="navigation navigation--desktop">
+      <a href="/">
+        <img
+          src="<%= require('../assets/img/logo.svg') %>"
+          alt="Immuni Logo"
+          class="navigation__logo"
+        />
+      </a>
+      <div class="navigation__wrapper">
+        <a href="/" data-i18n="navigation.home">Home</a>
+        <a
+          href="https://github.com/immuni-app/documentation/"
+          target="_blank"
+          data-i18n="navigation.documentation"
+          >Documentazione</a
+        >
+        <a href="/press.html" data-i18n="navigation.press">Sala stampa</a>
+        <a href="/faq.html" data-i18n="navigation.faq"></a>
+        <a href="/download.html" class="button nav-button" data-i18n="navigation.download">Scarica l'app</a>
+
+        <select class="cs-select">
+          <option value="it">Italiano</option>
+          <option value="en">English</option>
+        </select>
+      </div>
+    </nav>
+    <nav class="navigation navigation--mobile">
+      <a href="/">
+        <img
+          src="<%= require('../assets/img/logo.png') %>"
+          alt="Immuni Logo"
+          class="navigation__logo"
+        />
+      </a>
+      <div class="navigation__wrapper">
+        <a
+          href="/download.html"
+          class="button nav-button"
+          data-i18n="navigation.downloadMobile"
+          >Scarica</a
+        >
+        <button class="hamburger hamburger--spring" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+      </div>
+    </nav>
+    <div class="menu-mobile">
+      <div class="menu-mobile__overlay"></div>
+      <ul class="menu-mobile__list">
+        <li>
+          <a href="/" data-i18n="navigation.home">Home</a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/immuni-app/documentation/"
+            target="_blank"
+            data-i18n="navigation.documentation"
+            >Documentazione</a
+          >
+        </li>
+        <li>
+          <a href="/press.html" data-i18n="navigation.press">Sala stampa</a>
+        </li>
+        <li>
+          <a href="/faq.html" data-i18n="navigation.faq">Domande frequenti</a>
+        </li>
+      </ul>
+      <ul class="menu-mobile__legal">
+        <li class="legal-link">
+          <select class="cs-select cs-select--mobile">
+            <option value="it">Italiano</option>
+            <option value="en">English</option>
+          </select>
+        </li>
+        <li class="legal-link">
+          <a href="/pn.html" data-i18n="footer.info.list.privacy"
+            >Informativa privacy</a
+          >
+        </li>
+        <li class="legal-link">
+          <a href="/tou.html" data-i18n="footer.info.list.tos"
+            >Termini di utilizzo</a
+          >
+        </li>
+      </ul>
+    </div>
+    <section class="section press froster">
+      <div class="container">
+        <div class="has-text-centered">
+          <h1 class="intro">
+            Informativa privacy
+          </h1>
+          <p class="intro delayed">
+            www.immuni.italia.it
+          </p>
+        </div>
+        <img
+          src="<%= require('../assets/img/policy-illustration.png') %>"
+          alt="Illustration of a woman reading a document"
+          class="press-illustration"
+        />
+      </div>
+    </section>
+    <section class="section small-padding">
+      <div class="container container--align-left">
+        <p class="smaller">
+          La presente informativa descrive le modalità del trattamento dei dati
+          personali degli utenti (di seguito, gli &quot;Utenti&quot;) che
+          consultano il sito www.immuni.italia.it (di seguito, il
+          &quot;Sito&quot;).
+        </p>
+        <p class="smaller">
+          L&#39;informativa è resa ai sensi dell&#39;art. 13 del regolamento
+          (UE) 2016/679 (di seguito il &quot;Regolamento&quot;).
+        </p>
+        <p class="smaller">
+          La presente informativa si riferisce al solo Sito e non si estende ad
+          altri siti web eventualmente consultabili mediante collegamento
+          ipertestuale né ad alcun altro trattamento posto in essere dal
+          Dipartimento per la Trasformazione Digitale della Presidenza del
+          Consiglio dei Ministri né dal Ministero della Salute nel contesto
+          della gestione dell&#39;app Immuni.
+        </p>
+        <p class="smaller">
+          L&#39;informativa relativa a ogni altro trattamento eventualmente
+          posto in essere dal Dipartimento per la Trasformazione Digitale della
+          Presidenza del Consiglio dei Ministri è disponibile sul sito di tale
+          Dipartimento mentre quella relativa ai trattamenti posti in essere dal
+          Ministero della Salute per la gestione dell&#39;app Immuni è resa
+          disponibile attraverso detta app.
+        </p>
+        <h3 class="legal">Titolare del trattamento</h3>
+        <p class="smaller">
+          Il titolare del trattamento (di seguito, il &quot;Titolare&quot;) è la
+          Presidenza del Consiglio dei Ministri, Dipartimento per la
+          Trasformazione Digitale, con sede in Roma, Largo Pietro di Brazzà, 86,
+          che può essere contattato ai seguenti recapiti:
+        </p>
+        <ul>
+          <li>
+            <p class="smaller">
+              E-mail: segreteria.trasformazionedigitale@governo.it
+            </p>
+          </li>
+          <li><p class="smaller">PEC: USG@mailbox.governo.it</p></li>
+        </ul>
+        <h3 class="legal">
+          Data protection officer (DPO) o Responsabile della protezione dei dati
+          (RPD)
+        </h3>
+        <p class="smaller">
+          Il Responsabile della protezione dei dati della Presidenza del
+          Consiglio dei Ministri può essere contattato ai seguenti recapiti:
+        </p>
+        <ul>
+          <li>
+            <p class="smaller">
+              E-mail: responsabileprotezionedatipcm@governo.it
+            </p>
+          </li>
+          <li><p class="smaller">PEC: USG@mailbox.governo.it</p></li>
+        </ul>
+        <h3 class="legal">Categorie di dati trattati</h3>
+        <p><strong>Dati di navigazione</strong></p>
+        <p class="smaller">
+          I sistemi informatici e le procedure software preposte al
+          funzionamento di questo Sito acquisiscono, nel corso del loro normale
+          esercizio, alcuni dati personali la cui trasmissione è implicita
+          nell&#39;uso dei protocolli di comunicazione di Internet.
+        </p>
+        <p class="smaller">
+          In questa categoria di dati rientrano gli indirizzi IP o i nomi a
+          dominio dei computer e dei terminali utilizzati dagli utenti, gli
+          indirizzi in notazione URI/URL (Uniform Resource Identifier/Locator)
+          delle risorse richieste, l&#39;orario della richiesta, il metodo
+          utilizzato nel sottoporre la richiesta al server, la dimensione del
+          file ottenuto in risposta, il codice numerico indicante lo stato della
+          risposta data dal server (buon fine, errore ecc.) e altri parametri
+          relativi al sistema operativo e all&#39;ambiente informatico
+          dell&#39;utente.
+        </p>
+        <p class="smaller">
+          Tali dati, necessari per la fruizione dei servizi web, vengono anche
+          trattati allo scopo di:
+        </p>
+        <ul>
+          <li>
+            <p class="smaller">
+              ottenere informazioni statistiche sull&#39;uso dei servizi (pagine
+              più visitate, numero di visitatori per fascia oraria o
+              giornaliera, aree geografiche di provenienza ecc.);
+            </p>
+          </li>
+          <li>
+            <p class="smaller">
+              controllare il corretto funzionamento dei servizi offerti.
+            </p>
+          </li>
+        </ul>
+        <p><strong>Cookies</strong></p>
+        <p class="smaller">
+          I cookies sono piccoli file di testo che i siti visitati inviano al
+          terminale dell&#39;Utente, dove vengono memorizzati, per poi essere
+          ritrasmessi agli stessi siti alla visita successiva.
+        </p>
+        <p class="smaller">Il Sito utilizza:</p>
+        <ul>
+          <li>
+            <p class="smaller">
+              Cookies analytics utilizzati per raccogliere informazioni, in
+              forma aggregata, sul numero degli Utenti e su come gli stessi
+              visitano il Sito. In particolare il Sito si avvale del servizio
+              Google Analytics, la cui cookie policy può essere visionata a
+              <a
+                target="_blank"
+                href="https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage"
+                >questo link</a
+              >. Al fine di rispettare la privacy dei nostri Utenti, il servizio
+              è utilizzato con la modalità &quot;_anonymizeIp&quot; che consente
+              di mascherare gli indirizzi IP degli Utenti che navigano sul Sito
+              (maggiori informazioni sulla funzionalità si possono trovare a
+              <a
+                target="_blank"
+                href="https://support.google.com/analytics/answer/2763052?hl=it"
+                >questo link</a
+              >). I dati sono raccolti all&#39;unico fine di elaborare
+              informazioni statistiche sull&#39;uso del Sito e per verificare il
+              corretto funzionamento dello stesso. I cookies non sono utilizzati
+              per attività di profilazione dell&#39;Utente. Tali cookies vengono
+              utilizzati dal Sito unicamente se l&#39;Utente clicca sul cookie
+              banner e vengono conservati per un periodo non superiore a 6 mesi
+              dal momento della raccolta, salvo che la loro ulteriore
+              conservazione non si renda necessaria per l&#39;accertamento di
+              reati.
+            </p>
+          </li>
+          <li>
+            <p class="smaller">
+              Un cookie per registrare il consenso dell&#39;Utente
+              all&#39;utilizzo dei cookies analitici di cui sopra.
+            </p>
+          </li>
+          <li>
+            <p class="smaller">
+              Un file equiparabile a un cookie nello spazio locale di
+              archiviazione in modo strettamente limitato a quanto necessario
+              per memorizzare la preferenza dell&#39;Utente stesso riguardo alla
+              lingua dei contenuti da visualizzare sul Sito.
+            </p>
+          </li>
+        </ul>
+        <p class="smaller">
+          L&#39;Utente può scegliere di disabilitare i cookies e cancellare i
+          file salvati nello spazio locale di archiviazione intervenendo sulle
+          impostazioni del proprio browser di navigazione secondo le istruzioni
+          rese disponibili dai relativi fornitori ai link di seguito indicati:
+        </p>
+        <ul>
+          <li>
+            <p class="smaller">
+              <a
+                target="_blank"
+                href="https://support.google.com/chrome/answer/95647?co=GENIE.Platform%3DDesktop&amp;hl=it"
+                >Chrome</a
+              >
+            </p>
+          </li>
+          <li>
+            <p class="smaller">
+              <a
+                target="_blank"
+                href="https://support.mozilla.org/it/kb/protezione-antitracciamento-avanzata-firefox-desktop?redirectlocale=it&amp;redirectslug=Attivare+e+disattivare+i+cookie"
+                >Firefox</a
+              >
+            </p>
+          </li>
+          <li>
+            <p class="smaller">
+              <a
+                target="_blank"
+                href="https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac"
+                >Safari</a
+              >
+            </p>
+          </li>
+          <li>
+            <p class="smaller">
+              <a
+                target="_blank"
+                href="https://support.microsoft.com/it-it/help/17442/windows-internet-explorer-delete-manage-cookies"
+                >Internet Explorer</a
+              >
+            </p>
+          </li>
+          <li>
+            <p class="smaller">
+              <a
+                target="_blank"
+                href="https://support.microsoft.com/it-it/help/4027947/microsoft-edge-delete-cookies"
+                >Edge</a
+              >
+            </p>
+          </li>
+          <li>
+            <p class="smaller">
+              <a
+                target="_blank"
+                href="https://help.opera.com/en/latest/web-preferences/#cookies"
+                >Opera</a
+              >
+            </p>
+          </li>
+        </ul>
+        <h3 class="legal">
+          Base giuridica dei trattamenti
+        </h3>
+        <p class="smaller">
+          La base giuridica del trattamento dei dati di navigazione diversi da
+          quelli acquisiti attraverso cookies è da rinvenirsi nei compiti
+          istituzionali affidati al Titolare ai sensi dell&#39;art. 6, comma 1
+          lett. e) del Regolamento, che includono quello di fornire informazioni
+          e aggiornamenti sull&#39;app Immuni utilizzata nell&#39;ambito della
+          propria attività di contrasto al virus.
+        </p>
+        <p class="smaller">
+          La base giuridica del trattamento dei soli dati raccolti tramite
+          cookies analitici è il consenso dell&#39;Utente, ai sensi
+          dell&#39;art. 6, comma 1, lett. a) del Regolamento.
+        </p>
+        <h3 class="legal">
+          Categorie di soggetti ai quali i dati personali possono essere
+          comunicati e finalità della comunicazione
+        </h3>
+        <p class="smaller">
+          Il Titolare potrà comunicare, per il perseguimento delle finalità
+          sopra indicate, alcuni dati personali anche a soggetti terzi che
+          forniscono un servizio al Titolare stesso e che tratteranno detti dati
+          personali in qualità di responsabili del trattamento.
+        </p>
+        <p class="smaller">
+          L&#39;elenco dei responsabili del trattamento può essere richiesto al
+          Titolare in qualsiasi momento, scrivendo a
+          segreteria.trasformazionedigitale@governo.it.
+        </p>
+        <h3 class="legal">
+          Trasferimento dati fuori dall&#39;UE
+        </h3>
+        <p class="smaller">
+          Alcuni dei fornitori terzi utilizzati dal Titolare risiedono negli
+          Stati Uniti d&#39;America. A tal fine sono stati conclusi con tali
+          fornitori accordi di servizio ai sensi dell&#39;art. 28 del
+          Regolamento.
+        </p>
+        <h3 class="legal">Diritti degli interessati</h3>
+        <p class="smaller">
+          Gli Utenti del Sito, in qualità di interessati, possono esercitare,
+          nei casi previsti, i diritti loro riconosciuti dal GDPR (artt. 15 e
+          ss.).
+        </p>
+        <p class="smaller">
+          Tali diritti potranno essere esercitati inviando un&#39;e-mail
+          all&#39;indirizzo segreteria.trasformazionedigitale@governo.it, oppure
+          inviando una richiesta scritta all&#39;indirizzo del Titolare:
+          Presidenza del Consiglio dei Ministri, Dipartimento per la
+          Trasformazione Digitale, Largo Pietro di Brazzà, 86, Roma.
+        </p>
+        <h3 class="legal">Diritti di reclamo</h3>
+        <p class="smaller">
+          Gli interessati che ritengono che il trattamento dei dati personali a
+          loro riferiti effettuato attraverso questo sito avvenga in violazione
+          di quanto previsto dal Regolamento hanno il diritto di proporre
+          reclamo al Garante, come previsto dall&#39;art. 77 del Regolamento
+          stesso, o di adire le opportune sedi giudiziarie (art. 79 del
+          Regolamento).
+        </p>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__brand">
+            <img
+              src="<%= require('../assets/img/logo-white.svg') %>"
+              alt="Immuni Logo"
+              class="footer__logo"
+            />
+
+            <h4 class="list-title copyright">
+              © 2020 Presidenza del Consiglio dei Ministri
+            </h4>
+          </div>
+          <div class="footer__content">
+            <div class="list-wrapper">
+              <h4
+                class="list-title list-wrapper__title"
+                data-i18n="footer.sitemap.title"
+              >
+                Sezioni
+              </h4>
+              <ul class="list-wrapper__list">
+                <li>
+                  <a href="/" data-i18n="footer.sitemap.list.home">Home</a>
+                </li>
+                <li>
+                  <a
+                    data-i18n="footer.sitemap.list.documentation"
+                    href="https://github.com/immuni-app/documentation/"
+                    target="_blank"
+                    >Documentazione</a
+                  >
+                </li>
+                <li>
+                  <a href="/press.html" data-i18n="footer.sitemap.list.press"
+                    >Sala stampa</a
+                  >
+                </li>
+                <li>
+                  <a href="/faq.html" data-i18n="footer.sitemap.list.faq"
+                    >Domande frequenti</a
+                  >
+                </li>
+                <li>
+                  <a href="/download.html" data-i18n="footer.sitemap.list.download"
+                    >Download</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="list-wrapper">
+              <h4
+                class="list-title list-wrapper__title"
+                data-i18n="footer.info.title"
+              >
+                Informazioni
+              </h4>
+              <ul class="list-wrapper__list">
+                <li>
+                  <a href="/tou.html" data-i18n="footer.info.list.tos"
+                    >Termini di utilizzo</a
+                  >
+                </li>
+                <li>
+                  <a href="/pn.html" data-i18n="footer.info.list.privacy"
+                    >Informativa privacy</a
+                  >
+                </li>
+              </ul>
+              <div class="mobile-phone">
+                <h4
+                  class="list-title list-wrapper__title"
+                  style="margin-top: 24px;"
+                  data-i18n="footer.phone"
+                >
+                  Supporto
+                </h4>
+                <ul class="list-wrapper__list">
+                  <li>
+                    <a href="tel:800912491">800 91 24 91</a><br />
+                    <p data-i18n="footer.phoneInfo">(8-20, numero verde)</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="list-wrapper mobile-hidden">
+              <h4
+                class="list-title list-wrapper__title"
+                data-i18n="footer.phone"
+              >
+                Supporto
+              </h4>
+              <ul class="list-wrapper__list">
+                <li>
+                  <a href="tel:800912491">800 91 24 91</a><br />
+                  <p data-i18n="footer.phoneInfo">(8-20, numero verde)</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -34,6 +34,7 @@
 @import "privacy";
 @import "faq";
 @import "press";
+@import "download";
 
 /* GENERIC STYLES */
 
@@ -66,6 +67,29 @@ img {
 
 button {
   border: none;
+}
+
+.table-wrapper {
+  overflow-x: scroll;
+  table {
+    margin: 16px auto 32px;
+    overflow-x: scroll;
+    overflow: scroll;
+    max-width: 100%;
+    @media screen and (max-width: 768px) {
+      min-width: 960px;
+    }
+    &.last {
+      margin-bottom: 0;
+    }
+  }
+}
+
+table,
+th,
+td {
+  padding: 8px;
+  border: 1px solid var(--darkGray);
 }
 
 /* HELPERS */

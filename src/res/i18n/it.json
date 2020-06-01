@@ -2,17 +2,21 @@
   "navigation": {
     "home": "Home",
     "documentation": "Documentazione",
-    "press": "Sala stampa",
-    "faq": "Domande frequenti",
-    "faqMobile": "Domande"
+    "press": "Grafica",
+    "faq": "Domande",
+    "faqMobile": "Domande",
+    "download": "Scarica l'app",
+    "downloadMobile": "Scarica"
   },
   "footer": {
     "sitemap": {
-      "title": "Mappa del sito",
+      "title": "Sezioni",
       "list": {
+        "home": "Home",
         "documentation": "Documentazione",
-        "press": "Sala stampa",
-        "faq": "Domande frequenti"
+        "press": "Grafica",
+        "faq": "Domande",
+        "download": "Scarica l'app"
       }
     },
     "info": {
@@ -20,7 +24,9 @@
       "list": {
         "privacy": "Informativa privacy",
         "tos": "Termini di utilizzo"
-      }
+      },
+      "phone": "Supporto",
+      "phoneInfo": "(8-20, numero verde)"
     }
   },
   "home": {
@@ -29,29 +35,30 @@
       "content": "Tornare a vivere normalmente è possibile.<br />Immuni ci aiuta a farlo prima e senza rinunciare alla privacy."
     },
     "cta": {
-      "span": "Per aiutare <span class='underlined'>te stesso</span>, la tua <span class='underlined'>famiglia</span> e il tuo <span class='underlined'>Paese</span>",
-      "button": "App presto disponibile"
+      "span": "Aiuta <span class='underlined'>te stesso</span>, la tua <span class='underlined'>famiglia</span> e il tuo <span class='underlined'>Paese</span>",
+      "button": "Scarica l'app",
+      "cta": "Disponibile ora"
     },
     "feats": {
-      "tag": "cos'è",
+      "tag": "Che cosa è?",
       "title": "Uno strumento in più contro l’epidemia",
-      "content": "Immuni è un'app creata per aiutarci a combattere l'epidemia di COVID-19. L'app sfrutta la tecnologia per avvertire gli utenti potenzialmente contagiati il prima possibile, anche quando sono asintomatici. Lo fa più efficientemente e con anticipo rispetto ai metodi alternativi."
+      "content": "Immuni è un'app creata per aiutarci a combattere l'epidemia di COVID-19. L'app utilizza la tecnologia per avvertire gli utenti che hanno avuto un'esposizione a rischio, anche se sono asintomatici."
     },
     "benefits": {
       "tag": "Benefici",
       "title": "Proteggiamo noi stessi e i nostri cari",
-      "isolation": "Gli utenti potenzialmente contagiati possono isolarsi per evitare di contagiare altri. Così facendo, aiutano a contenere l'epidemia e a consentire un rapido ritorno alla normalità.",
-      "oldPeople": "Venendo informati tempestivamente, gli utenti possono anche contattare il proprio medico di medicina generale prima e ridurre così il rischio di complicanze."
+      "isolation": "Gli utenti che vengono avvertiti dall’app di un possibile contagio possono isolarsi per evitare di contagiare altri. Così facendo, aiutano a contenere l'epidemia e a favorire un rapido ritorno alla normalità.",
+      "oldPeople": "Venendo informati tempestivamente, gli utenti possono contattare il proprio medico di medicina generale e ridurre così il rischio di complicanze."
     },
     "tech": {
       "tag": "Tecnologia",
       "title": "Innovazione al servizio della comunità",
-      "content": "Utilizzando in modo innovativo la tecnologia Bluetooth, l’app invia una notifica a chi si è trovato a stretto contatto con un utente positivo al SARS-CoV-2, per avvertirlo del potenziale rischio di aver contratto il virus. Questo avviene senza raccogliere dati sull’identità o la posizione dell’utente."
+      "content": "A chi si è trovato a stretto contatto con un utente risultato positivo al virus del COVID-19, l’app invia una notifica che lo avverte del potenziale rischio di essere stato contagiato. Grazie all’uso della tecnologia Bluetooth Low Energy, questo avviene senza raccogliere dati sull’identità o la posizione dell’utente."
     },
     "privacy": {
       "tag": "Privacy",
       "title": "La tua privacy è tutelata",
-      "content": "Durante l’intero processo di design e sviluppo di Immuni, è stata posta grande attenzione sulla tutela della tua privacy. I tuoi dati, raccolti e gestiti dal Ministero della Salute e da soggetti pubblici, sono salvati su server in Italia. I dati e le connessioni dell'app con il server sono cifrati.",
+      "content": "Immuni è stata progettata e sviluppata ponendo grande attenzione alla tutela della privacy. I dati, raccolti e gestiti dal Ministero della Salute e da soggetti pubblici, sono salvati su server che si trovano in Italia. I dati e le connessioni dell'app con il server sono protetti.",
       "subtitle": "Immuni <span>non</span> raccoglie:",
       "icons": {
         "position": "La tua posizione o i tuoi movimenti",
@@ -63,16 +70,24 @@
     },
     "faq": {
       "title": "Vuoi saperne di più?",
-      "button": "Esplora le domande frequenti"
+      "button": "Leggi le domande frequenti"
     }
   },
   "press": {
-    "title": "Sala stampa",
+    "title": "Grafica",
     "content": "Risorse grafiche ufficiali disponibili per il download",
-    "button": "Press kit"
+    "button": "Scarica"
   },
   "faq": {
     "title": "Hai qualche domanda?",
     "search": "<input class='search__input' type='text' placeholder='Cerca argomento...' />"
+  },
+  "download": {
+    "title": "Scarica Immuni",
+    "content": "Scegli la versione compatibile col tuo smartphone. Non tutti i dispositivi sono supportati.",
+    "button": "Scarica",
+    "appleOs": "iPhone con iOS versione 13.5 o superiore. Aggiorna iOS all’ultima versione disponibile prima di effettuare il download di Immuni. I modelli di iPhone che supportano iOS 13.5 sono i seguenti: 11, 11 Pro, 11 Pro Max, Xr, Xs, Xs Max, X, SE (2nd generation), 8, 8 Plus, 7, 7 Plus, 6s, 6s Plus, SE (1st generation).",
+    "googleOs": "Smartphone con Bluetooth Low Energy, Android versione 6 (Marshmallow, API 23) o superiore e Google Play Services versione 20.18.13 o superiore (tutti e tre i requisiti sono necessari per usare Immuni). Aggiorna Android e Google Play Services all’ultima versione disponibile prima di effettuare il download di Immuni.",
+    "huaweiOs": "Stiamo lavorando per permettere di scaricare Immuni anche da AppGallery al più presto. Questo consentirà ai possessori di alcuni modelli di smartphone Huawei di usare Immuni."
   }
 }

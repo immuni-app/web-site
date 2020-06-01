@@ -38,7 +38,7 @@ smoothscroll.polyfill();
 
 const translator = new Translator({
   persist: true,
-  languages: ["it", "en", "de", "es", "fr", "pt"],
+  languages: ["it", "en", "de", "es", "fr"],
   defaultLanguage: "it",
   detectLanguage: true,
 });

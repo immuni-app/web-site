@@ -15,7 +15,7 @@
       content="Immuni è un'app creata per aiutarci a combattere l'epidemia di COVID-19. L'app sfrutta la tecnologia per avvertire gli utenti potenzialmente contagiati il prima possibile, anche quando sono asintomatici. Lo fa più efficientemente e con anticipo rispetto ai metodi alternativi."
     />
     <!-- No index -->
-    <meta name="robots" content="noindex" />
+
     <!-- Twitter Card data -->
     <meta
       name="twitter:card"
@@ -28,7 +28,7 @@
       content="Tornare a vivere normalmente è possibile. Immuni ci aiuta a farlo prima e senza rinunciare alla privacy."
     />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="" />
+    <meta property="og:url" content="www.immuni.italia.it" />
 
     <meta
       property="og:image"
@@ -83,8 +83,12 @@
           >Documentazione</a
         >
         <a href="/press.html" data-i18n="navigation.press">Sala stampa</a>
-        <a href="/faq.html" class="button nav-button" data-i18n="navigation.faq"
-          >Domande frequenti</a
+        <a href="/faq.html" data-i18n="navigation.faq"></a>
+        <a
+          href="/download.html"
+          class="button nav-button"
+          data-i18n="navigation.download"
+          >Scarica l'app</a
         >
 
         <select class="cs-select">
@@ -103,10 +107,10 @@
       </a>
       <div class="navigation__wrapper">
         <a
-          href="/faq.html"
+          href="/download.html"
           class="button nav-button"
-          data-i18n="navigation.faqMobile"
-          >Domande</a
+          data-i18n="navigation.downloadMobile"
+          >Scarica</a
         >
         <button class="hamburger hamburger--spring" type="button">
           <span class="hamburger-box">
@@ -185,9 +189,13 @@
             <span class="underlined">famiglia</span> e il tuo
             <span class="underlined">Paese</span>
           </h3>
-          <button class="button secondary" data-i18n="home.cta.button">
-            App presto disponibile
-          </button>
+          <a
+            href="/download.html"
+            class="button secondary hoverable"
+            data-i18n="home.cta.button"
+          >
+            Scarica l'app
+          </a>
         </div>
       </div>
     </section>
@@ -232,12 +240,12 @@
     <section class="section blue no-padding-bottom">
       <div class="container">
         <img
-          src="<%= require('./src/assets/img/feat-illustration.png') %>"
+          src="<%= require('./src/assets/img/feat-illustration-it.png') %>"
           alt="Screenshot of the main Immuni App dashboard"
           class="feat-illustration"
         />
         <img
-          src="<%= require('./src/assets/img/feat-illustration-mobile.png') %>"
+          src="<%= require('./src/assets/img/feat-illustration-mobile-it.png') %>"
           alt="Screenshot of the main Immuni App dashboard"
           class="feat-illustration--mobile"
         />
@@ -446,7 +454,9 @@
               class="footer__logo"
             />
 
-            <h4 class="list-title">© 2020, Immuni</h4>
+            <h4 class="list-title copyright">
+              © 2020 Presidenza del Consiglio dei Ministri
+            </h4>
           </div>
           <div class="footer__content">
             <div class="list-wrapper">
@@ -454,9 +464,12 @@
                 class="list-title list-wrapper__title"
                 data-i18n="footer.sitemap.title"
               >
-                Mappa del sito
+                Sezioni
               </h4>
               <ul class="list-wrapper__list">
+                <li>
+                  <a href="/" data-i18n="footer.sitemap.list.home">Home</a>
+                </li>
                 <li>
                   <a
                     data-i18n="footer.sitemap.list.documentation"
@@ -473,6 +486,11 @@
                 <li>
                   <a href="/faq.html" data-i18n="footer.sitemap.list.faq"
                     >Domande frequenti</a
+                  >
+                </li>
+                <li>
+                  <a href="/download.html" data-i18n="footer.sitemap.list.download"
+                    >Download</a
                   >
                 </li>
               </ul>
@@ -496,9 +514,35 @@
                   >
                 </li>
               </ul>
+              <div class="mobile-phone">
+                <h4
+                  class="list-title list-wrapper__title"
+                  style="margin-top: 24px;"
+                  data-i18n="footer.phone"
+                >
+                  Supporto
+                </h4>
+                <ul class="list-wrapper__list">
+                  <li>
+                    <a href="tel:800912491">800 91 24 91</a><br />
+                    <p data-i18n="footer.phoneInfo">(8-20, numero verde)</p>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div class="list-cta">
-              <!-- <h4 class="list-title">Scarica l'app</h4> -->
+            <div class="list-wrapper mobile-hidden">
+              <h4
+                class="list-title list-wrapper__title"
+                data-i18n="footer.phone"
+              >
+                Supporto
+              </h4>
+              <ul class="list-wrapper__list">
+                <li>
+                  <a href="tel:800912491">800 91 24 91</a><br />
+                  <p data-i18n="footer.phoneInfo">(8-20, numero verde)</p>
+                </li>
+              </ul>
             </div>
           </div>
         </div>

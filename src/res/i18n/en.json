@@ -2,17 +2,21 @@
   "navigation": {
     "home": "Home",
     "documentation": "Documentation",
-    "press": "Press",
+    "press": "Graphics",
     "faq": "FAQ",
-    "faqMobile": "FAQ"
+    "faqMobile": "FAQ",
+    "download": "Download the app",
+    "downloadMobile": "Download"
   },
   "footer": {
     "sitemap": {
-      "title": "Sitemap",
+      "title": "Sections",
       "list": {
+        "home": "Home",
         "documentation": "Documentation",
-        "press": "Press",
-        "faq": "FAQ"
+        "press": "Graphics",
+        "faq": "FAQ",
+        "download": "Download the app"
       }
     },
     "info": {
@@ -21,7 +25,9 @@
         "privacy": "Privacy notice",
         "tos": "Terms of use"
       }
-    }
+    },
+    "phone": "Support",
+    "phoneInfo": "(8am-8pm, toll free)"
   },
   "home": {
     "hero": {
@@ -30,28 +36,29 @@
     },
     "cta": {
       "span": "Help <span class='underlined'>yourself</span>, your <span class='underlined'>family</span>, and your <span class='underlined'>country</span>.",
-      "button": "App available soon"
+      "button": "Download the app",
+      "cta": "Available now"
     },
     "feats": {
       "tag": "What is it?",
       "title": "An extra tool to fight the epidemic",
-      "content": "Immuni is an app that helps us fight the COVID-19 epidemic. The app uses technology to alert people at risk of carrying the virus as early as possible—even when they are asymptomatic. It can do so more quickly and efficiently than any of the alternative methods."
+      "content": "Immuni is an app that helps us fight the COVID-19 epidemic. The app uses technology to alert the users who have had a risky exposure—even if they are asymptomatic."
     },
     "benefits": {
       "tag": "Benefits",
       "title": "Protection for ourselves and our loved ones",
-      "isolation": "Users who may have the virus can isolate themselves to avoid infecting other people. By doing so, they help contain the epidemic and speed up the return to a normal life.",
-      "oldPeople": "By being alerted early, the users can also contact their general practitioner more quickly and lower the risk of serious consequences."
+      "isolation": "Users who have been notified by the app of a possible infection can isolate themselves to avoid infecting other people. By doing so, they help contain the epidemic and speed up the return to a normal life.",
+      "oldPeople": "By being alerted early, the users can contact their general practitioner and, therefore, lower the risk of serious consequences."
     },
     "tech": {
       "tag": "Technology",
       "title": "Innovation to serve the community",
-      "content": "With its innovative use of Bluetooth technology, the app sends a notification to those who were in close contact with a SARS-CoV-2-positive user, alerting them of the risk of infection. This takes place without the app gathering any data on the identity or the location of its users."
+      "content": "The app sends a notification to people who were in close contact with a user who tested positive for the COVID-19 virus, alerting them of the risk of infection. Thanks to Bluetooth Low Energy technology, this takes place without the app gathering any data on the identity or the location of its users."
     },
     "privacy": {
       "tag": "Privacy",
       "title": "Your privacy is protected",
-      "content": "Throughout Immuni’s entire design and development process, great care has been taken to safeguard your privacy. Any data, collected and managed by the Ministry of Health and by public entities, are stored on servers located in Italy. All the data and app connections with the server are encrypted.",
+      "content": "Immuni has been designed and developed while taking great care to safeguard user privacy. Any data, collected and managed by the Ministry of Health and by public bodies, is stored on servers located in Italy. All the data and app connections with the server are protected.",
       "subtitle": "Immuni <span>does not</span> gather:",
       "icons": {
         "position": "Your location or your movements",
@@ -67,12 +74,20 @@
     }
   },
   "press": {
-    "title": "Press",
+    "title": "Graphics",
     "content": "Official graphic assets available for download",
-    "button": "Press kit"
+    "button": "Download"
   },
   "faq": {
     "title": "Do you have any questions?",
     "search": "<input class='search__input' type='text' placeholder='Search topic...' />"
+  },
+  "download": {
+    "title": "Download Immuni",
+    "content": "Choose the version compatible with your smartphone. Not all devices are supported.",
+    "button": "Download",
+    "appleOs": "iPhones with iOS version 13.5 or above. Update iOS to the latest available version before downloading Immuni. The following iPhone models support iOS 13.5: 11, 11 Pro, 11 Pro Max, Xr, Xs, Xs Max, X, SE (2nd generation), 8, 8 Plus, 7, 7 Plus, 6s, 6s Plus, SE (1st generation).",
+    "googleOs": "Smartphones with Bluetooth Low Energy, Android version 6 or above, and Google Play Services version 20.18.13 or above (all three requirements are necessary to use Immuni). Update Android and Google Play Services to the latest available versions before downloading Immuni.",
+    "huaweiOs": "We’re working to make Immuni available for download from AppGallery as soon as possible. This will enable the owners of certain Huawei smartphone models to use Immuni."
   }
 }
