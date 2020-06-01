@@ -1,6 +1,6 @@
 version: 2
 jobs:
-  deploy-staging:
+  deploy:
     docker:
       - image: google/cloud-sdk:281.0.0
     environment:
