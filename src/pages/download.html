@@ -80,7 +80,10 @@
         >
         <a href="/press.html" data-i18n="navigation.press">Sala stampa</a>
         <a href="/faq.html" data-i18n="navigation.faq"></a>
-        <a href="/download.html" class="button nav-button" data-i18n="navigation.download"
+        <a
+          href="/download.html"
+          class="button nav-button"
+          data-i18n="navigation.download"
           >Scarica l'app</a
         >
 
@@ -165,81 +168,87 @@
           </p>
           <div class="download-wrapper">
             <div class="download-row intro delayed">
-              <div class="copy-wrapper">
-                <img
-                  src="<%= require('../assets/img/icon-appstore.png') %>"
-                  alt="Immuni app icon"
-                  class="download-row__icon"
-                />
-                <div class="download-row__copy">
-                  <h4>App Store</h4>
-                  <p data-i18n="download.appleOs"></p>
+              <div class="heading-wrapper">
+                <div class="copy-wrapper">
+                  <img
+                    src="<%= require('../assets/img/icon-appstore.png') %>"
+                    alt="Immuni app icon"
+                    class="heading-wrapper__icon"
+                  />
+                  <div class="heading-wrapper__copy">
+                    <h4>App Store</h4>
+                  </div>
                 </div>
+                <a
+                  href="https://apps.apple.com/app/id1513940977"
+                  download
+                  class="button button--press"
+                >
+                  <img
+                    src="<%= require('../assets/img/icons/download.png') %>"
+                    alt="Download icon"
+                    class="icon"
+                  />
+                  <span data-i18n="download.button">
+                    Scarica
+                  </span>
+                </a>
               </div>
-              <a
-                href="https://apps.apple.com/app/id1513940977"
-                download
-                class="button button--press"
-              >
-                <img
-                  src="<%= require('../assets/img/icons/download.png') %>"
-                  alt="Download icon"
-                  class="icon"
-                />
-                <span data-i18n="download.button">
-                  Scarica
-                </span>
-              </a>
+              <p data-i18n="download.appleOs"></p>
             </div>
             <div class="download-row intro delayed">
-              <div class="copy-wrapper">
-                <img
-                  src="<%= require('../assets/img/icon-playstore.png') %>"
-                  alt="Immuni app icon"
-                  class="download-row__icon"
-                />
-                <div class="download-row__copy">
-                  <h4>Play Store</h4>
-                  <p data-i18n="download.googleOs"></p>
+              <div class="heading-wrapper">
+                <div class="copy-wrapper">
+                  <img
+                    src="<%= require('../assets/img/icon-playstore.png') %>"
+                    alt="Immuni app icon"
+                    class="heading-wrapper__icon"
+                  />
+                  <div class="heading-wrapper__copy">
+                    <h4>Play Store</h4>
+                  </div>
                 </div>
+                <a
+                  href="https://play.google.com/store/apps/details?id=it.ministerodellasalute.immuni"
+                  download
+                  class="button button--press"
+                >
+                  <img
+                    src="<%= require('../assets/img/icons/download.png') %>"
+                    alt="Download icon"
+                    class="icon"
+                  />
+                  <span data-i18n="download.button">
+                    Scarica
+                  </span>
+                </a>
               </div>
-              <a
-                href="https://play.google.com/store/apps/details?id=it.ministerodellasalute.immuni"
-                download
-                class="button button--press"
-              >
-                <img
-                  src="<%= require('../assets/img/icons/download.png') %>"
-                  alt="Download icon"
-                  class="icon"
-                />
-                <span data-i18n="download.button">
-                  Scarica
-                </span>
-              </a>
+              <p data-i18n="download.googleOs"></p>
             </div>
             <div class="download-row intro delayed">
-              <div class="copy-wrapper">
-                <img
-                  src="<%= require('../assets/img/icon-huawei.png') %>"
-                  alt="Immuni app icon"
-                  class="download-row__icon"
-                />
-                <div class="download-row__copy">
-                  <h4>AppGallery</h4>
-                  <p data-i18n="download.huaweiOs"></p>
+              <div class="heading-wrapper">
+                <div class="copy-wrapper">
+                  <img
+                    src="<%= require('../assets/img/icon-huawei.png') %>"
+                    alt="Immuni app icon"
+                    class="heading-wrapper__icon"
+                  />
+                  <div class="heading-wrapper__copy">
+                    <h4>AppGallery</h4>
+                  </div>
                 </div>
+                <a href="" download class="button button--press disabled">
+                  <img
+                    src="<%= require('../assets/img/icons/download.png') %>"
+                    alt="Download icon"
+                    class="icon"
+                  />
+                  <span data-i18n="download.button">
+                    Scarica
+                  </span>
+                </a>
               </div>
-              <a href="" download class="button button--press disabled">
-                <img
-                  src="<%= require('../assets/img/icons/download.png') %>"
-                  alt="Download icon"
-                  class="icon"
-                />
-                <span data-i18n="download.button">
-                  Scarica
-                </span>
-              </a>
+              <p data-i18n="download.huaweiOs"></p>
             </div>
           </div>
         </div>

@@ -3,69 +3,74 @@
 .download-wrapper {
   padding-top: 80px;
   .download-row {
-    display: flex;
     margin: 48px auto;
     max-width: 640px;
-    justify-content: space-between;
-    .copy-wrapper {
+    .heading-wrapper {
       display: flex;
-    }
-    &__icon {
-      width: 64px;
-      height: 64px;
-      margin-right: 24px;
-      @media screen and (max-width: 768px) {
-        width: 40px;
-        height: 40px;
-        margin-right: 8px;
+      justify-content: space-between;
+      margin-bottom: 24px;
+      .copy-wrapper {
+        display: flex;
       }
-    }
-    &__copy {
-      margin-right: 48px;
-      @media screen and (max-width: 768px) {
-        margin-right: 40px;
+      &__icon {
+        width: 64px;
+        height: 64px;
+        margin-right: 24px;
+        @media screen and (max-width: 768px) {
+          width: 40px;
+          height: 40px;
+          margin-right: 8px;
+        }
       }
-      h4 {
-        font-weight: 500;
-        font-size: 28px;
-        line-height: 40px;
-        letter-spacing: -0.05em;
-        margin-bottom: 8px;
-        text-align: left;
+      &__copy {
+        margin-right: 48px;
+        @media screen and (max-width: 768px) {
+          margin: auto;
+          margin-right: 40px;
+        }
+        h4 {
+          font-weight: 500;
+          font-size: 28px;
+          line-height: 40px;
+          letter-spacing: -0.05em;
+          margin-bottom: 0;
+          text-align: left;
+          @media screen and (max-width: 768px) {
+            font-size: 16px;
+            line-height: 20px;
+          }
+        }
+      }
+      .button--press {
+        margin: auto 0;
+        &.disabled {
+          opacity: 0.5;
+          pointer-events: none;
+        }
         @media screen and (max-width: 768px) {
           font-size: 16px;
           line-height: 20px;
-        }
-      }
-      p {
-        font-weight: normal;
-        font-size: 12px;
-        line-height: 16px;
-        text-align: left;
-        @media screen and (max-width: 768px) {
-          font-size: 11px;
-          line-height: 14px;
+          padding: 8px 16px;
+          max-width: 120px;
+          margin: 0 0 auto;
+          .icon {
+            height: 20px;
+            width: 20px;
+            margin-right: 4px;
+            margin-left: -4px;
+          }
         }
       }
     }
-    .button--press {
-      margin: auto 0;
-      &.disabled {
-        opacity: 0.5;
-        pointer-events: none;
-      }
+
+    p {
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 20px;
+      text-align: left;
       @media screen and (max-width: 768px) {
-        font-size: 16px;
-        line-height: 20px;
-        padding: 8px 16px;
-        max-width: 120px;
-        margin: 0 0 auto;
-        .icon {
-          height: 20px;
-          width: 20px;
-          margin-right: 4px;
-          margin-left: -4px;
-        }
+        font-size: 11px;
+        line-height: 14px;
       }
     }
   }
