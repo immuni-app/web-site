@@ -8,6 +8,7 @@ jobs:
       - COMPONENT: website
       - INSTANCE_GROUP: website
       - ZONE: us-central1-a
+    resource_class: small
     steps:
       - checkout
       - setup_remote_docker:
