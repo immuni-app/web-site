@@ -26,9 +26,9 @@
         }
       }
       &__copy {
+        margin: auto;
         margin-right: 48px;
         @media screen and (max-width: 768px) {
-          margin: auto;
           margin-right: 40px;
         }
         h4 {
