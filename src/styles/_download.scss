@@ -2,6 +2,9 @@
 
 .download-wrapper {
   padding-top: 80px;
+  @media screen and (max-width: 768px) {
+    padding-top: 32px;
+  }
   .download-row {
     margin: 48px auto;
     max-width: 640px;
