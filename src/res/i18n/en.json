@@ -84,7 +84,7 @@
   },
   "download": {
     "title": "Download Immuni",
-    "content": "Where you can download Immuni from depends on the smartphone you use. Please note that not all devices are supported. Choose the version compatible with your smartphone.",
+    "content": "Here is where you can download Immuni, depending on the smartphone you use. Please note that not all devices are supported.",
     "button": "Download",
     "appleOs": "iPhones with iOS version 13.5 or above. Update iOS to the latest available version before downloading Immuni. The following iPhone models support iOS 13.5: 11, 11 Pro, 11 Pro Max, Xr, Xs, Xs Max, X, SE (2nd generation), 8, 8 Plus, 7, 7 Plus, 6s, 6s Plus, SE (1st generation).",
     "googleOs": "Smartphones with Bluetooth Low Energy, Android version 6 (Marshmallow, API 23) or above, and Google Play Services version 20.18.13 or above (all three requirements are necessary to use Immuni). Update Android and Google Play Services to the latest available versions before downloading Immuni.",

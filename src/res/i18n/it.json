@@ -84,7 +84,7 @@
   },
   "download": {
     "title": "Scarica Immuni",
-    "content": "Da dove puoi scaricare Immuni dipende dallo smartphone che usi. Non tutti i dispositivi sono supportati. Scegli la versione compatibile col tuo smartphone.",
+    "content": "Ecco da dove puoi scaricare Immuni a seconda dello smartphone che usi. Non tutti i dispositivi sono supportati.",
     "button": "Scarica",
     "appleOs": "iPhone con iOS versione 13.5 o superiore. Aggiorna iOS all’ultima versione disponibile prima di effettuare il download di Immuni. I modelli di iPhone che supportano iOS 13.5 sono i seguenti: 11, 11 Pro, 11 Pro Max, Xr, Xs, Xs Max, X, SE (2nd generation), 8, 8 Plus, 7, 7 Plus, 6s, 6s Plus, SE (1st generation).",
     "googleOs": "Smartphone con Bluetooth Low Energy, Android versione 6 (Marshmallow, API 23) o superiore e Google Play Services versione 20.18.13 o superiore (tutti e tre i requisiti sono necessari per usare Immuni). Aggiorna Android e Google Play Services all’ultima versione disponibile prima di effettuare il download di Immuni.",
