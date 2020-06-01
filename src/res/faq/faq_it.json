@@ -37,8 +37,8 @@
       "content": "<p>Immuni non fa e non può fare diagnosi. Sulla base dello storico della tua esposizione a utenti potenzialmente contagiosi, Immuni elabora alcune raccomandazioni su come è necessario comportarsi. Ma l&#39;app non è un dispositivo medico e non può in alcun caso sostituire un medico.</p>"
     },
     {
-      "title": "Quali dispositivi e sistemi operativi sono supportati?",
-      "content": "<p>Al momento, Immuni supporta gli smartphone con Bluetooth Low Energy e una versione di iOS pari o superiore alla 13.5 o di Android pari o superiore alla 6 (Marshmallow, API 23). Per gli smartphone Android, è anche richiesta una versione di Google Play Services pari o superiore alla 20.18.13.</p><p>Se il tuo dispositivo lo consente, ti invitiamo ad aggiornare il sistema operativo a una versione che permetta l&#39;uso di Immuni. Nel caso tu abbia uno smartphone Android, assicurati anche di aggiornare Google Play Services.</p><p>Siamo consci dell&#39;importanza di supportare il maggior numero di dispositivi possibile. I requisiti descritti sopra sono imposti dalle tecnologie per le notifiche di esposizione messe a disposizione da Apple e Google, che non sono disponibili per versioni precedenti di iOS, Android e Google Play Services.</p>"
+      "title": "Dove posso scaricare Immuni? Quali dispositivi e sistemi operativi sono supportati?",
+      "content": "<p> Da dove puoi scaricare Immuni dipende dallo smartphone che usi. Non tutti i dispositivi sono supportati. Scegli la versione compatibile col tuo smartphone.</p><p><strong>App Store</strong></p><p> Puoi scaricare Immuni dall’App Store e usarla correttamente se il tuo iPhone ha iOS versione 13.5 o superiore. Aggiorna iOS all’ultima versione disponibile prima di effettuare il download di Immuni.</p><p> I modelli di iPhone che supportano iOS 13.5 sono i seguenti: 11, 11 Pro, 11 Pro Max, Xr, Xs, Xs Max, X, SE (2nd generation), 8, 8 Plus, 7, 7 Plus, 6s, 6s Plus, SE (1st generation). Purtroppo, non potrai usare Immuni se il tuo modello di iPhone non permette l’aggiornamento di iOS a una versione pari o superiore alla 13.5.</p><p><strong>Google Play</strong></p><p> Puoi scaricare Immuni da Google Play e usarla correttamente se il tuo smartphone Android verifica tutti e tre i seguenti requisiti:</p><ul> <li> Bluetooth Low Energy </li><li> Android versione 6 (Marshmallow, API 23) o superiore </li><li> Google Play Services versione 20.18.13 o superiore </li></ul><p>Aggiorna Android e Google Play Services all’ultima versione disponibile prima di effettuare il download di Immuni.</p><p>Purtroppo, non potrai usare Immuni se il tuo modello di smartphone Android non ha il Bluetooth Low Energy o non permette l’aggiornamento di Android e di Google Play Services alle versioni minime indicate.</p><p><strong>AppGallery</strong></p><p>Stiamo lavorando per permettere di scaricare Immuni anche da AppGallery al più presto. Questo consentirà ai possessori di alcuni modelli di smartphone Huawei di usare Immuni.</p>"
     },
     {
       "title": "Le istruzioni fornite dall’app sono attendibili?",
@@ -51,10 +51,6 @@
     {
       "title": "L’app scaricherà la batteria del mio smartphone?",
       "content": "<p>Non dovresti notare una differenza sostanziale nella durata della tua batteria. Immuni infatti usa il Bluetooth Low Energy, una tecnologia creata per essere particolarmente efficiente in termini di risparmio energetico.</p><p>Tuttavia, anche se pensi che la batteria del tuo smartphone si sia scaricata un po&#39; più velocemente del solito, per favore continua a usare l&#39;app in modo corretto. Il tuo contributo è importante perché Immuni sia efficace nell&#39;aiutarci a combattere l&#39;epidemia e tornare al più presto a una vita normale.</p>"
-    },
-    {
-      "title": "Dove posso trovare Immuni?",
-      "content": "<p>Immuni non può ancora essere scaricata. Stiamo lavorando per renderla disponibile il prima possibile, ma non siamo ancora in grado di fornire una data precisa. Una volta pronta, la potrai trovare sull&#39;App Store e su Google Play. L&#39;app non sarà disponibile su nessun altro canale di distribuzione.</p>"
     },
     {
       "title": "I minori possono usare l’app?",

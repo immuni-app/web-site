@@ -37,8 +37,8 @@
       "content": "<p>Immuni does not and cannot diagnose. Based on your history of exposure to potentially contagious users, it makes recommendations about what to do next. But the app is not a medical device, and it&#39;s certainly not a substitute for a doctor.</p>"
     },
     {
-      "title": "What devices and operating systems are supported?",
-      "content": "<p>Immuni currently supports smartphones with Bluetooth Low Energy and running iOS 13.5 or above or Android 6 (Marshmallow, API 23) or above. Android devices must also run Google Play 20.18.13 or above.</p><p>If possible, we invite you to update the operating system to a version that enables you to use Immuni. If you have an Android device, make sure you also update Google Play Services.</p><p>We&#39;re aware of the importance of supporting the highest possible number of devices. The prerequisites mentioned above are imposed by the exposure notification technologies provided by Apple and Google, which are not available for previous versions of iOS, Android, and Google Play Services.</p>"
+      "title": "Where can I download Immuni? What devices and operating systems are supported?",
+      "content": "<p> Where you can download Immuni from depends on the smartphone you use. Please note that not all devices are supported. Choose the version compatible with your smartphone.</p><p><strong>App Store</strong></p><p> You can download Immuni from the App Store and use it correctly if your iPhone supports running iOS version 13.5 or above. Please update iOS to the latest available version before downloading Immuni.</p><p> The following iPhone models support iOS 13.5: 11, 11 Pro, 11 Pro Max, Xr, Xs, Xs Max, X, SE (2nd generation), 8, 8 Plus, 7, 7 Plus, 6s, 6s Plus, SE (1st generation). Unfortunately, you won’t be able to use Immuni if your iPhone model doesn’t support running iOS version 13.5 or above.</p><p><strong>Google Play</strong></p><p> You can download Immuni from Google Play and use it correctly if your Android smartphone fulfils all three of the following requirements:</p><ul> <li> Bluetooth Low Energy </li><li> Android version 6 (Marshmallow, API 23) or above </li><li> Google Play Services version 20.18.13 or above </li></ul><p> Please update Android and Google Play Services to the latest available version before downloading Immuni.</p><p> Unfortunately, you won’t be able to use Immuni if your model of Android smartphone doesn’t feature Bluetooth Low Energy or doesn’t support the minimum Android and Google Play Services versions indicated above.</p><p><strong>AppGallery</strong></p><p> We’re working to make Immuni available for download from AppGallery as soon as possible. This will enable the users of certain Huawei smartphone models to use Immuni.</p>"
     },
     {
       "title": "Are the instructions that the app provides reliable?",
@@ -51,10 +51,6 @@
     {
       "title": "Is the app going to drain my smartphone’s battery?",
       "content": "<p>You shouldn&#39;t notice a difference in terms of battery life. Immuni uses Bluetooth Low Energy, a technology designed to be particularly energy efficient.</p><p>However, even if you think your smartphone&#39;s battery is being drained a touch faster than usual, please keep using the app the right way. Your contribution is an important part of making Immuni effective at helping us fight the epidemic and returning to normal as soon as possible.</p>"
-    },
-    {
-      "title": "Where can I download Immuni?",
-      "content": "<p>Immuni isn&#39;t available for download yet. We&#39;re working around the clock to make it ready as soon as possible, but can&#39;t provide a date quite yet. As soon as it&#39;s ready, you&#39;ll be able to find it on the App Store and on Google Play. The app won&#39;t be available through any other distribution channels.</p>"
     },
     {
       "title": "Can minors use the app?",

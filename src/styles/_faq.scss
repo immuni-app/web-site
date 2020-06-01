@@ -67,6 +67,9 @@
     opacity: 0;
     overflow: hidden;
     transition: 300ms ease-out;
+    p strong {
+      color: var(--porpoise);
+    }
     p,
     ul {
       padding-bottom: 16px;
