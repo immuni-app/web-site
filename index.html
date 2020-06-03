@@ -39,11 +39,11 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script>
-      (function(i, s, o, g, r, a, m) {
+      (function (i, s, o, g, r, a, m) {
         i["GoogleAnalyticsObject"] = r;
         (i[r] =
           i[r] ||
-          function() {
+          function () {
             (i[r].q = i[r].q || []).push(arguments);
           }),
           (i[r].l = 1 * new Date());
@@ -236,16 +236,19 @@
     </section>
     <section class="section blue no-padding-bottom">
       <div class="container">
-        <img
-          src="<%= require('./src/assets/img/feat-illustration-it.png') %>"
-          alt="Screenshot of the main Immuni App dashboard"
-          class="feat-illustration"
-        />
-        <img
-          src="<%= require('./src/assets/img/feat-illustration-mobile-it.png') %>"
-          alt="Screenshot of the main Immuni App dashboard"
-          class="feat-illustration--mobile"
-        />
+        <div class="feat-illustration" data-i18n="home.benefits.image">
+          <img
+            src="<%= require('./src/assets/img/feat-illustration-it.png') %>"
+            alt="Screenshot of the main Immuni App dashboard"
+          />
+        </div>
+        <div class="feat-illustration--mobile">
+          <img
+            src="<%= require('./src/assets/img/feat-illustration-mobile-it.png') %>"
+            alt="Screenshot of the main Immuni App dashboard"
+          />
+        </div>
+
         <h5 class="tagline smaller white" data-i18n="home.benefits.tag">
           Benefici
         </h5>

@@ -1,5 +1,6 @@
 import { handleFaq } from "./faq-helper";
 import { updateCookiesLang } from "./cookies-helper";
+import { handleHomeImage } from "./translation-helper";
 
 export function selectSupport(translator) {
   /**
@@ -273,6 +274,7 @@ export function selectSupport(translator) {
     this.options.onChange(this.el.value);
     translator.load(this.el.value);
     updateCookiesLang();
+    handleHomeImage();
     if (window.location.href.indexOf("faq") != -1) {
       handleFaq();
     }

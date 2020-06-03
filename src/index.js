@@ -6,7 +6,7 @@ import { handleFaq } from "./scripts/faq-helper";
 import { animateTitle } from "./scripts/text-animation";
 import { cssVarSupport } from "./scripts/browser-helper";
 import { selectSupport } from "./scripts/drop-down-helper";
-import Translator from "./scripts/translation-helper";
+import Translator, { handleHomeImage } from "./scripts/translation-helper";
 import smoothscroll from "smoothscroll-polyfill";
 import cssVars from "css-vars-ponyfill";
 
@@ -61,6 +61,7 @@ anchorScroll();
 intro.forEach((el) => {
   animateTitle(el);
 });
+handleHomeImage();
 if (window.location.href.indexOf("faq") != -1) {
   handleFaq();
 }

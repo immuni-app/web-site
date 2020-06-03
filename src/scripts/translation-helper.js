@@ -4,6 +4,21 @@ import lang_de from "../res/i18n/de.json";
 import lang_es from "../res/i18n/es.json";
 import lang_fr from "../res/i18n/fr.json";
 
+import * as feat_it from "../assets/img/feat-illustration-it.png";
+import * as feat_it_mobile from "../assets/img/feat-illustration-mobile-it.png";
+import * as feat_en from "../assets/img/feat-illustration-en.png";
+import * as feat_en_mobile from "../assets/img/feat-illustration-mobile-en.png";
+
+const image = {
+  it: feat_it,
+  en: feat_en,
+};
+
+const imageMobile = {
+  it: feat_it_mobile,
+  en: feat_en_mobile,
+};
+
 class Translator {
   constructor(options = {}) {
     this._options = Object.assign({}, this.defaultConfig, options);
@@ -85,3 +100,15 @@ class Translator {
 }
 
 export default Translator;
+
+export function handleHomeImage() {
+  const lang = localStorage.getItem("language");
+  const featImg = document.querySelector(".feat-illustration");
+  const featImgMobile = document.querySelector(".feat-illustration--mobile");
+  const imgUrl = image[lang].default;
+  const imgUrlMobile = imageMobile[lang].default;
+  if (featImg || featImgMobile) {
+    featImg.innerHTML = `<img src="${imgUrl}" alt="Screenshot of the main Immuni App dashboard"/>`;
+    featImgMobile.innerHTML = `<img src="${imgUrlMobile}" alt="Screenshot of the main Immuni App dashboard"/>`;
+  }
+}
