@@ -99,6 +99,15 @@
   @media screen and (min-width: 1215px) {
     max-width: 1120px !important;
   }
+  &--smaller {
+    @media screen and (min-width: 1024px) {
+      padding: 0;
+      max-width: 540px !important;
+    }
+    @media screen and (min-width: 1215px) {
+      max-width: 640px !important;
+    }
+  }
   &--align-left {
     max-width: 830px !important;
 

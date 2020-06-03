@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    max-width: 180px;
+    max-width: fit-content;
     color: var(--white);
     background-color: var(--primary);
     transition: transform 300ms cubic-bezier(0.34, 1.56, 0.64, 1);

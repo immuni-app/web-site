@@ -110,6 +110,11 @@ module.exports = {
       inject: "body",
     }),
     new HtmlWebpackPlugin({
+      filename: "device-support.html",
+      template: "src/pages/device-support.html",
+      inject: "body",
+    }),
+    new HtmlWebpackPlugin({
       filename: "tou.html",
       template: "src/pages/tou.html",
       inject: "body",
