@@ -93,7 +93,7 @@
     "notSupported": "My device is not supported"
   },
   "deviceSupport": {
-    "title": "A heartfelt ‘thank you’ for wanting to use Immuni",
+    "title": "A heartfelt \"thank you\" for wanting to use Immuni",
     "content": "<p class='has-small-margin-bottom'>However, without a compatible smartphone, unfortunately it’s not possible to download and use the app.</p><p class='has-small-margin-bottom'>Immuni uses the exposure notification technology made available by Apple and Google. This technology determines the system requirements for downloading and using Immuni, and it is not compatible with earlier versions of iOS, Android, and Google Play Services.</p><p class='has-small-margin-bottom'>We know that there are many people out there who are eager to download and use the app, but whose device is not supported. Unfortunately, at the moment we can’t overcome these limitations.</p><p class='has-small-margin-bottom'>We’re aware of how important it is that the highest possible number of people can use Immuni. If there’s any news on this topic, rest assured that we’ll share it promptly.</p>",
     "button": "Back to the Download section"
   }
