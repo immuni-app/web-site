@@ -94,7 +94,7 @@
   },
   "deviceSupport": {
     "title": "Grazie di cuore per voler usare Immuni",
-    "content": "<p class='has-small-margin-bottom'>Tuttavia, senza uno smartphone compatibile, purtroppo non puoi scaricare e usare l’app.</p><p class='has-small-margin-bottom'>Immuni usa la tecnologia per le notifiche di esposizione messa a disposizione da Apple e Google. Questa tecnologia determina i requisiti di sistema per scaricare e usare Immuni, e non è compatibile con versioni precedenti di iOS, Android e Google Play Services.</p><p class='has-small-margin-bottom'>Sappiamo che ci sono tante persone che desiderano scaricare e usare l’app, ma il cui dispositivo non è supportato. Sfortunatamente, al momento non possiamo superare queste limitazioni.</p><p class='has-small-margin-bottom'>Siamo consci dell’importanza di consentire al maggior numero di persone possibile di usare Immuni. Comunicheremo prontamente eventuali novità in questo senso.</p>",
-    "button": "Torna alla sezione Download"
+    "content": "<p class='has-small-margin-bottom'>Senza uno smartphone compatibile, purtroppo non puoi scaricare e usare l’app.</p><p class='has-small-margin-bottom'>Immuni usa la tecnologia per le notifiche di esposizione messa a disposizione da Apple e Google. Questa tecnologia determina i requisiti di sistema per scaricare e usare Immuni, e non è compatibile con versioni precedenti di iOS, Android e Google Play Services.</p><p class='has-small-margin-bottom'>Sappiamo che ci sono tante persone che desiderano scaricare e usare l’app, ma il cui dispositivo non è supportato. Sfortunatamente, al momento non possiamo superare queste limitazioni.</p><p class='has-small-margin-bottom'>Siamo consci dell’importanza di consentire al maggior numero di persone possibile di usare Immuni. Comunicheremo prontamente eventuali novità in questo senso.</p>",
+    "button": "Indietro"
   }
 }
