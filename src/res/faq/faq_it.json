@@ -119,6 +119,10 @@
     {
       "title": "Immuni funziona in tutti i Paesi?",
       "content": "<p>Puoi scaricare Immuni da tutto il mondo. Tuttavia, puoi utilizzarla solo dall&#39;Italia:</p><ul><li><p>Su dispositivi iOS, le notifiche di esposizione vengono disattivate se sei all&#39;estero.</p></li><li><p>L&#39;app si può connettere al server (per esempio, per scaricare le chiavi degli utenti risultati positivi al virus) soltanto se sei all&#39;interno dell&#39;Unione Europea. Al momento, le connessioni al server provenienti da altri territori non sono supportate per motivi di sicurezza.</p></li><li><p>Nel caso tu dovessi risultare positivo al virus, dovrai trovarti in Italia per poter caricare le tue chiavi sul server.</p></li></ul><p>Attualmente, l&#39;app rileva solo i contatti con altri utenti di Immuni. Non rileva contatti con gli utenti delle app per le notifiche di esposizione di altri Paesi.</p>"
+    },
+    {
+      "title": "Ho uno smartphone Huawei o Honor e non vedo Immuni su Google Play. Cosa devo fare per scaricare l’app?",
+      "content": "<p>Molte delle persone che hanno scaricato Immuni su uno smartphone Huawei o Honor hanno riscontrato difetti di funzionamento. I difetti non sono dovuti all’app ma all’interazione tra il sistema di notifiche di esposizione messo a disposizione da Google e il dispositivo. Google è al corrente della problematica e sta lavorando per trovare al più presto una soluzione. In attesa che il problema sia stato risolto abbiamo disabilitato lo scaricamento di Immuni da Google Play per smartphone Huawei e Honor.</p>"
     }
   ]
 }
