@@ -71,7 +71,8 @@
       color: var(--porpoise);
     }
     p,
-    ul {
+    ul,
+    ol {
       padding-bottom: 16px;
       font-size: 16px;
       line-height: 20px;
@@ -79,8 +80,9 @@
       text-align: left;
       color: var(--porpoise);
     }
-    ul {
-      list-style: disc;
+    ul,
+    ol {
+      list-style: initial;
       padding-left: 24px;
       li {
         margin-bottom: 8px;
@@ -88,6 +90,9 @@
           padding-bottom: 0;
         }
       }
+    }
+    ol {
+      list-style: decimal;
     }
     > *:first-child {
       padding-top: 24px;
