@@ -11,6 +11,24 @@ const message = {
     policy: "Privacy notice",
     button: "I agree",
   },
+  de: {
+    message:
+      "Diese Website verwendet technische und analytische Cookies. Indem Sie auf „Ich akzeptiere“ klicken, stimmen Sie der Verwendung von Cookies gemäß der Datenschutzerklärung zu.",
+    policy: "Datenschutzerklärung",
+    button: "Ich akzeptiere",
+  },
+  fr: {
+    message:
+      "Ce site utilise des cookies techniques et analytiques. En cliquant sur « J’accepte », vous acceptez l’utilisation des cookies décrits dans la politique de confidentialité.",
+    policy: "Politique de confidentialité",
+    button: "J’accepte",
+  },
+  es: {
+    message:
+      "Este sitio web utiliza cookies técnicas y analíticas. Al hacer clic en «Aceptar», permites el uso de las cookies que se describen en la política de privacidad.",
+    policy: "Política de privacidad",
+    button: "Aceptar",
+  },
 };
 
 const okWithCookies = () => {
