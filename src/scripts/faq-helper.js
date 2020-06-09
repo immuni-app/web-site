@@ -17,7 +17,8 @@ export function handleFaq() {
     .then((response) => response.json())
     .then((data) => {
       faq = data;
-      console.log(faq);
+      renderFaq(faq);
+      handleAccordion();
     })
     .catch((err) => {
       console.log(err);
@@ -56,8 +57,6 @@ export function handleFaq() {
       delayTime += 0.04;
     });
   };
-  renderFaq(faq);
-  handleAccordion();
 
   const filterList = () => {
     let keyword = search.value.toLowerCase();
