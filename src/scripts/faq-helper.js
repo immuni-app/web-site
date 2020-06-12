@@ -1,6 +1,18 @@
 import gsap, { Expo } from "gsap";
 import { withinViewport } from "./reveal-helper";
 import * as imgUrl from "../assets/img/search-illustration.png";
+import faqIt from "../res/faq/faq-it.json";
+import faqEn from "../res/faq/faq-en.json";
+import faqDe from "../res/faq/faq-de.json";
+import faqFr from "../res/faq/faq-fr.json";
+import faqEs from "../res/faq/faq-es.json";
+const resources = {
+  it: faqIt,
+  en: faqEn,
+  de: faqDe,
+  fr: faqFr,
+  es: faqEs,
+};
 
 const empty = {
   it: "Nessun risultato trovato",
@@ -12,18 +24,7 @@ const empty = {
 
 export function handleFaq() {
   const lang = localStorage.getItem("language");
-  let faq = {};
-  fetch(`https://get.immuni.gov.it/docs/faq-${lang}.json`)
-    .then((response) => response.json())
-    .then((data) => {
-      faq = data;
-      renderFaq(faq);
-      handleAccordion();
-    })
-    .catch((err) => {
-      console.log(err);
-    });
-
+  const faq = resources[lang];
   const list = document.querySelector(".accordion-wrapper");
   const search = document.querySelector(".search__input");
   const clearBtn = document.querySelector(".search__clear");
@@ -57,8 +58,10 @@ export function handleFaq() {
       delayTime += 0.04;
     });
   };
+  renderFaq(faq);
+  handleAccordion();
 
-  const filterList = () => {
+  const filterList = (event) => {
     let keyword = search.value.toLowerCase();
     clearBtn.style.visibility = keyword.length ? "visible" : "hidden";
     const filterQuestions = (list) => {
