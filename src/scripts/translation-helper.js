@@ -12,11 +12,17 @@ import * as feat_en_mobile from "../assets/img/feat-illustration-mobile-en.png";
 const image = {
   it: feat_it,
   en: feat_en,
+  de: feat_en,
+  fr: feat_en,
+  es: feat_en,
 };
 
 const imageMobile = {
   it: feat_it_mobile,
   en: feat_en_mobile,
+  de: feat_en_mobile,
+  fr: feat_en_mobile,
+  es: feat_en_mobile,
 };
 
 class Translator {

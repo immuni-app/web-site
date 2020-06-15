@@ -1,1 +1,100 @@
-{}
+{
+  "navigation": {
+    "home": "Accueil",
+    "documentation": "Documentation",
+    "press": "Graphisme",
+    "faq": "Questions",
+    "faqMobile": "Questions",
+    "download": "Télécharger l’application",
+    "downloadMobile": "Télécharger"
+  },
+  "footer": {
+    "sitemap": {
+      "title": "Sections",
+      "list": {
+        "home": "Accueil",
+        "documentation": "Documentation",
+        "press": "Graphisme",
+        "faq": "Questions",
+        "download": "Télécharger l’application"
+      }
+    },
+    "info": {
+      "title": "Informations",
+      "list": {
+        "privacy": "Politique de confidentialité",
+        "tos": "Conditions d’utilisation"
+      }
+    },
+    "phone": "Aide",
+    "phoneInfo": "(7-22, numéro gratuit)"
+  },
+  "home": {
+    "hero": {
+      "title": "Ensemble, contribuons à un retour à la normale",
+      "content": "Retrouver une vie normale est à notre portée. Afin d’y parvenir plus rapidement, Immuni a été créée, dans le respect total de la confidentialité de vos données."
+    },
+    "cta": {
+      "span": "Aidez-vous <span class='underlined'>vous-même</span>, votre <span class='underlined'>famille</span> et votre <span class='underlined'>pays</span>.",
+      "button": "Télécharger l’application",
+      "cta": "Available now"
+    },
+    "feats": {
+      "tag": "De quoi s’agit-il ?",
+      "title": "Un outil supplémentaire contre l’épidémie",
+      "content": "Immuni est une application créée spécialement pour nous aider à lutter contre l’épidémie de COVID-19. L’application est dotée d’une technologie capable d’avertir les utilisateurs qui ont été exposés à un risque, même s’ils sont asymptomatiques."
+    },
+    "benefits": {
+      "tag": "Avantages",
+      "title": "Protégeons-nous et protégeons nos proches",
+      "isolation": "Une fois avertis d’une éventuelle infection par l’application, les utilisateurs peuvent s’isoler pour éviter d’infecter les autres. Ils contribuent ainsi à contenir l’épidémie pour un retour rapide à la normale.",
+      "oldPeople": "Grâce aux notifications en temps réel, les utilisateurs peuvent également contacter leur médecin généraliste rapidement et ainsi réduire les risques de complications."
+    },
+    "tech": {
+      "tag": "Politique de confidentialité",
+      "title": "L’innovation au service de la communauté",
+      "content": "L’application envoie une notification à la personne ayant été en contact étroit avec un utilisateur testé positif au COVID-19 afin de l’avertir du risque potentiel de contracter le virus. La technologie Bluetooth Low Energy permet de réaliser cette prouesse sans collecter de données ni sur l’identité ni sur la localisation de l’utilisateur."
+    },
+    "privacy": {
+      "tag": "Privacy",
+      "title": "La confidentialité de vos données est protégée",
+      "content": "Pendant la conception et le développement d’Immuni, une grande attention a été portée à la protection des données confidentielles. Les données, collectées et gérées par le Ministère de la Santé italien et par des organismes publics, sont enregistrées sur des serveurs basés en Italie. Les données et les connexions de l’application avec le serveur sont protégées.",
+      "subtitle": "Immuni <span>ne</span> collectera jamais:",
+      "icons": {
+        "position": "Votre position ni vos déplacements",
+        "data": "Vos nom, prénom ou date de naissance",
+        "phone": "Votre numéro de téléphone",
+        "mail": "Ihre E-Mail-Adresse",
+        "identity": "L’identité des personnes que vous croisez"
+      }
+    },
+    "faq": {
+      "title": "Vous souhaitez en savoir plus?",
+      "button": "Consultez les questions fréquemment posées"
+    }
+  },
+  "press": {
+    "title": "Graphisme",
+    "content": "Ressources graphiques officielles à télécharger",
+    "button": "Télécharger"
+  },
+  "faq": {
+    "title": "Vous avez des questions?",
+    "search": "<input class='search__input' type='text' placeholder='Rechercher un thème...' />"
+  },
+  "download": {
+    "title": "Télécharger Immuni",
+    "content": "En fonction du smartphone que vous utilisez,  voici où vous pouvez télécharger Immuni. Tous les appareils ne sont pas compatibles.",
+    "subcontent": "You can download Immuni from anywhere in the world. However, you can use it only in Italy.",
+    "button": "Télécharger",
+    "appleOs": "iPhone avec iOS version 13.5 ou supérieure. Mettez à jour iOS en téléchargeant la dernière version disponible avant de télécharger Immuni. Les modèles d’iPhone qui prennent en charge iOS 13.5 sont les suivants : 11, 11 Pro, 11 Pro Max, Xr, Xs, Xs Max, X, SE (2e génération), 8, 8 Plus, 7, 7 Plus, 6s, 6s Plus , SE (1ère génération).",
+    "googleOs": "Smartphone avec Bluetooth Low Energy, Android version 6 (Marshmallow, API 23) ou supérieure et Google Play Services version 20.18.13 ou supérieure (les trois conditions sont nécessaires pour utiliser Immuni). Il est conseillé de mettre à jour Android et Google Play Services en téléchargeant la dernière version disponible avant de télécharger Immuni.",
+    "huaweiOs": "Wir arbeiten daran, Immuni so schnell wie möglich auch über die AppGallery zur Verfügung zu stellen. So kann die App auch von Nutzern mit bestimmten Huawei-Modellen heruntergeladen werden.",
+    "notSupported": "My device is not supported"
+  },
+  "deviceSupport": {
+    "title": "A heartfelt ‘thank you’ for wanting to use Immuni",
+    "content": "<p class='has-small-margin-bottom'>Without a compatible smartphone, unfortunately it’s not possible to download and use the app.</p><p class='has-small-margin-bottom'>Immuni uses the exposure notification technology made available by Apple and Google. This technology determines the system requirements for downloading and using Immuni, and it is not compatible with earlier versions of iOS, Android, and Google Play Services.</p><p class='has-small-margin-bottom'>We know that there are many people out there who are eager to download and use the app, but whose device is not supported. Unfortunately, at the moment we can’t overcome these limitations.</p><p class='has-small-margin-bottom'>We’re aware of how important it is that the highest possible number of people can use Immuni. If there’s any news on this topic, rest assured that we’ll share it promptly.</p>",
+    "button": "Back"
+  }
+}

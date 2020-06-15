@@ -1,1 +1,100 @@
-{}
+{
+  "navigation": {
+    "home": "Home",
+    "documentation": "Dokumentation",
+    "press": "Grafik",
+    "faq": "Fragen",
+    "faqMobile": "FAQ",
+    "download": "App herunterladen",
+    "downloadMobile": "Herunterladen"
+  },
+  "footer": {
+    "sitemap": {
+      "title": "Sektionen",
+      "list": {
+        "home": "Home",
+        "documentation": "Dokumentation",
+        "press": "Grafik",
+        "faq": "Fragen",
+        "download": "App herunterladen"
+      }
+    },
+    "info": {
+      "title": "Informationen",
+      "list": {
+        "privacy": "Datenschutzerklärung",
+        "tos": "Nutzungsbedingungen"
+      }
+    },
+    "phone": "Kundenservice",
+    "phoneInfo": "(7-22, gebührenfreie Nummer)"
+  },
+  "home": {
+    "hero": {
+      "title": "Starten wir gemeinsam neu durch",
+      "content": "Eine Rückkehr zum normalen Leben ist möglich. Mit Immuni gelingt uns das schneller, ohne auf unsere Privatsphäre verzichten zu müssen."
+    },
+    "cta": {
+      "span": "Helfen Sie <span class='underlined'>sich selbst</span>, Ihrer <span class='underlined'>Familie</span>, und Ihrem <span class='underlined'>Land</span>.",
+      "button": "App herunterladen",
+      "cta": "Available now"
+    },
+    "feats": {
+      "tag": "Was ist Immuni?",
+      "title": "Immuni ist ein weiteres Instrument im Kampf gegen die Pandemie",
+      "content": "Die App wurde entwickelt, um uns im Kampf gegen die COVID-19-Pandemie zu unterstützen. Dank modernster Technologie warnt die App Nutzer, die einem Ansteckungsrisiko ausgesetzt waren, auch wenn sie keine Symptome zeigen."
+    },
+    "benefits": {
+      "tag": "Die Vorteile",
+      "title": "Wir schützen uns und unsere Angehörigen",
+      "isolation": "Warnt die App einen Nutzer vor einer möglichen Infektion, kann er sich in Isolation begeben und so vermeiden, andere anzustecken. Auf diese Weise trägt man zur Eindämmung der Pandemie bei und unterstützt eine rasche Rückkehr zur Normalität.",
+      "oldPeople": "Da Nutzer sofort verständigt werden, können sie sich an ihren Hausarzt wenden und so das Komplikationsrisiko mindern."
+    },
+    "tech": {
+      "tag": "Die Technologie",
+      "title": "Innovation im Sinne der Gemeinschaft",
+      "content": "Wer engen Kontakt zu einem Nutzer hatte, der positiv auf COVID-19 getestet wurde, erhält von der App eine Warnung hinsichtlich eines potentiellen Infektionsrisikos. Dafür wird die Bluetooth Low Energy-Technologie eingesetzt, die weder Daten über die Identität noch über den Standort der Nutzer sammelt."
+    },
+    "privacy": {
+      "tag": "Die Datenschutzbestimmungen",
+      "title": "Ihre Privatsphäre ist sicher",
+      "content": "Bei der Entwicklung von Immuni wurde besonders auf den Schutz Ihrer Privatsphäre geachtet. Die Daten werden vom Gesundheitsministerium und öffentlichen Einrichtungen gesammelt und auf Servern in Italien gespeichert. Die Daten und Verbindungen der App zum Server sind geschützt.",
+      "subtitle": "Immuni <span>sammelt keine</span> der folgenden Informationen::",
+      "icons": {
+        "position": "Ihren Aufenthaltsort oder Ihre Bewegungen",
+        "data": "Ihren Namen, Nachnamen oder Ihr Geburtsdatum",
+        "phone": "Ihre Telefonnummer",
+        "mail": "Ihre E-Mail-Adresse",
+        "identity": "die Identität der Menschen, die Sie treffen"
+      }
+    },
+    "faq": {
+      "title": "Möchten Sie mehr erfahren?",
+      "button": "Häufig gestellte Fragen lesen"
+    }
+  },
+  "press": {
+    "title": "Grafik",
+    "content": "Offizielle Grafikressourcen, die heruntergeladen werden können",
+    "button": "Herunterladen"
+  },
+  "faq": {
+    "title": "Haben Sie Fragen?",
+    "search": "<input class='search__input' type='text' placeholder='Thema suchen...' />"
+  },
+  "download": {
+    "title": "Immuni herunterladen",
+    "content": "Sie können Immuni über folgende Kanäle und je nach Art des verwendeten Smartphones herunterladen. Nicht alle Geräte werden unterstützt.",
+    "subcontent": "You can download Immuni from anywhere in the world. However, you can use it only in Italy.",
+    "button": "Herunterladen",
+    "appleOs": "iPhone mit iOS-Version 13.5 oder höher. Aktualisieren Sie Ihr iOS-Betriebssystem auf die neueste verfügbare Version, bevor Sie Immuni herunterladen. Folgende iPhone-Modelle unterstützen iOS 13.5: 11, 11 Pro, 11 Pro Max, Xr, Xs, Xs Max, X, SE (2. Generation), 8, 8 Plus, 7, 7 Plus, 6s, 6s Plus, SE (1. Generation).",
+    "googleOs": "Smartphones mit Bluetooth Low Energy, Android-Version 6 (Marshmallow, API 23) oder höher und Google-Play-Services Version 20.18.13 oder höher (alle drei Anforderungen sind für die Verwendung von Immuni erforderlich). Aktualisieren Sie Ihr Android-Betriebssystem und die Google-Play-Services auf die neuesten verfügbaren Versionen, bevor Sie Immuni herunterladen.",
+    "huaweiOs": "Wir arbeiten daran, Immuni so schnell wie möglich auch über die AppGallery zur Verfügung zu stellen. So kann die App auch von Nutzern mit bestimmten Huawei-Modellen heruntergeladen werden.",
+    "notSupported": "My device is not supported"
+  },
+  "deviceSupport": {
+    "title": "A heartfelt ‘thank you’ for wanting to use Immuni",
+    "content": "<p class='has-small-margin-bottom'>Without a compatible smartphone, unfortunately it’s not possible to download and use the app.</p><p class='has-small-margin-bottom'>Immuni uses the exposure notification technology made available by Apple and Google. This technology determines the system requirements for downloading and using Immuni, and it is not compatible with earlier versions of iOS, Android, and Google Play Services.</p><p class='has-small-margin-bottom'>We know that there are many people out there who are eager to download and use the app, but whose device is not supported. Unfortunately, at the moment we can’t overcome these limitations.</p><p class='has-small-margin-bottom'>We’re aware of how important it is that the highest possible number of people can use Immuni. If there’s any news on this topic, rest assured that we’ll share it promptly.</p>",
+    "button": "Back"
+  }
+}

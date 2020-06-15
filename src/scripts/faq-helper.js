@@ -1,28 +1,25 @@
 import gsap, { Expo } from "gsap";
 import { withinViewport } from "./reveal-helper";
 import * as imgUrl from "../assets/img/search-illustration.png";
-import faqIt from "../res/faq/faq_it.json";
-import faqEn from "../res/faq/faq_en.json";
-import faqDe from "../res/faq/faq_en.json";
-import faqEs from "../res/faq/faq_en.json";
-import faqFr from "../res/faq/faq_en.json";
-import faqPt from "../res/faq/faq_en.json";
+import faqIt from "../res/faq/faq-it.json";
+import faqEn from "../res/faq/faq-en.json";
+import faqDe from "../res/faq/faq-de.json";
+import faqFr from "../res/faq/faq-fr.json";
+import faqEs from "../res/faq/faq-es.json";
 const resources = {
   it: faqIt,
   en: faqEn,
-  de: faqEn,
-  es: faqEn,
-  fr: faqEn,
-  pt: faqEn,
+  de: faqDe,
+  fr: faqFr,
+  es: faqEs,
 };
 
 const empty = {
   it: "Nessun risultato trovato",
   en: "No matches found",
-  de: "de",
-  es: "es",
-  fr: "fr",
-  pt: "pt",
+  de: "Kein Ergebnis gefunden",
+  fr: "Aucun résultat trouvé",
+  es: "No se han encontrado resultados",
 };
 
 export function handleFaq() {
@@ -39,13 +36,13 @@ export function handleFaq() {
         // Commented until we have the categories back
         // li += `<h5 class="tagline tagline__faq"><div class="text-wrapper revealer">${el}</div></h5>`;
         elements[el].forEach((value) => {
-          li += `<div class="accordion"><button class="accordion__button">${value.title}</button><div class="accordion__panel">${value.content}</div></div>`;
+          li += `<div class="accordion"><button class="accordion__button">${value.title}</button><div class="accordion__panel"><p>${value.content}</p></div></div>`;
         });
       });
     } else {
       li = `<div class="no-results revealer"><p>${empty[lang]}</p><img src="${imgUrl.default}" alt="Illustration of two text bubbles saying nothing found" class="search-illustration"/></div>`;
     }
-    list.innerHTML = li;
+    list.innerHTML = li.split("\n").join("<br />");
 
     withinViewport();
     const animateList = [...document.querySelectorAll(".accordion")];

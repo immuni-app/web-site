@@ -76,9 +76,9 @@
     &::before {
       background-color: var(--white);
       box-shadow: 0px 10px 30px rgba(0, 37, 132, 0.06);
-      height: 200%;
+      height: 430%;
       width: 100%;
-      top: 0;
+      top: -10%;
       left: 0;
     }
     .cs-options li {
@@ -116,7 +116,7 @@
     overflow: hidden;
     visibility: hidden;
     padding: 16px;
-    top: 100%;
+    top: 200%;
     left: 50%;
     transform: translate3d(-50%, -50%, 0);
 
@@ -151,7 +151,7 @@
       top: 0;
     }
     .cs-options {
-      top: -50%;
+      top: -220%;
       li {
         color: var(--darkGray);
         transform: translate3d(30%, 0, 0) !important;
@@ -163,8 +163,8 @@
         transform: translate3d(-100%, 0, 0) !important;
       }
       &::before {
-        top: -200%;
-        height: 300%;
+        top: -540%;
+        height: 640%;
       }
       svg {
         opacity: 0;
