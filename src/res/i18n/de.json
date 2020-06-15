@@ -35,7 +35,7 @@
       "content": "Eine Rückkehr zum normalen Leben ist möglich. Mit Immuni gelingt uns das schneller, ohne auf unsere Privatsphäre verzichten zu müssen."
     },
     "cta": {
-      "span": "Helfen Sie <span class='underlined'>sich selbst</span>, Ihrer <span class='underlined'>Familie</span>, und Ihrem <span class='underlined'>Land</span>.",
+      "span": "Helfen Sie <span class='underlined'>sich selbst</span>, Ihrer <span class='underlined'>Familie</span> und Ihrem <span class='underlined'>Land</span>.",
       "button": "App herunterladen",
       "cta": "Available now"
     },
@@ -59,13 +59,13 @@
       "tag": "Die Datenschutzbestimmungen",
       "title": "Ihre Privatsphäre ist sicher",
       "content": "Bei der Entwicklung von Immuni wurde besonders auf den Schutz Ihrer Privatsphäre geachtet. Die Daten werden vom Gesundheitsministerium und öffentlichen Einrichtungen gesammelt und auf Servern in Italien gespeichert. Die Daten und Verbindungen der App zum Server sind geschützt.",
-      "subtitle": "Immuni <span>sammelt keine</span> der folgenden Informationen::",
+      "subtitle": "Immuni <span>sammelt keine</span> der folgenden Informationen:",
       "icons": {
         "position": "Ihren Aufenthaltsort oder Ihre Bewegungen",
         "data": "Ihren Namen, Nachnamen oder Ihr Geburtsdatum",
         "phone": "Ihre Telefonnummer",
         "mail": "Ihre E-Mail-Adresse",
-        "identity": "die Identität der Menschen, die Sie treffen"
+        "identity": "Die Identität der Menschen, die Sie treffen"
       }
     },
     "faq": {
@@ -80,7 +80,7 @@
   },
   "faq": {
     "title": "Haben Sie Fragen?",
-    "search": "<input class='search__input' type='text' placeholder='Thema suchen...' />"
+    "search": "<input class='search__input' type='text' placeholder='Thema suchen ...' />"
   },
   "download": {
     "title": "Immuni herunterladen",

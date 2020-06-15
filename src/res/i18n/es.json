@@ -35,7 +35,7 @@
       "content": "Volver a la normalidad es posible. Con Immuni, podremos lograrlo antes y sin renunciar a nuestra privacidad."
     },
     "cta": {
-      "span": "Hazlo por <span class='underlined'>ti</span>, por tu <span class='underlined'>familia</span>, y por tu <span class='underlined'>país</span>.",
+      "span": "Hazlo por <span class='underlined'>ti</span>, por tu <span class='underlined'>familia</span> y por tu <span class='underlined'>país</span>.",
       "button": "Descárgate la aplicación",
       "cta": "Available now"
     },
@@ -89,7 +89,7 @@
     "button": "Descargar",
     "appleOs": "iPhone con versión de iOS 13.5 o superior. Actualiza iOS a la última versión disponible antes de descargar Immuni. Los modelos de iPhone que admiten iOS 13.5 son los siguientes: 11, 11 Pro, 11 Pro Max, Xr, Xs, Xs Max, X, SE (2a generación), 8, 8 Plus, 7, 7 Plus, 6s, 6s Plus, SE (1a generación).",
     "googleOs": "Smartphone con Bluetooth Low Energy, versión de Android 6 (Marshmallow, API 23) o superior y versión de Google Play Services 20.18.13 o superior (los tres requisitos son necesarios para usar Immuni). Actualiza Android y Google Play Services a la última versión disponible antes de descargar Immuni.",
-    "huaweiOs": "Estamos trabajando para que Immuni también se pueda descargar desde AppGallery lo antes posible. Así, los usuarios de algunos modelos de teléfono Huawei podrán utilizar la aplicación.",
+    "huaweiOs": "Estamos trabajando para que Immuni también se pueda descargar desde AppGallery lo antes posible. De esta manera, los usuarios de otros modelos de smartphones de Huawei también podrán usar Immuni.",
     "notSupported": "Mi dispositivo no es compatible"
   },
   "deviceSupport": {
