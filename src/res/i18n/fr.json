@@ -51,12 +51,12 @@
       "oldPeople": "Grâce aux notifications en temps réel, les utilisateurs peuvent également contacter leur médecin généraliste rapidement et ainsi réduire les risques de complications."
     },
     "tech": {
-      "tag": "Politique de confidentialité",
+      "tag": "Technologie",
       "title": "L’innovation au service de la communauté",
       "content": "L’application envoie une notification à la personne ayant été en contact étroit avec un utilisateur testé positif au COVID-19 afin de l’avertir du risque potentiel de contracter le virus. La technologie Bluetooth Low Energy permet de réaliser cette prouesse sans collecter de données ni sur l’identité ni sur la localisation de l’utilisateur."
     },
     "privacy": {
-      "tag": "Privacy",
+      "tag": "Politique de confidentialité",
       "title": "La confidentialité de vos données est protégée",
       "content": "Pendant la conception et le développement d’Immuni, une grande attention a été portée à la protection des données confidentielles. Les données, collectées et gérées par le Ministère de la Santé italien et par des organismes publics, sont enregistrées sur des serveurs basés en Italie. Les données et les connexions de l’application avec le serveur sont protégées.",
       "subtitle": "Immuni <span>ne</span> collectera jamais:",
@@ -64,12 +64,12 @@
         "position": "Votre position ni vos déplacements",
         "data": "Vos nom, prénom ou date de naissance",
         "phone": "Votre numéro de téléphone",
-        "mail": "Ihre E-Mail-Adresse",
+        "mail": "Votre adresse e-mail",
         "identity": "L’identité des personnes que vous croisez"
       }
     },
     "faq": {
-      "title": "Vous souhaitez en savoir plus?",
+      "title": "Vous souhaitez en savoir plus ?",
       "button": "Consultez les questions fréquemment posées"
     }
   },
@@ -87,9 +87,9 @@
     "content": "En fonction du smartphone que vous utilisez,  voici où vous pouvez télécharger Immuni. Tous les appareils ne sont pas compatibles.",
     "subcontent": "Immuni est téléchargeable dans le monde entier. Cependant, il n’est possible de l’utiliser qu’en Italie.",
     "button": "Télécharger",
-    "appleOs": "iPhone avec iOS version 13.5 ou supérieure. Mettez à jour iOS en téléchargeant la dernière version disponible avant de télécharger Immuni. Les modèles d’iPhone qui prennent en charge iOS 13.5 sont les suivants : 11, 11 Pro, 11 Pro Max, Xr, Xs, Xs Max, X, SE (2e génération), 8, 8 Plus, 7, 7 Plus, 6s, 6s Plus , SE (1ère génération).",
+    "appleOs": "iPhone avec iOS version 13.5 ou supérieure. Mettez à jour iOS en téléchargeant la dernière version disponible avant de télécharger Immuni. Les modèles d’iPhone qui prennent en charge iOS 13.5 sont les suivants : 11, 11 Pro, 11 Pro Max, Xr, Xs, Xs Max, X, SE (2e génération), 8, 8 Plus, 7, 7 Plus, 6s, 6s Plus, SE (1ère génération).",
     "googleOs": "Smartphone avec Bluetooth Low Energy, Android version 6 (Marshmallow, API 23) ou supérieure et Google Play Services version 20.18.13 ou supérieure (les trois conditions sont nécessaires pour utiliser Immuni). Il est conseillé de mettre à jour Android et Google Play Services en téléchargeant la dernière version disponible avant de télécharger Immuni.",
-    "huaweiOs": "Wir arbeiten daran, Immuni so schnell wie möglich auch über die AppGallery zur Verfügung zu stellen. So kann die App auch von Nutzern mit bestimmten Huawei-Modellen heruntergeladen werden.",
+    "huaweiOs": "Nous nous efforçons de rendre Immuni accessible à partir de l’AppGallery le plus rapidement possible. Cela permettra aux utilisateurs détenteurs de certains modèles de smartphones Huawei d’utiliser Immuni aussi.",
     "notSupported": "Que faire si mon appareil n’est pas pris en charge"
   },
   "deviceSupport": {
