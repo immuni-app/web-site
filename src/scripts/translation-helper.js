@@ -8,21 +8,27 @@ import * as feat_it from "../assets/img/feat-illustration-it.png";
 import * as feat_it_mobile from "../assets/img/feat-illustration-mobile-it.png";
 import * as feat_en from "../assets/img/feat-illustration-en.png";
 import * as feat_en_mobile from "../assets/img/feat-illustration-mobile-en.png";
+import * as feat_de from "../assets/img/feat-illustration-de.png";
+import * as feat_de_mobile from "../assets/img/feat-illustration-mobile-de.png";
+import * as feat_fr from "../assets/img/feat-illustration-fr.png";
+import * as feat_fr_mobile from "../assets/img/feat-illustration-mobile-fr.png";
+import * as feat_es from "../assets/img/feat-illustration-es.png";
+import * as feat_es_mobile from "../assets/img/feat-illustration-mobile-es.png";
 
 const image = {
   it: feat_it,
   en: feat_en,
-  de: feat_en,
-  fr: feat_en,
-  es: feat_en,
+  de: feat_de,
+  fr: feat_fr,
+  es: feat_es,
 };
 
 const imageMobile = {
   it: feat_it_mobile,
   en: feat_en_mobile,
-  de: feat_en_mobile,
-  fr: feat_en_mobile,
-  es: feat_en_mobile,
+  de: feat_de_mobile,
+  fr: feat_fr_mobile,
+  es: feat_es_mobile,
 };
 
 class Translator {
