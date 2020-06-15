@@ -85,16 +85,16 @@
   "download": {
     "title": "Descárgate Immuni",
     "content": "Puedes descargar Immuni desde aquí, siempre que tu smartphone sea compatible. Ten en cuenta que la aplicación no es compatible con todos los dispositivos.",
-    "subcontent": "You can download Immuni from anywhere in the world. However, you can use it only in Italy.",
+    "subcontent": "Puedes descargar Immuni desde cualquier parte del mundo. Sin embargo, solo puedes usarla en Italia.",
     "button": "Descargar",
     "appleOs": "iPhone con versión de iOS 13.5 o superior. Actualiza iOS a la última versión disponible antes de descargar Immuni. Los modelos de iPhone que admiten iOS 13.5 son los siguientes: 11, 11 Pro, 11 Pro Max, Xr, Xs, Xs Max, X, SE (2a generación), 8, 8 Plus, 7, 7 Plus, 6s, 6s Plus, SE (1a generación).",
     "googleOs": "Smartphone con Bluetooth Low Energy, versión de Android 6 (Marshmallow, API 23) o superior y versión de Google Play Services 20.18.13 o superior (los tres requisitos son necesarios para usar Immuni). Actualiza Android y Google Play Services a la última versión disponible antes de descargar Immuni.",
     "huaweiOs": "Estamos trabajando para que Immuni también se pueda descargar desde AppGallery lo antes posible. Así, los usuarios de algunos modelos de teléfono Huawei podrán utilizar la aplicación.",
-    "notSupported": "My device is not supported"
+    "notSupported": "Mi dispositivo no es compatible"
   },
   "deviceSupport": {
-    "title": "A heartfelt ‘thank you’ for wanting to use Immuni",
-    "content": "<p class='has-small-margin-bottom'>Without a compatible smartphone, unfortunately, it’s not possible to download and use the app.</p><p class='has-small-margin-bottom'>Immuni uses the exposure notification technology made available by Apple and Google. This technology determines the system requirements for downloading and using Immuni, and it is not compatible with earlier versions of iOS, Android, and Google Play Services.</p><p class='has-small-margin-bottom'>We know that there are many people out there who are eager to download and use the app, but whose device is not supported. Unfortunately, at the moment we can’t overcome these limitations.</p><p class='has-small-margin-bottom'>We’re aware of how important it is that the highest possible number of people can use Immuni. If there’s any news on this topic, rest assured that we’ll share it promptly.</p>",
-    "button": "Back"
+    "title": "Muchas gracias por tu interés en usar Immuni",
+    "content": "<p class='has-small-margin-bottom'>Sin un smartphone compatible, lamentablemente no es posible descargar ni utilizar la aplicación.</p><p class='has-small-margin-bottom'>Immuni emplea la tecnología de notificación de exposición proporcionada por Apple y Google. Esta tecnología establece los requisitos del sistema para descargar y utilizar Immuni, pero no es compatible con las versiones anteriores de iOS, Android y Google Play Services.</p><p class='has-small-margin-bottom'>Sabemos que muchas personas quieren descargar y utilizar la aplicación, pero su dispositivo no es compatible. Por desgracia, no podemos eliminar estas limitaciones en este momento pero somos conscientes de la importancia de permitir que el mayor número posible de personas utilicen Immuni.</p><p class='has-small-margin-bottom'>En breve comunicaremos cualquier novedad al respecto.</p>",
+    "button": "Volver"
   }
 }
