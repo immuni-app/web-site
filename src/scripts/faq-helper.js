@@ -61,7 +61,7 @@ export function handleFaq() {
   renderFaq(faq);
   handleAccordion();
 
-  const filterList = (event) => {
+  const filterList = (question) => {
     let keyword = search.value.toLowerCase();
     clearBtn.style.visibility = keyword.length ? "visible" : "hidden";
     const filterQuestions = (list) => {
@@ -70,7 +70,12 @@ export function handleFaq() {
         const filteredValue = list[category].filter((value) => {
           let title = value.title.toLowerCase();
           let content = value.content.toLowerCase();
-          return title.indexOf(keyword) > -1 || content.indexOf(keyword) > -1;
+          let id = value.id;
+          if (question) {
+            return question == id;
+          } else {
+            return title.indexOf(keyword) > -1 || content.indexOf(keyword) > -1;
+          }
         });
         if (filteredValue.length) {
           filteredList[category] = filteredValue;
@@ -89,6 +94,11 @@ export function handleFaq() {
     search.value = "";
     filterList();
   };
+
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  const id = urlParams.get("id");
+  filterList(id);
 }
 
 export function handleAccordion() {
