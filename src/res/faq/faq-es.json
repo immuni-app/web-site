@@ -151,11 +151,6 @@
       "content": "Puedes descargar Immuni desde cualquier parte del mundo. Sin embargo, solo se puede usar en Italia:\n • En dispositivos iOS, las notificaciones de exposición se desactivan si te encuentras en el extranjero.\n • La aplicación solo puede conectarse al servidor (por ejemplo, para descargar las claves de los usuarios que han dado positivo en el virus) si te encuentras en la Unión Europea. Por el momento, las conexiones al servidor desde otros territorios no son compatibles por razones de seguridad.\n • En caso de que des positivo en el virus, deberás estar en Italia para poder subir tus claves al servidor.\n \n Actualmente, la aplicación solo detecta el contacto con otros usuarios de Immuni, es decir, no funciona con las aplicaciones para las notificaciones de exposición de otros países."
     },
     {
-      "id": 32,
-      "title": "No vivo en una de las regiones que participan en el proyecto piloto. ¿Puedo usar la aplicación de todas formas?",
-      "content": "La aplicación se puede descargar desde cualquier región. Sin embargo, por el momento los usuarios que se hagan la prueba y den positivo en el virus solo pueden subir sus claves criptográficas al servidor de Immuni si se encuentran en las regiones que participan en el proyecto piloto (Abruzos, Liguria, Las Marcas y Apulia)."
-    },
-    {
       "id": 33,
       "title": "¿Qué es el código OTP y cómo funciona?",
       "content": "OTP significa «contraseña de un solo uso». También conocida como «contraseña desechable». Cuando un usuario da positivo en el virus, puede optar por subir al servidor de Immuni las claves criptográficas vinculadas a su dispositivo. Este proceso requiere que el usuario dicte el código OTP que se encuentra en la sección correspondiente de la aplicación al profesional sanitario que le ha comunicado el resultado de la prueba. El código será validado y el usuario podrá proceder a subir los datos. El código OTP se usa únicamente en caso de que el usuario dé positivo en el virus."

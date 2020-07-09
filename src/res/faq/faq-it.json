@@ -151,11 +151,6 @@
       "content": "Puoi scaricare Immuni da tutto il mondo. Tuttavia, puoi utilizzarla solo dall’Italia:\n• Su dispositivi iOS, le notifiche di esposizione vengono disattivate se sei all’estero.\n• L’app si può connettere al server (per esempio, per scaricare le chiavi degli utenti risultati positivi al virus) soltanto se sei all'interno dell'Unione Europea. Al momento, le connessioni al server provenienti da altri territori non sono supportate per motivi di sicurezza.\n• Nel caso tu dovessi risultare positivo al virus, dovrai trovarti in Italia per poter caricare le tue chiavi sul server.\n\nAttualmente, l’app rileva solo i contatti con altri utenti di Immuni. Non rileva contatti con gli utenti delle app per le notifiche di esposizione di altri Paesi."
     },
     {
-      "id": 32,
-      "title": "Non vivo in una delle regioni che partecipano al progetto pilota. Posso usare comunque l’app?",
-      "content": "L’app si può scaricare da qualsiasi regione. Tuttavia, per il momento è solo nelle regioni che partecipano al progetto pilota (Abruzzo, Liguria, Marche e Puglia) che gli utenti che risultano positivi al virus dopo un tampone possono caricare le loro chiavi crittografiche sul server di Immuni."
-    },
-    {
       "id": 33,
       "title": "Cosa è e come funziona il codice OTP?",
       "content": "OTP sta per \"password valida una sola volta\". Viene anche detto \"password usa e getta\". Quando un utente risulta positivo al virus, può decidere di caricare sul server di Immuni le chiavi crittografiche associate al suo dispositivo. Questo processo richiede che l’utente detti il codice OTP che si trova nell'apposita sezione dell'app all’operatore sanitario che gli ha comunicato l’esito del tampone. Il codice verrà validato e l’utente potrà quindi procedere al caricamento. Il codice OTP viene utilizzato soltanto in caso di positività al virus."

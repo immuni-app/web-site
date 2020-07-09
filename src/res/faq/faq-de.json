@@ -151,11 +151,6 @@
       "content": "Sie können Immuni auf der ganzen Welt herunterladen. Allerdings kann die App nur in Italien verwendet werden: \n• Auf iOS-Geräten werden Expositionsmeldungen deaktiviert, wenn Sie sich im Ausland befinden. \n• Die App kann nur dann eine Verbindung zum Server herstellen (z. B. um Entschlüsselungs-Codes der Nutzer herunterzuladen, die positiv auf das Virus getestet wurden), wenn Sie sich innerhalb der Europäischen Union befinden. Derzeit werden Verbindungen zum Server aus anderen Gebieten aus Sicherheitsgründen nicht unterstützt. \n• Wenn Sie positiv auf das Virus getestet werden, müssen Sie sich in Italien befinden, um Ihre Entschlüsselungs-Codes auf den Server hochladen zu können. \n\nDerzeit erkennt die App nur Kontakte mit anderen Immuni-Nutzern. Kontakte mit Nutzern von Apps zur Expositionsmeldung aus anderen Ländern werden nicht erkannt."
     },
     {
-      "id": 32,
-      "title": "Die Region, in der ich lebe, nimmt nicht am Projekt teil. Kann ich die App trotzdem nutzen?",
-      "content": "Die App kann in jeder Region heruntergeladen werden. Derzeit können aber nur die Nutzer aus den am Pilotprojekt beteiligten Regionen (Abruzzen, Ligurien, Marken und Apulien) ihre kryptografischen Schlüssel auf den Immuni-Server hochladen, wenn sie positiv auf das Virus getestet werden."
-    },
-    {
       "id": 33,
       "title": "Was ist der OTP-Code und wie funktioniert er?",
       "content": "OTP steht für „Einmalpasswort\". Es wird auch als „Einwegpasswort\" bezeichnet. Wenn ein Nutzer positiv auf das Virus getestet wird, kann er sich dazu entscheiden, die mit seinem Gerät verknüpften kryptografischen Schlüssel auf den Immuni-Server hochzuladen. Dazu muss der Nutzer dem medizinischen Fachpersonal, das ihm das Testergebnis mitgeteilt hat, den im entsprechenden Abschnitt der App enthaltenen OTP-Code zur Verfügung stellen. Der Code wird validiert und der Nutzer kann mit dem Hochladen fortfahren. Der OTP-Code wird nur dann verwendet, wenn der Nutzer positiv auf das Virus getestet wurde."
