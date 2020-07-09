@@ -207,6 +207,69 @@ export function selectSupport(translator) {
         self._toggleSelect();
       }
     });
+
+    // keyboard navigation events
+    this.selEl.addEventListener("keydown", function (ev) {
+      var keyCode = ev.keyCode || ev.which;
+
+      switch (keyCode) {
+        // up key
+        case 38:
+          ev.preventDefault();
+          self._navigateOpts("prev");
+          break;
+        // down key
+        case 40:
+          ev.preventDefault();
+          self._navigateOpts("next");
+          break;
+        // enter key
+        case 13:
+          ev.preventDefault();
+          if (
+            self._isOpen() &&
+            typeof self.preSelCurrent != "undefined" &&
+            self.preSelCurrent !== -1
+          ) {
+            self._changeOption();
+          }
+          self._toggleSelect();
+          break;
+        // esc key
+        case 27:
+          ev.preventDefault();
+          if (self._isOpen()) {
+            self._toggleSelect();
+          }
+          break;
+      }
+    });
+  };
+
+  /**
+   * navigate with up/dpwn keys
+   */
+  SelectFx.prototype._navigateOpts = function (dir) {
+    if (!this._isOpen()) {
+      this._toggleSelect();
+    }
+
+    var tmpcurrent =
+      typeof this.preSelCurrent != "undefined" && this.preSelCurrent !== -1
+        ? this.preSelCurrent
+        : this.current;
+
+    if (
+      (dir === "prev" && tmpcurrent > 0) ||
+      (dir === "next" && tmpcurrent < this.selOptsCount - 1)
+    ) {
+      // save pre selected current - if we click on option, or press enter, or press space this is going to be the index of the current option
+      this.preSelCurrent = dir === "next" ? tmpcurrent + 1 : tmpcurrent - 1;
+      // remove focus class if any..
+      this._removeFocus();
+      // add class focus - track which option we are navigating
+      this.selOpts[this.preSelCurrent].classList.add("cs-focus");
+    }
   };
 
   /**

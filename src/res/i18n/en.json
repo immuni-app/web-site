@@ -80,7 +80,7 @@
   },
   "faq": {
     "title": "Do you have any questions?",
-    "search": "<input class='search__input' type='text' placeholder='Search topic...' />"
+    "search": "<input class='search__input' type='text' aria-label='Search' placeholder='Search topic...' />"
   },
   "download": {
     "title": "Download Immuni",

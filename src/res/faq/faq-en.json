@@ -151,11 +151,6 @@
       "content": "You can download Immuni from anywhere in the world. However, you can use it only in Italy:\n• On iOS devices, exposure notifications are disabled if you’re abroad.\n• The app only connects to the server (for example, to download the keys of users who tested positive for the virus) if you’re within the European Union. Currently, connections to the server from other territories are not supported for security reasons.\n• Should you test positive for the virus, you’ll have to be in Italy to be able to upload your keys to the server.\n\nAs of today, the app detects only contact with other Immuni users. It doesn’t detect contact with users of exposure notification apps of other countries."
     },
     {
-      "id": 32,
-      "title": "I don't live in a region participating in the pilot project. Can I use the app anyway?",
-      "content": "The app can be downloaded in any region. However, for the time being, users who test positive for the virus after a swab test can upload their cryptographic keys to Immuni's server only in the regions participating in the pilot project (Abruzzo, Liguria, Marche, and Puglia)."
-    },
-    {
       "id": 33,
       "title": "What is the OTP code and how does it work?",
       "content": "OTP stands for 'one-time password'. It's also called 'use-and-dispose password'. When a user tests positive for the virus, they may decide to upload the cryptographic keys associated with their device to Immuni's server. This process involves dictating the OTP code they find in the dedicated section of the app to the healthcare operator who has informed them of the result of their swab test. The code is validated and the user can then proceed with the upload. The OTP code is only used in the case that the user tests positive for the virus."
@@ -187,7 +182,7 @@
     },
     {
       "id": 40,
-      "title": "Why am I asked to activate geolocalisation to use the app on an Android smartphone? Does it mean that the app has access to my location?",
+      "title": "When I use the app on an Android smartphone, why am I asked to activate geolocalisation? Does it mean that the app has access to my location?",
       "content": "No, Immuni has absolutely no access to any geolocation data. On Android smartphones, due to a limitation of the operating system, the geolocalisation service needs to be enabled to allow Google’s exposure notification system to detect Bluetooth Low Energy signals and record the random codes of the smartphones of the users around you. However, as you can see from the list of permissions requested by Immuni, the app isn’t authorised to access any geolocation data (including GPS data). Therefore, it does not and cannot know where you are."
     }
   ]

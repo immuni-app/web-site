@@ -80,7 +80,7 @@
   },
   "faq": {
     "title": "Hai qualche domanda?",
-    "search": "<input class='search__input' type='text' placeholder='Cerca argomento...' />"
+    "search": "<input class='search__input' type='text' aria-label='Cerca' placeholder='Cerca argomento...' />"
   },
   "download": {
     "title": "Scarica Immuni",

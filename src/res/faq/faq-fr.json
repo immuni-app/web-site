@@ -151,11 +151,6 @@
       "content": "Vous pouvez télécharger Immuni dans le monde entier. Cependant, l'application n'est utilisable qu'en Italie :\n • Sur les appareils iOS, les notifications de risque d'exposition seront désactivées si vous vous trouvez à l'étranger.\n • L'application ne peut se connecter au serveur (pour télécharger les clés des utilisateurs testés positifs au virus, par exemple) que lorsque vous vous trouvez dans l'Union européenne. Pour le moment, les connexions au serveur depuis d'autres territoires ne sont pas prises en charge pour des raisons de sécurité.\n • Si vous êtes testé positif au virus, vous devrez vous trouver en Italie pour pouvoir télécharger vos clés sur le serveur.\n \n L'application ne détecte pour le moment que les contacts avec d'autres utilisateurs d'Immuni. Elle n'est pas en mesure de détecter les contacts que vous pourriez avoir avec les utilisateurs d'applications de notification de risque du même type développées par d'autres pays."
     },
     {
-      "id": 32,
-      "title": "Je ne vis pas dans l'une des régions participant au projet pilote. Puis-je quand même utiliser l'application ?",
-      "content": "L'application peut être téléchargée depuis n'importe quelle région. Toutefois, pour le moment, les utilisateurs testés positifs au virus après un test PCR ne peuvent télécharger leurs clés de chiffrement sur le serveur d'Immuni que dans les régions participant au projet pilote (Abruzzes, Ligurie, Marches et Pouilles)."
-    },
-    {
       "id": 33,
       "title": "Qu'est-ce que le code OTP et comment fonctionne-t-il ?",
       "content": "OTP signifie « mot de passe à usage unique ». Il est également appelé « mot de passe jetable ». Lorsqu'un utilisateur est testé positif au virus, il peut décider de télécharger les clés de chiffrement associées à son appareil sur le serveur d'Immuni. Ce processus nécessite que l'utilisateur dicte le code OTP figurant dans la section relative de l'application au professionnel de santé lui ayant communiqué le résultat de son test PCR. Le code sera ensuite validé et l'utilisateur pourra procéder à son téléchargement. Le code OTP n'est utilisé qu'en cas de résultat positif au test du virus."
