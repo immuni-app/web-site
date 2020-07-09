@@ -35,6 +35,9 @@
       font-size: 20px;
       line-height: 25px;
     }
+    &:focus {
+      color: var(--primaryDark);
+    }
     &:hover {
       color: var(--primaryDark);
       @media screen and (max-width: 1024px) {

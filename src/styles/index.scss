@@ -47,7 +47,10 @@
     box-sizing: border-box;
   }
   &:focus {
-    outline: none;
+    outline-color: var(--primaryDark);
+    @media screen and (max-width: 1023px) {
+      outline: none;
+    }
   }
 }
 
@@ -60,9 +63,6 @@ html {
 
 body {
   background-color: var(--grayWhite);
-}
-
-body {
   overflow-x: hidden;
 }
 

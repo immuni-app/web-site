@@ -10,6 +10,11 @@
   font-size: 18px;
   line-height: 23px;
   width: 120px;
+  &:focus {
+    outline: none;
+    border: 2px var(--primaryDark) solid;
+    border-radius: 4px;
+  }
 
   &::before {
     content: "";
@@ -66,6 +71,10 @@
 
   &.cs-active {
     z-index: 20;
+    &:focus {
+      outline: none;
+      border: none;
+    }
     & > span {
       text-indent: -290px;
       opacity: 0;
@@ -119,7 +128,6 @@
     top: 200%;
     left: 50%;
     transform: translate3d(-50%, -50%, 0);
-
     li {
       text-align: center;
       opacity: 0;
@@ -137,7 +145,7 @@
 
       &.cs-focus span,
       &.cs-selected span {
-        color: var(--primaryDark);
+        color: var(--darkGray);
         background: transparent;
       }
     }
