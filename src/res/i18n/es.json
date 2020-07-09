@@ -80,7 +80,7 @@
   },
   "faq": {
     "title": "¿Tienes alguna pregunta?",
-    "search": "<input class='search__input' type='text' placeholder='Buscar tema...' />"
+    "search": "<input class='search__input' type='text' aria-label='Buscar' placeholder='Buscar tema...' />"
   },
   "download": {
     "title": "Descárgate Immuni",

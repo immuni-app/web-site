@@ -80,7 +80,7 @@
   },
   "faq": {
     "title": "Haben Sie Fragen?",
-    "search": "<input class='search__input' type='text' placeholder='Thema suchen ...' />"
+    "search": "<input class='search__input' type='text' aria-label='Suchen' placeholder='Thema suchen ...' />"
   },
   "download": {
     "title": "Immuni herunterladen",
