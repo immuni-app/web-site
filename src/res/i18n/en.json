@@ -23,6 +23,7 @@
       "title": "Information",
       "list": {
         "privacy": "Privacy notice",
+        "privacy-cs": "Call center privacy notice",
         "tos": "Terms of use"
       }
     },
