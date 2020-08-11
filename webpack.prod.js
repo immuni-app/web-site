@@ -142,6 +142,11 @@ module.exports = {
       template: "src/pages/app-tou.html",
       inject: "body",
     }),
+    new HtmlWebpackPlugin({
+      filename: "cs-pn.html",
+      template: "src/pages/cs-pn.html",
+      inject: "body",
+    }),
     new CleanWebpackPlugin(buildPath),
     new FaviconsWebpackPlugin({
       // Your source logo

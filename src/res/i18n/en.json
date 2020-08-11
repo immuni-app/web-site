@@ -23,6 +23,7 @@
       "title": "Information",
       "list": {
         "privacy": "Privacy notice",
+        "privacy-cs": "Contact center privacy notice",
         "tos": "Terms of use"
       }
     },
