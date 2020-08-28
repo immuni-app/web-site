@@ -2,23 +2,23 @@
   "faqs": [
     {
       "id": 0,
-      "title": " ¿Qué es Immuni?",
-      "content": "Immuni es una aplicación que se ha desarrollado para ayudarnos a combatir las epidemias, comenzando por la de la COVID-19:\n• La aplicación tiene como objetivo avisar lo antes posible a los usuarios que podrían haberse contagiado, aunque sean asintomáticos.\n• Dado el caso, estos usuarios podrían aislarse para evitar contagiar a otras personas. De ese modo, se ralentiza la propagación del virus y, al mismo tiempo, se acelera el regreso a la normalidad para la mayoría de la población.\n• Además, como reciben un aviso de inmediato, los usuarios pueden contactar antes con su médico de cabecera y reducir así el riesgo de complicaciones."
+      "title": "¿Qué es Immuni?",
+      "content": "Immuni es una aplicación que se ha desarrollado para ayudarnos a combatir las epidemias, comenzando por la de la COVID-19.\nGracias a la función de rastreo de los contactos, cuando un usuario descubre que tiene el virus, Immuni le permite avisar de forma anónima a las personas con las que ha estado en contacto cercano y que, por lo tanto, podrían haberse contagiado. Como reciben un aviso inmediato (tal vez incluso antes de presentar síntomas de la COVID-19), estas personas pueden acudir a su médico de cabecera para que examine su situación clínica. Además, también pueden evitar contagiar a otros y contribuir así a reducir la propagación del coronavirus."
     },
     {
       "id": 1,
-      "title": "¿Cómo funciona el sistema de notificaciones de exposición de Immuni? ",
-      "content": "El sistema de notificaciones de exposición de Immuni tiene como objetivo avisar a los usuarios cuando han estado expuestos a un usuario que podría ser contagioso.\n\nEl sistema se basa en la tecnología Bluetooth Low Energy y no utiliza datos de geolocalización de ningún tipo, incluidos los del GPS. La aplicación no recopila y no puede obtener ningún dato de identificación del usuario, como el nombre, los apellidos, la fecha de nacimiento, la dirección, el número de teléfono o la dirección de correo electrónico. Por tanto, Immuni puede determinar si se ha producido un contacto entre dos usuarios, pero sin conocer su identidad ni el lugar de encuentro.\n\nA continuación se muestra una explicación simplificada de cómo funciona el sistema. Imaginemos que Alicia y Marcos son dos usuarios de la aplicación.\n\nCuando Alicia se la instala, la aplicación hace que su smartphone emita continuamente una señal de Bluetooth Low Energy que incluye un código aleatorio. Ocurre lo mismo en el caso de Marcos. Cuando Alicia se acerca a Marcos, los teléfonos móviles de ambos registran el código aleatorio del otro en su memoria, lo que permitirá llevar un seguimiento de ese contacto. Además, también registran la duración del contacto y a qué distancia aproximada se encontraban los dos teléfonos.\n\nLos códigos se generan de forma completamente aleatoria y no contienen ninguna información sobre el dispositivo o el usuario. Además, se cambian varias veces por hora para proteger aún más la privacidad de los usuarios.\n\nSupongamos que, más adelante, Marcos da positivo en SARS-CoV-2. Con la ayuda de un profesional sanitario, Marcos podrá subir a un servidor unas claves criptográficas que permitirán obtener sus códigos aleatorios.\n\nDe forma periódica, la aplicación descarga del servidor en los teléfonos de todos los usuarios las nuevas claves criptográficas que han enviado quienes han dado positivo por el virus. La aplicación utiliza estas claves para obtener sus códigos aleatorios y verifica si alguno de esos códigos coincide con los que se han almacenado en la memoria del teléfono móvil en los días anteriores. En este caso, la aplicación de Alicia encontrará el código aleatorio de Marcos, verificará si la duración y la distancia del contacto podrían haber dado lugar a un contagio y, de ser así, avisará a Alicia."
+      "title": "¿Cómo funciona el sistema de rastreo de los contactos de Immuni?",
+      "content": "Immuni avisa a los usuarios que han estado en contacto cercano con una persona que posteriormente ha dado positivo en el virus. Para ello, les envía un mensaje de alerta que incluye una serie de consejos sobre cómo comportarse en vista de la situación.\n\nLa aplicación puede determinar que se ha producido un contacto de riesgo entre dos usuarios sin saber quiénes son ni dónde se produjo el encuentro. Immuni no recopila datos que permitan averiguar la identidad de quienes la utilizan. La aplicación no solicita, ni puede obtener, datos personales como el nombre, los apellidos, la fecha de nacimiento, la dirección, el número de teléfono o la dirección de correo electrónico. Además, para determinar que se ha producido un contacto, utiliza la tecnología Bluetooth Low Energy y no recurre a datos de geolocalización de ningún tipo, incluidos los del GPS.\n\nA continuación, se expone un ejemplo simplificado de cómo funciona el sistema de rastreo de los contactos de Immuni. Imaginemos que Alicia y Marcos son dos usuarios de la aplicación. Cuando la instalan en sus teléfonos inteligentes, Immuni emite una señal de Bluetooth que incluye un código aleatorio. Cuando Alicia se acerca a Marcos, sus móviles intercambian estos códigos y los registran en su memoria, lo que permitirá llevar un seguimiento de ese contacto. Además, registran la duración del contacto y la intensidad de la señal que han recibido, que indica aproximadamente a qué distancia se encontraban los teléfonos.\n\nLos códigos se generan aleatoriamente y no contienen ninguna información sobre el dispositivo o el usuario. Además, cambian varias veces cada hora para proteger aún más la privacidad. Es absolutamente imposible rastrear la identidad del usuario a partir de sus códigos aleatorios.\n\nSupongamos que, más adelante, Marcos da positivo en la COVID-19. Con la ayuda del profesional sanitario que le comunicó el resultado de la prueba, Marcos podrá indicar en Immuni que ha contraído el virus, compartir sus códigos aleatorios y avisar a las personas con las que ha estado en contacto cercano.\n\nImmuni descarga periódicamente los códigos aleatorios que suben los usuarios que han dado positivo en el virus. De ese modo, la aplicación puede comprobar si existe alguna coincidencia entre esos códigos y los que se han registrado durante los días anteriores. En el caso de nuestro ejemplo, la aplicación de Alicia detectará el código aleatorio de Marcos, verificará si la duración y la distancia del contacto podrían considerarse de riesgo y, de ser así, avisará a Alicia."
     },
     {
       "id": 2,
-      "title": "¿La aplicación lleva un seguimiento de mis movimientos?",
-      "content": "No. El sistema de notificaciones de exposición de Immuni se basa en la tecnología Bluetooth Low Energy y no recopila datos de geolocalización de ningún tipo, incluidos los del GPS. Immuni no puede saber a dónde vas ni con quién te reúnes."
+      "title": "¿Lleva la aplicación un seguimiento de mis movimientos?",
+      "content": "No. Immuni no puede saber a dónde vas ni con quién te reúnes. El sistema de rastreo de los contactos se basa en la tecnología Bluetooth Low Energy y no recopila datos de geolocalización de ningún tipo, incluidos los del GPS."
     },
     {
       "id": 3,
       "title": "¿Cómo se protege mi privacidad?",
-      "content": "Durante todo el proceso de diseño y desarrollo de Immuni, la protección de tu privacidad fue una prioridad.\n\nAquí tienes una lista de algunas de las medidas con las que Immuni protege tus datos:\n• La aplicación no recopila ningún dato que permita rastrear tu identidad. Por ejemplo, no te preguntará y no podrá conocer tu nombre, apellidos, fecha de nacimiento, dirección, número de teléfono o dirección de correo electrónico.\n• La aplicación no recopila ningún dato de geolocalización, incluidos los del GPS. Además, tampoco realiza ningún seguimiento de tus desplazamientos.\n• El código de Bluetooth Low Energy que se transmite a través de la aplicación se genera aleatoriamente y no contiene ninguna información sobre tu smartphone ni sobre ti. Además, este código cambia varias veces cada hora para proteger aún más tu privacidad.\n• Los datos que se guardan en tu teléfono móvil están encriptados.\n• Las conexiones entre la aplicación y el servidor están encriptadas.\n• Todos los datos, tanto los que se guardan en el dispositivo como los del servidor, se eliminarán en cuanto ya no sean necesarios y, en cualquier caso, el 31 de diciembre de 2020 como máximo.\n• El Ministerio de Salud es el organismo encargado de recopilar tus datos, que se utilizarán exclusivamente para contener la epidemia de la COVID-19 o con fines de investigación científica.\n• Los datos se guardan en servidores en Italia y son administrados por organismos públicos."
+      "content": "Al desarrollar Immuni, se prestó gran atención a la protección de la privacidad. En consecuencia, se tomaron múltiples medidas de seguridad, como las siguientes:\n• La aplicación no recopila datos que permitan averiguar tu identidad. No solicita ni puede conseguir tu nombre, apellidos, fecha de nacimiento, dirección, número de teléfono ni correo electrónico. \n• No se lleva un seguimiento de tus movimientos ni se pueden rastrear de ningún modo.\n• Los códigos aleatorios que intercambian los teléfonos inteligentes a través de Bluetooth no contienen información sobre tu dispositivo ni, por supuesto, sobre ti.\n• Para proteger mejor tu privacidad, estos códigos aleatorios cambian varias veces cada hora. \n• Los datos que se guardan en tu teléfono inteligente y las conexiones entre la aplicación y el servidor están cifrados. \n• Todos los datos que se guarden en el dispositivo o el servidor se eliminarán cuando ya no sean necesarios y, en cualquier caso, antes del 31 de diciembre de 2020. \n• Tus datos los recopila el Ministerio de Salud y se utilizarán únicamente para contener la epidemia de la COVID-19 o con fines de investigación científica.\n• Los datos se guardan en servidores en Italia y los gestionan entidades públicas."
     },
     {
       "id": 4,
@@ -27,18 +27,18 @@
     },
     {
       "id": 5,
-      "title": "¿Por qué es importante Immuni?",
-      "content": "Todos queremos frenar la propagación de la epidemia, reducir el riesgo para la salud de nuestros seres queridos y volver a la normalidad lo antes posible.\n\nImmuni desempeña una función de gran importancia para alcanzar estos objetivos. Gracias al sistema de notificaciones de exposición, la aplicación puede avisar rápidamente a los usuarios que han estado cerca de un usuario contagioso, y les sugiere que se aíslen y que contacten con su médico de cabecera. Todo esto es de vital importancia para reducir el número de contagios y garantizar que los usuarios puedan recibir la atención médica adecuada lo antes posible, minimizando así el riesgo de complicaciones."
+      "title": "¿Por qué es importante descargarse Immuni?",
+      "content": "Immuni es una herramienta más para limitar la propagación del coronavirus. Cuanta más gente se descargue la aplicación, mayor eficacia tendrá."
     },
     {
       "id": 6,
-      "title": "¿Es realmente necesario que todo el mundo use la aplicación? ¿Qué ocurre si no la usan suficientes personas?",
-      "content": "Cuantas más personas usen Immuni, más eficaz puede ser la aplicación. De hecho, cuanto mayor sea la difusión de Immuni, mayor será el número de personas a las que podrá avisar de un posible contagio. De ese modo, los usuarios podrán aislarse y ayudar así a contener la epidemia y a acelerar la vuelta a la normalidad.\n\nSin embargo, aunque la difusión de Immuni fuera limitada, la aplicación podrá contribuir igualmente a frenar la epidemia, especialmente si su uso se combina con otras medidas implementadas por el Gobierno. Esta ralentización, por mínima que sea, reducirá la presión a la que está sometido el Servicio Nacional de Salud (SSN) y permitirá que más pacientes reciban la atención adecuada, lo que podría salvar muchas vidas. Mientras tanto, las investigaciones científicas vuelcan todos sus esfuerzos en encontrar una posible vacuna."
+      "title": "¿Qué sucede si no usan la aplicación muchas personas?",
+      "content": "Aunque la difusión de Immuni fuera limitada, puede ayudar a salvar vidas y a contener el virus de todas formas, especialmente cuando se combina con otras medidas, como el distanciamiento físico y el rastreo manual de los contactos. Immuni ya ha avisado a muchas personas de que han estado en contacto de riesgo con usuarios que han dado positivo en el virus. Gracias a esta información, han podido interrumpir la cadena de contagios y han contribuido así a limitar la propagación del virus y a salvar vidas."
     },
     {
       "id": 7,
       "title": "¿Cómo puedo saber si estoy usando la aplicación correctamente?",
-      "content": "El mal uso de la aplicación hace que Immuni sea mucho menos eficaz y aumenta el riesgo para ti, tus seres queridos y toda la comunidad.\n\nPara asegurarte de que la utilizas de la forma adecuada, solo tendrás que abrirla y comprobar que en la sección Inicio ponga «Servicio activo». Si no es así, pulsa el botón «Reactivar Immuni» y sigue las indicaciones correspondientes para que la aplicación funcione correctamente.\n\nTambién te recomendamos que tengas en cuenta estos consejos para garantizar la eficacia de Immuni:\n• Cuando salgas de casa, lleva siempre contigo el móvil en el que has instalado la aplicación.\n• No desactives el Bluetooth (excepto cuando estés durmiendo, si quieres).\n• No desinstales la aplicación.\n• Es fundamental que leas las notificaciones que te envíe la aplicación. Cuando te lleguen, abre la aplicación y sigue las indicaciones correspondientes. Por ejemplo, actualízala si así te lo indica. En caso de que te recomiende que te aísles o que llames a tu médico de cabecera, es fundamental que adoptes esas medidas de inmediato."
+      "content": "Abre la aplicación y comprueba que en la sección Inicio ponga «Servicio activo». Si es así, no tienes que hacer nada, ya que Immuni está funcionando correctamente. En caso contrario, pulsa el botón «Reactivar Immuni» y sigue las indicaciones para restablecer la aplicación.\n\nAquí tienes algunos consejos importantes más para asegurarte de que Immuni sea realmente eficaz:\n• Cuando salgas de casa, lleva siempre contigo el teléfono inteligente en el que has instalado la aplicación.\n• No desactives el Bluetooth.\n• No desinstales la aplicación.\n• Cuando Immuni te envíe una notificación, léela, abre la aplicación y sigue las instrucciones correspondientes. Por ejemplo, si te indica que debes actualizarla, no lo pospongas y descárgate la versión más reciente.\n• Si recibes una notificación de un contacto de riesgo, sigue las instrucciones y llama a tu médico de cabecera de inmediato."
     },
     {
       "id": 8,
@@ -48,27 +48,27 @@
     {
       "id": 9,
       "title": "¿Dónde puedo descargar Immuni? ¿Qué dispositivos y sistemas operativos son compatibles?",
-      "content": "El lugar desde donde puedes descargar Immuni depende del smartphone que utilices. Ten en cuenta que la aplicación no es compatible con todos los dispositivos. Elige la versión compatible con tu teléfono.\n \n → App Store\n Puedes descargar Immuni desde el App Store y usarla correctamente si tu iPhone tiene la versión de iOS 13.5 o superior. Actualiza iOS a la última versión disponible antes de descargar Immuni.\n \n Los modelos de iPhone que admiten iOS 13.5 son los siguientes: 11, 11 Pro, 11 Pro Max, Xr, Xs, Xs Max, X, SE (2a generación), 8, 8 Plus, 7, 7 Plus, 6s, 6s Plus, SE (1a generación). Desafortunadamente, no podrás usar Immuni si tu modelo de iPhone no permite actualizar iOS a una versión igual o superior a la 13.5.\n \n → Google Play\n Puedes descargar Immuni desde Google Play y usarla correctamente si tu smartphone Android cumple los tres requisitos siguientes:\n • Bluetooth Low Energy.\n • Versión de Android 6 (Marshmallow, API 23) o superior.\n • Versión de Google Play Services 20.18.13 o superior.\n Actualiza Android y Google Play Services a la última versión disponible antes de descargar Immuni.\n \n Desafortunadamente, no podrás usar Immuni si el modelo de tu teléfono Android no tiene Bluetooth Low Energy o no permite la actualización de Android y Google Play Services a las versiones mínimas indicadas.\n \n → AppGallery\n Estamos trabajando para que Immuni también se pueda descargar desde AppGallery lo antes posible. Así, quienes tengan algunos modelos de teléfono Huawei podrán utilizar la aplicación."
+      "content": "Dependiendo del teléfono que tengas, podrás descargar Immuni desde el App Store o desde Google Play. Comprueba a continuación si tu móvil es compatible con la aplicación.\n\n→ App Store\nTu iPhone debe tener una versión de iOS 13.5 o superior. Los modelos compatibles son: 11, 11 Pro, 11 Pro Max, Xr, Xs, Xs Max, X, 8, 8 Plus, 7, 7 Plus, 6s, 6s Plus, SE. Actualiza iOS a la última versión disponible antes de descargar Immuni.\n\n→ Google Play\nTu teléfono inteligente Android debe contar con:\n• Bluetooth Low Energy\n• Versión de Android 6 (Marshmallow, API 23) o superior\n• Versión de Google Play Services 20.18.13 o superior\nActualiza Android y Google Play Services a la última versión disponible antes de descargar Immuni.\n"
     },
     {
       "id": 10,
       "title": "¿Son fiables las instrucciones que proporciona la aplicación?",
-      "content": "Las recomendaciones que da la aplicación dependen del tiempo que haya durado tu exposición a usuarios que podrían ser contagiosos, así como de la distancia entre tu teléfono y el de la otra persona durante ese contacto.\n\nSe trata de una cantidad de información limitada que no puede ser absolutamente exacta, ya que la señal de Bluetooth Low Energy puede verse afectada por distintos factores. Por lo tanto, la estimación no siempre será totalmente precisa. Por ejemplo, si la aplicación te recomienda que te aísles, eso no significa que hayas contraído el SARS-CoV-2, sino que, según la información disponible en la aplicación, el aislamiento sería la medida más prudente para velar por tu seguridad y la de las personas que te rodean.\n\nPor lo tanto, es importante que sigas las instrucciones que te indique la aplicación, por tu bien, el de tus seres queridos y el de la comunidad. No dudes en consultar a tu médico de cabecera si la aplicación te avisa de un posible contagio."
+      "content": "Las recomendaciones que da la aplicación dependen del tiempo que haya durado tu exposición a usuarios que podrían ser contagiosos, así como de la distancia entre tu teléfono y el de la otra persona durante ese contacto.\n\nSe trata de una cantidad de información limitada que no puede ser absolutamente exacta, ya que la señal de Bluetooth Low Energy puede verse afectada por distintos factores. Por lo tanto, la estimación no siempre será totalmente precisa. Por ejemplo, si la aplicación te recomienda que te aísles, eso no significa que hayas contraído la COVID-19, sino que, según la información disponible en Immuni, el aislamiento sería la medida más prudente para velar por tu seguridad y la de las personas que te rodean.\n\nPor lo tanto, es importante que sigas las instrucciones que te indique la aplicación, por tu bien, el de tus seres queridos y el de la comunidad. No dudes en acudir a tu médico de cabecera si Immuni te avisa de un contacto de riesgo."
     },
     {
       "id": 11,
-      "title": "¿Por qué mi smartphone no es compatible con Immuni? ¿Qué puedo hacer al respecto?",
-      "content": "Ante todo, te damos las gracias por querer usar Immuni. Desafortunadamente, no se puede descargar ni utilizar la aplicación sin un smartphone compatible.\n \n Immuni utiliza la tecnología para las notificaciones de exposición que proporcionan Apple y Google. Esta tecnología establece los requisitos del sistema para descargar y utilizar Immuni, y no es compatible con las versiones anteriores de iOS, Android y Google Play Services.\n \n Esta tecnología se utiliza en muchos otros países (como Austria, Alemania, Irlanda y Suiza). Sin ella, habría limitaciones técnicas importantes; por ejemplo, no sería posible detectar de manera fiable los contactos entre dos teléfonos iPhone. Consideramos que era preferible desarrollar un sistema que funcionara de forma eficaz en la mayoría de los smartphones, en lugar de uno que funcionara en más teléfonos pero que ofreciese una menor fiabilidad.\n \n Sabemos que hay muchas personas que quieren descargar y utilizar la aplicación pero no tienen un dispositivo compatible. Lamentablemente, de momento no podemos eliminar estas limitaciones.\n \n Somos conscientes de la importancia de que Immuni esté disponible para el máximo número de personas posible. En cuanto haya novedades, informaremos al respecto."
+      "title": "Mi teléfono no es compatible con Immuni. ¿Por qué? ¿Qué puedo hacer al respecto?",
+      "content": "Immuni utiliza el sistema para las notificaciones de exposición que han desarrollado Apple y Google. Se trata de una tecnología que se usa en muchos lugares del mundo (por ejemplo, en Alemania, los Países Bajos, Japón y en decenas de países más) y que permite que la aplicación funcione de forma óptima en la mayoría de los dispositivos. Debido a limitaciones técnicas, esta tecnología no está disponible en versiones anteriores de iOS, Android y Google Play Services. Si hay algún cambio, te lo comunicaremos de forma inmediata."
     },
     {
       "id": 12,
-      "title": "¿Es posible que la aplicación agote la batería de mi teléfono?",
-      "content": "No deberías notar una gran diferencia en la duración de la batería. De hecho, Immuni usa Bluetooth Low Energy, una tecnología creada para ser particularmente eficiente en lo que respecta al ahorro de energía.\n\nSin embargo, te recomendamos que sigas usando la aplicación de forma adecuada aunque te parezca que la batería se ha agotado un poco más rápido de lo habitual. Tu contribución es importante para que Immuni nos ayude de forma eficaz a combatir la pandemia y a regresar cuanto antes a la normalidad."
+      "title": "¿La aplicación agota más rápido la batería del móvil?",
+      "content": "No deberías notar una gran diferencia en la duración de la batería. De hecho, Immuni utiliza Bluetooth Low Energy, una tecnología de bajo consumo energético. Se trata de la misma tecnología que mantiene los auriculares inalámbricos conectados a los teléfonos inteligentes de forma continua. El impacto en la batería es mínimo y el uso de la aplicación no provoca sobrecalentamiento ni otros fenómenos inusuales."
     },
     {
       "id": 14,
       "title": "¿Pueden utilizar la aplicación los menores de edad?",
-      "content": "Es necesario tener al menos 14 años para usar Immuni. Si tienes entre 14 y 18 años, debes pedir permiso a uno de tus padres o a tu tutor legal para utilizar la aplicación."
+      "content": "Es necesario tener al menos 14 años para usar Immuni. Si tu edad se encuentra comprendida entre los 14 y los 18 años, debes pedir permiso al menos a uno de tus padres o a tu tutor legal para utilizar la aplicación y avisarlos de inmediato en caso de que recibas la notificación de que has estado en contacto cercano con una persona que luego dio positivo en la COVID-19."
     },
     {
       "id": 15,
@@ -78,7 +78,7 @@
     {
       "id": 16,
       "title": "¿Es el Gobierno quien se encarga de gestionar Immuni?",
-      "content": "Sí. Immuni es la aplicación de notificaciones de exposición del Gobierno italiano y ha sido desarrollada por el comité extraordinario para la emergencia del coronavirus en colaboración con el Ministerio de Salud y el Ministerio de Innovación Tecnológica y Digitalización.\n\nEl Gobierno italiano hace uso de una licencia perpetua e irrevocable de todo el código, los gráficos, los textos y la documentación relativos a Immuni que ha concedido gratuitamente Bending Spoons S.p.A.\n\nBajo la coordinación del Ministerio de Salud y con el apoyo del Departamento de Innovación Tecnológica y Digitalización, trabajan en el proyecto las empresas de control público SoGEI S.p.A. y PagoPA S.p.A., junto con Bending Spoons S.p.A., que continúa prestando un servicio de documentación, diseño y desarrollo de software, siempre de forma totalmente gratuita y sin contar con autoridad para tomar decisiones ni tener acceso a los datos de los usuarios."
+      "content": "Sí. Immuni es la aplicación de rastreo de los contactos del Gobierno italiano y es el resultado de la colaboración entre la Presidencia del Consejo de Ministros, el ministro de Salud, el ministro de Innovación Tecnológica y Digitalización, las regiones, el comisario extraordinario para la emergencia del coronavirus y las empresas públicas Sogei y PagoPa.\n\nEl Gobierno italiano hace uso de una licencia perpetua e irrevocable de todo el código, los gráficos, los textos y la documentación relativos a Immuni que ha concedido gratuitamente Bending Spoons S.p.A. Dicha empresa continúa prestando un servicio de documentación, diseño y desarrollo de software, siempre de forma totalmente gratuita y sin contar con autoridad para tomar decisiones ni tener acceso a los datos de los usuarios.\n\nAl desarrollar el sistema se siguieron las instrucciones del Garante per la protezione dei dati personali, la autoridad de protección de datos personales de Italia, y se prestó la máxima atención a la privacidad de los usuarios."
     },
     {
       "id": 17,
@@ -88,17 +88,17 @@
     {
       "id": 18,
       "title": "¿Puedo decidir no usar la aplicación?",
-      "content": "Immuni es una herramienta importante en la lucha contra esta terrible epidemia y la participación de cada usuario contribuye a aumentar su eficacia general. Por esta razón, te recomendamos encarecidamente que instales la aplicación, la uses correctamente y animes a tus familiares y amigos a hacer lo mismo. Sin embargo, no tienes la obligación de utilizarla. La decisión es tuya."
+      "content": "Sí, la descarga y el uso de Immuni son voluntarios.\n\nImmuni es una herramienta importante en la lucha contra la epidemia de la COVID-19 y, cuanto más se difunda, mayor será su eficacia. Por lo tanto, te recomendamos que instales la aplicación y que animes a tus compañeros de trabajo, familiares y amigos a que hagan lo mismo."
     },
     {
       "id": 19,
-      "title": "Immuni dice que puedo estar en riesgo, pero me encuentro bien. ¿Qué tengo que hacer?",
-      "content": "Te recomendamos encarecidamente que sigas todas las recomendaciones de Immuni. Hay muchas personas asintomáticas que han transmitido el virus sin darse cuenta. Una de las grandes ventajas de Immuni es su capacidad de avisar a estas personas. Por eso, te pedimos que aportes tu granito de arena y sigas las recomendaciones, aunque creas que no vas a contagiar a nadie."
+      "title": "Immuni ha detectado un contacto de riesgo, pero me encuentro bien. ¿Qué tengo que hacer?",
+      "content": "Si Immuni ha detectado un contacto de riesgo, significa que en los últimos días has estado en contacto cercano durante más de 15 minutos con una persona que ha dado positivo en la COVID-19. Por lo tanto, podrías haber contraído el virus, aunque no presentes síntomas. Aporta tu granito de arena siguiendo las recomendaciones. Así reducirás el riesgo para ti y para tus seres queridos, y evitarás contagiar a otras personas."
     },
     {
       "id": 20,
-      "title": "He estado en un lugar o con una persona y quiero que esa información no se difunda. ¿Immuni pone en riesgo mi privacidad?",
-      "content": "No. El sistema se basa en la tecnología Bluetooth Low Energy y no utiliza datos de geolocalización de ningún tipo, incluidos los del GPS. Los códigos que intercambian los teléfonos móviles se generan aleatoriamente y cambian varias veces cada hora. Como resultado, la aplicación no puede determinar el lugar en el que se produjo un contacto ni quiénes participaron en él. Tu privacidad está garantizada."
+      "title": "He estado en un lugar o con una persona y quiero que esa información no se difunda. ¿Está mi privacidad en riesgo con Immuni?",
+      "content": "Con Immuni tu privacidad está protegida. Ten en cuenta que la aplicación no tiene acceso a este tipo de datos.\n\nEl sistema se basa en la tecnología Bluetooth Low Energy, no registra ni comparte información sobre ti o tus contactos y no utiliza datos de geolocalización de ningún tipo, incluidos los del GPS. Por lo tanto, la aplicación no puede determinar dónde has estado ni con quién."
     },
     {
       "id": 21,
@@ -118,12 +118,12 @@
     {
       "id": 24,
       "title": "Suelo tener el teléfono en modo avión. ¿Puedo seguir haciéndolo?",
-      "content": "Sí, lo importante es que mantengas el Bluetooth activado. De esta manera, Immuni continuará funcionando correctamente."
+      "content": "Sí. Lo importante es que dejes activado el Bluetooth para que Immuni siga funcionando correctamente. Además, te recordamos que debes conectar tu teléfono a internet al menos una vez al día para que la aplicación pueda comprobar si has estado en contacto de riesgo con algún usuario."
     },
     {
       "id": 25,
       "title": "¿Cuántos datos consume Immuni?",
-      "content": "Muy pocos. Todos los días, la aplicación descarga las nuevas claves criptográficas de los dispositivos de los usuarios que han dado positivo en SARS-CoV-2 para verificar si has tenido algún contacto con ellos y, en caso necesario, notificártelo. Esto consumirá unos cuantos megabytes al día, más o menos lo mismo que se necesita para cargar una página web con algunas fotos."
+      "content": "Muy pocos. Todos los días, la aplicación descarga los códigos aleatorios de los usuarios que han dado positivo en la COVID-19 para verificar si has estado en contacto cercano con alguno de ellos y avisarte en caso de que sea necesario. Este proceso consumirá, como máximo, unos cuantos megabytes al día, más o menos lo mismo que se necesita para cargar una página de un sitio web."
     },
     {
       "id": 26,
@@ -137,38 +137,38 @@
     },
     {
       "id": 28,
-      "title": "¿Immuni comparte o vende mis datos?",
-      "content": "Los datos están controlados por el Ministerio de Salud. En ningún caso tus datos se venderán o utilizarán para ningún objetivo comercial, incluida la creación de perfiles con fines publicitarios. Este proyecto no tiene ningún ánimo de lucro, sino que se creó exclusivamente para ayudar a combatir la epidemia. No se descarta la distribución de los datos para facilitar la investigación científica, pero únicamente después de llevar a cabo la anonimización y la agregación correspondientes."
+      "title": "¿Comparte o vende Immuni mis datos?",
+      "content": "La única finalidad que tiene Immuni es ayudar a hacer frente a la epidemia. Este proyecto no tiene fines de lucro y en ningún caso tus datos se venderán o utilizarán con ningún objetivo comercial, incluida la elaboración de perfiles con fines publicitarios.\n\nLos datos son responsabilidad del Ministerio de Salud. En caso de que se comparta la información recopilada, se hará estrictamente de forma anónima y agregada con el objetivo de contribuir a las investigaciones científicas."
     },
     {
       "id": 29,
       "title": "¿Puedo cambiar el idioma de la aplicación?",
-      "content": "Actualmente la aplicación está disponible en español, italiano, inglés, alemán, francés y portugués. La aplicación utiliza el mismo idioma que tienes configurado en tu teléfono, si está disponible. De lo contrario, se configura en inglés. Por lo tanto, para cambiar el idioma de la aplicación tendrás que modificar el idioma de tu dispositivo."
+      "content": "Actualmente la aplicación está disponible en español, italiano, inglés, alemán y francés. La aplicación utiliza el mismo idioma que tienes configurado en tu teléfono, si está disponible. De lo contrario, se configura en inglés. Por lo tanto, para cambiar el idioma de la aplicación tendrás que modificar el idioma de tu dispositivo."
     },
     {
       "id": 30,
-      "title": "¿Immuni funciona en todos los países?",
-      "content": "Puedes descargar Immuni desde cualquier parte del mundo. Sin embargo, solo se puede usar en Italia:\n • En dispositivos iOS, las notificaciones de exposición se desactivan si te encuentras en el extranjero.\n • La aplicación solo puede conectarse al servidor (por ejemplo, para descargar las claves de los usuarios que han dado positivo en el virus) si te encuentras en la Unión Europea. Por el momento, las conexiones al servidor desde otros territorios no son compatibles por razones de seguridad.\n • En caso de que des positivo en el virus, deberás estar en Italia para poder subir tus claves al servidor.\n \n Actualmente, la aplicación solo detecta el contacto con otros usuarios de Immuni, es decir, no funciona con las aplicaciones para las notificaciones de exposición de otros países."
+      "title": "¿Funciona Immuni en todos los países?",
+      "content": "Puedes descargar Immuni desde cualquier parte del mundo.\n\nSin embargo, por razones de seguridad, deberás estar en Italia para poder subir tus datos en caso de que des positivo en la prueba del virus. En los dispositivos iOS, el intercambio de los códigos aleatorios se desactivará si te encuentras en el extranjero.\n\nUna vez más debido a motivos de seguridad, no podrás establecer conexión con el servidor que te permite descargar los códigos aleatorios de los usuarios que han dado positivo si estás fuera del territorio europeo.\n\nPor el momento, Immuni solo detecta los contactos con otros usuarios de la aplicación. A nivel europeo, se está trabajando para permitir que las distintas aplicaciones nacionales de rastreo de contactos, incluida Immuni, se comuniquen entre sí. Gracias a esta colaboración, también los extranjeros que viajen por Italia y los italianos que viajen al extranjero podrán hacer uso del sistema de rastreo de contactos sin tener que descargarse otras aplicaciones."
     },
     {
       "id": 33,
-      "title": "¿Qué es el código OTP y cómo funciona?",
-      "content": "OTP significa «contraseña de un solo uso». También conocida como «contraseña desechable». Cuando un usuario da positivo en el virus, puede optar por subir al servidor de Immuni las claves criptográficas vinculadas a su dispositivo. Este proceso requiere que el usuario dicte el código OTP que se encuentra en la sección correspondiente de la aplicación al profesional sanitario que le ha comunicado el resultado de la prueba. El código será validado y el usuario podrá proceder a subir los datos. El código OTP se usa únicamente en caso de que el usuario dé positivo en el virus."
+      "title": "¿Qué es el código de un solo uso y cómo funciona?",
+      "content": "El código de un solo uso es una secuencia alfanumérica de diez caracteres que se utiliza únicamente en caso de que un usuario dé positivo en el virus y que no identifica de ninguna forma a dicha persona. \n\nCuando un usuario da positivo, puede subir al servidor de Immuni los datos necesarios para avisar a las personas con las que ha estado en contacto cercano, siempre y cuando utilicen la aplicación. Para ello, debe indicar el código de un solo uso que se encuentra en la sección correspondiente de la aplicación al profesional sanitario que le ha comunicado el resultado de la prueba. Una vez que éste valida el código de un solo uso, el usuario puede proceder a subirlo."
     },
     {
       "id": 34,
-      "title": "¿Cómo funciona la subida de mis datos? ¿Puedo decidir cuándo quiero subirlos?",
-      "content": "La función de subida de los datos solo es útil si el usuario da positivo en el virus. En ese caso, puede optar por subir al servidor de Immuni las claves criptográficas asociadas a su dispositivo para permitir que la aplicación avise a los usuarios que hayan estado en riesgo de contagio. Para garantizar que solo los usuarios que realmente hayan dado positivo en el virus puedan subir sus claves criptográficas, es necesaria la ayuda de un profesional sanitario autorizado para subir los datos."
+      "title": "¿Cómo y cuándo puedo subir mis datos?",
+      "content": "Solo puedes subir tus datos si das positivo en una prueba de la COVID-19. Ten en cuenta que es un gesto totalmente voluntario que permite a Immuni avisar a las personas con las que has estado en contacto en los días anteriores. El profesional sanitario que te informe de que el resultado de la prueba es positivo te ayudará a subir los datos.\n\nEl procedimiento es muy sencillo:\n• El profesional sanitario te pedirá que accedas a la sección Ajustes y que pulses en la opción «Informa de un resultado positivo».\n• Immuni te mostrará un código de un solo uso, una secuencia alfanumérica de diez caracteres elegidos al azar.\n• Deberás comunicar este código al profesional sanitario, que lo autorizará.\n• Después, te pedirá que pulses en «Continúa» para verificar el código y seguir adelante con el proceso.\n• La aplicación mostrará un resumen de los datos que se subirán.\n• Al pulsar en «Sube tus datos», la aplicación cargará los datos que se han descrito anteriormente.\n• Immuni te pedirá permiso para acceder a los códigos aleatorios que están guardados en tu dispositivo. \n• La aplicación te mostrará un mensaje de confirmación cuando se complete la carga."
     },
     {
       "id": 35,
-      "title": "¿Cómo se me informa de que he estado expuesto a un usuario que podría ser contagioso? ¿Qué debo hacer en ese caso?",
-      "content": "Si Immuni detecta que has estado expuesto a un usuario que podría ser contagioso, te envía una notificación. En ese caso, en la aplicación encontrarás información detallada sobre los pasos que debes seguir. Por ejemplo, te aconsejará que te pongas en contacto con tu médico de cabecera. No tendrás ninguna obligación de seguir las indicaciones de la aplicación, pero te recomendamos encarecidamente que lo hagas para proteger tu salud, la de tus seres queridos y la de tu comunidad."
+      "title": "¿Cómo me informa Immuni de que he tenido un contacto de riesgo? ¿Qué tendré que hacer en ese caso?",
+      "content": "Si Immuni detecta que has estado en una situación de posible contagio, te llegará una notificación. Sigue las recomendaciones que encontrarás en la aplicación. En primer lugar, tendrás que acudir a tu médico de cabecera para que lleve a cabo las comprobaciones correspondientes. Aunque no tienes obligación de hacerlo, te aconsejamos que sigas las indicaciones que recibirás para proteger tu salud y la de los demás, especialmente la de las personas con las que tienes un mayor contacto."
     },
     {
       "id": 37,
-      "title": "¿Qué condiciones se deben dar para que la aplicación me avise de una exposición de riesgo? Por ejemplo, ¿a qué distancia y durante cuánto tiempo tendría que haber estado expuesto a un usuario que posteriormente dé positivo en el virus?",
-      "content": "Cuando dos smartphones en los que está instalada la aplicación se encuentran a pocos metros de distancia, comienzan a intercambiarse códigos aleatorios para registrar el contacto. Sin embargo, para que recibas una notificación de una exposición de riesgo, no basta con que tu teléfono haya registrado un contacto con un usuario que después haya dado un resultado positivo. Deben cumplirse las siguientes condiciones:\n • El usuario positivo debe haber subido sus claves criptográficas al servidor de Immuni para que la aplicación pueda avisar a los usuarios con los que ha tenido contacto.\n • Según lo establecido por el Ministerio de Salud, la exposición debe haber tenido lugar a una distancia inferior a 2 metros durante más de 15 minutos.\n \n Los smartphones no pueden medir directamente la distancia a la que se produce un contacto. Por lo tanto, Immuni toma como referencia la atenuación de la señal de Bluetooth Low Energy para realizar una estimación. Para que esta sea lo más fiable posible, se llevaron a cabo pruebas de calibración. Sin embargo, la estimación no puede ser precisa debido a una serie de factores que la alteran. Por lo tanto, Immuni no puede garantizar con absoluta certeza que la distancia sea realmente inferior a 2 metros. Lo que es seguro es que si recibes una notificación de exposición de riesgo, habrás estado cerca de un usuario que podría ser contagioso durante un periodo de tiempo prolongado."
+      "title": "¿Qué condiciones tienen que darse para que Immuni me avise de un contacto de riesgo? ¿A qué distancia y durante cuánto tiempo debo haber estado en contacto con un usuario que luego ha dado positivo en el virus?",
+      "content": "Immuni te avisa de un contacto de riesgo únicamente si has estado a poca distancia de una persona que tiene coronavirus durante al menos 15 minutos, siempre y cuando ella también tenga la aplicación instalada en el móvil e informe de que ha dado positivo cuando reciba el resultado de la prueba. De lo contrario, no se puede enviar ninguna notificación.\n\nImmuni toma como referencia la potencia de la señal de Bluetooth para estimar la distancia a la que se produjo el contacto. Los parámetros que se han escogido para hacer dicho cálculo se ajustan lo máximo posible a las directivas del Ministerio de Salud, que consideran de riesgo los contactos que tienen lugar a una distancia inferior a dos metros. Se han llevado a cabo numerosos experimentos de calibración para que la estimación sea lo más precisa posible, pero puede presentar un margen de error de todos modos. Además, es importante mencionar que no tiene en cuenta los dispositivos o medidas de protección que puedan existir. En cualquier caso, no existe la posibilidad de recibir una notificación de exposición si no se produce una proximidad física prolongada con una persona con coronavirus."
     },
     {
       "id": 38,
@@ -177,13 +177,73 @@
     },
     {
       "id": 39,
-      "title": "El sistema operativo me pide que introduzca los datos de mi tarjeta de crédito antes de descargar Immuni. ¿Por qué?",
-      "content": "Si el sistema operativo te pide que introduzcas los datos de una tarjeta de crédito para poder descargar la aplicación, es probable que todavía no hayas completado la configuración de tu perfil de Apple (en los teléfonos iOS) o de Google (en los teléfonos Android). Sin embargo, en iOS puedes seleccionar «Ninguno» en los métodos de pago propuestos y, en Android, puedes elegir la opción «Omitir» cuando se te pide que especifiques un método de pago. Immuni es completamente gratuita y se puede descargar sin indicar un método de pago."
+      "title": "Antes de descargar Immuni del App Store o de Google Play, se me pide que introduzca los datos de una tarjeta de crédito. ¿Es normal?",
+      "content": "Immuni es completamente gratuita y puedes descargarla sin indicar un método de pago.\n\nSi Apple o Google te piden una tarjeta de crédito, es probable que aún no hayas completado la configuración de tu cuenta. Para descargar Immuni de forma gratuita, sigue estos pasos:\n• En el App Store, elige la opción «Ninguno» entre los métodos de pago que verás.\n• En Google Play, selecciona «Omitir» cuando se te pida que añadas un método de pago."
     },
     {
       "id": 40,
       "title": "¿Por qué debo activar la ubicación para usar la aplicación en un smartphone Android? ¿Significa esto que Immuni puede saber dónde estoy?",
       "content": "No, Immuni no tiene acceso a ningún dato relativo a tu ubicación. En los smartphones Android, debido a una limitación del sistema operativo, el servicio de ubicación debe estar habilitado para permitir que el sistema de notificaciones de exposición de Google busque señales de Bluetooth Low Energy y guarde los códigos aleatorios de los teléfonos de los usuarios que estén cerca de ti. Sin embargo, como puedes ver en la lista de permisos que solicita Immuni, la aplicación no tiene autorización para acceder a ningún dato relacionado con la ubicación (incluidos los del GPS) y, por lo tanto, no puede saber dónde te encuentras."
+    },
+    {
+      "id": 41,
+      "title": "En mi iPhone ha aparecido el mensaje «Se ha modificado la zona de notificaciones de exposición» o «Las notificaciones de exposición a la COVID-19 ya no funcionan en tu zona». ¿Qué significa?",
+      "content": "Se trata de un fallo del sistema operativo que Apple ya ha solucionado. Actualiza tu sistema operativo iOS a la versión 13.6 o a una posterior para evitar que el mensaje vuelva a aparecer."
+    },
+    {
+      "id": 43,
+      "title": "¿Puedo desactivar Immuni temporalmente?",
+      "content": "Sí, Immuni se puede desactivar de forma temporal. Por ejemplo, mientras estás en el trabajo si eres un profesional sanitario que desempeña una labor con pacientes con la COVID-19. Ten en cuenta que, si desactivas la aplicación, no se registrarán los contactos con otros usuarios.\n\nPara hacerlo, sigue estos pasos:\n• Abre la aplicación Immuni. \n• Desplázate hacia abajo y pulsa la opción «Desactivar el servicio» que aparece en la parte inferior de la pantalla de inicio.\n• Sigue las instrucciones.\n\nRecuerda reactivar Immuni lo antes posible. Para ello:\n• Abre la aplicación.\n• Toca la opción «Reactivar Immuni» que aparece en la parte superior de la pantalla de inicio.\n• Sigue las instrucciones."
+    },
+    {
+      "id": 44,
+      "title": "Si hago algún viaje por trabajo o placer, ¿tengo que cambiar los datos de la provincia que he indicado en la aplicación?",
+      "content": "No, no es necesario que selecciones una nueva provincia cada vez que te alejes de la que indicaste la primera vez que usaste Immuni, ya que la aplicación funciona exactamente del mismo modo independientemente de la provincia que selecciones. Al informar de cuál es tu provincia de residencia, ayudas al Servicio Nacional de Salud (SSN) a prevenir la aparición de nuevos focos de contagio, así como a calcular la difusión de la aplicación en el territorio nacional."
+    },
+    {
+      "id": 45,
+      "title": "¿Pueden usar Immuni personas con discapacidad visual?",
+      "content": "Immuni se ha diseñado para ser lo más accesible posible para las personas con discapacidades. En concreto, es compatible con las tecnologías VoiceOver (en dispositivos iOS) y TalkBack (en dispositivos Android), que leen el contenido que aparece en pantalla. De esa forma, también los usuarios con discapacidad visual pueden acceder fácilmente a todo el contenido y las funciones de la aplicación. Por el momento, Immuni no es compatible con los comandos de voz."
+    },
+    {
+      "id": 46,
+      "title": "¿Durante cuánto tiempo es válido el código de un solo uso? ¿De cuánto tiempo dispongo para subir mis datos?",
+      "content": "El código de un solo uso es válido durante dos minutos y treinta segundos desde el momento en que el profesional sanitario lo introduce en la interfaz correspondiente para validarlo. Esa cantidad de tiempo debería ser más que suficiente para completar el proceso de carga. Sin embargo, si el código caduca, puedes repetir el procedimiento desde el principio, utilizando un nuevo código que generará Immuni."
+    },
+    {
+      "id": 47,
+      "title": "En Immuni se habla de «códigos aleatorios». ¿Qué son?",
+      "content": "Durante su funcionamiento normal, la aplicación Immuni asocia a cada teléfono un código aleatorio que se transmite a los dispositivos cercanos a través de la tecnología Bluetooth Low Energy. Cuando los teléfonos inteligentes de dos usuarios están cerca, registran en su memoria el código aleatorio del otro, lo que permitirá llevar un seguimiento de ese contacto y advertir de una situación de riesgo en caso de que uno de los dos dé positivo en la COVID-19 más adelante. Para proteger aún más tu privacidad, el código aleatorio cambia varias veces cada hora."
+    },
+    {
+      "id": 48,
+      "title": "¿Quiénes son los profesionales sanitarios de los que se habla en Immuni?",
+      "content": "Se trata del personal sanitario del Departamento de Prevención de las Agencias Sanitarias Locales o de los hospitales que normalmente comunica por teléfono al usuario que ha dado positivo en la prueba. Si una persona que dé positivo tiene instalada Immuni, podrá informar de que tiene el virus. De ese modo, permitirá que la aplicación avise a los usuarios con los que ha estado en contacto cercano de que se han visto expuestos a un riesgo de contagio. Es el profesional sanitario quien guía al usuario que ha dado positivo y le permite subir los datos."
+    },
+    {
+      "id": 49,
+      "title": "¿Puedo borrar la notificación de un contacto de riesgo y luego recuperarla?",
+      "content": "Una vez que te llegue una notificación que te avise de un contacto de riesgo, aparecerá una advertencia adicional en la aplicación y recibirás sugerencias sobre qué hacer.\nPodrás encontrar el aviso y las sugerencias en la aplicación. En caso de que declares que estás en contacto con tu médico (pulsando en «He contactado con el médico») o de que decidas ocultar el aviso (al tocar «Ocultar aviso»), el mensaje y las sugerencias se ocultarán y, para proteger tu privacidad, ya no podrás acceder a ellos. Por lo tanto, te recomendamos que no lo hagas para no perder el acceso a una información muy importante."
+    },
+    {
+      "id": 50,
+      "title": "Después de informar de que he dado positivo, ¿cómo puedo indicar en Immuni que ya no tengo la enfermedad?",
+      "content": "Tu Agencia Sanitaria Local de referencia te someterá a una o varias pruebas para confirmar que ya no das positivo en la COVID-19. Cuando te comunique que el resultado es negativo, podrás actualizar tu estado de salud en Immuni. Solo tienes que pulsar en «¿Te has recuperado? Actualiza tu estado» y, después, en «He dado negativo en la prueba de la COVID-19»."
+    },
+    {
+      "id": 51,
+      "title": "Tengo un iPhone, pero, aunque está conectado a internet y tiene el Bluetooth habilitado, Immuni no funciona si no hay una SIM insertada. ¿Por qué?",
+      "content": "Apple ha activado una medida de seguridad que impide el uso de Immuni cuando un usuario se encuentra en países distintos de Italia. Para asegurarse de que estás en Italia, Apple verifica que la compañía telefónica sea italiana. Por esa razón, es necesario introducir una SIM en el teléfono inteligente para que Immuni funcione. Por el contrario, en los dispositivos Android la aplicación funciona sin problemas incluso sin una SIM.\n\nApple ha eliminado esta limitación a partir de la versión 13.6 del sistema operativo iOS. Si deseas utilizar Immuni sin una SIM, te recomendamos que actualices el sistema operativo de tu iPhone."
+    },
+    {
+      "id": 52,
+      "title": "Immuni muestra un mensaje de error de conexión desde el principio. ¿Qué puedo hacer?",
+      "content": "Si te encuentras fuera de Europa, es normal que recibas un mensaje de error. De hecho, es posible que algunas funciones de Immuni no estén disponibles.\n\nPor el contrario, si te has conectado desde un lugar del territorio europeo, te recomendamos que procedas de la siguiente manera:\n• Verifica que tu teléfono inteligente esté conectado a internet. \n• Conéctate desde la red móvil. El problema podría deberse a una red wifi que esté mal configurada.\n• Si estás utilizando una VPN, desactívala, ya que es posible que te haya asignado una IP fuera del territorio europeo.\n\nTe recordamos que los países del territorio europeo son: Alemania, Austria, Bélgica, Bulgaria, Chipre, Ciudad del Vaticano, Croacia, Dinamarca, Eslovaquia, Eslovenia, España, Estonia, Finlandia, Francia, Grecia, Hungría, Irlanda, Islandia, Italia, Letonia, Liechtenstein, Lituania, Luxemburgo, Malta, Noruega, Países Bajos, Polonia, Portugal, Principado de Mónaco, República Checa, Rumanía, San Marino, Suecia y Suiza."
+    },
+    {
+      "id": 53,
+      "title": "Immuni muestra un mensaje de error de conexión cuando intento informar de que he dado positivo. ¿Qué puedo hacer?",
+      "content": "Por motivos de seguridad, los usuarios solo pueden informar de que han dado positivo desde el territorio italiano o desde zonas limítrofes (Ciudad del Vaticano, Eslovenia, Francia, San Marino y Suiza).\n\nSi te has conectado desde un lugar diferente a los enumerados anteriormente, es normal que veas el mensaje de error.\n\nPor el contrario, si te has conectado desde un lugar del territorio italiano o desde una zona limítrofe, te recomendamos que procedas de la siguiente manera:\n• Verifica que tu teléfono inteligente esté conectado a internet. \n• Conéctate desde la red móvil. El problema podría deberse a una red wifi que esté mal configurada.\n• Si estás utilizando una VPN, desactívala, ya que es posible que te haya asignado una IP fuera del territorio habilitado para que los usuarios indiquen que han dado positivo."
     }
   ]
 }
