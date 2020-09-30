@@ -5,7 +5,7 @@ import europe from './../assets/json/europe.json';
 import italyRegions from './../assets/json/italy-regions.json';
 import generalInfo from './../assets/json/general_info.json';
 import downloadDataset from './../assets/json/download_trend.json';
-import regioniDataset from './../assets/json/use_trend_by_region.json.json';
+import regioniDataset from './../assets/json/use_trend_by_region.json';
 
 
 const labels = {
@@ -119,7 +119,8 @@ window.onload = function () {
 	document.getElementById('sentNotifications').innerHTML = generalInfo.sentNotifications;
 	document.getElementById('containedOutbreaks').innerHTML = generalInfo.containedOutbreaks;
 	document.getElementById('positiveUsers').innerHTML = generalInfo.positiveUsers;
-
+	document.getElementById('lastUpdate').innerHTML = generalInfo.lastUpdate;
+	
 
 	//Linear chart for trends
 	var downloadTrend = document.getElementById('downloadTrend').getContext('2d');
