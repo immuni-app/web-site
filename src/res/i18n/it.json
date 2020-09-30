@@ -83,7 +83,14 @@
   },
   "dashboard": {
     "title": "I numeri di immuni",
-    "content": "Report sui download e l'utilizzo di Immuni"
+    "content": "Report sui download e l'utilizzo di Immuni",
+    "ofDownload": "milioni di download",
+    "positiveUser": "utenti positivi",
+    "notification": "notifiche inviate",
+    "outbreaks":"potenziali focolai contenuti",
+    "downloadTrends":"Andamento dei download",
+    "userByRegion":"Utenti per regione",
+    "lastUpdate":"Dati forniti dal Ministero della Salute.<br/>Ultimo aggiornamento:"
   },
   "faq": {
     "title": "Hai qualche domanda?",

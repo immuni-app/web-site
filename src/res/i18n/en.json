@@ -81,6 +81,17 @@
     "content": "Official graphic assets available for download",
     "button": "Download"
   },
+  "dashboard": {
+    "title": "The numbers of immuni",
+    "content": "Reports on downloads and usage of Immuni",
+    "ofDownload": "millions of download",
+    "positiveUser": "positive users",
+    "notification": "notifications sent",
+    "outbreaks":"potential contained outbreaks",
+    "downloadTrends":"Download progress",
+    "userByRegion":"Users by region",
+    "lastUpdate":"Data provided by the Ministero della Salute. <br/> Last update:"
+  },
   "faq": {
     "title": "Do you have any questions?",
     "search": "<input class='search__input' type='text' aria-label='Search' placeholder='Search topic...' />"

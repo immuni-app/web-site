@@ -80,6 +80,17 @@
     "content": "Recursos gráficos oficiales disponibles para descargar",
     "button": "Descargar"
   },
+  "dashboard": {
+    "title": "Los números de immuni",
+    "content": "Informes sobre descargas y uso de Immuni",
+    "ofDownload": "millones de descargas",
+    "positiveUser": "usuarios positivos",
+    "notification": "notificaciones enviadas",
+    "outbreaks":"posibles brotes contenidos",
+    "downloadTrends":"Progreso de descarga",
+    "userByRegion":"Usuarios por región",
+    "lastUpdate":"Datos proporcionados por el Ministero della Salute. <br/> Última actualización:"
+  },
   "faq": {
     "title": "¿Tienes alguna pregunta?",
     "search": "<input class='search__input' type='text' aria-label='Buscar' placeholder='Buscar tema...' />"

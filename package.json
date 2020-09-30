@@ -24,6 +24,7 @@
     "babel-polyfill": "^6",
     "bulma": "^0.8",
     "chart.js": "^2.9.3",
+    "chartjs-chart-geo": "^2.1.0",
     "core-js": "^3",
     "css-vars-ponyfill": "^2",
     "gsap": "^3",
