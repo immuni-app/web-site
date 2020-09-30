@@ -10,6 +10,7 @@ import Translator, { handleHomeImage } from "./scripts/translation-helper";
 import smoothscroll from "smoothscroll-polyfill";
 import cssVars from "css-vars-ponyfill";
 
+
 cssVarSupport();
 
 // Node forEach Polyfill

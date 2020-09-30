@@ -3,6 +3,7 @@
     "home": "Inicio",
     "documentation": "Documentación",
     "press": "Gráficos",
+    "dashboard": "Números",
     "faq": "Preguntas",
     "faqMobile": "Preguntas",
     "download": "Descárgate la aplicación",
@@ -15,6 +16,7 @@
         "home": "Inicio",
         "documentation": "Documentación",
         "press": "Gráficos",
+        "dashboard": "Números",
         "faq": "Preguntas",
         "download": "Descárgate la aplicación"
       }

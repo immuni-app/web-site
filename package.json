@@ -23,6 +23,7 @@
   "dependencies": {
     "babel-polyfill": "^6",
     "bulma": "^0.8",
+    "chart.js": "^2.9.3",
     "core-js": "^3",
     "css-vars-ponyfill": "^2",
     "gsap": "^3",
