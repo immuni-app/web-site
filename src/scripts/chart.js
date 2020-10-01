@@ -38,7 +38,7 @@ function valueFormat(labelValue) {
 			// Three Zeroes for Thousands
 			: Math.abs(Number(labelValue)) >= 1.0e+3
 
-				? Math.abs(Number(labelValue)) / 1.0e+3 + "K"
+				? Math.abs(Number(labelValue)) / 1.0e+3 
 
 				: Math.abs(Number(labelValue));
 
@@ -115,10 +115,10 @@ window.onload = function () {
 	const lang = localStorage.getItem("language");
 
 	//General INFO
-	document.getElementById('millionsOfDownload').innerHTML = generalInfo.millionsOfDownload;
-	document.getElementById('sentNotifications').innerHTML = generalInfo.sentNotifications;
-	document.getElementById('containedOutbreaks').innerHTML = generalInfo.containedOutbreaks;
-	document.getElementById('positiveUsers').innerHTML = generalInfo.positiveUsers;
+	document.getElementById('millionsOfDownload').innerHTML = valueFormat(generalInfo.millionsOfDownload);
+	document.getElementById('sentNotifications').innerHTML = valueFormat(generalInfo.sentNotifications);
+	document.getElementById('containedOutbreaks').innerHTML = valueFormat(generalInfo.containedOutbreaks);
+	document.getElementById('positiveUsers').innerHTML = valueFormat(generalInfo.positiveUsers);
 	document.getElementById('lastUpdate').innerHTML = generalInfo.lastUpdate;
 	
 
@@ -147,13 +147,13 @@ window.onload = function () {
 	const config = {
 		type: 'bubbleMap',
 		data: {
-			labels: regioniDataset.map((d) => d.label),
+			labels: regioniDataset.map((d) => d.denominazione_regione),
 
 			datasets: [{
 				outline: Italy,
 				showOutline: true,
 				backgroundColor: "rgba(88,81,255,0.8)",
-				data: regioniDataset,
+				data: regioniDataset.map((d) => Object.assign(d, { value: d.utilizzo_percentuale })),
 
 				outlineBackgroundColor: "#ffffff",
 				outlineBorderColor: "#5751ff",
@@ -169,7 +169,7 @@ window.onload = function () {
 				displayColors: false,
 				callbacks: {
 					label: function (tooltipItem, data) {
-						return data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index].label + ": " + tooltipItem.value + " %"
+						return data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index].denominazione_regione + ": " + tooltipItem.value + " %"
 					}
 				}
 			},
@@ -181,7 +181,7 @@ window.onload = function () {
 				datalabels: {
 					align: 'top',
 					formatter: (v) => {
-						return v.label;
+						return v.denominazione_regione;
 					}
 				}
 			},
