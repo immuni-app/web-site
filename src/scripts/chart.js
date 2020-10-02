@@ -115,29 +115,49 @@ function generateChartConfig(labels, data, valueLabel, xLabel, yLabel) {
 window.onload = function () {
 	
 	const lang = localStorage.getItem("language");
-	//General INFO
-	document.getElementById('nOfDownload').innerHTML =  Number(generalInfo.nOfDownload).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")
-	document.getElementById('sentNotifications').innerHTML = valueFormat(generalInfo.sentNotifications);
 
-	document.getElementById('positiveUsers').innerHTML = valueFormat(generalInfo.positiveUsers);
-	
+	let nOfDownload = document.getElementById('nOfDownload')
+	if (nOfDownload) {
+		nOfDownload.innerHTML =  Number(generalInfo.nOfDownload).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")
+	} 
+
+	let sentNotifications = document.getElementById('sentNotifications')
+	if (sentNotifications) {
+		sentNotifications.innerHTML =  valueFormat(generalInfo.sentNotifications);
+	} 
+
+	let positiveUsers = document.getElementById('positiveUsers')
+	if (positiveUsers) {
+		positiveUsers.innerHTML =  valueFormat(generalInfo.positiveUsers);
+	} 
+
 
 	moment.locale(lang); 
 	var lastUpdate = moment(generalInfo.lastUpdate)
-	document.getElementById('lastUpdate').innerHTML = lastUpdate.format('Do MMMM YYYY')
-	//Linear chart for trends
-	var downloadTrend = document.getElementById('downloadTrend').getContext('2d');
-	//var notificationTrend = document.getElementById('notificationTrend').getContext('2d');
-	var downloadLabels = []
-	var downloadData = []
-	Object.keys(downloadDataset).forEach(function (day) {
-		var total = downloadDataset[day].total;
-		day = moment(day).format('ll');
-		downloadLabels.push(day);
-		downloadData.push(total);
-	})
-	window.configDownloadTrend = generateChartConfig(downloadLabels, downloadData, "download", labels[lang].day, "Download")
-	window.downloadTrendChart = new Chart(downloadTrend, configDownloadTrend);
+
+	let lastUpdateDiv = document.getElementById('lastUpdate')
+	if (lastUpdateDiv) {
+		lastUpdateDiv.innerHTML =  lastUpdate.format('Do MMMM YYYY')
+	} 
+
+
+	let downloadTrendDiv = document.getElementById('downloadTrend')
+	if (downloadTrendDiv) {
+		var downloadTrend = downloadTrendDiv.getContext('2d');
+		//var notificationTrend = document.getElementById('notificationTrend').getContext('2d');
+		var downloadLabels = []
+		var downloadData = []
+		Object.keys(downloadDataset).forEach(function (day) {
+			var total = downloadDataset[day].total;
+			day = moment(day).format('ll');
+			downloadLabels.push(day);
+			downloadData.push(total);
+		})
+		window.configDownloadTrend = generateChartConfig(downloadLabels, downloadData, "download", labels[lang].day, "Download")
+		window.downloadTrendChart = new Chart(downloadTrend, configDownloadTrend);
+	} 
+
+	
 	
 	
 
