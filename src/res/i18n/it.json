@@ -84,7 +84,7 @@
   "dashboard": {
     "title": "I numeri di immuni",
     "content": "Report sui download e l'utilizzo di Immuni",
-    "ofDownload": "milioni di download",
+    "ofDownload": "download",
     "positiveUser": "utenti positivi",
     "notification": "notifiche inviate",
     "outbreaks":"potenziali focolai contenuti",

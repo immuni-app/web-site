@@ -84,7 +84,7 @@
   "dashboard": {
     "title": "The numbers of immuni",
     "content": "Reports on downloads and usage of Immuni",
-    "ofDownload": "millions of download",
+    "ofDownload": "download",
     "positiveUser": "positive users",
     "notification": "notifications sent",
     "outbreaks":"potential contained outbreaks",

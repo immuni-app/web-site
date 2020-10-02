@@ -1,11 +1,9 @@
 import Chart from 'chart.js';
 import "chartjs-chart-geo";
 import { feature } from "topojson-client";
-import europe from './../assets/json/europe.json';
-import italyRegions from './../assets/json/italy-regions.json';
 import generalInfo from './../assets/json/general_info.json';
 import downloadDataset from './../assets/json/download_trend.json';
-import regioniDataset from './../assets/json/use_trend_by_region.json';
+
 
 
 const labels = {
@@ -115,9 +113,9 @@ window.onload = function () {
 	const lang = localStorage.getItem("language");
 
 	//General INFO
-	document.getElementById('millionsOfDownload').innerHTML = valueFormat(generalInfo.millionsOfDownload);
+	document.getElementById('nOfDownload').innerHTML =  Number(generalInfo.nOfDownload).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")
 	document.getElementById('sentNotifications').innerHTML = valueFormat(generalInfo.sentNotifications);
-	document.getElementById('containedOutbreaks').innerHTML = valueFormat(generalInfo.containedOutbreaks);
+
 	document.getElementById('positiveUsers').innerHTML = valueFormat(generalInfo.positiveUsers);
 	document.getElementById('lastUpdate').innerHTML = generalInfo.lastUpdate;
 	
@@ -125,7 +123,7 @@ window.onload = function () {
 	//Linear chart for trends
 	var downloadTrend = document.getElementById('downloadTrend').getContext('2d');
 	//var notificationTrend = document.getElementById('notificationTrend').getContext('2d');
-	var downloadMap = document.getElementById('downloadMap').getContext('2d');
+	
 
 	var downloadLabels = []
 	var downloadData = []
@@ -138,69 +136,6 @@ window.onload = function () {
 	var downloadTrendChart = new Chart(downloadTrend, configDownloadTrend);
 
 
-	//Chart with map
-
-	const regions = feature(italyRegions, italyRegions.objects.ITA_adm1).features.filter((item) => item.properties.NAME_0 === 'Italy');
-	const countries = feature(europe, europe.objects.continent_Europe_subunits).features;
-	const Italy = countries.find((d) => (d.properties.geounit == 'Italy' && d.geometry != null));
-
-	const config = {
-		type: 'bubbleMap',
-		data: {
-			labels: regioniDataset.map((d) => d.denominazione_regione),
-
-			datasets: [{
-				outline: Italy,
-				showOutline: true,
-				backgroundColor: "rgba(88,81,255,0.8)",
-				data: regioniDataset.map((d) => Object.assign(d, { value: d.utilizzo_percentuale })),
-
-				outlineBackgroundColor: "#ffffff",
-				outlineBorderColor: "#5751ff",
-				outlineBorderWidth: 1,
-
-			}]
-		},
-		options: {
-			tooltips: {
-				mode: 'index',
-				intersect: true,
-				backgroundColor: "#182C57",
-				displayColors: false,
-				callbacks: {
-					label: function (tooltipItem, data) {
-						return data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index].denominazione_regione + ": " + tooltipItem.value + " %"
-					}
-				}
-			},
-			legend: {
-				display: false,
-
-			},
-			plugins: {
-				datalabels: {
-					align: 'top',
-					formatter: (v) => {
-						return v.denominazione_regione;
-					}
-				}
-			},
-
-			scale: {
-				projection: 'equalEarth',
-
-			},
-			geo: {
-				radiusScale: {
-					display: false,
-					size: [1, 10],
-				},
-			},
-		}
-	}
-
-
-	const chart = new Chart(downloadMap, config);
-
+	
 
 };

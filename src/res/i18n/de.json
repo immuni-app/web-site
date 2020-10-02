@@ -83,7 +83,7 @@
   "dashboard": {
     "title": "Die Zahlen von immuni",
     "content": "Berichte über Downloads und Nutzung von Immuni",
-    "ofDownload": "millionen von downloads",
+    "ofDownload": "download",
     "positiveUser": "positive benutzer",
     "notification": "benachrichtigungen gesendet",
     "outbreaks":"potenziell enthaltene Ausbrüche",
