@@ -132,6 +132,7 @@ window.onload = function () {
 	var downloadData = []
 	Object.keys(downloadDataset).forEach(function (day) {
 		var total = downloadDataset[day].total;
+		day = moment(day).format('ll');
 		downloadLabels.push(day);
 		downloadData.push(total);
 	})
@@ -152,6 +153,18 @@ export function updateChartLang() {
 	moment.locale(lang); 
 	var lastUpdate = moment(generalInfo.lastUpdate)
 	document.getElementById('lastUpdate').innerHTML = lastUpdate.format('Do MMMM YYYY')
+
+
+	var downloadLabels = []
+	var downloadData = []
+	Object.keys(downloadDataset).forEach(function (day) {
+		var total = downloadDataset[day].total;
+		day = moment(day).format('ll');
+		downloadLabels.push(day);
+		downloadData.push(total);
+	})
+
+	configDownloadTrend.data.labels = downloadLabels;
 
 	configDownloadTrend.options.scales.xAxes[0].scaleLabel.labelString = labels[lang].day;
 	
