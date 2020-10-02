@@ -133,10 +133,11 @@ window.onload = function () {
 
 
 	moment.locale(lang); 
-	var lastUpdate = moment(generalInfo.lastUpdate)
+	
 
 	let lastUpdateDiv = document.getElementById('lastUpdate')
 	if (lastUpdateDiv) {
+		var lastUpdate = moment(generalInfo.lastUpdate)
 		lastUpdateDiv.innerHTML =  lastUpdate.format('Do MMMM YYYY')
 	} 
 
@@ -171,8 +172,12 @@ export function updateChartLang() {
 
 	const lang = localStorage.getItem("language");
 	moment.locale(lang); 
-	var lastUpdate = moment(generalInfo.lastUpdate)
-	document.getElementById('lastUpdate').innerHTML = lastUpdate.format('Do MMMM YYYY')
+	
+	let lastUpdateDiv = document.getElementById('lastUpdate')
+	if (lastUpdateDiv) {
+		var lastUpdate = moment(generalInfo.lastUpdate)
+		lastUpdateDiv.innerHTML =  lastUpdate.format('Do MMMM YYYY')
+	} 
 
 
 	var downloadLabels = []
@@ -184,10 +189,11 @@ export function updateChartLang() {
 		downloadData.push(total);
 	})
 
-	configDownloadTrend.data.labels = downloadLabels;
-
-	configDownloadTrend.options.scales.xAxes[0].scaleLabel.labelString = labels[lang].day;
+	if(window.configDownloadTrend){
+		window.configDownloadTrend.data.labels = downloadLabels;
+		window.configDownloadTrend.options.scales.xAxes[0].scaleLabel.labelString = labels[lang].day;
+		window.downloadTrendChart.update();
+	}
 	
-    window.downloadTrendChart.update();
 
   }
