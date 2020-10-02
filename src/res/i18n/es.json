@@ -83,11 +83,11 @@
   "dashboard": {
     "title": "Los números de immuni",
     "content": "Informes sobre descargas y uso de Immuni",
-    "ofDownload": "millones de descargas",
+    "ofDownload": "download",
     "positiveUser": "usuarios positivos",
     "notification": "notificaciones enviadas",
     "outbreaks":"posibles brotes contenidos",
-    "downloadTrends":"download",
+    "downloadTrends":"Progreso de descarga",
     "userByRegion":"Usuarios por región",
     "lastUpdate":"Datos proporcionados por el Ministero della Salute. <br/> Última actualización:"
   },

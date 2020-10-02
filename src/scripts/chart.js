@@ -3,7 +3,7 @@ import "chartjs-chart-geo";
 import { feature } from "topojson-client";
 import generalInfo from './../assets/json/general_info.json';
 import downloadDataset from './../assets/json/download_trend.json';
-
+var moment = require('moment');
 
 
 const labels = {
@@ -109,22 +109,25 @@ function generateChartConfig(labels, data, valueLabel, xLabel, yLabel) {
 
 
 
-window.onload = function () {
-	const lang = localStorage.getItem("language");
 
+
+
+window.onload = function () {
+	
+	const lang = localStorage.getItem("language");
 	//General INFO
 	document.getElementById('nOfDownload').innerHTML =  Number(generalInfo.nOfDownload).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")
 	document.getElementById('sentNotifications').innerHTML = valueFormat(generalInfo.sentNotifications);
 
 	document.getElementById('positiveUsers').innerHTML = valueFormat(generalInfo.positiveUsers);
-	document.getElementById('lastUpdate').innerHTML = generalInfo.lastUpdate;
 	
 
+	moment.locale(lang); 
+	var lastUpdate = moment(generalInfo.lastUpdate)
+	document.getElementById('lastUpdate').innerHTML = lastUpdate.format('Do MMMM YYYY')
 	//Linear chart for trends
 	var downloadTrend = document.getElementById('downloadTrend').getContext('2d');
 	//var notificationTrend = document.getElementById('notificationTrend').getContext('2d');
-	
-
 	var downloadLabels = []
 	var downloadData = []
 	Object.keys(downloadDataset).forEach(function (day) {
@@ -132,10 +135,26 @@ window.onload = function () {
 		downloadLabels.push(day);
 		downloadData.push(total);
 	})
-	let configDownloadTrend = generateChartConfig(downloadLabels, downloadData, "download", labels[lang].day, "Download")
-	var downloadTrendChart = new Chart(downloadTrend, configDownloadTrend);
-
-
+	window.configDownloadTrend = generateChartConfig(downloadLabels, downloadData, "download", labels[lang].day, "Download")
+	window.downloadTrendChart = new Chart(downloadTrend, configDownloadTrend);
+	
 	
 
+
 };
+
+
+
+
+export function updateChartLang() {
+
+	const lang = localStorage.getItem("language");
+	moment.locale(lang); 
+	var lastUpdate = moment(generalInfo.lastUpdate)
+	document.getElementById('lastUpdate').innerHTML = lastUpdate.format('Do MMMM YYYY')
+
+	configDownloadTrend.options.scales.xAxes[0].scaleLabel.labelString = labels[lang].day;
+	
+    window.downloadTrendChart.update();
+
+  }

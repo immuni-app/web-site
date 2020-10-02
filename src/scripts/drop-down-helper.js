@@ -1,7 +1,7 @@
 import { handleFaq } from "./faq-helper";
 import { updateCookiesLang } from "./cookies-helper";
 import { handleHomeImage } from "./translation-helper";
-
+import { updateChartLang } from "./chart"
 export function selectSupport(translator) {
   /**
    * based on from https://github.com/inuyaksa/jquery.nicescroll/blob/master/jquery.nicescroll.js
@@ -337,6 +337,7 @@ export function selectSupport(translator) {
     this.options.onChange(this.el.value);
     translator.load(this.el.value);
     updateCookiesLang();
+    updateChartLang();
     handleHomeImage();
     if (window.location.href.indexOf("faq") != -1) {
       handleFaq();
