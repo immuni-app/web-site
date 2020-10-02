@@ -3,6 +3,7 @@
     "home": "Home",
     "documentation": "Documentazione",
     "press": "Grafica",
+    "dashboard": "Numeri",
     "faq": "Domande",
     "faqMobile": "Domande",
     "download": "Scarica l'app",
@@ -15,6 +16,7 @@
         "home": "Home",
         "documentation": "Documentazione",
         "press": "Grafica",
+        "dashboard": "Numeri",
         "faq": "Domande",
         "download": "Scarica l'app"
       }
@@ -78,6 +80,17 @@
     "title": "Grafica",
     "content": "Risorse grafiche ufficiali disponibili per il download",
     "button": "Scarica"
+  },
+  "dashboard": {
+    "title": "I numeri di immuni",
+    "content": "Report sui download e l'utilizzo di Immuni",
+    "ofDownload": "download",
+    "positiveUser": "utenti positivi",
+    "notification": "notifiche inviate",
+    "outbreaks":"potenziali focolai contenuti",
+    "downloadTrends":"Andamento dei download",
+    "userByRegion":"Utenti per regione",
+    "lastUpdate":"Dati forniti dal Ministero della Salute.<br/>Ultimo aggiornamento:"
   },
   "faq": {
     "title": "Hai qualche domanda?",

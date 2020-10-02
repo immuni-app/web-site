@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   devtool: "eval-cheap-module-source-map",
-  entry: ["babel-polyfill", "./src/index.js"],
+  entry:{ "main":["babel-polyfill", "./src/index.js"], "chart":["./src/scripts/chart.js"]},
   devServer: {
     port: 8080,
     contentBase: path.join(__dirname, "dist"),
@@ -92,52 +92,68 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "./index.html",
       // Inject the js bundle at the end of the body of the given template
-      inject: "body",
+      inject: true,
+      chunks: ['main']
     }),
     new HtmlWebpackPlugin({
       filename: "faq.html",
       template: "src/pages/faq.html",
-      inject: "body",
+      inject: true,
+      chunks: ['main']
     }),
     new HtmlWebpackPlugin({
       filename: "press.html",
       template: "src/pages/press.html",
-      inject: "body",
+      inject: true,
+      chunks: ['main']
+    }),
+    new HtmlWebpackPlugin({
+      filename: "dashboard.html",
+      template: "src/pages/dashboard.html",
+      inject: true,
+      chunks: ['main', 'chart']
     }),
     new HtmlWebpackPlugin({
       filename: "download.html",
       template: "src/pages/download.html",
-      inject: "body",
+      inject: true,
+      chunks: ['main']
     }),
     new HtmlWebpackPlugin({
       filename: "device-support.html",
       template: "src/pages/device-support.html",
-      inject: "body",
+      inject: true,
+      chunks: ['main']
     }),
     new HtmlWebpackPlugin({
       filename: "tou.html",
       template: "src/pages/tou.html",
-      inject: "body",
+      inject: true,
+      chunks: ['main']
     }),
     new HtmlWebpackPlugin({
       filename: "pn.html",
       template: "src/pages/pn.html",
-      inject: "body",
+      inject: true,
+      chunks: ['main']
     }),
     new HtmlWebpackPlugin({
       filename: "app-pn.html",
       template: "src/pages/app-pn.html",
-      inject: "body",
+      inject: true,
+      chunks: ['main']
     }),
     new HtmlWebpackPlugin({
       filename: "app-tou.html",
       template: "src/pages/app-tou.html",
-      inject: "body",
+      inject: true,
+      chunks: ['main']
     }),
     new HtmlWebpackPlugin({
       filename: "cs-pn.html",
       template: "src/pages/cs-pn.html",
-      inject: "body",
+      inject: true,
+      chunks: ['main']
     }),
   ],
 };

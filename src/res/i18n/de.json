@@ -3,6 +3,7 @@
     "home": "Home",
     "documentation": "Dokumentation",
     "press": "Grafik",
+    "dashboard": "Zahlen",
     "faq": "Fragen",
     "faqMobile": "FAQ",
     "download": "App herunterladen",
@@ -15,6 +16,7 @@
         "home": "Home",
         "documentation": "Dokumentation",
         "press": "Grafik",
+        "dashboard": "Zahlen",
         "faq": "Fragen",
         "download": "App herunterladen"
       }
@@ -77,6 +79,17 @@
     "title": "Grafik",
     "content": "Offizielle Grafikressourcen, die heruntergeladen werden können",
     "button": "Herunterladen"
+  },
+  "dashboard": {
+    "title": "Die Zahlen von immuni",
+    "content": "Berichte über Downloads und Nutzung von Immuni",
+    "ofDownload": "download",
+    "positiveUser": "positive benutzer",
+    "notification": "benachrichtigungen gesendet",
+    "outbreaks":"potenziell enthaltene Ausbrüche",
+    "downloadTrends":"Fortschritt herunterladen",
+    "userByRegion":"Benutzer nach Region",
+    "lastUpdate":"Daten bereitgestellt von Ministero della Salute. <br/> Letzte Aktualisierung:"
   },
   "faq": {
     "title": "Haben Sie Fragen?",
