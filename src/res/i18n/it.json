@@ -85,12 +85,13 @@
     "title": "I numeri di immuni",
     "content": "Report sui download e l'utilizzo di Immuni",
     "ofDownload": "download",
-    "positiveUser": "utenti positivi",
+    "positiveUser": "utenti positivi *",
     "notification": "notifiche inviate",
     "outbreaks":"potenziali focolai contenuti",
     "downloadTrends":"Andamento dei download",
     "userByRegion":"Utenti per regione",
-    "lastUpdate":"Dati forniti dal Ministero della Salute.<br/>Ultimo aggiornamento:"
+    "lastUpdate":"Dati forniti dal Ministero della Salute.<br/>Ultimo aggiornamento:",
+    "positiveUserDetail": "* Utenti positivi che hanno condiviso le informazioni sia se hanno o meno ricevuto la notifica di esposizione."
   },
   "faq": {
     "title": "Hai qualche domanda?",

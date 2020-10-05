@@ -85,12 +85,13 @@
     "title": "The numbers of immuni",
     "content": "Reports on downloads and usage of Immuni",
     "ofDownload": "download",
-    "positiveUser": "positive users",
+    "positiveUser": "positive users *",
     "notification": "notifications sent",
     "outbreaks":"potential contained outbreaks",
     "downloadTrends":"Download progress",
     "userByRegion":"Users by region",
-    "lastUpdate":"Data provided by the Ministero della Salute. <br/> Last update:"
+    "lastUpdate":"Data provided by the Ministero della Salute. <br/> Last update:",
+    "positiveUserDetail": "* Positive users who shared information whether or not they received the exposure notification."
   },
   "faq": {
     "title": "Do you have any questions?",

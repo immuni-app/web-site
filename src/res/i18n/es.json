@@ -84,12 +84,13 @@
     "title": "Los números de immuni",
     "content": "Informes sobre descargas y uso de Immuni",
     "ofDownload": "download",
-    "positiveUser": "usuarios positivos",
+    "positiveUser": "usuarios positivos *",
     "notification": "notificaciones enviadas",
     "outbreaks":"posibles brotes contenidos",
     "downloadTrends":"Progreso de descarga",
     "userByRegion":"Usuarios por región",
-    "lastUpdate":"Datos proporcionados por el Ministero della Salute. <br/> Última actualización:"
+    "lastUpdate":"Datos proporcionados por el Ministero della Salute. <br/> Última actualización:",
+    "positiveUserDetail": "* Usuarios positivos que compartieron la información tanto si recibieron la notificación de exposición como si no."
   },
   "faq": {
     "title": "¿Tienes alguna pregunta?",

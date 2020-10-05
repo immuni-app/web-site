@@ -25,21 +25,8 @@ const labels = {
 };
 
 function valueFormat(labelValue) {
-	// Nine Zeroes for Billions
-	return Math.abs(Number(labelValue)) >= 1.0e+9
-
-		? Math.abs(Number(labelValue)) / 1.0e+9 + "B"
-		// Six Zeroes for Millions 
-		: Math.abs(Number(labelValue)) >= 1.0e+6
-
-			? Math.abs(Number(labelValue)) / 1.0e+6 + "M"
-			// Three Zeroes for Thousands
-			: Math.abs(Number(labelValue)) >= 1.0e+3
-
-				? Math.abs(Number(labelValue)) / 1.0e+3 
-
-				: Math.abs(Number(labelValue));
-
+	return labelValue.toLocaleString()
+	
 }
 
 function generateChartConfig(labels, data, valueLabel, xLabel, yLabel) {
@@ -47,16 +34,7 @@ function generateChartConfig(labels, data, valueLabel, xLabel, yLabel) {
 		type: 'line',
 		data: {
 			labels: labels,
-			datasets: [{
-				data: data,
-				fill: true,
-				borderColor: "#5751ff",
-				backgroundColor: "rgba(68,110,255,0.4)",
-				pointRadius: 5,
-				pointHoverRadius: 6,
-				pointBackgroundColor: "#5751ff",
-
-			}]
+			datasets: data
 		},
 		options: {
 			responsive: true,
@@ -115,10 +93,13 @@ function generateChartConfig(labels, data, valueLabel, xLabel, yLabel) {
 window.onload = function () {
 	
 	const lang = localStorage.getItem("language");
+	let lastDate = Object.keys(downloadDataset).sort().pop();
+	let lastValue = downloadDataset[lastDate];
+	
 
 	let nOfDownload = document.getElementById('nOfDownload')
 	if (nOfDownload) {
-		nOfDownload.innerHTML =  Number(generalInfo.nOfDownload).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")
+		nOfDownload.innerHTML =  Number(lastValue.total).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")
 	} 
 
 	let sentNotifications = document.getElementById('sentNotifications')
@@ -137,7 +118,8 @@ window.onload = function () {
 
 	let lastUpdateDiv = document.getElementById('lastUpdate')
 	if (lastUpdateDiv) {
-		var lastUpdate = moment(generalInfo.lastUpdate)
+		let lastDate = Object.keys(downloadDataset).sort().pop();
+		var lastUpdate = moment(lastDate)
 		lastUpdateDiv.innerHTML =  lastUpdate.format('Do MMMM YYYY')
 	} 
 
@@ -148,21 +130,38 @@ window.onload = function () {
 		//var notificationTrend = document.getElementById('notificationTrend').getContext('2d');
 		var downloadLabels = []
 		var downloadData = []
+		var iosDownload = []
+		var androidDownload = []
 		Object.keys(downloadDataset).forEach(function (day) {
+			var ios_value = downloadDataset[day].ios;
+			var android_value = downloadDataset[day].android;
 			var total = downloadDataset[day].total;
 			day = moment(day).format('ll');
 			downloadLabels.push(day);
 			downloadData.push(total);
+			
+			iosDownload.push(ios_value)
+			androidDownload.push(android_value)
 		})
-		window.configDownloadTrend = generateChartConfig(downloadLabels, downloadData, "download", labels[lang].day, "Download")
-		window.downloadTrendChart = new Chart(downloadTrend, configDownloadTrend);
+		let dataset = [{
+			data: downloadData,
+			fill: true,
+			borderColor: "#5751ff",
+			backgroundColor: "rgba(68,110,255,0.4)",
+			pointRadius: 5,
+			pointHoverRadius: 6,
+			pointBackgroundColor: "#5751ff",
+
+		}]
+		window.configDownloadTrend = generateChartConfig(downloadLabels, dataset, "download", labels[lang].day, "Download")
+		window.downloadTrendChart = new Chart(downloadTrend, configDownloadTrend);		
 	} 
 
-	
-	
-	
 
 
+	
+	
+	
 };
 
 
@@ -175,7 +174,8 @@ export function updateChartLang() {
 	
 	let lastUpdateDiv = document.getElementById('lastUpdate')
 	if (lastUpdateDiv) {
-		var lastUpdate = moment(generalInfo.lastUpdate)
+		let lastDate = Object.keys(downloadDataset).sort().pop();
+		var lastUpdate = moment(lastDate)
 		lastUpdateDiv.innerHTML =  lastUpdate.format('Do MMMM YYYY')
 	} 
 
