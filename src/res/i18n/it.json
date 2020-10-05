@@ -91,7 +91,7 @@
     "downloadTrends":"Andamento dei download",
     "userByRegion":"Utenti per regione",
     "lastUpdate":"Dati forniti dal Ministero della Salute.<br/>Ultimo aggiornamento:",
-    "positiveUserDetail": "* Utenti positivi che hanno condiviso le informazioni sia se hanno o meno ricevuto la notifica di esposizione."
+    "positiveUserDetail": "* Utenti che hanno condiviso le informazioni di positività se hanno o non hanno ricevuto la notifica di esposizione."
   },
   "faq": {
     "title": "Hai qualche domanda?",

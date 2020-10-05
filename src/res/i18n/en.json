@@ -91,7 +91,7 @@
     "downloadTrends":"Download progress",
     "userByRegion":"Users by region",
     "lastUpdate":"Data provided by the Ministero della Salute. <br/> Last update:",
-    "positiveUserDetail": "* Positive users who shared information whether or not they received the exposure notification."
+    "positiveUserDetail": "* Users who have shared positivity information whether or not they have received the exposure notification"
   },
   "faq": {
     "title": "Do you have any questions?",

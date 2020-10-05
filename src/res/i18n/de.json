@@ -90,7 +90,7 @@
     "downloadTrends":"Fortschritt herunterladen",
     "userByRegion":"Benutzer nach Region",
     "lastUpdate":"Daten bereitgestellt von Ministero della Salute. <br/> Letzte Aktualisierung:",
-    "positiveUserDetail": "* Positive Benutzer, die Informationen ausgetauscht haben, unabhängig davon, ob sie die Expositionsbenachrichtigung erhalten haben oder nicht."
+    "positiveUserDetail": "* Benutzer, die Positivitätsinformationen geteilt haben, unabhängig davon, ob sie die Expositionsbenachrichtigung erhalten haben oder nicht"
   },
   "faq": {
     "title": "Haben Sie Fragen?",

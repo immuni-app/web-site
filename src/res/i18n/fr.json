@@ -90,7 +90,7 @@
     "downloadTrends":"Télécharger la progression",
     "userByRegion":"Utilisateurs par région",
     "lastUpdate":"Données fournies par le Ministero della Salute. <br/> Dernière mise à jour:",
-    "positiveUserDetail": "* Utilisateurs positifs qui ont partagé les informations, qu'ils aient ou non reçu la notification d'exposition."
+    "positiveUserDetail": "* Utilisateurs qui ont partagé des informations de positivité, qu'ils aient ou non reçu la notification d'exposition."
   },
   "faq": {
     "title": "Vous avez des questions?",
