@@ -143,6 +143,10 @@ window.onload = function () {
 			iosDownload.push(ios_value)
 			androidDownload.push(android_value)
 		})
+
+		downloadData = downloadData.slice(Math.max(downloadData.length - 7, 0))
+		downloadLabels = downloadLabels.slice(Math.max(downloadLabels.length - 7, 0))
+
 		let dataset = [{
 			data: downloadData,
 			fill: true,
@@ -188,6 +192,9 @@ export function updateChartLang() {
 		downloadLabels.push(day);
 		downloadData.push(total);
 	})
+
+	downloadData = downloadData.slice(Math.max(downloadData.length - 7, 0))
+	downloadLabels = downloadLabels.slice(Math.max(downloadLabels.length - 7, 0))
 
 	if(window.configDownloadTrend){
 		window.configDownloadTrend.data.labels = downloadLabels;
