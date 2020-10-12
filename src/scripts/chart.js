@@ -4,6 +4,11 @@ import { feature } from "topojson-client";
 import generalInfo from './../assets/json/general_info.json';
 import downloadDataset from './../assets/json/download_trend.json';
 import notificationDataset from './../assets/json/notification_trend.json';
+import 'datatables.net-dt'
+import 'datatables-bulma'
+
+var $ = require("jquery")
+
 var moment = require('moment');
 
 Number.prototype.round = function(places) {
@@ -106,6 +111,8 @@ function generateChartConfig(labels, data, valueLabel, xLabel, yLabel) {
 
 
 window.onload = function () {
+	
+	$('#example').DataTable();
 	
 	const lang = localStorage.getItem("language");
 	let lastDate = Object.keys(downloadDataset).sort().pop();

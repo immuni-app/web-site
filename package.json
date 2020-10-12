@@ -27,7 +27,10 @@
     "chartjs-chart-geo": "^2.1.0",
     "core-js": "^3",
     "css-vars-ponyfill": "^2",
+    "datatables-bulma": "^1.0.1",
+    "datatables.net-dt": "^1.10.22",
     "gsap": "^3",
+    "jquery": "^3.5.1",
     "smoothscroll-polyfill": "^0.4"
   },
   "browserslist": {
