@@ -21,6 +21,7 @@
   },
   "homepage": "",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
     "babel-polyfill": "^6",
     "bulma": "^0.8",
     "chart.js": "^2.9.3",
@@ -29,6 +30,7 @@
     "css-vars-ponyfill": "^2",
     "datatables-bulma": "^1.0.1",
     "datatables.net-dt": "^1.10.22",
+    "datatables.net-responsive": "^2.2.6",
     "gsap": "^3",
     "jquery": "^3.5.1",
     "smoothscroll-polyfill": "^0.4"

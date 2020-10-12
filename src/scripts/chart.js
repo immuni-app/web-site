@@ -4,10 +4,17 @@ import { feature } from "topojson-client";
 import generalInfo from './../assets/json/general_info.json';
 import downloadDataset from './../assets/json/download_trend.json';
 import notificationDataset from './../assets/json/notification_trend.json';
-import 'datatables.net-dt'
-import 'datatables-bulma'
+import provinceDataset from './../assets/json/dati_province.json';
+
+
+
+
 
 var $ = require("jquery")
+
+import 'datatables.net-responsive'
+import 'datatables-bulma'
+
 
 var moment = require('moment');
 
@@ -112,8 +119,31 @@ function generateChartConfig(labels, data, valueLabel, xLabel, yLabel) {
 
 window.onload = function () {
 	
-	$('#example').DataTable();
+	var tableProvince = $('#tableProvince').DataTable( {
+		language: {
+			"url": "https://cdn.datatables.net/plug-ins/1.10.21/i18n/Italian.json"
+		},
+		columns: [
+			{ "data": "sigla" },
+			{ "data": "provincia" },
+			{ "data": "regione" },
+			{ "data": "numero_positivi" },
+			{ "data": "notifiche_inviate"},
+			{ "data": "download"}
+		  ],
+		order: [[ 5, "desc" ]],
+		pageLength: 15,
+		lengthChange: false,
+		fixedColumns: true,
+
+        responsive: true
+	} );
+	tableProvince.rows.add(provinceDataset)
+
 	
+		
+
+
 	const lang = localStorage.getItem("language");
 	let lastDate = Object.keys(downloadDataset).sort().pop();
 	let lastValue = downloadDataset[lastDate];
