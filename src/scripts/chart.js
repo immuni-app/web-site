@@ -120,7 +120,7 @@ window.onload = function () {
 	if (lastUpdateDiv) {
 		let lastDate = Object.keys(downloadDataset).sort().pop();
 		var lastUpdate = moment(lastDate)
-		lastUpdateDiv.innerHTML =  lastUpdate.format('Do MMMM YYYY')
+		lastUpdateDiv.innerHTML =  lastUpdate.format('DD MMMM YYYY')
 	} 
 
 
@@ -180,7 +180,7 @@ export function updateChartLang() {
 	if (lastUpdateDiv) {
 		let lastDate = Object.keys(downloadDataset).sort().pop();
 		var lastUpdate = moment(lastDate)
-		lastUpdateDiv.innerHTML =  lastUpdate.format('Do MMMM YYYY')
+		lastUpdateDiv.innerHTML =  lastUpdate.format('DD MMMM YYYY')
 	} 
 
 
