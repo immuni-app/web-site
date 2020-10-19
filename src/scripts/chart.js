@@ -1,11 +1,14 @@
 import Chart from 'chart.js';
 import "chartjs-chart-geo";
+import * as ChartAnnotation from 'chartjs-plugin-annotation';
 import { feature } from "topojson-client";
 import generalInfo from './../assets/json/general_info.json';
 import downloadDataset from './../assets/json/download_trend.json';
 import notificationDataset from './../assets/json/notification_trend.json';
 import provinceDataset from './../assets/json/dati_province.json';
-
+let namedChartAnnotation = ChartAnnotation;
+namedChartAnnotation["id"]="annotation";
+ Chart.pluginService.register( namedChartAnnotation);
 
 
 
@@ -369,20 +372,35 @@ window.onload = function () {
 	}
 	*/
 	//Penetration chart
+	function compare( a, b ) {
+		var percentageA = ((a.utenti_attivi / a.popolazione_superiore_14anni) * 100).round(1);
+		var percentageB = ((b.utenti_attivi / b.popolazione_superiore_14anni) * 100).round(1);
+
+		if ( percentageA < percentageB ){
+		  return 1;
+		}
+		if ( percentageA > percentageB ){
+		  return -1;
+		}
+		return 0;
+	}
+
+	regioniDataset.sort(compare);
+	let percentageAverage = 0.0;
+	regioniDataset.forEach(a => {
+		var percentage = ((a.utenti_attivi / a.popolazione_superiore_14anni) * 100).round(1);
+		percentageAverage+=percentage;
+	});
+	percentageAverage = (percentageAverage/regioniDataset.length).round(1);
+
 	let penetrationByRegion = document.getElementById('penetrationByRegion')
 	if (penetrationByRegion) {
-
 		var penetrationChartData = {
 			labels:  regioniDataset.map((d) => d.denominazione_regione),
 			datasets: [{
-				label: 'Download',
-				backgroundColor: primaryChartColor,
-				data: regioniDataset.map((d) => d.utenti_attivi),
-			}, {
-				label: 'Popolazione con età superiore ai 14 anni',
+				label: 'Percentuale',
 				backgroundColor: secondaryChartColor,
-				tooltip: false,
-				data: regioniDataset.map((d) =>  d.popolazione_superiore_14anni),
+				data: regioniDataset.map((d) => ((d.utenti_attivi / d.popolazione_superiore_14anni) * 100).round(1)),
 			}]
 
 		};
@@ -395,6 +413,9 @@ window.onload = function () {
 				title: {
 					display: false
 				},
+				legend: {
+					display: false
+				 },
 				tooltips: {
 					mode: 'index',
 					intersect: false,
@@ -404,14 +425,16 @@ window.onload = function () {
 						title:function (tooltipItem, data) {
 
 							
-							var utentiAttivi = tooltipItem[0].value
-							var utentiTotali = tooltipItem[1].value
-							var percent = ((utentiAttivi / utentiTotali) * 100).round(1)
-
+							//var utentiAttivi = tooltipItem[0].value
+							//var utentiTotali = tooltipItem[1].value
+							//var percent = ((utentiAttivi / utentiTotali) * 100).round(1)
+							//return ""+tooltipItem[0].label+" ("+percent+"%)"
+							var percent = tooltipItem[0].value
 							return ""+tooltipItem[0].label+" ("+percent+"%)"
 						},
 						label: function (tooltipItem, data) {
-							return data.datasets[tooltipItem.datasetIndex].label+": " + valueFormat(data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index]);
+							return ""
+							//return data.datasets[tooltipItem.datasetIndex].label+": " + valueFormat(data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index]);
 						},
 						
 					},
@@ -427,7 +450,31 @@ window.onload = function () {
 					yAxes: [{
 						stacked: true
 					}]
-				}
+				},
+
+				annotation: {
+					drawTime: 'afterDatasetsDraw',
+					annotations: [{
+						id: 'a-line-1',
+						type: 'line',
+						mode: 'horizontal',
+						scaleID: 'y-axis-0',
+						value: percentageAverage,
+						borderColor: primaryChartColor,
+						borderWidth: 4,
+						label: {
+							backgroundColor: primaryChartColor,
+							content: 'Media nazionale ('+percentageAverage+'%)',
+							enabled: true,
+							position: "right",
+							xAdjust: 10,
+
+						}
+						
+					}]
+				},
+				
+				
 			}
 		}
 
