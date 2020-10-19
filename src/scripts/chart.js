@@ -5,7 +5,13 @@ import { feature } from "topojson-client";
 import generalInfo from './../assets/json/general_info.json';
 import downloadDataset from './../assets/json/download_trend.json';
 import notificationDataset from './../assets/json/notification_trend.json';
-import provinceDataset from './../assets/json/dati_province.json';
+//import provinceDataset from './../assets/json/dati_province.json';
+
+import europe from './../assets/json/europe.json';
+import italyRegions from './../assets/json/italy-regions.json';
+//import regioniDataset from './../assets/json/use_trend_by_region.json';
+
+
 let namedChartAnnotation = ChartAnnotation;
 namedChartAnnotation["id"]="annotation";
  Chart.pluginService.register( namedChartAnnotation);
@@ -25,10 +31,7 @@ Number.prototype.round = function(places) {
 	return +(Math.round(this + "e+" + places)  + "e-" + places);
 }
 
-//Region
-import europe from './../assets/json/europe.json';
-import italyRegions from './../assets/json/italy-regions.json';
-import regioniDataset from './../assets/json/use_trend_by_region.json';
+
 
 const labelBackgroundColor = "#182C57";
 const primaryChartColor = '#5851FF';
@@ -37,26 +40,29 @@ const secondaryChartColor = '#9f9eff';
 
 const labels = {
 	it: {
-		day: "Giorni"
+		day: "Giorni",
+		notification: "Notifiche"
 	},
 	en: {
-		day: "Day"
+		day: "Day",
+		notification: "Notifications"
 	},
 	de: {
-		day: "Tage"
+		day: "Tage",
+		notification: "Benachrichtigen"
 	},
 	fr: {
-		day: "Journées"
+		day: "Journées",
+		notification: "Notifier"
 	},
 	es: {
-		day: "Dias"
+		day: "Dias",
+		notification: "Notificar"
 	},
 };
 
 function valueFormat(labelValue) {
-	
 	return labelValue.toLocaleString()
-	
 }
 
 function generateChartConfig(labels, data, valueLabel, xLabel, yLabel) {
@@ -121,7 +127,7 @@ function generateChartConfig(labels, data, valueLabel, xLabel, yLabel) {
 
 
 window.onload = function () {
-	
+	/*
 	var tableProvince = $('#tableProvince').DataTable( {
 		language: {
 			"url": "https://cdn.datatables.net/plug-ins/1.10.21/i18n/Italian.json"
@@ -143,23 +149,26 @@ window.onload = function () {
 	} );
 	tableProvince.rows.add(provinceDataset)
 
-	
+	*/
 		
 
 
 	const lang = localStorage.getItem("language");
 	let lastDate = Object.keys(downloadDataset).sort().pop();
-	let lastValue = downloadDataset[lastDate];
+	let lastDownloadValue = downloadDataset[lastDate];
+
+	let lastNotificationDate = Object.keys(notificationDataset).sort().pop();
+	let lastNotificationValue = notificationDataset[lastNotificationDate];
 	
 
 	let nOfDownload = document.getElementById('nOfDownload')
 	if (nOfDownload) {
-		nOfDownload.innerHTML =  Number(lastValue.total).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")
+		nOfDownload.innerHTML =  Number(lastDownloadValue.total).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")
 	} 
 
 	let sentNotifications = document.getElementById('sentNotifications')
 	if (sentNotifications) {
-		sentNotifications.innerHTML =  valueFormat(generalInfo.sentNotifications);
+		sentNotifications.innerHTML =  Number(lastNotificationValue.notifications).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")
 	} 
 
 	let positiveUsers = document.getElementById('positiveUsers')
@@ -175,7 +184,7 @@ window.onload = function () {
 	if (lastUpdateDiv) {
 		let lastDate = Object.keys(downloadDataset).sort().pop();
 		var lastUpdate = moment(lastDate)
-		lastUpdateDiv.innerHTML =  lastUpdate.format('Do MMMM YYYY')
+		lastUpdateDiv.innerHTML =  lastUpdate.format('DD MMMM YYYY')
 	} 
 
 
@@ -225,7 +234,7 @@ window.onload = function () {
 		var positiveUserData = []
 		Object.keys(notificationDataset).forEach(function (day) {
 
-			var notifiche = notificationDataset[day].notifiche;
+			var notifiche = notificationDataset[day].notifications;
 			var utenti_positivi = notificationDataset[day].utenti_positivi;
 			day = moment(day).format('ll');
 			notificationLabels.push(day);
@@ -249,7 +258,7 @@ window.onload = function () {
 
 		},
 	]
-		window.configNotificationTrend = generateChartConfig(notificationLabels, dataset, "notifiche", labels[lang].day, "Notifiche")
+		window.configNotificationTrend = generateChartConfig(notificationLabels, dataset, labels[lang].notification.toLowerCase(), labels[lang].day, labels[lang].notification)
 		window.notificationTrendChart = new Chart(notificationTrend, window.configNotificationTrend);		
 	} 
 
@@ -297,7 +306,7 @@ window.onload = function () {
 		window.downloadDeviceChart = new Chart(downloadDeviceDiv, configDevice);
 	}
 
-	//Chart with map
+	//Penetration chart disabled
 	/*
 	var downloadMap = document.getElementById('downloadMap').getContext('2d');
 	if(downloadMap){
@@ -372,6 +381,9 @@ window.onload = function () {
 	}
 	*/
 	//Penetration chart
+	
+
+	/*
 	function compare( a, b ) {
 		var percentageA = ((a.utenti_attivi / a.popolazione_superiore_14anni) * 100).round(1);
 		var percentageB = ((b.utenti_attivi / b.popolazione_superiore_14anni) * 100).round(1);
@@ -533,7 +545,7 @@ window.onload = function () {
 
 		window.notificationByRegionChart = new Chart(notificationByRegion, configDevice);
 	}
-
+	*/
 	
 	
 	
@@ -551,10 +563,11 @@ export function updateChartLang() {
 	if (lastUpdateDiv) {
 		let lastDate = Object.keys(downloadDataset).sort().pop();
 		var lastUpdate = moment(lastDate)
-		lastUpdateDiv.innerHTML =  lastUpdate.format('Do MMMM YYYY')
+		lastUpdateDiv.innerHTML =  lastUpdate.format('DD MMMM YYYY')
 	} 
 
 
+	//DOWNLOAD UPD
 	var downloadLabels = []
 	var downloadData = []
 	Object.keys(downloadDataset).forEach(function (day) {
@@ -572,6 +585,50 @@ export function updateChartLang() {
 		window.configDownloadTrend.options.scales.xAxes[0].scaleLabel.labelString = labels[lang].day;
 		window.downloadTrendChart.update();
 	}
-	
+
+	//NOTIFICATION UPD
+	var notificationLabels = []
+	var notificationData = []
+	var positiveUserData = []
+	Object.keys(notificationDataset).forEach(function (day) {
+
+		var notifiche = notificationDataset[day].notifications;
+		var utenti_positivi = notificationDataset[day].utenti_positivi;
+		day = moment(day).format('ll');
+		notificationLabels.push(day);
+		notificationData.push(notifiche);
+		positiveUserData.push(utenti_positivi)
+
+	})
+
+	notificationData = notificationData.slice(Math.max(notificationData.length - 7, 0))
+	positiveUserData = positiveUserData.slice(Math.max(positiveUserData.length - 7, 0))
+	notificationLabels = notificationLabels.slice(Math.max(notificationLabels.length - 7, 0))
+
+	if(window.configNotificationTrend){
+		let dataset = [{
+			data: notificationData,
+			fill: true,
+			borderColor: primaryChartColor,
+			backgroundColor: primaryChartColorTrasparency,
+			pointRadius: 5,
+			pointHoverRadius: 6,
+			pointBackgroundColor: primaryChartColor,
+
+		}]
+
+
+		window.configNotificationTrend.data.labels = notificationLabels;
+		window.configNotificationTrend.options.scales.xAxes[0].scaleLabel.labelString = labels[lang].day;
+		window.configNotificationTrend.options.scales.yAxes[0].scaleLabel.labelString = labels[lang].notification;
+		window.configNotificationTrend.options.tooltips.callbacks.label=function (tooltipItem, data) {
+			return Number(tooltipItem.yLabel).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".") + " " + labels[lang].notification.toLowerCase();
+		}
+		//window.configNotificationTrend.options.scales.xAxes[0].scaleLabel.labelString = labels[lang].day;
+		window.notificationTrendChart.update()
+
+
+		
+	}
 
   }

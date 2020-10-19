@@ -177,7 +177,7 @@
             aria-label="Andamento dei download negli ultimi 7 giorni."></canvas>
         </div>
         <div class="chart-card">
-          <p class="colored" style="margin-bottom: 10px;" >Device utilizzati
+          <p class="colored" style="margin-bottom: 10px;" data-i18n="dashboard.usedDevices">Device utilizzati
           </p>
           <canvas id="downloadDevice" role="img"
             aria-label="Device utilizzati"></canvas>
@@ -193,10 +193,10 @@
       <div class="dashboard-herochart-wrapper">
         <div class="chart-card">
           <p class="colored" style="margin-bottom: 10px;" role="img"
-            aria-label="">Andamento delle notifiche</p>
+            aria-label="" data-i18n="dashboard.notificationTrends">Andamento delle notifiche</p>
           <canvas id="notificationTrend"></canvas>
         </div>
-        
+        <!--
         <div class="chart-card">
           <p class="colored" style="margin-bottom: 10px;" role="img"
             aria-label="">Percentuale di download sul numero di abitanti
@@ -211,13 +211,13 @@
           <canvas id="notificationByRegion"></canvas>
         </div>
 
-      
+        -->
 
       </div>
       
     </div>
   </section>
-
+<!--
   <section class="section  small-padding light">
     <div class="container">
       <p class="colored" style="margin-bottom: 10px;" role="img"
@@ -239,15 +239,21 @@
 </table>
 </div>
 </section>
+-->
   
 
   <section class="section  small-padding ">
     <div class="container">
       <div class="has-text-centered">
-        <p data-i18n="dashboard.positiveUserDetail" style="font-size: 12px; max-width: 780px;"> Utenti di immuni che a seguito di un tampone positivo al virus hanno comunicato il proprio codice al Servizio Sanitario Nazionale</p><br/>
+        
         <p class="intro delayed">
           <span data-i18n="dashboard.lastUpdate">Dati forniti dal Ministero della Salute.<br />Ultimo
             aggiornamento:</span> <span id="lastUpdate">--</span>
+        </p>
+        <br/>
+        <p style="font-size: 12px; max-width: 780px;"> 
+          <span data-i18n="dashboard.positiveUserDetail">* Utenti di immuni che a seguito di un tampone positivo al virus hanno comunicato il proprio codice al Servizio Sanitario Nazionale</span><br/>
+          <span data-i18n="dashboard.notificationDetail">** La rilevazione è parziale poichè solamente un terzo dei device Android utilizza la tecnologia di hardware attestation, condizione necessaria affinchè i dati vengano registrati dal server</span>
         </p>
       </div>
     </div>
