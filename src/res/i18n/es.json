@@ -85,12 +85,13 @@
     "content": "Informes sobre descargas y uso de Immuni",
     "ofDownload": "download",
     "positiveUser": "usuarios positivos *",
-    "notification": "notificaciones enviadas",
+    "notification": "notificaciones enviadas **",
     "outbreaks":"posibles brotes contenidos",
     "downloadTrends":"Progreso de descarga",
     "userByRegion":"Usuarios por región",
     "lastUpdate":"Datos proporcionados por el Ministero della Salute. <br/> Última actualización:",
-    "positiveUserDetail": "* Usuarios que han compartido información positiva, hayan recibido o no la notificación de exposición."
+    "positiveUserDetail": "* Usuarios que han compartido información positiva, hayan recibido o no la notificación de exposición.",
+    "notificationDetail": "** La detección es parcial, ya que solo un tercio de los dispositivos Android utilizan tecnología de certificación de hardware, una condición necesaria para que el servidor registre los datos"
   },
   "faq": {
     "title": "¿Tienes alguna pregunta?",

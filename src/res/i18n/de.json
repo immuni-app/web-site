@@ -85,12 +85,13 @@
     "content": "Berichte über Downloads und Nutzung von Immuni",
     "ofDownload": "download",
     "positiveUser": "positive benutzer *",
-    "notification": "benachrichtigungen gesendet",
+    "notification": "benachrichtigungen gesendet **",
     "outbreaks":"potenziell enthaltene Ausbrüche",
     "downloadTrends":"Fortschritt herunterladen",
     "userByRegion":"Benutzer nach Region",
     "lastUpdate":"Daten bereitgestellt von Ministero della Salute. <br/> Letzte Aktualisierung:",
-    "positiveUserDetail": "* Benutzer, die Positivitätsinformationen geteilt haben, unabhängig davon, ob sie die Expositionsbenachrichtigung erhalten haben oder nicht"
+    "positiveUserDetail": "* Benutzer, die Positivitätsinformationen geteilt haben, unabhängig davon, ob sie die Expositionsbenachrichtigung erhalten haben oder nicht",
+    "notificationDetail": "** Die Erkennung ist teilweise, da nur ein Drittel der Android-Geräte Hardware-Attestierungstechnologie verwendet. Dies ist eine notwendige Voraussetzung für die Aufzeichnung der Daten durch den Server."
   },
   "faq": {
     "title": "Haben Sie Fragen?",

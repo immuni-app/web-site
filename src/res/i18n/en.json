@@ -86,12 +86,13 @@
     "content": "Reports on downloads and usage of Immuni",
     "ofDownload": "download",
     "positiveUser": "positive users *",
-    "notification": "notifications sent",
+    "notification": "notifications sent **",
     "outbreaks":"potential contained outbreaks",
     "downloadTrends":"Download progress",
     "userByRegion":"Users by region",
     "lastUpdate":"Data provided by the Ministero della Salute. <br/> Last update:",
-    "positiveUserDetail": "* Users who have shared positivity information whether or not they have received the exposure notification"
+    "positiveUserDetail": "* Users who have shared positivity information whether or not they have received the exposure notification",
+    "notificationDetail": "** The detection is partial as only a third of Android devices use hardware attestation technology, a necessary condition for the data to be recorded by the server."
   },
   "faq": {
     "title": "Do you have any questions?",

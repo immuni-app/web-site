@@ -86,12 +86,13 @@
     "content": "Report sui download e l'utilizzo di Immuni",
     "ofDownload": "download",
     "positiveUser": "utenti positivi *",
-    "notification": "notifiche inviate",
+    "notification": "notifiche inviate **",
     "outbreaks":"potenziali focolai contenuti",
     "downloadTrends":"Andamento dei download",
     "userByRegion":"Utenti per regione",
     "lastUpdate":"Dati forniti dal Ministero della Salute.<br/>Ultimo aggiornamento:",
-    "positiveUserDetail": "* Utenti che hanno condiviso le informazioni di positività se hanno o non hanno ricevuto la notifica di esposizione."
+    "positiveUserDetail": "* Utenti che hanno condiviso le informazioni di positività se hanno o non hanno ricevuto la notifica di esposizione.",
+    "notificationDetail": "** La rilevazione è parziale poichè solamente un terzo dei devices Android utilizza la tecnologia di hardware attestation, condizione necessaria affinchè i dati vengano registrati dal server."
   },
   "faq": {
     "title": "Hai qualche domanda?",
