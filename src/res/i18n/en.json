@@ -89,6 +89,8 @@
     "notification": "notifications sent **",
     "outbreaks":"potential contained outbreaks",
     "downloadTrends":"Download progress",
+    "usedDevices": "Used devices",
+    "notificationTrends": "Notifications trend",
     "userByRegion":"Users by region",
     "lastUpdate":"Data provided by the Ministero della Salute. <br/> Last update:",
     "positiveUserDetail": "* Users who have shared positivity information whether or not they have received the exposure notification",

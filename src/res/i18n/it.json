@@ -89,6 +89,8 @@
     "notification": "notifiche inviate **",
     "outbreaks":"potenziali focolai contenuti",
     "downloadTrends":"Andamento dei download",
+    "usedDevices": "Dispositivi utilizzati",
+    "notificationTrends":"Andamento delle notifiche",
     "userByRegion":"Utenti per regione",
     "lastUpdate":"Dati forniti dal Ministero della Salute.<br/>Ultimo aggiornamento:",
     "positiveUserDetail": "* Utenti che hanno condiviso le informazioni di positività se hanno o non hanno ricevuto la notifica di esposizione.",

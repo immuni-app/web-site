@@ -88,6 +88,8 @@
     "notification": "notifications envoyées **",
     "outbreaks":"éclosions potentiellement maîtrisées",
     "downloadTrends":"Télécharger la progression",
+    "usedDevices": "Périphériques utilisés",
+    "notificationTrends": "Tendance des notifications",
     "userByRegion":"Utilisateurs par région",
     "lastUpdate":"Données fournies par le Ministero della Salute. <br/> Dernière mise à jour:",
     "positiveUserDetail": "* Utilisateurs qui ont partagé des informations de positivité, qu'ils aient ou non reçu la notification d'exposition.",
