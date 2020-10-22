@@ -2,7 +2,6 @@ import Chart from 'chart.js';
 import "chartjs-chart-geo";
 import * as ChartAnnotation from 'chartjs-plugin-annotation';
 import { feature } from "topojson-client";
-import generalInfo from './../assets/json/general_info.json';
 import downloadDataset from './../assets/json/download_trend.json';
 import notificationDataset from './../assets/json/notification_trend.json';
 //import provinceDataset from './../assets/json/dati_province.json';
@@ -173,7 +172,7 @@ window.onload = function () {
 
 	let positiveUsers = document.getElementById('positiveUsers')
 	if (positiveUsers) {
-		positiveUsers.innerHTML =  valueFormat(generalInfo.positiveUsers);
+		positiveUsers.innerHTML =  Number(lastNotificationValue.positive_users).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")
 	} 
 
 
@@ -235,7 +234,7 @@ window.onload = function () {
 		Object.keys(notificationDataset).forEach(function (day) {
 
 			var notifiche = notificationDataset[day].notifications;
-			var utenti_positivi = notificationDataset[day].utenti_positivi;
+			var utenti_positivi = notificationDataset[day].positive_users;
 			day = moment(day).format('ll');
 			notificationLabels.push(day);
 			notificationData.push(notifiche);
@@ -256,7 +255,7 @@ window.onload = function () {
 			pointHoverRadius: 6,
 			pointBackgroundColor: primaryChartColor,
 
-		},
+		}
 	]
 		window.configNotificationTrend = generateChartConfig(notificationLabels, dataset, labels[lang].notification.toLowerCase(), labels[lang].day, labels[lang].notification)
 		window.notificationTrendChart = new Chart(notificationTrend, window.configNotificationTrend);		
