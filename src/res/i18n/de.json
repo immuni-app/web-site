@@ -91,9 +91,11 @@
     "usedDevices": "Gebrauchte Geräte",
     "notificationTrends": "Benachrichtigungs trend",
     "userByRegion":"Benutzer nach Region",
-    "lastUpdate":"Daten bereitgestellt von Ministero della Salute. <br/> Letzte Aktualisierung:",
+    "lastUpdate":"Daten bereitgestellt von Gesundheitsministerium. <br/> Letzte Aktualisierung:",
     "positiveUserDetail": "* Benutzer, die Positivitätsinformationen geteilt haben, unabhängig davon, ob sie die Expositionsbenachrichtigung erhalten haben oder nicht",
-    "notificationDetail": "** Die Erkennung ist teilweise, da nur ein Drittel der Android-Geräte Hardware-Attestierungstechnologie verwendet. Dies ist eine notwendige Voraussetzung für die Aufzeichnung der Daten durch den Server."
+    "notificationDetail": "** Die Erkennung ist teilweise, da nur ein Drittel der Android-Geräte Hardware-Attestierungstechnologie verwendet. Dies ist eine notwendige Voraussetzung für die Aufzeichnung der Daten durch den Server.",
+    "percentageOverPopulation":"Prozentsatz der Downloads über die Einwohnerzahl",
+    "penetrationByRegionNote":"Projektion des Gesundheitsministeriums aktualisiert auf"
   },
   "faq": {
     "title": "Haben Sie Fragen?",

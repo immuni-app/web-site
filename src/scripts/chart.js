@@ -8,7 +8,7 @@ import notificationDataset from './../assets/json/notification_trend.json';
 
 import europe from './../assets/json/europe.json';
 import italyRegions from './../assets/json/italy-regions.json';
-//import regioniDataset from './../assets/json/use_trend_by_region.json';
+import regioniDataset from './../assets/json/use_trend_by_region.json';
 
 
 let namedChartAnnotation = ChartAnnotation;
@@ -40,28 +40,42 @@ const secondaryChartColor = '#9f9eff';
 const labels = {
 	it: {
 		day: "Giorni",
-		notification: "Notifiche"
+		notification: "Notifiche",
+		nationalAvg: "Media nazionale",
+		over14yo: "Popolazione con età superiore ai 14 anni"
 	},
 	en: {
 		day: "Day",
-		notification: "Notifications"
+		notification: "Notifications",
+		nationalAvg: "National average",
+		over14yo: "Population over 14 years of age"
 	},
 	de: {
 		day: "Tage",
-		notification: "Benachrichtigen"
+		notification: "Benachrichtigen",
+		nationalAvg: "Nationaler Durchschnitt",
+		over14yo: "Bevölkerung über 14 Jahre"
 	},
 	fr: {
 		day: "Journées",
-		notification: "Notifier"
+		notification: "Notifier",
+		nationalAvg: "Moyenne nationale",
+		over14yo: "Population de plus de 14 ans"
 	},
 	es: {
 		day: "Dias",
-		notification: "Notificar"
+		notification: "Notificar",
+		nationalAvg: "Promedio nacional",
+		over14yo: "Población mayor de 14 años"
 	},
 };
 
 function valueFormat(labelValue) {
 	return labelValue.toLocaleString()
+}
+
+function addDot(number){
+	return Number(number).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")
 }
 
 function generateChartConfig(labels, data, valueLabel, xLabel, yLabel) {
@@ -84,7 +98,7 @@ function generateChartConfig(labels, data, valueLabel, xLabel, yLabel) {
 				callbacks: {
 					label: function (tooltipItem, data) {
 
-						return Number(tooltipItem.yLabel).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".") + " " + valueLabel;
+						return addDot(tooltipItem.yLabel)+ " " + valueLabel;
 					}
 				}
 			},
@@ -162,17 +176,17 @@ window.onload = function () {
 
 	let nOfDownload = document.getElementById('nOfDownload')
 	if (nOfDownload) {
-		nOfDownload.innerHTML =  Number(lastDownloadValue.total).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")
+		nOfDownload.innerHTML =  addDot(lastDownloadValue.total)
 	} 
 
 	let sentNotifications = document.getElementById('sentNotifications')
 	if (sentNotifications) {
-		sentNotifications.innerHTML =  Number(lastNotificationValue.notifications).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")
+		sentNotifications.innerHTML =  addDot(lastNotificationValue.notifications)
 	} 
 
 	let positiveUsers = document.getElementById('positiveUsers')
 	if (positiveUsers) {
-		positiveUsers.innerHTML =  Number(lastNotificationValue.positive_users).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")
+		positiveUsers.innerHTML =  addDot(lastNotificationValue.positive_users)
 	} 
 
 
@@ -382,7 +396,7 @@ window.onload = function () {
 	//Penetration chart
 	
 
-	/*
+	
 	function compare( a, b ) {
 		var percentageA = ((a.utenti_attivi / a.popolazione_superiore_14anni) * 100).round(1);
 		var percentageB = ((b.utenti_attivi / b.popolazione_superiore_14anni) * 100).round(1);
@@ -409,7 +423,7 @@ window.onload = function () {
 		var penetrationChartData = {
 			labels:  regioniDataset.map((d) => d.denominazione_regione),
 			datasets: [{
-				label: 'Percentuale',
+				label: '%',
 				backgroundColor: secondaryChartColor,
 				data: regioniDataset.map((d) => ((d.utenti_attivi / d.popolazione_superiore_14anni) * 100).round(1)),
 			}]
@@ -435,13 +449,10 @@ window.onload = function () {
 					callbacks: {
 						title:function (tooltipItem, data) {
 
-							
-							//var utentiAttivi = tooltipItem[0].value
-							//var utentiTotali = tooltipItem[1].value
-							//var percent = ((utentiAttivi / utentiTotali) * 100).round(1)
-							//return ""+tooltipItem[0].label+" ("+percent+"%)"
+							let i = tooltipItem[0].index
+							let region = regioniDataset[i]
 							var percent = tooltipItem[0].value
-							return ""+tooltipItem[0].label+" ("+percent+"%)"
+							return ""+tooltipItem[0].label+" ("+percent+"%)\nDownload: "+addDot(region.utenti_attivi)+"\n"+labels[lang].over14yo+": "+addDot(region.popolazione_superiore_14anni)
 						},
 						label: function (tooltipItem, data) {
 							return ""
@@ -475,7 +486,7 @@ window.onload = function () {
 						borderWidth: 4,
 						label: {
 							backgroundColor: primaryChartColor,
-							content: 'Media nazionale ('+percentageAverage+'%)',
+							content: labels[lang].nationalAvg+' ('+percentageAverage+'%)',
 							enabled: true,
 							position: "right",
 							xAdjust: 10,
@@ -488,10 +499,10 @@ window.onload = function () {
 				
 			}
 		}
-
+		window.configPenetration = configDevice;
 		window.penetrationChart = new Chart(penetrationByRegion, configDevice);
 	}
-
+	/*
 	//Notification and positive chart
 	let notificationByRegion = document.getElementById('notificationByRegion')
 	if (notificationByRegion) {
@@ -621,13 +632,39 @@ export function updateChartLang() {
 		window.configNotificationTrend.options.scales.xAxes[0].scaleLabel.labelString = labels[lang].day;
 		window.configNotificationTrend.options.scales.yAxes[0].scaleLabel.labelString = labels[lang].notification;
 		window.configNotificationTrend.options.tooltips.callbacks.label=function (tooltipItem, data) {
-			return Number(tooltipItem.yLabel).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".") + " " + labels[lang].notification.toLowerCase();
+			return addDot(tooltipItem.yLabel)+ " " + labels[lang].notification.toLowerCase();
 		}
 		//window.configNotificationTrend.options.scales.xAxes[0].scaleLabel.labelString = labels[lang].day;
 		window.notificationTrendChart.update()
-
-
 		
 	}
+
+	//Penetration region
+	let percentageAverage = 0.0;
+	regioniDataset.forEach(a => {
+		var percentage = ((a.utenti_attivi / a.popolazione_superiore_14anni) * 100).round(1);
+		percentageAverage+=percentage;
+	});
+	percentageAverage = (percentageAverage/regioniDataset.length).round(1);
+
+	if(window.configPenetration){
+
+		window.penetrationChart.annotation.elements = [];
+		window.configPenetration.options.annotation.annotations[0].label.content = labels[lang].nationalAvg+' ('+percentageAverage+'%)'
+
+
+		window.configPenetration.options.tooltips.callbacks.title = function (tooltipItem, data) {
+			let i = tooltipItem[0].index
+			let region = regioniDataset[i]
+			var percent = tooltipItem[0].value
+			return ""+tooltipItem[0].label+" ("+percent+"%)\nDownload: "+addDot(region.utenti_attivi)+"\n"+labels[lang].over14yo+": "+addDot(region.popolazione_superiore_14anni)
+		}
+		
+
+
+		window.penetrationChart.update()
+	}
+	
+	
 
   }

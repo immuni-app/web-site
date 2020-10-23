@@ -94,7 +94,9 @@
     "userByRegion":"Utenti per regione",
     "lastUpdate":"Dati forniti dal Ministero della Salute.<br/>Ultimo aggiornamento:",
     "positiveUserDetail": "* Utenti che hanno condiviso le informazioni di positività se hanno o non hanno ricevuto la notifica di esposizione.",
-    "notificationDetail": "** La rilevazione è parziale poichè solamente un terzo dei devices Android utilizza la tecnologia di hardware attestation, condizione necessaria affinchè i dati vengano registrati dal server."
+    "notificationDetail": "** La rilevazione è parziale poichè solamente un terzo dei devices Android utilizza la tecnologia di hardware attestation, condizione necessaria affinchè i dati vengano registrati dal server.",
+    "percentageOverPopulation":"Percentuale di download su numero di abitanti",
+    "penetrationByRegionNote":"Proiezione effettuata dal Ministero della Salute, aggiornata al"
   },
   "faq": {
     "title": "Hai qualche domanda?",

@@ -92,9 +92,11 @@
     "usedDevices": "Used devices",
     "notificationTrends": "Notifications trend",
     "userByRegion":"Users by region",
-    "lastUpdate":"Data provided by the Ministero della Salute. <br/> Last update:",
+    "lastUpdate":"Data provided by the Ministry of Health. <br/> Last update:",
     "positiveUserDetail": "* Users who have shared positivity information whether or not they have received the exposure notification",
-    "notificationDetail": "** The detection is partial as only a third of Android devices use hardware attestation technology, a necessary condition for the data to be recorded by the server."
+    "notificationDetail": "** The detection is partial as only a third of Android devices use hardware attestation technology, a necessary condition for the data to be recorded by the server.",
+    "percentageOverPopulation":"Percentage of downloads over number of inhabitants",
+    "penetrationByRegionNote":"Projection made by the Ministry of Health updated to"
   },
   "faq": {
     "title": "Do you have any questions?",

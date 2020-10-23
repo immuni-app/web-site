@@ -91,9 +91,11 @@
     "usedDevices": "Dispositivos usados",
     "notificationTrends": "Progreso de notificación",
     "userByRegion":"Usuarios por región",
-    "lastUpdate":"Datos proporcionados por el Ministero della Salute. <br/> Última actualización:",
+    "lastUpdate":"Datos proporcionados por el Ministerio de Salud. <br/> Última actualización:",
     "positiveUserDetail": "* Usuarios que han compartido información positiva, hayan recibido o no la notificación de exposición.",
-    "notificationDetail": "** La detección es parcial, ya que solo un tercio de los dispositivos Android utilizan tecnología de certificación de hardware, una condición necesaria para que el servidor registre los datos"
+    "notificationDetail": "** La detección es parcial, ya que solo un tercio de los dispositivos Android utilizan tecnología de certificación de hardware, una condición necesaria para que el servidor registre los datos",
+    "percentageOverPopulation":"Porcentaje de descargas sobre el número de habitantes",
+    "penetrationByRegionNote":"Proyección realizada por el Ministerio de Salud actualizada a"
   },
   "faq": {
     "title": "¿Tienes alguna pregunta?",
