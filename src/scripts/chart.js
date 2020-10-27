@@ -13,7 +13,7 @@ import regioniDataset from './../assets/json/use_trend_by_region.json';
 
 let namedChartAnnotation = ChartAnnotation;
 namedChartAnnotation["id"]="annotation";
- Chart.pluginService.register( namedChartAnnotation);
+Chart.pluginService.register( namedChartAnnotation);
 
 
 
@@ -163,12 +163,12 @@ window.onload = function () {
 	tableProvince.rows.add(provinceDataset)
 
 	*/
-		
-
 
 	const lang = localStorage.getItem("language");
-	let lastDate = Object.keys(downloadDataset).sort().pop();
-	let lastDownloadValue = downloadDataset[lastDate];
+	let lastDate = downloadDataset[downloadDataset.length-1].data
+	
+	let lastDownloadValue = downloadDataset[downloadDataset.length-1]
+	
 
 	let lastNotificationDate = Object.keys(notificationDataset).sort().pop();
 	let lastNotificationValue = notificationDataset[lastNotificationDate];
@@ -195,7 +195,7 @@ window.onload = function () {
 
 	let lastUpdateDiv = document.getElementById('lastUpdate')
 	if (lastUpdateDiv) {
-		let lastDate = Object.keys(downloadDataset).sort().pop();
+		let lastDate = downloadDataset[downloadDataset.length-1].data
 		var lastUpdate = moment(lastDate)
 		lastUpdateDiv.innerHTML =  lastUpdate.format('DD MMMM YYYY')
 	} 
@@ -209,11 +209,11 @@ window.onload = function () {
 		var downloadData = []
 		var iosDownload = []
 		var androidDownload = []
-		Object.keys(downloadDataset).forEach(function (day) {
-			var ios_value = downloadDataset[day].ios;
-			var android_value = downloadDataset[day].android;
-			var total = downloadDataset[day].total;
-			day = moment(day).format('ll');
+		downloadDataset.forEach(function (elem) {
+			var ios_value = elem.ios;
+			var android_value = elem.android;
+			var total = elem.total;
+			let day = moment(elem.data).format('ll');
 			downloadLabels.push(day);
 			downloadData.push(total);
 			
@@ -571,7 +571,7 @@ export function updateChartLang() {
 	
 	let lastUpdateDiv = document.getElementById('lastUpdate')
 	if (lastUpdateDiv) {
-		let lastDate = Object.keys(downloadDataset).sort().pop();
+		let lastDate = downloadDataset[downloadDataset.length-1].data
 		var lastUpdate = moment(lastDate)
 		lastUpdateDiv.innerHTML =  lastUpdate.format('DD MMMM YYYY')
 	} 
@@ -580,9 +580,9 @@ export function updateChartLang() {
 	//DOWNLOAD UPD
 	var downloadLabels = []
 	var downloadData = []
-	Object.keys(downloadDataset).forEach(function (day) {
-		var total = downloadDataset[day].total;
-		day = moment(day).format('ll');
+	downloadDataset.forEach(function (elem) {
+		var total = elem.total;
+		let day = moment(elem.data).format('ll');
 		downloadLabels.push(day);
 		downloadData.push(total);
 	})
