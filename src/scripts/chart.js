@@ -170,8 +170,8 @@ window.onload = function () {
 	let lastDownloadValue = downloadDataset[downloadDataset.length-1]
 	
 
-	let lastNotificationDate = Object.keys(notificationDataset).sort().pop();
-	let lastNotificationValue = notificationDataset[lastNotificationDate];
+	let lastNotificationDate = notificationDataset[notificationDataset.length-1].data
+	let lastNotificationValue = notificationDataset[notificationDataset.length-1]
 	
 
 	let nOfDownload = document.getElementById('nOfDownload')
@@ -245,10 +245,10 @@ window.onload = function () {
 		var notificationLabels = []
 		var notificationData = []
 		var positiveUserData = []
-		Object.keys(notificationDataset).forEach(function (day) {
-
-			var notifiche = notificationDataset[day].notifications;
-			var utenti_positivi = notificationDataset[day].positive_users;
+		notificationDataset.forEach(function (element) {
+			let day = element.data
+			var notifiche = element.notifications;
+			var utenti_positivi = element.positive_users;
 			day = moment(day).format('ll');
 			notificationLabels.push(day);
 			notificationData.push(notifiche);
@@ -600,10 +600,10 @@ export function updateChartLang() {
 	var notificationLabels = []
 	var notificationData = []
 	var positiveUserData = []
-	Object.keys(notificationDataset).forEach(function (day) {
-
-		var notifiche = notificationDataset[day].notifications;
-		var utenti_positivi = notificationDataset[day].utenti_positivi;
+	notificationDataset.forEach(function (element) {
+		var day = element.data
+		var notifiche = element.notifications;
+		var utenti_positivi = element.utenti_positivi;
 		day = moment(day).format('ll');
 		notificationLabels.push(day);
 		notificationData.push(notifiche);

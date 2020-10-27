@@ -151,14 +151,15 @@
               <span class="dashboard-card__title" data-i18n="dashboard.ofDownload">download</span>
             </div>
             <div class="dashboard-card">
+              <h1 class="colored" style="margin-bottom: 10px;"><span id="positiveUsers">0</span></h1>
+              <span class="dashboard-card__title" data-i18n="dashboard.positiveUser">utenti positivi</span>
+            </div>
+            <div class="dashboard-card">
               <h1 class="colored" style="margin-bottom: 10px;"><span id="sentNotifications">0</span></h1>
               <span class="dashboard-card__title" data-i18n="dashboard.notification">notifiche inviate negli ultimi 10
                 giorni</span>
             </div>
-            <div class="dashboard-card">
-              <h1 class="colored" style="margin-bottom: 10px;"><span id="positiveUsers">0</span></h1>
-              <span class="dashboard-card__title" data-i18n="dashboard.positiveUser">utenti positivi</span>
-            </div>
+            
           </div>
         </div>
       </div>
@@ -257,9 +258,10 @@
             aggiornamento:</span> <span id="lastUpdate">--</span>
         </p>
         <br/>
-        <p style="font-size: 12px; max-width: 780px;"> 
-          <span data-i18n="dashboard.positiveUserDetail">* Utenti di immuni che a seguito di un tampone positivo al virus hanno comunicato il proprio codice al Servizio Sanitario Nazionale</span><br/>
-          <span data-i18n="dashboard.notificationDetail">** La rilevazione è parziale poichè solamente un terzo dei device Android utilizza la tecnologia di hardware attestation, condizione necessaria affinchè i dati vengano registrati dal server</span>
+        <p style="font-size: 12px; max-width: 90%"> 
+          <span data-i18n="dashboard.downloadDetail">* Sono i download unici dell’applicazione (non comprende gli aggiornamenti)</span><br/>
+          <span data-i18n="dashboard.positiveUserDetail">** Utenti di immuni che a seguito di un tampone positivo al virus hanno comunicato il proprio codice al Servizio Sanitario Nazionale</span><br/>
+          <span data-i18n="dashboard.notificationDetail">*** La rilevazione è parziale poichè solamente un terzo dei device Android utilizza la tecnologia di hardware attestation, condizione necessaria affinchè i dati vengano registrati dal server</span>
         </p>
       </div>
     </div>
