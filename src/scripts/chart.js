@@ -3,7 +3,7 @@ import "chartjs-chart-geo";
 import * as ChartAnnotation from 'chartjs-plugin-annotation';
 import { feature } from "topojson-client";
 import downloadDataset from './../assets/json/download_trend.json';
-import notificationDataset from './../assets/json/notification_trend.json';
+import andamentoNazionale from './../assets/json/andamento-nazionale.json';
 //import provinceDataset from './../assets/json/dati_province.json';
 
 import europe from './../assets/json/europe.json';
@@ -36,35 +36,42 @@ const labelBackgroundColor = "#182C57";
 const primaryChartColor = '#5851FF';
 const primaryChartColorTrasparency = "rgba(68,110,255,0.4)";
 const secondaryChartColor = '#9f9eff';
+const tertiaryChartColor = '#ffc003';
+const maxDayGraph = 14;
 
 const labels = {
 	it: {
 		day: "Giorni",
 		notification: "Notifiche",
+		positiveUsers: "Utenti positivi",
 		nationalAvg: "Media nazionale",
 		over14yo: "Popolazione con età superiore ai 14 anni"
 	},
 	en: {
 		day: "Day",
 		notification: "Notifications",
+		positiveUsers: "Positive users",
 		nationalAvg: "National average",
 		over14yo: "Population over 14 years of age"
 	},
 	de: {
 		day: "Tage",
 		notification: "Benachrichtigen",
+		positiveUsers: "Positive Benutzer",
 		nationalAvg: "Nationaler Durchschnitt",
 		over14yo: "Bevölkerung über 14 Jahre"
 	},
 	fr: {
 		day: "Journées",
 		notification: "Notifier",
+		positiveUsers: "Utilisateurs positifs",
 		nationalAvg: "Moyenne nationale",
 		over14yo: "Population de plus de 14 ans"
 	},
 	es: {
 		day: "Dias",
 		notification: "Notificar",
+		positiveUsers: "Usuarios positivos",
 		nationalAvg: "Promedio nacional",
 		over14yo: "Población mayor de 14 años"
 	},
@@ -97,8 +104,7 @@ function generateChartConfig(labels, data, valueLabel, xLabel, yLabel) {
 				displayColors: false,
 				callbacks: {
 					label: function (tooltipItem, data) {
-
-						return addDot(tooltipItem.yLabel)+ " " + valueLabel;
+						return addDot(tooltipItem.yLabel)+ " " + valueLabel[tooltipItem.datasetIndex];
 					}
 				}
 			},
@@ -170,8 +176,8 @@ window.onload = function () {
 	let lastDownloadValue = downloadDataset[downloadDataset.length-1]
 	
 
-	let lastNotificationDate = notificationDataset[notificationDataset.length-1].data
-	let lastNotificationValue = notificationDataset[notificationDataset.length-1]
+	let lastNotificationDate = andamentoNazionale[andamentoNazionale.length-1].data
+	let lastNotificationValue = andamentoNazionale[andamentoNazionale.length-1]
 	
 
 	let nOfDownload = document.getElementById('nOfDownload')
@@ -181,12 +187,12 @@ window.onload = function () {
 
 	let sentNotifications = document.getElementById('sentNotifications')
 	if (sentNotifications) {
-		sentNotifications.innerHTML =  addDot(lastNotificationValue.notifications)
+		sentNotifications.innerHTML =  addDot(lastNotificationValue.notifiche_inviate_totali)
 	} 
 
 	let positiveUsers = document.getElementById('positiveUsers')
 	if (positiveUsers) {
-		positiveUsers.innerHTML =  addDot(lastNotificationValue.positive_users)
+		positiveUsers.innerHTML =  addDot(lastNotificationValue.utenti_positivi_totali)
 	} 
 
 
@@ -234,10 +240,66 @@ window.onload = function () {
 			pointBackgroundColor: primaryChartColor,
 
 		}]
-		window.configDownloadTrend = generateChartConfig(downloadLabels, dataset, "download", labels[lang].day, "Download")
+		
+
+		window.configDownloadTrend = {
+			type: 'line',
+			data: {
+				labels: downloadLabels,
+				datasets: dataset
+			},
+			options: {
+				responsive: true,
+				title: {
+					display: false,
+				},
+				tooltips: {
+					mode: 'index',
+					intersect: false,
+					backgroundColor: labelBackgroundColor,
+					displayColors: false,
+					callbacks: {
+						label: function (tooltipItem, data) {
+							return addDot(tooltipItem.yLabel)+ " download";
+						}
+					}
+				},
+				legend: {
+					display: false
+				},
+				hover: {
+					mode: 'nearest',
+					intersect: true
+				},
+				scales: {
+					xAxes: [{
+						display: true,
+						scaleLabel: {
+							display: true,
+							labelString: labels[lang].day
+						}
+					}],
+					yAxes: [{
+						display: true,
+						scaleLabel: {
+							display: true,
+							labelString: "Download",
+						},
+						ticks: {
+							callback: function (value) {
+								return valueFormat(value)
+							}
+						}
+					}]
+				}
+			}
+		};
+
+
 		window.downloadTrendChart = new Chart(downloadTrend, configDownloadTrend);		
 	} 
 
+	//NOtification trend chart
 	let notificationTrendDiv = document.getElementById('notificationTrend')
 	if (notificationTrendDiv) {
 		var notificationTrend = notificationTrendDiv.getContext('2d');
@@ -245,33 +307,112 @@ window.onload = function () {
 		var notificationLabels = []
 		var notificationData = []
 		var positiveUserData = []
-		notificationDataset.forEach(function (element) {
+		andamentoNazionale.forEach(function (element) {
 			let day = element.data
-			var notifiche = element.notifications;
-			var utenti_positivi = element.positive_users;
+			var notifiche = element.notifiche_inviate;
+			var utenti_positivi = element.utenti_positivi;
 			day = moment(day).format('ll');
 			notificationLabels.push(day);
 			notificationData.push(notifiche);
 			positiveUserData.push(utenti_positivi)
 
 		})
-
-		notificationData = notificationData.slice(Math.max(notificationData.length - 7, 0))
-		positiveUserData = positiveUserData.slice(Math.max(positiveUserData.length - 7, 0))
-		notificationLabels = notificationLabels.slice(Math.max(notificationLabels.length - 7, 0))
+		
+		notificationData = notificationData.slice(Math.max(notificationData.length - maxDayGraph, 0))
+		positiveUserData = positiveUserData.slice(Math.max(positiveUserData.length - maxDayGraph, 0))
+		notificationLabels = notificationLabels.slice(Math.max(notificationLabels.length - maxDayGraph, 0))
 
 		let dataset = [{
 			data: notificationData,
-			fill: true,
+			fill: false,
 			borderColor: primaryChartColor,
 			backgroundColor: primaryChartColorTrasparency,
 			pointRadius: 5,
 			pointHoverRadius: 6,
 			pointBackgroundColor: primaryChartColor,
+			yAxisID: 'notifications',
+			label: labels[lang].notification
+
+
+		},
+		{
+			data: positiveUserData,
+			fill: false,
+			borderColor: tertiaryChartColor,
+			backgroundColor: primaryChartColorTrasparency,
+			pointRadius: 5,
+			pointHoverRadius: 6,
+			pointBackgroundColor: tertiaryChartColor,
+			yAxisID: 'positive_users',
+			label: labels[lang].positiveUsers
 
 		}
 	]
-		window.configNotificationTrend = generateChartConfig(notificationLabels, dataset, labels[lang].notification.toLowerCase(), labels[lang].day, labels[lang].notification)
+		window.configNotificationTrend = {
+			type: 'line',
+			data: {
+				labels: notificationLabels,
+				datasets: dataset
+			},
+			options: {
+				responsive: true,
+				title: {
+					display: false,
+				},
+				tooltips: {
+					mode: 'index',
+					intersect: false,
+					backgroundColor: labelBackgroundColor,
+					displayColors: false,
+					callbacks: {
+						label: function (tooltipItem, data) {
+							return addDot(tooltipItem.yLabel)+ " " + [labels[lang].notification.toLowerCase(), labels[lang].positiveUsers.toLowerCase()][tooltipItem.datasetIndex];
+						}
+					}
+				},
+				legend: {
+					display: true,
+				},
+				hover: {
+					mode: 'nearest',
+					intersect: true
+				},
+				scales: {
+					xAxes: [{
+						display: true,
+						scaleLabel: {
+							display: true,
+							labelString: labels[lang].day
+						}
+					}],
+					yAxes: [{
+						id: 'notifications',
+						display: true,
+						type: 'linear',
+						position: 'left',
+						scaleLabel: {
+							display: true,
+							labelString: labels[lang].notification
+						},
+						
+					  }, {
+						id: 'positive_users',
+						type: 'linear',
+						position: 'right',
+						scaleLabel: {
+							display: true,
+							labelString: labels[lang].positiveUsers
+						},
+					  }]
+				}
+			}
+		};
+
+
+		
+
+
+
 		window.notificationTrendChart = new Chart(notificationTrend, window.configNotificationTrend);		
 	} 
 
@@ -287,7 +428,7 @@ window.onload = function () {
 						iosDownload[iosDownload.length - 1], androidDownload[androidDownload.length - 1]
 					],
 					backgroundColor: [
-						secondaryChartColor, primaryChartColor,
+						tertiaryChartColor, primaryChartColor,
 					],
 				}],
 				labels: [
@@ -424,7 +565,7 @@ window.onload = function () {
 			labels:  regioniDataset.map((d) => d.denominazione_regione),
 			datasets: [{
 				label: '%',
-				backgroundColor: secondaryChartColor,
+				backgroundColor: "#5851ff",
 				data: regioniDataset.map((d) => ((d.utenti_attivi / d.popolazione_superiore_14anni) * 100).round(1)),
 			}]
 
@@ -482,14 +623,15 @@ window.onload = function () {
 						mode: 'horizontal',
 						scaleID: 'y-axis-0',
 						value: percentageAverage,
-						borderColor: primaryChartColor,
+						borderColor: tertiaryChartColor,
 						borderWidth: 4,
 						label: {
-							backgroundColor: primaryChartColor,
+							backgroundColor: tertiaryChartColor,
 							content: labels[lang].nationalAvg+' ('+percentageAverage+'%)',
 							enabled: true,
 							position: "right",
 							xAdjust: 10,
+							fontColor: "#182c57"
 
 						}
 						
@@ -600,9 +742,9 @@ export function updateChartLang() {
 	var notificationLabels = []
 	var notificationData = []
 	var positiveUserData = []
-	notificationDataset.forEach(function (element) {
+	andamentoNazionale.forEach(function (element) {
 		var day = element.data
-		var notifiche = element.notifications;
+		var notifiche = element.notifiche_inviate;
 		var utenti_positivi = element.utenti_positivi;
 		day = moment(day).format('ll');
 		notificationLabels.push(day);
@@ -611,28 +753,23 @@ export function updateChartLang() {
 
 	})
 
-	notificationData = notificationData.slice(Math.max(notificationData.length - 7, 0))
-	positiveUserData = positiveUserData.slice(Math.max(positiveUserData.length - 7, 0))
-	notificationLabels = notificationLabels.slice(Math.max(notificationLabels.length - 7, 0))
+	notificationData = notificationData.slice(Math.max(notificationData.length - maxDayGraph, 0))
+	positiveUserData = positiveUserData.slice(Math.max(positiveUserData.length - maxDayGraph, 0))
+	notificationLabels = notificationLabels.slice(Math.max(notificationLabels.length - maxDayGraph, 0))
 
 	if(window.configNotificationTrend){
-		let dataset = [{
-			data: notificationData,
-			fill: true,
-			borderColor: primaryChartColor,
-			backgroundColor: primaryChartColorTrasparency,
-			pointRadius: 5,
-			pointHoverRadius: 6,
-			pointBackgroundColor: primaryChartColor,
-
-		}]
-
-
+		
 		window.configNotificationTrend.data.labels = notificationLabels;
+		window.configNotificationTrend.data.datasets[0].label = labels[lang].notification;
+		window.configNotificationTrend.data.datasets[1].label = labels[lang].positiveUsers;
 		window.configNotificationTrend.options.scales.xAxes[0].scaleLabel.labelString = labels[lang].day;
 		window.configNotificationTrend.options.scales.yAxes[0].scaleLabel.labelString = labels[lang].notification;
+		window.configNotificationTrend.options.scales.yAxes[1].scaleLabel.labelString = labels[lang].positiveUsers;
 		window.configNotificationTrend.options.tooltips.callbacks.label=function (tooltipItem, data) {
-			return addDot(tooltipItem.yLabel)+ " " + labels[lang].notification.toLowerCase();
+			if(tooltipItem.datasetIndex==0)
+				return addDot(tooltipItem.yLabel)+ " " + labels[lang].notification.toLowerCase();
+			if(tooltipItem.datasetIndex==1)
+				return addDot(tooltipItem.yLabel)+ " " + labels[lang].positiveUsers.toLowerCase();
 		}
 		//window.configNotificationTrend.options.scales.xAxes[0].scaleLabel.labelString = labels[lang].day;
 		window.notificationTrendChart.update()

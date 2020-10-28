@@ -90,7 +90,7 @@
     "outbreaks":"potential contained outbreaks",
     "downloadTrends":"Download progress",
     "usedDevices": "Used devices",
-    "notificationTrends": "Notifications trend",
+    "notificationTrends": "Trend of notifications and positive users",
     "userByRegion":"Users by region",
     "lastUpdate":"Data provided by the Ministry of Health. <br/> Last update:",
     "downloadDetail":"* Users who have downloaded the application (does not include updates and reinstallations).",
