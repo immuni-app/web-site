@@ -182,7 +182,7 @@ window.onload = function () {
 
 	let nOfDownload = document.getElementById('nOfDownload')
 	if (nOfDownload) {
-		nOfDownload.innerHTML =  addDot(lastDownloadValue.total)
+		nOfDownload.innerHTML =  addDot(lastDownloadValue.ios_android_total)
 	} 
 
 	let sentNotifications = document.getElementById('sentNotifications')
@@ -216,9 +216,9 @@ window.onload = function () {
 		var iosDownload = []
 		var androidDownload = []
 		downloadDataset.forEach(function (elem) {
-			var ios_value = elem.ios;
-			var android_value = elem.android;
-			var total = elem.total;
+			var ios_value = elem.ios_total;
+			var android_value = elem.android_total;
+			var total = elem.ios_android_total;
 			let day = moment(elem.data).format('ll');
 			downloadLabels.push(day);
 			downloadData.push(total);
@@ -723,7 +723,7 @@ export function updateChartLang() {
 	var downloadLabels = []
 	var downloadData = []
 	downloadDataset.forEach(function (elem) {
-		var total = elem.total;
+		var total = elem.ios_android_total;
 		let day = moment(elem.data).format('ll');
 		downloadLabels.push(day);
 		downloadData.push(total);
