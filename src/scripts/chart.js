@@ -3,7 +3,7 @@ import "chartjs-chart-geo";
 import * as ChartAnnotation from 'chartjs-plugin-annotation';
 import { feature } from "topojson-client";
 import downloadDataset from './../assets/json/andamento-download.json';
-import andamentoNazionale from './../assets/json/andamento-nazionale.json';
+import andamentoNazionale from './../assets/json/andamento-dati-nazionali.json';
 //import provinceDataset from './../assets/json/dati_province.json';
 
 //import europe from './../assets/json/europe.json';
