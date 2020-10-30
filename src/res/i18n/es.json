@@ -96,7 +96,9 @@
     "positiveUserDetail": "** Usuarios positivos que han subido sus claves.",
     "notificationDetail": "*** Notificaciones de posible exposición al riesgo generadas por la aplicación. La detección es parcial ya que se detectan todas las notificaciones para dispositivos iOS y solo un tercio de las enviadas por Android que tienen disponible la tecnología necesaria para detectarlas de forma segura.",
     "percentageOverPopulation":"Porcentaje de descargas sobre el número de habitantes",
-    "penetrationByRegionNote":"Proyección realizada por el Ministerio de Salud actualizada a"
+    "penetrationByRegionNote":"Proyección realizada por el Ministerio de Salud actualizada a",
+    "weeklyRegionalData":"Notificaciones y usuarios positivos por región semanalmente",
+    "dataReferringWeek":"Datos referidos a la semana"
   },
   "faq": {
     "title": "¿Tienes alguna pregunta?",

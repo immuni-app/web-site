@@ -96,7 +96,9 @@
     "positiveUserDetail": "** Positive Benutzer, die ihre Schlüssel hochgeladen haben.",
     "notificationDetail": "*** Benachrichtigungen über mögliche Risiken, die durch die Anwendung entstehen. Die Erkennung ist teilweise, da alle Benachrichtigungen für iOS-Geräte erkannt werden und nur ein Drittel der von Android gesendeten Benachrichtigungen über die erforderliche Technologie verfügen, um sie sicher zu erkennen.",
     "percentageOverPopulation":"Prozentsatz der Downloads über die Einwohnerzahl",
-    "penetrationByRegionNote":"Projektion des Gesundheitsministeriums aktualisiert auf"
+    "penetrationByRegionNote":"Projektion des Gesundheitsministeriums aktualisiert auf",
+    "weeklyRegionalData":"Wöchentliche Benachrichtigungen und positive Benutzer nach Regionen",
+    "dataReferringWeek":"Daten bezogen sich auf die Woche"
   },
   "faq": {
     "title": "Haben Sie Fragen?",

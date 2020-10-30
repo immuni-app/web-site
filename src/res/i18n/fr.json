@@ -96,7 +96,9 @@
     "positiveUserDetail": "** Utilisateurs positifs qui ont téléchargé leurs clés.",
     "notificationDetail": "*** Notifications d'une éventuelle exposition aux risques générés par l'application. La détection est partielle puisque toutes les notifications pour les appareils iOS sont détectées et seulement un tiers de celles envoyées par Android qui disposent de la technologie nécessaire pour les détecter en toute sécurité.",
     "percentageOverPopulation":"Pourcentage de téléchargements par rapport au nombre d'habitants",
-    "penetrationByRegionNote":"Projection faite par le Ministère de la Santé mise à jour au"
+    "penetrationByRegionNote":"Projection faite par le Ministère de la Santé mise à jour au",
+    "weeklyRegionalData":"Notifications et utilisateurs positifs par région sur une base hebdomadaire",
+    "dataReferringWeek":"Données référées à la semaine"
   },
   "faq": {
     "title": "Vous avez des questions?",

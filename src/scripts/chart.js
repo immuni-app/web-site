@@ -4,6 +4,7 @@ import * as ChartAnnotation from 'chartjs-plugin-annotation';
 import { feature } from "topojson-client";
 import downloadDataset from './../assets/json/andamento-download.json';
 import andamentoNazionale from './../assets/json/andamento-dati-nazionali.json';
+import andamentoRegionale from './../assets/json/andamento-settimanale-dati-regionali-latest.json';
 //import provinceDataset from './../assets/json/dati_province.json';
 
 //import europe from './../assets/json/europe.json';
@@ -644,22 +645,30 @@ window.onload = function () {
 		window.configPenetration = configDevice;
 		window.penetrationChart = new Chart(penetrationByRegion, configDevice);
 	}
-	/*
-	//Notification and positive chart
+	
+	//Notification and positive chart week
 	let notificationByRegion = document.getElementById('notificationByRegion')
+	let lastWeekUpdate = document.getElementById('lastWeekUpdate')
+	
 	if (notificationByRegion) {
+		if(lastWeekUpdate){
 
+			var lastWeek = moment(andamentoRegionale[0].settimana)
+			lastWeekUpdate.innerHTML =  lastWeek.format('DD/MM/YYYY')+" - "+lastWeek.add(6, 'days').format('DD/MM/YYYY')
+		}
 		var penetrationChartData = {
-			labels:  regioniDataset.map((d) => d.denominazione_regione),
+			labels:  andamentoRegionale.map((d) => d.denominazione_regione),
 			datasets: [{
-				label: 'Notifiche inviate',
+				label: labels[lang].notification,
 				backgroundColor: primaryChartColor,
-				data: regioniDataset.map((d) => d.notifiche_inviate),
+				data: andamentoRegionale.map((d) => {if(d.notifiche_inviate==-1)return "< 6"; else return d.notifiche_inviate}),
+				xAxisID: 'notifications',
 			}, {
-				label: 'Utenti positivi',
-				backgroundColor: secondaryChartColor,
+				label: labels[lang].positiveUsers,
+				backgroundColor: tertiaryChartColor,
 				tooltip: false,
-				data: regioniDataset.map((d) =>  d.utenti_positivi),
+				data: andamentoRegionale.map((d) =>  {if(d.utenti_positivi==-1)return "< 6"; else return d.utenti_positivi}),
+				xAxisID: 'positive_users',
 			}]
 
 		};
@@ -691,13 +700,36 @@ window.onload = function () {
 
 
 				},
+				scales: {
+					xAxes: [{
+						id: 'notifications',
+						display: true,
+						type: 'linear',
+						position: 'top',
+						scaleLabel: {
+							display: true,
+							labelString: labels[lang].notification
+						},
+						
+						
+					  }, {
+						id: 'positive_users',
+						type: 'linear',
+						position: 'down',
+						scaleLabel: {
+							display: true,
+							labelString: labels[lang].positiveUsers
+						},
+					  }],
+					
+				},
 				responsive: true,
 			}
 		}
-
-		window.notificationByRegionChart = new Chart(notificationByRegion, configDevice);
+		window.configWeeklyReport = configDevice;
+		window.weeklyReportByRegion = new Chart(notificationByRegion, configDevice);
 	}
-	*/
+	
 	
 	
 	
@@ -800,6 +832,22 @@ export function updateChartLang() {
 
 
 		window.penetrationChart.update()
+	}
+
+
+	//Notification by region
+	if(window.configWeeklyReport ){
+
+		
+
+		window.configWeeklyReport.data.datasets[0].label = labels[lang].notification;
+		window.configWeeklyReport.data.datasets[1].label = labels[lang].positiveUsers;
+		window.configWeeklyReport.options.scales.xAxes[0].scaleLabel.labelString = labels[lang].notification;
+		window.configWeeklyReport.options.scales.xAxes[1].scaleLabel.labelString = labels[lang].positiveUsers;
+		
+
+		window.weeklyReportByRegion.update();
+
 	}
 	
 	
