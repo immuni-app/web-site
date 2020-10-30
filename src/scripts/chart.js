@@ -647,6 +647,7 @@ window.onload = function () {
 	}
 	
 	//Notification and positive chart week
+	/*
 	let notificationByRegion = document.getElementById('notificationByRegion')
 	let lastWeekUpdate = document.getElementById('lastWeekUpdate')
 	
@@ -712,6 +713,7 @@ window.onload = function () {
 						},
 						
 						
+						
 					  }, {
 						id: 'positive_users',
 						type: 'linear',
@@ -720,6 +722,7 @@ window.onload = function () {
 							display: true,
 							labelString: labels[lang].positiveUsers
 						},
+						
 					  }],
 					
 				},
@@ -729,7 +732,7 @@ window.onload = function () {
 		window.configWeeklyReport = configDevice;
 		window.weeklyReportByRegion = new Chart(notificationByRegion, configDevice);
 	}
-	
+	*/
 	
 	
 	
