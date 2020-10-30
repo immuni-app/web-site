@@ -4,12 +4,12 @@ import * as ChartAnnotation from 'chartjs-plugin-annotation';
 import { feature } from "topojson-client";
 import downloadDataset from './../assets/json/andamento-download.json';
 import andamentoNazionale from './../assets/json/andamento-dati-nazionali.json';
-import andamentoRegionale from './../assets/json/andamento-settimanale-dati-regionali-latest.json';
+//import andamentoRegionale from './../assets/json/andamento-settimanale-dati-regionali-latest.json';
 
 //import europe from './../assets/json/europe.json';
 //import italyRegions from './../assets/json/italy-regions.json';
 
-//import regioniDataset from './../assets/json/use_trend_by_region.json';
+import regioniDataset from './../assets/json/use_trend_by_region.json';
 
 
 let namedChartAnnotation = ChartAnnotation;
