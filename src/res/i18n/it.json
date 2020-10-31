@@ -98,8 +98,10 @@
     "notificationDetail": "*** Notifiche di possibile esposizione al rischio generate dall’applicazione. La rilevazione è parziale poiché vengono rilevate tutte le notifiche per i dispositivi iOS e solamente un terzo di quelle inviate da Android che hanno a disposizione la tecnologia necessaria per rilevarle in modo sicuro.",
     "percentageOverPopulation":"Percentuale di download su numero di abitanti",
     "penetrationByRegionNote":"Proiezione effettuata dal Ministero della Salute, aggiornata al",
-    "weeklyRegionalData":"Notifiche ed utenti positivi per regione su base settimanale",
-    "dataReferringWeek":"Dati riferiti alla settimana"
+    "weeklyNotificationsRegionalData":"Notifiche per regione su base settimanale",
+    "weeklyPositiveUsersRegionalData":"Utenti positivi per regione su base settimanale",
+    "dataReferringWeek":"Dati riferiti alla settimana",
+    "linkOpenData":"Tutti i dati sono disponibili in formato CSV e JSON su github al seguente"
   },
   "faq": {
     "title": "Hai qualche domanda?",

@@ -189,6 +189,22 @@
             aria-label="Numero di utenti che utilizzano Immuni suddivisi per regione">Utenti per regione</p>
           <canvas id="downloadMap"></canvas>
         </div>-->
+        <div class="chart-card">
+          <p class="colored" style="margin-bottom: 10px;" role="img"
+            aria-label="" data-i18n="dashboard.weeklyNotificationsRegionalData">Notifiche per regione su base settimanale</p>
+            <canvas id="notificationByRegion" ></canvas>
+          <p style="font-size: 12px; max-width: 780px;"> 
+            <span data-i18n="dashboard.dataReferringWeek">Dati riferiti alla settimana</span> <span id="lastWeekUpdateNotifications">30/09/2020</span>.<br/>
+          </p>
+        </div>
+        <div class="chart-card">
+          <p class="colored" style="margin-bottom: 10px;" role="img"
+            aria-label="" data-i18n="dashboard.weeklyPositiveUsersRegionalData">Utenti positivi per regione su base settimanale</p>
+            <canvas id="positiveUsersByRegion" ></canvas>
+          <p style="font-size: 12px; max-width: 780px;"> 
+            <span data-i18n="dashboard.dataReferringWeek">Dati riferiti alla settimana</span> <span id="lastWeekUpdatePositiveUsers">30/09/2020</span>.<br/>
+          </p>
+        </div>
         
       </div>
       <div class="dashboard-herochart-wrapper">
@@ -197,17 +213,7 @@
             aria-label="" data-i18n="dashboard.notificationTrends">Andamento delle notifiche</p>
           <canvas id="notificationTrend"></canvas>
         </div>
-        
-        <!--
-        <div class="chart-card">
-          <p class="colored" style="margin-bottom: 10px;" role="img"
-            aria-label="" data-i18n="dashboard.weeklyRegionalData">Notifiche ed utenti positivi per regione su base settimanale</p>
-          <canvas id="notificationByRegion"></canvas>
-          <p style="font-size: 12px; max-width: 780px;"> 
-            <span data-i18n="dashboard.dataReferringWeek">Dati riferiti alla settimana</span> <span id="lastWeekUpdate">30/09/2020</span>.<br/>
-          </p>
-        </div>
-        -->
+
 
         <div class="chart-card">
           <p class="colored" style="margin-bottom: 10px;" role="img"
@@ -260,7 +266,11 @@
         
         <p class="intro delayed">
           <span data-i18n="dashboard.lastUpdate">Dati forniti dal Ministero della Salute.<br />Ultimo
-            aggiornamento:</span> <span id="lastUpdate">--</span>
+            aggiornamento:</span> <span id="lastUpdate">--</span><br>
+        </p>
+        <br/>
+        <p style="font-size: 16px; max-width: 90%"> 
+          <span data-i18n="dashboard.linkOpenData">Tutti i dati sono disponibili in formato CSV e JSON su github al seguente</span> <a href="https://github.com/immuni-app/immuni-dashboard-data">link</a>.
         </p>
         <br/>
         <p style="font-size: 12px; max-width: 90%"> 
