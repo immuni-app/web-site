@@ -2,9 +2,9 @@ import Chart from 'chart.js';
 import "chartjs-chart-geo";
 import * as ChartAnnotation from 'chartjs-plugin-annotation';
 import { feature } from "topojson-client";
-import downloadDatasetStatic from './../assets/json/andamento-download.json';
-import andamentoNazionaleStatic from './../assets/json/andamento-dati-nazionali.json';
-import andamentoRegionaleStatic from './../assets/json/andamento-settimanale-dati-regionali-latest.json';
+import downloadDataset from './../assets/json/andamento-download.json';
+import andamentoNazionale from './../assets/json/andamento-dati-nazionali.json';
+import andamentoRegionale from './../assets/json/andamento-settimanale-dati-regionali-latest.json';
 
 //import europe from './../assets/json/europe.json';
 //import italyRegions from './../assets/json/italy-regions.json';
@@ -86,7 +86,7 @@ function addDot(number){
 	return Number(number).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")
 }
 
-var downloadDataset, andamentoRegionale, andamentoNazionale
+
 window.onload = function () {
 	  /*
 	  $.when(
@@ -115,9 +115,7 @@ window.onload = function () {
 			
 		});
 		*/
-		downloadDataset=downloadDatasetStatic;
-		andamentoRegionale=andamentoRegionaleStatic;
-		andamentoNazionale=andamentoNazionaleStatic;
+
 		generateChart();
 
 }
