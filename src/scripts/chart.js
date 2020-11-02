@@ -532,11 +532,15 @@ function generateChart() {
 		return (a < b) ? -1 : (a > b) ? 1 : 0;
 	  }
 	
-	  andamentoRegionale.sort(function(a, b) {
+	andamentoRegionale.sort(function(a, b) {
 		return compareStrings(a.denominazione_regione, b.denominazione_regione);
 	})
 
-	regioniDataset.sort(compare);
+	//regioniDataset.sort(compare);
+	regioniDataset.sort(function(a, b) {
+		return compareStrings(a.denominazione_regione, b.denominazione_regione);
+	})
+	
 	let percentageAverage = 0.0;
 	regioniDataset.forEach(a => {
 		var percentage = ((a.utenti_attivi / a.popolazione_superiore_14anni) * 100).round(1);
