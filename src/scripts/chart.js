@@ -175,9 +175,9 @@ function generateChart() {
 
 	let lastUpdateDiv = document.getElementById('lastUpdate')
 	if (lastUpdateDiv) {
-		let lastDate = downloadDataset[downloadDataset.length-1].data
+		let lastDate = andamentoNazionale[andamentoNazionale.length-1].data
 		var lastUpdate = moment(lastDate)
-		lastUpdateDiv.innerHTML =  lastUpdate.format('DD MMMM YYYY')
+		lastUpdateDiv.innerHTML =  lastUpdate.format('D MMMM YYYY')
 	} 
 
 
