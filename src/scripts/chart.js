@@ -436,7 +436,7 @@ function generateChart() {
 
 	//Europe chart interoperability
 	
-	var europeMap = document.getElementById('europeMap').getContext('2d');
+	var europeMap = document.getElementById('europeMap');
 	if(europeMap){
 		const regions = feature(italyRegions, italyRegions.objects.ITA_adm1).features.filter((item) => item.properties.NAME_0 === 'Italy');
 		const countries = feature(europe, europe.objects.continent_Europe_subunits).features;
@@ -506,7 +506,7 @@ function generateChart() {
 		}
 
 
-		window.europeMap = new Chart(europeMap, config);
+		window.europeMap = new Chart(europeMap.getContext('2d'), config);
 	}
 	
 	
