@@ -11,6 +11,7 @@ import italyRegions from './../assets/json/italy-regions.json';
 
 import percentualeDownloadRegioni from './../assets/json/percentuale-download-regionali-latest.json';
 import allowedCountry from './../assets/json/stati-abilitati-interoperabilita.json';
+import countriesLang from './../assets/json/countries.json';
 
 let namedChartAnnotation = ChartAnnotation;
 namedChartAnnotation["id"]="annotation";
@@ -443,17 +444,22 @@ function generateChart() {
 
 		const Italy = countries.find((d) => (d.properties.geounit == 'Italy' && d.geometry != null));
 		
+		let allowedList = []
+		let mapState = {}
+		allowedCountry.forEach(element => {
+			mapState[element.state_name]=element.ISO;
+			allowedList.push(element.state_name)
+		});
 
-		let finaldataset = []
 		let labelsCountry = []
+		let finaldataset = []
 		countries.forEach(element => {
 			let name = element.properties.geounit;
-			//console.log(name);
-
-			if(allowedCountry.includes(name)){
-				let v = {feature:element, value:0}
+			
+			if(allowedList.includes(name)){
+				let v = {feature:element, value:100}
 				finaldataset.push(v)
-				labelsCountry.push(name)
+				labelsCountry.push(mapState[name])
 			}
 			
 		});
@@ -483,7 +489,7 @@ function generateChart() {
 					displayColors: false,
 					callbacks: {
 						label: function (tooltipItem, data) {
-							return labelsCountry[tooltipItem.index]
+							return countriesLang[lang][data['labels'][tooltipItem.index]]
 						}
 					}
 				},
@@ -505,7 +511,7 @@ function generateChart() {
 			}
 		}
 
-
+		window.configEuropeMap = config;
 		window.europeMap = new Chart(europeMap.getContext('2d'), config);
 	}
 	
@@ -744,12 +750,13 @@ export function updateChartLang() {
 
 	const lang = localStorage.getItem("language");
 	moment.locale(lang); 
+
 	
 	let lastUpdateDiv = document.getElementById('lastUpdate')
 	if (lastUpdateDiv) {
-		let lastDate = downloadDataset[downloadDataset.length-1].data
+		let lastDate = andamentoNazionale[andamentoNazionale.length-1].data
 		var lastUpdate = moment(lastDate)
-		lastUpdateDiv.innerHTML =  lastUpdate.format('DD MMMM YYYY')
+		lastUpdateDiv.innerHTML =  lastUpdate.format('D MMMM YYYY')
 	} 
 
 
@@ -847,6 +854,15 @@ export function updateChartLang() {
 	if(window.configWeeklyPositiveUsersReport ){
 		window.configWeeklyPositiveUsersReport.data.datasets[0].label = labels[lang].positiveUsers;
 		window.weeklyPositiveUsersReportByRegion.update();
+	}
+
+
+	//Europe MAP
+	if(window.configEuropeMap ){
+		window.configEuropeMap.options.tooltips.callbacks.label=function (tooltipItem, data) {
+			return countriesLang[lang][data['labels'][tooltipItem.index]]
+		}
+		window.europeMap.update();
 	}
 	
 
