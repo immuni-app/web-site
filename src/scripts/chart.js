@@ -6,11 +6,11 @@ import downloadDataset from './../assets/json/andamento-download.json';
 import andamentoNazionale from './../assets/json/andamento-dati-nazionali.json';
 import andamentoRegionale from './../assets/json/andamento-settimanale-dati-regionali-latest.json';
 
-//import europe from './../assets/json/europe.json';
-//import italyRegions from './../assets/json/italy-regions.json';
+import europe from './../assets/json/europe.json';
+import italyRegions from './../assets/json/italy-regions.json';
 
-import regioniDataset from './../assets/json/use_trend_by_region.json';
-
+import percentualeDownloadRegioni from './../assets/json/percentuale-download-regionali-latest.json';
+import allowedCountry from './../assets/json/stati-abilitati-interoperabilita.json';
 
 let namedChartAnnotation = ChartAnnotation;
 namedChartAnnotation["id"]="annotation";
@@ -434,36 +434,45 @@ function generateChart() {
 		window.downloadDeviceChart = new Chart(downloadDeviceDiv, configDevice);
 	}
 
-	//Penetration chart disabled
-	/*
-	var downloadMap = document.getElementById('downloadMap').getContext('2d');
-	if(downloadMap){
+	//Europe chart interoperability
+	
+	var europeMap = document.getElementById('europeMap').getContext('2d');
+	if(europeMap){
 		const regions = feature(italyRegions, italyRegions.objects.ITA_adm1).features.filter((item) => item.properties.NAME_0 === 'Italy');
 		const countries = feature(europe, europe.objects.continent_Europe_subunits).features;
+
 		const Italy = countries.find((d) => (d.properties.geounit == 'Italy' && d.geometry != null));
+		
 
-		let pointRadius = []
-		for(var i=0;i<regioniDataset.length;i++){
-			pointRadius.push(i);
-		}
-		  
+		let finaldataset = []
+		let labelsCountry = []
+		countries.forEach(element => {
+			let name = element.properties.geounit;
+			//console.log(name);
 
+			if(allowedCountry.includes(name)){
+				let v = {feature:element, value:0}
+				finaldataset.push(v)
+				labelsCountry.push(name)
+			}
+			
+		});
+
+	
 		const config = {
-			type: 'bubbleMap',
+			type: 'choropleth',
 			data: {
-				labels: regioniDataset.map((d) => d.denominazione_regione),
+				labels: labelsCountry,
 
 				datasets: [{
-					outline: Italy,
+					outline: countries,
 					showOutline: true,
-					backgroundColor: "rgba(88,81,255,0.8)",
-					data: regioniDataset.map((d) => Object.assign(d, { value: d.utilizzo_percentuale})),
-
-					outlineBackgroundColor: "#ffffff",
-					outlineBorderColor: primaryChartColor,
+					backgroundColor: primaryChartColor,
+					data:finaldataset,
+					outlineBackgroundColor: "#E9EFFF",
+					outlineBorderColor: "white",
 					outlineBorderWidth: 2,
 					
-
 				}]
 			},
 			options: {
@@ -474,7 +483,7 @@ function generateChart() {
 					displayColors: false,
 					callbacks: {
 						label: function (tooltipItem, data) {
-							return data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index].denominazione_regione + ": " + tooltipItem.value + " %"
+							return labelsCountry[tooltipItem.index]
 						}
 					}
 				},
@@ -482,20 +491,12 @@ function generateChart() {
 					display: false,
 
 				},
-				plugins: {
-					datalabels: {
-						align: 'top',
-						formatter: (v) => {
-							return v.denominazione_regione;
-						}
-					}
-				},
-
 				scale: {
 					projection: 'equalEarth',
 
 				},
 				geo: {
+					showOutline: false,
 					radiusScale: {
 						display: false,
 						size: [0, 1],
@@ -505,16 +506,16 @@ function generateChart() {
 		}
 
 
-		window.dowloadChartMap = new Chart(downloadMap, config);
+		window.europeMap = new Chart(europeMap, config);
 	}
-	*/
-	//Penetration chart
 	
-
+	
+	
+	//Download percentuale per regione
 	//Ordinamento percentuale
 	function compare( a, b ) {
-		var percentageA = ((a.utenti_attivi / a.popolazione_superiore_14anni) * 100).round(1);
-		var percentageB = ((b.utenti_attivi / b.popolazione_superiore_14anni) * 100).round(1);
+		var percentageA = ((a.download / a.popolazione_superiore_14anni) * 100).round(1);
+		var percentageB = ((b.download / b.popolazione_superiore_14anni) * 100).round(1);
 
 		if ( percentageA < percentageB ){
 		  return 1;
@@ -536,26 +537,33 @@ function generateChart() {
 		return compareStrings(a.denominazione_regione, b.denominazione_regione);
 	})
 
-	//regioniDataset.sort(compare);
-	regioniDataset.sort(function(a, b) {
+	//percentualeDownloadRegioni.sort(compare);
+	percentualeDownloadRegioni.sort(function(a, b) {
 		return compareStrings(a.denominazione_regione, b.denominazione_regione);
 	})
 	
 	let percentageAverage = 0.0;
-	regioniDataset.forEach(a => {
-		var percentage = ((a.utenti_attivi / a.popolazione_superiore_14anni) * 100).round(1);
+	percentualeDownloadRegioni.forEach(a => {
+		var percentage = ((a.download / a.popolazione_superiore_14anni) * 100).round(1);
 		percentageAverage+=percentage;
 	});
-	percentageAverage = (percentageAverage/regioniDataset.length).round(1);
+	percentageAverage = (percentageAverage/percentualeDownloadRegioni.length).round(1);
 
+	
+	let lastUpdatePenetrationByRegion = document.getElementById('lastUpdatePenetrationByRegion')
+	if (lastUpdatePenetrationByRegion) {
+		var lastMonth = moment(percentualeDownloadRegioni[0].mese)
+		lastUpdatePenetrationByRegion.innerHTML =  lastMonth.format('DD/MM/YYYY')
+	}
+	 
 	let penetrationByRegion = document.getElementById('penetrationByRegion')
 	if (penetrationByRegion) {
 		var penetrationChartData = {
-			labels:  regioniDataset.map((d) => d.denominazione_regione),
+			labels:  percentualeDownloadRegioni.map((d) => d.denominazione_regione),
 			datasets: [{
 				label: '%',
 				backgroundColor: "#5851ff",
-				data: regioniDataset.map((d) => ((d.utenti_attivi / d.popolazione_superiore_14anni) * 100).round(1)),
+				data: percentualeDownloadRegioni.map((d) => ((d.download / d.popolazione_superiore_14anni) * 100).round(1)),
 			}]
 
 		};
@@ -580,9 +588,9 @@ function generateChart() {
 						title:function (tooltipItem, data) {
 
 							let i = tooltipItem[0].index
-							let region = regioniDataset[i]
+							let region = percentualeDownloadRegioni[i]
 							var percent = tooltipItem[0].value
-							return ""+tooltipItem[0].label+" ("+percent+"%)\nDownload: "+addDot(region.utenti_attivi)+"\n"+labels[lang].over14yo+": "+addDot(region.popolazione_superiore_14anni)
+							return ""+tooltipItem[0].label+" ("+percent+"%)\nDownload: "+addDot(region.download)+"\n"+labels[lang].over14yo+": "+addDot(region.popolazione_superiore_14anni)
 						},
 						label: function (tooltipItem, data) {
 							return ""
@@ -805,11 +813,11 @@ export function updateChartLang() {
 
 	//Penetration region
 	let percentageAverage = 0.0;
-	regioniDataset.forEach(a => {
-		var percentage = ((a.utenti_attivi / a.popolazione_superiore_14anni) * 100).round(1);
+	percentualeDownloadRegioni.forEach(a => {
+		var percentage = ((a.download / a.popolazione_superiore_14anni) * 100).round(1);
 		percentageAverage+=percentage;
 	});
-	percentageAverage = (percentageAverage/regioniDataset.length).round(1);
+	percentageAverage = (percentageAverage/percentualeDownloadRegioni.length).round(1);
 
 	if(window.configPenetration){
 
@@ -819,9 +827,9 @@ export function updateChartLang() {
 
 		window.configPenetration.options.tooltips.callbacks.title = function (tooltipItem, data) {
 			let i = tooltipItem[0].index
-			let region = regioniDataset[i]
+			let region = percentualeDownloadRegioni[i]
 			var percent = tooltipItem[0].value
-			return ""+tooltipItem[0].label+" ("+percent+"%)\nDownload: "+addDot(region.utenti_attivi)+"\n"+labels[lang].over14yo+": "+addDot(region.popolazione_superiore_14anni)
+			return ""+tooltipItem[0].label+" ("+percent+"%)\nDownload: "+addDot(region.download)+"\n"+labels[lang].over14yo+": "+addDot(region.popolazione_superiore_14anni)
 		}
 		
 

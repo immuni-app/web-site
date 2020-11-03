@@ -223,8 +223,23 @@
             
           <canvas id="penetrationByRegion"></canvas>
           <p style="font-size: 12px; max-width: 780px;"> 
-            <span data-i18n="dashboard.penetrationByRegionNote">Proiezione fatta dal ministero della salute aggiornata al</span> 30/09/2020.<br/>
+            <span data-i18n="dashboard.penetrationByRegionNote">Proiezione fatta dal ministero della salute aggiornata al</span> <span id="lastUpdatePenetrationByRegion">--</span>.<br/>
           </p>
+        </div>
+
+        <div class="chart-card">
+          <p class="colored" style="margin-bottom: 10px;" role="img"
+            aria-label="" data-i18n="dashboard.europeanCountryActive">Paesi europei attivi per l'interoperabilità
+          </p>
+        
+          <canvas id="europeMap"></canvas>
+            <!--<ul style="text-align:justify;font-size: larger;">
+              <li class="country-flag"><img src="<%= require('../assets/img/flag/it.png') %>"> Italia</li>
+              <li class="country-flag"><img src="<%= require('../assets/img/flag/de.png') %>"> Germania</li>
+              <li class="country-flag"><img src="<%= require('../assets/img/flag/lv.png') %>"> Lettonia</li>
+              <li class="country-flag"><img src="<%= require('../assets/img/flag/ie.png') %>"> Irlanda</li>
+            </ul>-->
+
         </div>
         
         

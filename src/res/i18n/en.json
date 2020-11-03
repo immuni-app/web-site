@@ -101,7 +101,8 @@
     "weeklyNotificationsRegionalData":"Notifications by region on a weekly basis",
     "weeklyPositiveUsersRegionalData":"Positive users by region on a weekly basis",
     "dataReferringWeek":"Data referred to the week",
-    "linkOpenData":"All data is available in CSV and JSON format on github at the following"
+    "linkOpenData":"All data is available in CSV and JSON format on github at the following",
+    "europeanCountryActive":"European countries active for interoperability"
   },
   "faq": {
     "title": "Do you have any questions?",
