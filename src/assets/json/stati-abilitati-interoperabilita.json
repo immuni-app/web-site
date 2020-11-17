@@ -2,5 +2,6 @@
     {"state_name":"Italy", "ISO":"IT"}, 
     {"state_name":"Latvia", "ISO":"LV"}, 
     {"state_name":"Ireland", "ISO":"IE"}, 
-    {"state_name":"Spain", "ISO":"ES"}
+    {"state_name":"Spain", "ISO":"ES"},
+    {"state_name":"Denmark", "ISO":"DK"}
 ]
