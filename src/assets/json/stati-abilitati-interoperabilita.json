@@ -4,5 +4,6 @@
     {"state_name":"Ireland", "ISO":"IE"}, 
     {"state_name":"Spain", "ISO":"ES"},
     {"state_name":"Denmark", "ISO":"DK"},
-    {"state_name":"Croatia", "ISO":"HR"}
+    {"state_name":"Croatia", "ISO":"HR"},
+    {"state_name":"Poland", "ISO":"PL"}
 ]
