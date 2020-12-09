@@ -549,11 +549,16 @@ function generateChart() {
 	})
 	
 	let percentageAverage = 0.0;
+	let sumDownload = 0;
+	let sumPopulation = 0;
 	percentualeDownloadRegioni.forEach(a => {
-		var percentage = ((a.download / a.popolazione_superiore_14anni) * 100).round(1);
-		percentageAverage+=percentage;
+		//var percentage = ((a.download / a.popolazione_superiore_14anni) * 100).round(1);
+		//percentageAverage+=percentage;
+		sumDownload+=a.download;
+		sumPopulation+=a.popolazione_superiore_14anni;
 	});
-	percentageAverage = (percentageAverage/percentualeDownloadRegioni.length).round(1);
+	//percentageAverage = (percentageAverage/percentualeDownloadRegioni.length).round(1);
+	percentageAverage = ((sumDownload/sumPopulation)*100).round(1);
 
 	
 	let lastUpdatePenetrationByRegion = document.getElementById('lastUpdatePenetrationByRegion')
@@ -820,12 +825,20 @@ export function updateChartLang() {
 
 	//Penetration region
 	let percentageAverage = 0.0;
+	
+	let sumDownload = 0;
+	let sumPopulation = 0;
 	percentualeDownloadRegioni.forEach(a => {
-		var percentage = ((a.download / a.popolazione_superiore_14anni) * 100).round(1);
-		percentageAverage+=percentage;
-	});
-	percentageAverage = (percentageAverage/percentualeDownloadRegioni.length).round(1);
+		//var percentage = ((a.download / a.popolazione_superiore_14anni) * 100).round(1);
+		//percentageAverage+=percentage;
 
+		sumDownload+=a.download
+		sumPopulation+=a.popolazione_superiore_14anni
+	});
+	//percentageAverage = (percentageAverage/percentualeDownloadRegioni.length).round(1);
+	percentageAverage = ((sumDownload / sumPopulation) * 100).round(1);
+
+	
 	if(window.configPenetration){
 
 		window.penetrationChart.annotation.elements = [];
