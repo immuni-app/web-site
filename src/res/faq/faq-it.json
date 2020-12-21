@@ -244,6 +244,96 @@
       "id": 53,
       "title": "Immuni mostra un messaggio di errore di connessione quando provo a segnalare la mia positività. Cosa posso fare?",
       "content": "Per ragioni di sicurezza, la segnalazione di positività può essere effettuata dal territorio italiano o da zone limitrofe (Francia, Svizzera, Slovenia, Città del Vaticano e San Marino). \n\nSe sei connesso da un luogo al di fuori di quelli sopra riportati, è normale che tu riceva il messaggio di errore. \n\nSe sei invece connesso da un luogo all’interno del territorio italiano o da una zona limitrofa, ti consigliamo di procedere come segue:\n• Verifica che il tuo smartphone sia connesso a Internet.\n• Connettiti da rete mobile. Il problema potrebbe essere dovuto ad una rete Wi-Fi configurata in modo errato.\n• Se stai utilizzando una VPN, disattivala. Potrebbe infatti averti assegnato un IP al di fuori del territorio abilitato alla segnalazione di positività."
+    },
+    {
+      "id": 54,
+      "title": "Che cosa si intende per “sblocco” di Immuni?\n",
+      "content": "Per avvisare della positività i contatti stretti avuti dalla persona risultata positiva al Covid-19, è necessario inviare il codice monouso al server di Immuni. Poiché il codice è temporaneo, questa operazione deve essere fatta in pochi minuti con il supporto di un operatore sanitario del Dipartimento di Prevenzione che ha eseguito il tampone oppure - per le regioni già abilitate al servizio - attraverso il call center Immuni. L’operatore verifica il codice monouso e autorizza il caricamento dei dati. \nL’intera operazione è comunemente chiamata “sblocco” di Immuni.\n"
+    },
+    {
+      "id": 55,
+      "title": "Che cos’è il CUN?",
+      "content": "Il CUN, o Codice Univoco Nazionale, è un codice che identifica univocamente l’esito di un tampone molecolare, sia esso positivo o negativo. È composto da 10 caratteri preceduti dal suffisso CUN-.\nAttraverso il CUN è possibile usufruire del servizio di call center che supporta il cittadino per lo sblocco di Immuni.\n"
+    },
+    {
+      "id": 56,
+      "title": "Il CUN serve anche quando contatti o sei contattato dall’operatore sanitario del dipartimento di prevenzione?",
+      "content": "No, il CUN serve solo per richiedere il supporto al call center. "
+    },
+    {
+      "id": 57,
+      "title": "Dove si trova il CUN?",
+      "content": "Il CUN viene inviato dal Sistema Sanitario Regionale direttamente al cittadino attraverso uno o più dei seguenti canali, a seconda della Regione o provincia autonoma in cui hai effettuato il tampone: SMS, EMAIL, APP O PORTALE REGIONALE, FSE (Fascicolo Sanitario Elettronico), oppure viene trascritto all’interno del referto del tampone o del certificato di isolamento. In ogni caso potrai facilmente individuarlo perché è l’unico codice che inizia con CUN- ed è seguito da 10 caratteri."
+    },
+    {
+      "id": 58,
+      "title": "A cosa serve il CUN?",
+      "content": "Il CUN serve agli operatori del call center di Immuni a verificare l’effettiva positività della persona che si è rivolta al servizio."
+    },
+    {
+      "id": 59,
+      "title": "Chi può sbloccare Immuni?",
+      "content": "Immuni può essere sbloccata dal cittadino che dispone della APP sul proprio cellulare, e che è risultato positivo al test del tampone molecolare. Questa operazione non può però essere svolta in autonomia, ma occorre che sia assistita, in tempo reale, dall’operatore sanitario che ha comunicato al cittadino l’esito del tampone, oppure dall’operatore telefonico del call center Immuni 800 91 24 91, per le regioni e province autonome in cui questo servizio è già attivo e per quei cittadini che hanno ricevuto il CUN.\nAttenzione: i medici di base non sono autorizzati a supportare lo sblocco di Immuni.\n"
+    },
+    {
+      "id": 60,
+      "title": "Anche il medico di base può aiutarmi a caricare il dato di positività su Immuni?",
+      "content": "No, i medici di base non sono autorizzati a supportare lo sblocco di Immuni, ma possono aiutarti a individuare i comportamenti più corretti se riceverai una notifica da Immuni, ovvero una segnalazione che sei entrato in contatto con una persona risultata positiva al Coronavirus."
+    },
+    {
+      "id": 61,
+      "title": "Quando chiamo il call center, di quali informazioni ho bisogno per sbloccare Immuni?",
+      "content": "Per sbloccare Immuni tramite il call center, devi avere sotto mano il CUN (Codice Univoco Nazionale), la tua tessera sanitaria, la data di inizio sintomi (se sei sintomatico). E naturalmente la app Immuni."
+    },
+    {
+      "id": 62,
+      "title": "Perché occorrono tutti questi passaggi (CUN, Tessera Sanitaria, codice monouso) per sbloccare Immuni?",
+      "content": "Per una questione di sicurezza e per evitare che, anche involontariamente o per errore, qualcuno possa comunicare a Immuni un’informazione non corretta relativa alla propria positività, generando quindi, a cascata, un flusso di notifiche sbagliate a tutti i suoi contatti."
+    },
+    {
+      "id": 63,
+      "title": "Anche i minorenni possono utilizzare il servizio di sblocco del call center?",
+      "content": "Il genitore di un minore ultraquattordicenne potrà contattare il call center per supportare il figlio minore nello sblocco di Immuni. Il CUN verrà comunicato al numero di cellulare del genitore."
+    },
+    {
+      "id": 64,
+      "title": "Che servizi fornisce il call center 800 91 24 91?",
+      "content": "Il call center 800 91 24 91 fornisce informazioni sul funzionamento della app di Immuni e, a partire dal 21 dicembre 2020, supporta anche i cittadini nel caricamento dei dati di positività e nello sblocco della App. Questo nuovo servizio è stato istituito dal Ministero della Salute all’art 20 del decreto-legge 28 ottobre 2020, n 137.\nIl call center si rivolge sia ai cittadini sia agli operatori sanitari, con due diversi canali dedicati.\n"
+    },
+    {
+      "id": 65,
+      "title": "Quale tipologia di test è necessaria per lo sblocco di Immuni?",
+      "content": "Allo stato attuale sono riconosciuti validi solo i test al tampone molecolare. I test antigenici (o test rapidi) non sono pertanto al momento utilizzabili per lo sblocco di Immuni. Il test inoltre dovrà essere effettuato in una struttura pubblica o privata accreditata dalle regioni o province autonome. Le strutture private non accreditate possono infatti non comunicare l’esito del referto al sistema sanitario regionale."
+    },
+    {
+      "id": 66,
+      "title": "Come funziona lo sblocco di Immuni tramite call center?",
+      "content": "Quando chiamerai il call center, sarai guidato allo sblocco di Immuni: ti verrà prima chiesto di comunicare il tuo CUN, attraverso cui l’operatore verificherà la tua effettiva positività; a seguire dovrai comunicare il numero di Tessera Sanitaria, attraverso cui verrà verificata la tua identità, e infine, comunicando il codice monouso che trovi nella sezione della app “segnala positività”, potrai essere autorizzato a inserire il tuo dato di positività.  "
+    },
+    {
+      "id": 67,
+      "title": "In quali regioni o province autonome è attivo il servizio telefonico di supporto al caricamento dati e sblocco di Immuni?",
+      "content": "Dal 21 dicembre il servizio è disponibile in Lombardia, Campania, Friuli Venezia Giulia, Molise e nella provincia autonoma di Trento. A gennaio si aggiungeranno altre regioni, fino a coprire l’intero territorio nazionale.\n"
+    },
+    {
+      "id": 68,
+      "title": "Gli operatori sanitari potranno ancora supportare lo sblocco di Immuni?",
+      "content": "Assolutamente sì. Il servizio di call center non sostituisce gli operatori dei Dipartimenti di Prevenzione Sanitaria, ma li affianca. Pertanto, potrai sbloccare Immuni anche quando verrai chiamato dall’operatore sanitario che ti comunica l’esito del tampone."
+    },
+    {
+      "id": 69,
+      "title": "Se ricevo una notifica da Immuni, chi devo chiamare?",
+      "content": "Puoi rivolgerti al tuo medico di base, che valuterà con te le misure da adottare."
+    },
+    {
+      "id": 70,
+      "title": "Ho fatto il tampone molecolare in Lombardia, ma risiedo nel Lazio. La Lombardia è fra le regioni che dispone del servizio di supporto al caricamento dati tramite call center, il Lazio no. Riceverò il CUN e potrò rivolgermi al call center?",
+      "content": "Sì, se hai lasciato i tuoi dati di contatto quando hai effettuato il tampone."
+    },
+    {
+      "id": 71,
+      "title": "Come mi comporto se il cittadino è in possesso di un CUN ma sul sistema TS non è presente?",
+      "content": "Se il numero CUN non risulta trasmesso dalla regione o provincia autonoma competente, si invita il cittadino a rivolgersi al dipartimento di prevenzione salute della sua ASL per lo sblocco di immuni."
     }
   ]
 }

@@ -244,6 +244,96 @@
       "id": 53,
       "title": "Immuni displays a connection error message when I try to report my positive test result. What can I do?",
       "content": "For security reasons, it’s only possible to report a positive test result from Italy or neighbouring areas (France, Switzerland, Slovenia, Vatican City, and San Marino). If you’re connected from elsewhere, it’s normal for you to receive the error message. \n\nIf you are connected from within Italy or a neighbouring area and you receive the error message, we recommend that you proceed as follows:\n• Check that your smartphone is connected to the Internet.\n• Connect from a mobile network. The problem may be due to an incorrectly configured Wi-Fi network.\n• If you’re using a VPN, turn it off. The VPN may have assigned you an IP outside the European Union, which prevents you from performing this action."
+    },
+    {
+      "id": 54,
+      "title": "What is meant by \"unlocking\" of Immuni?",
+      "content": "To notify the close contacts of the person who tested positive for Covid-19, it is necessary to send the disposable code to the Immuni server. Since the code is temporary, this operation must be done within a few minutes with the assistance of a health care worker from the Prevention Department who performed the swab or - for regions already registered for the service - through the Immuni call center. The operator checks the disposable code and authorizes the data to be uploaded.\nThe whole operation is commonly called \"unlocking\" of Immuni.\n"
+    },
+    {
+      "id": 55,
+      "title": "What is the CUN?",
+      "content": "The CUN, or National Unique Code, is a code that uniquely identifies the outcome of a molecular swab, be it positive or negative. It consists of 10 characters preceded by the suffix CUN-.\nThrough the CUN it is possible to contact the call center that supports the citizen for the unlocking of Immuni.\n"
+    },
+    {
+      "id": 56,
+      "title": "Is the CUN also needed when I contact or I am contacted by the health care worker of the prevention department?",
+      "content": "No, the CUN is only used to request assistance from the call center."
+    },
+    {
+      "id": 57,
+      "title": "Where can I find the CUN?",
+      "content": "The CUN is sent by the Regional Health System directly to the citizen through one or more of the following channels, depending on the Region or autonomous province in which you were tested: SMS, EMAIL, APP OR REGIONAL PORTAL, FSE (Electronic Health Record), or it is transcribed in the swab report or isolation certificate. In any case, you can easily identify it because it is the only code that begins with CUN- and is followed by 10 characters."
+    },
+    {
+      "id": 58,
+      "title": "What is the CUN for?",
+      "content": "The CUN is used by the Immuni call center operators to verify the actual positivity of the person who contacted the service."
+    },
+    {
+      "id": 59,
+      "title": "Who can unlock Immuni?",
+      "content": "Immuni can be unlocked by the citizen who has the APP on his mobile phone, and who has tested positive for the molecular swab test. However, this operation cannot be carried out independently, but it must be assisted, in real time, by the health worker who communicated the result of the swab to the citizen, or by the telephone operator of the Immuni call center 800 91 24 91, to the regions and autonomous provinces in which this service is already active and for those citizens who have received the CUN.\nWarning: GPs are not authorized to support the unlocking of Immuni.\n"
+    },
+    {
+      "id": 60,
+      "title": "Can the general practitioner also help me upload the positive data on Immuni?",
+      "content": "No, GPs (general practitioners)  are not authorized to support the unlocking of Immuni, but they can help you identify the correct behaviors if you receive a notification from Immuni, such as alerts when you have come into contact with a person who tested positive for Coronavirus."
+    },
+    {
+      "id": 61,
+      "title": "When I call the call center, what information do I need to have in order to unlock Immuni?",
+      "content": "To unlock Immuni through the call center, you must have the CUN (National Unique Code), your health card, the start date of symptoms (if you are symptomatic). And of course the Immuni app."
+    },
+    {
+      "id": 62,
+      "title": "Why are all these steps required (CUN, Health Card, single use code) to unlock Immuni?",
+      "content": "As a matter of safety and to avoid that, even unintentionally or by mistake, someone can communicate incorrect information relating to their positivity to Immuni, thus generating, as a consequence, a flow of incorrect notifications to all their contacts."
+    },
+    {
+      "id": 63,
+      "title": "Can minors also use the call center unlocking service?",
+      "content": "The parent of a minor over 14 may contact the call center to support the minor child in unlocking Immuni. The CUN will be communicated to the parent's mobile number."
+    },
+    {
+      "id": 64,
+      "title": "What services does the call center 800 91 24 91 provide?",
+      "content": "The call center 800 91 24 91 provides general information regarding the Immuni app and, starting from 21 December 2020, also supports citizens in uploading positivity data and in unlocking the App. This new service was established by the Ministry of Health under article 20 of the decree-law of 28 October 2020, n 137.\nThe call center is dedicated to both citizens and healthcare professionals, with two different dedicated channels.\n"
+    },
+    {
+      "id": 65,
+      "title": "What type of test is needed to unlock Immuni?",
+      "content": "At present, only molecular swab tests are recognized as valid. The antigen tests (or rapid tests) are therefore not currently usable for the unblocking of Immuni. The test must also be carried out in a public or private structure accredited by the regions or autonomous provinces. Non-accredited private facilities may in fact not communicate the outcome of the report to the regional health system."
+    },
+    {
+      "id": 66,
+      "title": "How does the Immuni unblocking work through the call center?",
+      "content": "When you call the call center, you will be guided to unlock Immuni: you will first be asked to communicate your CUN, through which the operator will verify your actual positivity; then you will need to communicate your Health Card number, through which your identity will be verified, and finally, by communicating the disposable code that you find in the \"report positivity\" section of the app, you will be authorized to enter your positivity data."
+    },
+    {
+      "id": 67,
+      "title": "In which regions or autonomous provinces is the Immuni data upload and unblocking support telephone service active?",
+      "content": "From 21 December the service is available in Lombardia, Campania, Friuli Venezia Giulia, Molise and in the autonomous province of Trento. In January, other regions will be added, to cover the entire national territory."
+    },
+    {
+      "id": 68,
+      "title": "Will Healthcare Professionals Still be able to unlock Immuni?",
+      "content": "Absolutely yes. The call center service does not replace the operators of the Health Prevention Departments, but supports them. Therefore, you can unlock Immuni even when you are called by the healthcare professional who informs you of the results of the test.\n"
+    },
+    {
+      "id": 69,
+      "title": "If I get a notification from Immuni, who should I call?",
+      "content": "You can go to your GP, who will discuss the measures to be taken with you.\n"
+    },
+    {
+      "id": 70,
+      "title": "I did the molecular test in Lombardia, but I live in Lazio. Lombardy is one of the regions that has the support service for data loading via call centers, Lazio is not. Will I receive the CUN and can I contact the call center?",
+      "content": "Yes, if you left your contact details when you were tested."
+    },
+    {
+      "id": 71,
+      "title": "What do I do if the citizen has a CUN but it is not available on the TS system?",
+      "content": "If the CUN number is not transmitted by the competent region or autonomous province, the citizen is invited to contact the health prevention department of his ASL for unlocking Immuni.\n"
     }
   ]
 }
