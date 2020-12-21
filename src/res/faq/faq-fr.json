@@ -66,272 +66,277 @@
       "content": "Vous ne devriez remarquer aucune différence concernant l’autonomie de votre batterie. Immuni utilise la technologie Bluetooth Low Energy, à faible consommation d’énergie. C’est cette même technologie qui connectent en continu les écouteurs sans fil aux smartphones. L’impact sur la batterie est minime et l’utilisation de l’application ne provoque pas de surchauffe ou d’autres phénomènes inhabituels."
     },
     {
-      "id": 14,
+      "id": 13,
       "title": "Les mineurs peuvent-ils utiliser l’application ?",
       "content": "Pour utiliser Immuni, vous devez avoir plus de 14 ans. Si vous avez plus de 14 ans mais moins de 18 ans, vous devez avoir l’autorisation d’au moins l’un de vos parents ou de votre tuteur légal pour utiliser l’application et les informer immédiatement si vous recevez une notification d’alerte indiquant que vous avez été en contact étroit avec une personne testée positive à la Covid-19."
     },
     {
-      "id": 15,
+      "id": 14,
       "title": "Puis-je accéder à mon profil depuis différents appareils ?",
       "content": "Non. Immuni ne permet pas de créer de profil comme c’est le cas pour de nombreuses autres applications. Par conséquent, si vous installez l’application sur un nouvel appareil, Immuni n’a aucun moyen de reconnaître qu’il s’agit encore de vous."
     },
     {
-      "id": 16,
+      "id": 15,
       "title": "Immuni est-elle gérée par le gouvernement ?",
       "content": "Oui. Immuni est l’application de traçage des contacts du gouvernement italien, née de la collaboration entre la Présidence du Conseil des ministres, le Ministre de la Santé, le Ministre pour l’Innovation technologique et la Numérisation, les Régions, le Commissaire extraordinaire chargé de l’urgence Covid-19 et les entreprises publiques Sogei et PagoPa.\n\nPour Immuni, le gouvernement italien utilise une licence perpétuelle et irrévocable sur tous les codes, graphismes, textes et documents accordée gratuitement par Bending Spoons S.p.A. Bending Spoons S.p.A. continue de fournir un service de documentation, de conception et de développement logiciel, de façon toujours totalement gratuite et sans bénéficier d’aucun pouvoir de décision ni d’accès aux données des utilisateurs, et ce jusqu’au 13 octobre 2020.\n\nLors du développement du système, les instructions du garant pour la protection des données à caractère personnel ont été suivies, en accordant une attention maximum aux données confidentielles des utilisateurs."
     },
     {
-      "id": 17,
+      "id": 16,
       "title": "Immuni est-elle payante ?",
       "content": "Non. Immuni est une application entièrement gratuite."
     },
     {
-      "id": 18,
+      "id": 17,
       "title": "Puis-je décider de ne pas utiliser l’application ?",
       "content": "Oui, le téléchargement et l’utilisation d’Immuni se font sur une base du volontariat.\n\nImmuni est un outil majeur pour lutter contre l’épidémie de Covid-19 et plus elle est utilisée, plus elle est efficace. Nous vous recommandons donc de l’installer et d’encourager vos collègues, votre famille et vos amis à en faire de même."
     },
     {
-      "id": 19,
+      "id": 18,
       "title": "Immuni a détecté un contact à risque, mais je me sens bien. Que dois-je faire ?",
       "content": "Si Immuni a détecté un contact à risque, cela signifie qu’au cours des derniers jours, vous avez été en contact étroit avec une personne testée positive à la Covid-19 pendant plus de 15 minutes. Vous avez donc peut-être contracté le virus, sans toutefois présenter de symptômes. Apportez votre contribution en suivant les recommandations : cela permettra de réduire le risque pour vous et vos proches, et vous évitera d’infecter les autres."
     },
     {
-      "id": 20,
+      "id": 19,
       "title": "Je suis allé chez une personne ou dans un endroit que je ne souhaite pas divulguer. Mes données confidentielles sont-elles menacées avec l’utilisation d’Immuni ?",
       "content": "Avec Immuni, vos données confidentielles sont protégées. Immuni n’a accès à aucune de ces informations.\n\nLe système est basé sur la technologie Bluetooth Low Energy, n’enregistre ni ne partage d’informations sur vous ou vos contacts et n’utilise aucune donnée de géolocalisation, coordonnées GPS incluses. L’application ne peut donc pas savoir où vous êtes allé ni avec qui."
     },
     {
-      "id": 21,
+      "id": 20,
       "title": "L’inscription nécessite-t-elle que je fournisse mon adresse électronique et un mot de passe ?",
       "content": "Non. L’application ne collecte aucune donnée susceptible de permettre d’établir votre identité. Par exemple, elle ne vous demandera jamais - et n’est pas en mesure d’obtenir - vos nom, prénom, date de naissance, adresse, numéro de téléphone ou adresse e-mail."
     },
     {
-      "id": 22,
+      "id": 21,
       "title": "Dois-je laisser l’application ouverte pour qu’elle fonctionne correctement ? Puis-je utiliser d’autres applications ?",
       "content": "Immuni fonctionne en arrière-plan. L’important est que votre smartphone soit allumé et que le Bluetooth soit activé. Vous pouvez également fermer l’application manuellement. Tant qu’elle est installée sur votre téléphone, elle continuera de fonctionner sans aucun problème. Vous pouvez donc utiliser d’autres applications en toute sécurité, comme vous le faites habituellement."
     },
     {
-      "id": 23,
+      "id": 22,
       "title": "Le Bluetooth de mon smartphone doit-il rester activé en permanence ?",
       "content": "Le système de notifications de risque d’exposition est basé sur la technologie Bluetooth Low Energy. Il est donc nécessaire que le Bluetooth soit activé en permanence pour que le système puisse détecter vos entrées en contact avec les autres utilisateurs."
     },
     {
-      "id": 24,
+      "id": 23,
       "title": "Mon smartphone est souvent en mode avion. Puis-je continuer à utiliser ce mode ?",
       "content": "Oui, l’important est de laisser la fonction Bluetooth activée. De cette façon, Immuni continuera de fonctionner normalement. Pensez également à connecter votre smartphone à Internet au moins une fois par jour, pour permettre à Immuni de vérifier si vous avez eu des contacts à risque."
     },
     {
-      "id": 25,
+      "id": 24,
       "title": "Quelle quantité de trafic de données Immuni consomme-t-elle ?",
       "content": "Très peu. L’application télécharge chaque jour les codes aléatoires des utilisateurs testés positifs à la Covid-19 pour vérifier si vous avez été en contact étroit avec l’un d’eux, et vous avertir le cas échéant. Cette opération consomme au maximum quelques mégaoctets de trafic de données par jour, un peu comme si vous chargiez une page d’un site Internet."
     },
     {
-      "id": 26,
+      "id": 25,
       "title": "L’application m’a suggéré de faire une mise à jour. Que se passe-t-il si je ne le fais pas ?",
       "content": "Les mises à jour visent à améliorer l’efficacité du système, en corrigeant notamment d’éventuelles failles critiques. Il est par conséquent important de mettre à jour Immuni lorsqu’une nouvelle version est disponible. Si la mise à jour est jugée nécessaire, l’application vous enverra une notification. Cependant, le choix de mettre à jour ou non l’application vous revient entièrement."
     },
     {
-      "id": 27,
+      "id": 26,
       "title": "Puis-je utiliser l’application sans connexion internet ?",
       "content": "Immuni ne nécessite pas de connexion Internet continue. L’application doit toutefois se reconnecter au moins une fois par jour pour télécharger les informations nécessaires afin de vérifier si vous avez été exposé à des utilisateurs potentiellement contagieux. Par conséquent, nous vous recommandons de vérifier que votre smartphone est connecté à Internet au moins une fois par jour."
     },
     {
-      "id": 28,
+      "id": 27,
       "title": "Immuni partage-t-elle ou vend-elle mes données ?",
       "content": "Le seul but d’Immuni est d’aider à faire face à l’épidémie. Le projet est à but non lucratif et vos données ne seront en aucun cas vendues ou utilisées à des fins commerciales, ni pour un profilage à des fins publicitaires.\n\nLes données sont sous la responsabilité du Ministère de la Santé. L’éventuel partage des informations collectées, strictement sous forme anonyme et agrégée, peut avoir lieu pour favoriser la recherche scientifique."
     },
     {
-      "id": 29,
+      "id": 28,
       "title": "Puis-je changer la langue de l’application ?",
       "content": "Pour le moment, l’italien, l’anglais, l’allemand, le français et l’espagnol sont prises en charge par l’application. Celle-ci utilise la même langue que celle configurée sur votre smartphone, si disponible. Sinon, elle utilisera l’anglais. Par conséquent, si vous souhaitez changer la langue de l’application, vous devrez changer la langue de votre téléphone."
     },
     {
-      "id": 30,
+      "id": 29,
       "title": "Immuni fonctionne-t-elle dans tous les pays ?",
       "content": "Vous pouvez télécharger Immuni dans le monde entier.\n\nToutefois, pour des raisons de sécurité, vous devez être en Italie pour pouvoir télécharger vos données si vous êtes testé positif au virus. Sur les appareils iOS, l’échange de codes aléatoires est désactivé si vous êtes à l’étranger. \n\nToujour pour des raisons de sécurité, les connexions au serveur pour télécharger les codes aléatoires d’utilisateurs testés positifs ne sont pas possibles en dehors de l’Europe.\n\nPour le moment, Immuni ne détecte que les contacts avec d’autres utilisateurs Immuni. Au niveau européen, des travaux sont en cours pour permettre aux différentes applications nationales de traçage des contacts, Immuni incluse, de communiquer entre elles. Ceci permettra d’étendre la fonctionnalité de traçage des contacts aux étrangers voyageant en Italie et aux Italiens voyageant à l’étranger, sans avoir besoin de télécharger d’autres applications."
     },
     {
-      "id": 33,
+      "id": 30,
       "title": "Qu’est-ce que le code à usage unique et comment fonctionne-t-il ?",
-      "content": "Le code à usage unique est une séquence alphanumérique de dix caractères utilisée uniquement en cas de positivité au virus et qui n’identifie en aucun cas l’utilisateur de l’application.\n\nLorsqu’un utilisateur est testé positif au virus, il peut décider de télécharger les informations nécessaires sur le serveur Immuni afin d’avertir les utilisateurs ayant été en contact étroit avec lui. Pour ce faire, il doit dicter le code à usage unique figurant dans la section relative de l’application au professionnel de santé lui ayant communiqué le résultat du test. Après validation du code à usage unique par le professionnel de santé, l’utilisateur pourra procéder au téléchargement. "
+      "content": "Le code à usage unique est une séquence alphanumérique de dix caractères utilisée uniquement en cas de positivité au SARS-CoV-2 et qui n’identifie en aucun cas l’utilisateur de l’application.\nSi vous avez été testé positif au virus, vous pouvez décider de télécharger les données nécessaires sur le serveur Immuni pour notifier, de manière anonyme, les personnes qui ont été en contact étroit avec vous au cours des 14 derniers jours.\nPour ce faire, vous devez dicter le code à usage unique qui se trouve sous «Signaler un résultat positif » d'Immuni (dans le menu «Paramètres») au prestataire de soins qui vous a communiqué le résultat du prélèvement, ou à l'opérateur téléphonique du centre d'appels 800 91 24 91. Le service de centre d'appels n'est actuellement actif que pour certaines régions et provinces autonomes: Campania, Lombardia,  Friuli Venezia Giulia, Molise, Trento, et uniquement pour ceux qui ont reçu le CUN (code national unique).\nUne fois que l'opérateur a validé le code jetable, vous pouvez procéder au téléchargement des données de positivité. Ceci est également appelé «déverrouiller» Immuni.\n"
     },
     {
-      "id": 34,
+      "id": 31,
       "title": "Comment et quand puis-je télécharger mes données ?",
-      "content": "Vous ne pouvez télécharger vos données que si vous êtes testé positif à la Covid-19. L’opération est basée sur le volontariat et permet à Immuni d’avertir les personnes avec lesquelles vous avez été en contact les jours précédents. Le professionnel de santé signalant un résultat positif au test vous aidera à procéder au téléchargement.\n\nLa procédure est très simple :\n• Le professionnel de santé vous demandera d’accéder à la section « Réglages » et de choisir « Signaler la positivité ».\n• Immuni affichera un code à usage unique, c’est-à-dire une séquence alphanumérique de dix caractères choisis de façon aléatoire.\n• Vous devrez communiquer ce code au professionnel de santé qui l’autorisera.\n• Le professionnel de santé vous demandera d’appuyer sur « Continuer » pour vérifier le code et poursuivre l’opération.\n• L’application affichera un résumé des données qui seront téléchargées.\n• En appuyant sur « Télécharger les données », l’application procédera au téléchargement des données décrites précédemment.\n• Il vous sera demandé d’autoriser l’accès aux codes aléatoires enregistrés sur votre appareil.\n• L’application affichera un message de confirmation une fois le téléchargement terminé."
+      "content": "Vous ne pouvez télécharger vos données que si vous êtes testé positif à la Covid-19. L’opération est basée sur le volontariat et permet à Immuni d’avertir les personnes avec lesquelles vous avez été en contact les jours précédents. Le professionnel de santé signalant un résultat positif au test vous aidera à procéder au téléchargement.\nCette opération doit être réalisée avec le soutien du professionnel de santé qui vous a communiqué le résultat positif de l'écouvillon, ou avec le soutien de l'opérateur du centre d'appels 800 91 24 91, si vous avez passé le test dans l'une des régions ou provinces autonomes où le service de centre d'appels est activé: Campania, Lombardia, Friuli Venezia Giulia, Molise, Trento.\n"
     },
     {
-      "id": 35,
+      "id": 32,
+      "title": "Quelles sont les étapes pour télécharger le résultat positif sur Immuni?",
+      "content": "L'agent de santé du service de prévention qui vous a communiqué le résultat du prélèvement moléculaire ou l'opérateur téléphonique du centre d'appels Immuni vous demandera d'entrer dans la section Réglages et de choisir «Signaler un résultat positif».\n• Le professionnel de santé vous demandera d’accéder à la section « Réglages » et de choisir « Signaler la positivité ».\n• Immuni affichera un code à usage unique, c’est-à-dire une séquence alphanumérique de dix caractères choisis de façon aléatoire.\n• Vous devrez communiquer ce code au professionnel de santé qui l’autorisera.\n• Le professionnel de santé vous demandera d’appuyer sur «Continuer»\n• L’application affichera un résumé des données qui seront téléchargées.\n• En appuyant sur « Télécharger les données », l’application procédera au téléchargement des données décrites précédemment.\n"
+    },
+    {
+      "id": 33,
       "title": "Comment Immuni m’informe-t-elle d’un contact à risque ? Le cas échéant, quelle est la procédure à suivre ?",
       "content": "Si Immuni détecte que vous avez été exposé à un utilisateur potentiellement contagieux, elle vous enverra une notification. Suivez les recommandations que vous trouverez dans l’application, en commençant par contacter votre médecin généraliste pour obtenir les informations complémentaires nécessaires. Même si vous n’êtes pas obligé de le faire, nous vous recommandons de suivre les instructions qui vous sont fournies afin de protéger votre santé et celle des autres, en particulier de vos proches."
     },
     {
-      "id": 37,
+      "id": 34,
       "title": "Comment Immuni me prévient-elle d’un contact à risque ? À quelle distance et pendant combien de temps dois-je avoir été en contact avec un utilisateur testé positif au virus ?",
       "content": "Immuni vous avertit d’un contact à risque uniquement si vous vous trouvez à une courte distance d’une personne testée positive à la Covid-19 pendant au moins 15 minutes. Il faut également que la personne ait installé Immuni sur son smartphone et qu’elle choisisse de signaler sa positivité lorsque le résultat du prélèvement lui est communiqué. Dans le cas contraire, aucune notification ne peut être envoyée.\n\nImmuni utilise la puissance du signal Bluetooth pour obtenir une estimation de la distance à laquelle le contact a eu lieu. Les paramètres d’estimation ont été choisis pour se rapprocher au maximum des directives du Ministère de la Santé, lesquelles considèrent qu’un contact est à risque lorsqu’il a lieu à une distance de moins de deux mètres. De nombreuses expériences d’étalonnage ont été réalisées pour rendre l’estimation aussi précise que possible, sachant qu’elle peut encore présenter une marge d’erreur. De plus, elle ne tient pas compte des barrières ou des dispositifs de protection existants. Il est dans tous les cas impossible de recevoir une notification d’exposition sans avoir été à proximité physique prolongée avec une personne positive à la Covid-19."
     },
     {
-      "id": 38,
+      "id": 35,
       "title": "Je viens de mettre à jour iOS sur mon iPhone vers une version qui devrait théoriquement me permettre d'utiliser Immuni. Toutefois, lorsque j'ouvre l'application, elle m'indique qu'une nouvelle version d'iOS est nécessaire. Que dois-je faire ?",
       "content": "Vous n'avez probablement pas terminé le processus de mise à jour d'iOS. Pour mettre à jour iOS, vous devez effectuer deux opérations :\n 1. Télécharger la dernière version disponible\n 2. L'installer\n\nPour télécharger la dernière version d'iOS, vous devez être connecté au Wifi. Dans le cas contraire, le bouton de lancement du téléchargement sera désactivé. Accédez à Réglages> Général> Mise à jour du logiciel. Si vous avez téléchargé la dernière version d'iOS, mais que vous ne l'avez pas installée, appuyez sur « Installer maintenant ». Pour vérifier que l'installation a réussi, accédez à Réglages> Général> Informations. L'élément « Version du logiciel » doit afficher une version 13.5 ou ultérieure."
     },
     {
-      "id": 39,
+      "id": 36,
       "title": "Je suis invité à insérer un numéro de carte de crédit avant de télécharger Immuni sur l’App Store ou Google Play. Est-ce normal ?",
       "content": "Immuni est entièrement gratuite et vous pouvez la télécharger sans fournir de mode de paiement.\n\nSi Apple ou Google vous demande une carte de crédit, il est probable que vous n’ayez pas encore terminé la configuration de votre compte. Pour télécharger gratuitement Immuni, procédez comme suit :\n• Sur l’App Store, choisissez l’option « Aucun » parmi les modes de paiement proposés.\n• Sur Google Play, choisissez l’option « Ignorer » lorsque vous êtes invité à indiquer un mode de paiement."
     },
     {
-      "id": 40,
+      "id": 37,
       "title": "Pourquoi dois-je activer la géolocalisation pour utiliser l'application sur un smartphone Android ? Est-ce que cela signifie que l'application accède à ma position ?",
       "content": "Non, Immuni n'a absolument aucun accès à vos données de géolocalisation. Sur les smartphones Android, le système d'exploitation demande l'activation du service de géolocalisation pour permettre au système de notifications de risque d'exposition de rechercher les signaux Bluetooth Low Energy environnants, et d'enregistrer les codes aléatoires des smartphones des utilisateurs qui vous entourent. Cependant, comme vous pouvez le voir sur la liste des autorisations d'accès demandées par Immuni, l'application n'est aucunement autorisée à accéder à vos données de géolocalisation (données GPS incluses) et ne peut donc pas savoir où vous vous trouvez."
     },
     {
-      "id": 41,
+      "id": 38,
       "title": "Le message « Zone de notification de risque d’exposition modifiée » ou « Les notifications de risque d’exposition à la Covid-19 ne sont plus prises en charge dans votre région » s’est affiché sur mon iPhone. Qu’est-ce que cela signifie ?",
       "content": "Il s’agit d’une faille du système d’exploitation qu’Apple a déjà corrigée. Mettez à jour votre système d’exploitation iOS à la version 13.6 ou supérieure pour éviter que le message ne réapparaisse."
     },
     {
-      "id": 43,
+      "id": 39,
       "title": "Puis-je désactiver temporairement Immuni ?",
       "content": "Oui, Immuni vous permet de désactiver temporairement la fonction, par exemple pendant que vous êtes au travail si vous êtes un professionnel de santé en contact avec des patients atteints de la Covid-19. En désactivant Immuni, l’application n’enregistrera pas les contacts avec d’autres utilisateurs.\n\nPour ce faire, suivez la procédure suivante :\n• Ouvrez l’application Immuni.\n• Faites défiler l’écran vers le bas et appuyez sur l’option « Désactiver le service » en bas de la page d’accueil.\n• Suivez les instructions.\n\nN’oubliez pas de réactiver Immuni dès que possible :\n• Ouvrez l’application Immuni.\n• Appuyez sur l’option « Réactiver Immuni » en haut de l’écran d’accueil.\n• Suivez les instructions."
     },
     {
-      "id": 44,
+      "id": 40,
       "title": "Lorsque je voyage pour le travail ou les loisirs, dois-je modifier les données sur la province que j’ai fournies à l’application ?",
       "content": "Non, il n’est pas nécessaire de sélectionner une nouvelle province lorsque vous vous éloignez de celle que vous avez indiquée la première fois que vous avez utilisé Immuni. Immuni fonctionne exactement de la même manière quelle que soit la province déclarée. En indiquant votre province de domicile, vous aidez le Service national de santé à prévenir l’apparition de nouveaux foyers de contagions et à estimer la diffusion de l’application sur le territoire national."
     },
     {
-      "id": 45,
+      "id": 41,
       "title": "Immuni peut-elle être utilisée par des personnes malvoyantes ?",
       "content": "Immuni a été conçue pour être aussi accessible que possible aux personnes présentant des handicaps. Immuni prend en charge VoiceOver (sur les appareils iOS) et TalkBack (sur les appareils Android) qui lisent le contenu de ce qui est affiché à l’écran. De cette manière, même les utilisateurs malvoyants peuvent facilement accéder aux contenus et aux fonctionnalités de l’application. Immuni ne prend actuellement pas en charge les commandes vocales."
     },
     {
-      "id": 46,
+      "id": 42,
       "title": "Combien de temps le code à usage unique est-il valide ? Combien de temps ai-je pour télécharger mes données ?",
       "content": "Le code à usage unique est valable deux minutes trente secondes à partir du moment où le professionnel de santé le saisit sur l’interface de validation. Le temps devrait être plus que suffisant pour terminer l’opération de téléchargement. Toutefois, si le code expire, vous pouvez répéter l’opération de téléchargement depuis le début, en utilisant le nouveau code à usage unique généré par Immuni."
     },
     {
-      "id": 47,
+      "id": 43,
       "title": "Immuni parle de « codes aléatoires ». De quoi s’agit-il ?",
       "content": "Durant le fonctionnement normal, l’application Immuni associe un code aléatoire à chaque smartphone, lequel est transmis, via la technologie Bluetooth Low Energy, aux appareils se trouvant à proximité. Lorsqu’ils sont proches, les smartphones de deux utilisateurs enregistrent le code aléatoire de l’autre dans leur mémoire respective, gardant ainsi une trace du contact et permettant de signaler une situation à risque au cas où l’un d’eux était par la suite testé positif à la Covid-19. Pour protéger davantage vos données confidentielles, le code aléatoire change plusieurs fois par heure."
     },
     {
-      "id": 48,
-      "title": "Quels sont les professionnels de santé dont parle Immuni ?",
-      "content": "Il s’agit du personnel de santé dépendant du Département de prévention de l’ASL (Agence de santé locale) ou des structures hospitalières qui communique normalement le résultat positif du test à l’utilisateur par téléphone. Si la personne testée positive a installé Immuni, elle peut choisir de signaler sa positivité. Ceci permettra à Immuni d’avertir les utilisateurs avec lesquels elle a été en contact étroit d’un possible risque de contagion. C’est le professionnel de santé qui guidera et autorisera l’utilisateur testé positif à télécharger les données."
+      "id": 44,
+      "title": "Quels sont les professionnels de santé dont parle Immuni?",
+      "content": "Il s’agit du personnel de santé dépendant du Département de prévention de l’ASL (Agence de santé locale) ou des structures hospitalières qui communique normalement le résultat positif du test à l’utilisateur par téléphone. Si la personne testée positive a installé Immuni, elle peut choisir de signaler sa positivité. Ceci permettra à Immuni d’avertir les utilisateurs avec lesquels elle a été en contact étroit d’un possible risque de contagion.\nCette opération doit être réalisée avec le soutien du professionnel de santé qui vous a communiqué le résultat positif de l'écouvillon, ou avec le soutien de l'opérateur du centre d'appels 800 91 24 91, si vous avez passé le test dans l'une des régions ou provinces autonomes où le service de centre d'appels est activé: Campania, Lombardia, Friuli Venezia Giulia, Molise, Trento.\n"
     },
     {
-      "id": 49,
+      "id": 45,
       "title": "Puis-je annuler et éventuellement récupérer la notification d’un contact à risque ?",
       "content": "Si vous recevez une notification vous avertissant d’un contact à risque, un second avertissement s’affichera sur l’application et vous recevrez des suggestions sur la marche à suivre.\nL’avertissement et les suggestions resteront visibles sur l’application. Si vous déclarez être en contact avec votre médecin (en appuyant sur « J’ai contacté mon médecin ») ou si vous décidez de masquer l’avertissement (en appuyant sur « Masquer l’avertissement »), l’avertissement et les suggestions seront masqués et ne pourront plus être récupérés afin de garantir la protection de vos données confidentielles. Nous vous déconseillons de le faire afin d’éviter de perdre l’accès à des informations très importantes."
     },
     {
-      "id": 50,
+      "id": 46,
       "title": "Après avoir signalé ma positivité, comment puis-je signaler à Immuni que je ne suis plus malade ?",
       "content": "Votre ASL (Agence de santé locale) de référence vous soumettra à un ou plusieurs prélèvements pour confirmer que vous n’êtes plus positif à la Covid-19. Lorsque vous recevrez la confirmation de négativité de la part de votre ASL (Agence de santé locale), vous pourrez mettre à jour votre état de santé sur Immuni. Appuyez tout simplement sur « Vous êtes guéri ? Mettez votre état de santé à jour » et « Je suis négatif à la Covid-19 »."
     },
     {
-      "id": 51,
+      "id": 47,
       "title": "J’ai un iPhone mais bien que je sois connecté à Internet et que le Bluetooth soit activé, Immuni ne fonctionne pas si aucune carte SIM n’est insérée. Pourquoi ?",
       "content": "Apple a activé une mesure de sécurité qui empêche l’utilisation d’Immuni lorsque vous vous trouvez dans des pays autres que l’Italie. Pour s’assurer que vous vous trouvez effectivement en Italie, Apple vérifie que l’opérateur téléphonique est italien. Une carte SIM doit donc être insérée dans le smartphone pour qu’Immuni fonctionne. Toutefois, sur les appareils Android, Immuni fonctionne correctement même sans carte SIM. \n\nCette limitation a été supprimée par Apple à partir de la version 13.6 du système d’exploitation iOS. Si vous souhaitez utiliser Immuni sans carte SIM, nous vous suggérons de mettre à jour le système d’exploitation de votre iPhone."
     },
     {
-      "id": 52,
+      "id": 48,
       "title": "Immuni affiche un message d’erreur de connexion dès les premières étapes d’utilisation. Que puis-je faire ?",
       "content": "Si vous vous trouvez hors du territoire européen, il est normal que vous receviez un message d’erreur. Certaines fonctionnalités d’Immuni pourraient ne pas être disponibles. \n\nSi vous êtes connecté(e) depuis un lieu se trouvant sur le territoire européen, nous vous recommandons de procéder comme suit :\n• Vérifiez que votre smartphone est connecté à Internet.\n• Connectez-vous en utilisant le réseau mobile. Le problème peut être dû à un réseau wifi mal configuré.\n• Si vous utilisez un VPN (réseau privé virtuel), désactivez-le. Celui-ci pourrait vous avoir attribué une IP en dehors du territoire européen.\n\nNous vous rappelons que les pays du territoire européen sont : Allemagne, Autriche, Belgique, Bulgarie, Croatie, Chypre, Danemark, Espagne, Estonie, Finlande, France, Grèce, Hongrie, Irlande, Italie, Lettonie, Lituanie, Luxembourg, Malte, Pays-Bas, Pologne, Portugal, Roumanie, Slovaquie, Slovénie, Suède, Islande, Liechtenstein, Norvège, Suisse, République tchèque, Cité du Vatican, Saint-Marin et Principauté de Monaco."
     },
     {
-      "id": 53,
+      "id": 49,
       "title": "Immuni affiche un message d’erreur de connexion lorsque j’essaye de signaler ma positivité. Que puis-je faire ?",
       "content": "Pour des raisons de sécurité, le signalement de positivité ne peut être effectué que depuis le territoire italien ou les zones limitrophes (France, Suisse, Slovénie, Cité du Vatican et Saint-Marin).\n\nSi vous êtes connecté à partir d’un emplacement autre que ceux indiqués ci-dessus, il est normal que vous receviez le message d’erreur. \n\nSi, en revanche, vous êtes connecté depuis un lieu se trouvant sur le territoire italien ou une zone limitrophe, nous vous recommandons de procéder comme suit :\n• Vérifiez que votre smartphone est connecté à Internet.\n• Connectez-vous en utilisant le réseau mobile. Le problème peut être dû à un réseau wifi mal configuré.\n• Si vous utilisez un VPN (réseau privé virtuel), désactivez-le. Celui-ci pourrait vous avoir attribué une IP en dehors du territoire autorisé à recevoir les signalements de positivité."
     },
     {
-      "id": 54,
+      "id": 50,
       "title": "Qu'entend-on par «déblocage» d’Immuni?",
       "content": "Pour informer les contacts proches de la personne qui a été positive pour la Covid-19, il est nécessaire d'envoyer le code unique au serveur Immuni. Le code étant temporaire, cette opération doit être effectuée en quelques minutes avec le soutien d'un agent de santé du service de prévention qui a réalisé le prélèvement ou - pour les régions déjà habilitées pour le service - via le centre d'appels Immuni. L'opérateur vérifie le code unique et autorise le téléchargement des données.\nL'ensemble de l'opération est communément appelé \"déverrouillage\" d'Immuni.\n"
     },
     {
-      "id": 55,
+      "id": 51,
       "title": "Qu'est-ce que le CUN?",
       "content": "Le CUN, ou National Unique Code, est un code qui identifie de manière unique le résultat d'un prélèvement moléculaire, qu'il soit positif ou négatif. Il se compose de 10 caractères précédés du suffixe CUN-.\nGrâce au CUN, il est possible d'utiliser le service du centre d'appels qui soutient le citoyen pour la libération d'Immuni.\n"
     },
     {
-      "id": 56,
+      "id": 52,
       "title": "Le CUN est-il également nécessaire lorsque tu contactes ou tu es contacté par l'agent de santé du service de prévention?",
       "content": "Non, le CUN est utilisé uniquement pour demander assistance au centre d'appels."
     },
     {
-      "id": 57,
+      "id": 53,
       "title": "Où se trouve le CUN?",
       "content": "Le CUN est envoyé par le système régional de santé directement au citoyen via un ou plusieurs des canaux suivants, selon la région ou la province autonome dans laquelle tu as prélevé le prélèvement moléculaire: SMS, EMAIL, APP OU PORTAIL RÉGIONAL, FSE (Dossier de santé électronique), ou il est transcrit dans le rapport de prélèvement ou le certificat d'isolement. Dans tous les cas, tu peux facilement l'identifier car c'est le seul code qui commence par CUN- et est suivi de 10 caractères."
     },
     {
-      "id": 58,
+      "id": 54,
       "title": "À quoi sert le CUN?",
       "content": "Le CUN est utilisé par les opérateurs du centre d'appels Immuni pour vérifier s’il est testée possible pour LA covid-19 réelle de la personne qui a contacté le service."
     },
     {
-      "id": 59,
+      "id": 55,
       "title": "Qui peut débloquer Immuni?",
       "content": "Immuni peut être débloquée par le citoyen qui a l'APP sur son téléphone portable et qui a été testé positif au test de prélèvement moléculaire. Cependant, cette opération ne peut pas être réalisée de manière autonome, mais doit être assistée, en temps réel, par l'agent de santé qui a communiqué le résultat du prélèvement au citoyen, ou par l'opérateur téléphonique du centre d'appel Immuni 800 91 24 91, pour les régions et provinces autonomes dans lesquelles ce service est déjà actif et pour les citoyens qui ont reçu le CUN.\nAvertissement: les médecins généralistes ne sont pas autorisés à prendre en charge le déblocage de Immuni.\n"
     },
     {
-      "id": 60,
+      "id": 56,
       "title": "Le médecin généraliste peut-il également m'aider à télécharger les données positives sur Immuni?",
       "content": "Non, les médecins généralistes ne sont pas autorisés à prendre en charge le déblocage d'Immuni, mais ils peuvent t’aider à identifier les bons gestes si tu reçois une notification d'Immuni, qui t'indique que tu as été en contact avec une personne testée positive au coronavirus.\n"
     },
     {
-      "id": 61,
+      "id": 57,
       "title": "Lorsque j'appelle le centre d'appels, de quelles informations ai-je besoin pour débloquer Immuni?",
       "content": "Pour débloquer Immuni via le centre d'appels, tu dois avoir le CUN (National Unique Code), ta carte vitale, la date de début des symptômes (si tu es symptomatique). Et bien sûr, l'application Immuni."
     },
     {
-      "id": 62,
+      "id": 58,
       "title": "Pourquoi toutes ces étapes sont-elles nécessaires (CUN, carte Sanitaire, code à usage unique) pour déverrouiller Immuni?",
       "content": "Par sécurité et pour éviter que, même involontairement ou par erreur, quelqu'un puisse communiquer des informations erronées relatives à sa positivité à Immuni, générant ainsi, en cascade, un flux de notifications incorrectes à tous ses contacts."
     },
     {
-      "id": 63,
+      "id": 59,
       "title": "Les mineurs peuvent-ils également utiliser le service de déverrouillage du centre d'appels?",
       "content": "Le parent d'un mineur de plus de 14 ans peut contacter le centre d'appels pour aider l'enfant mineur à déverrouiller Immuni. Le CUN sera communiqué au numéro de portable du parent."
     },
     {
-      "id": 64,
+      "id": 60,
       "title": "Quels services le centre d'appels 800 91 24 91 propose-t-il?",
       "content": "Le centre d'appels 800 91 24 91 fournit des informations sur le fonctionnement de l'application Immuni et, à partir du 21 décembre 2020, il aide également les citoyens à télécharger des données de test possible pour la Covid-19 et à déverrouiller l'application. Ce nouveau service a été créé par le ministère de la Santé selon l'article 20 du décret-loi du 28 octobre 2020, n 137.\nLe centre d'appels s'adresse à la fois aux citoyens et aux professionnels de santé, avec deux canaux dédiés différents.\n"
     },
     {
-      "id": 65,
+      "id": 61,
       "title": "Quel type de test est nécessaire pour déverrouiller Immuni?",
       "content": "À l'heure actuelle, seuls les tests sur prélèvement moléculaire sont reconnus comme valides. Les tests antigéniques (ou tests rapides) ne sont donc actuellement pas utilisables pour le déblocage des immunités. Le test doit également être effectué dans une structure publique ou privée agréée par les régions ou provinces autonomes. Les établissements privés non agréés peuvent en effet ne pas communiquer les résultats du rapport au système de santé régional."
     },
     {
-      "id": 66,
+      "id": 62,
       "title": "Comment fonctionne le déblocage IMMUNI via le centre d'appels?\n",
       "content": "Lorsque tu contactes le centre d'appels, tu seras guidé pour déverrouiller Immuni: il te sera d'abord demandé de communiquer ton CUN, à travers lequel l'opérateur vérifiera ta positivité réelle; il te faudra ensuite communiquer ton numéro de carte vitale, par lequel ton identité sera vérifiée, et enfin, en communiquant le code unique que tu trouveras dans la section «rapport de positivité» de l'application, tu seras autorisé à saisir tes données de positivité."
     },
     {
-      "id": 67,
+      "id": 63,
       "title": "Dans quelles régions ou provinces autonomes le service téléphonique Immuni pour le chargement et le déblocage des données est-il actif?",
       "content": "À partir du 21 décembre, le service est disponible en Lombardia, Campania, Friuli Venezia Giulia, Molise et dans la province autonome de Trente. En janvier, d'autres régions s'ajouteront, pour couvrir l'ensemble du territoire national."
     },
     {
-      "id": 68,
+      "id": 64,
       "title": "Les professionnels de la santé continueront-ils à soutenir le déverrouillage Immuni?",
       "content": "Oui, absolument. Le centre d'appels ne remplace pas les opérateurs des services de prévention sanitaire, mais les accompagne. Par conséquent, tu peux débloquer Immuni même lorsque tu es appelé par le professionnel de la santé qui te informe du résultat du prélèvement moléculaire."
     },
     {
-      "id": 69,
+      "id": 65,
       "title": "Si je reçois une notification d'Immuni, qui dois-je appeler?",
       "content": "Tu peux contacter ton médecin généraliste, qui évaluera les mesures à prendre."
     },
     {
-      "id": 70,
+      "id": 66,
       "title": "J'ai fait le prélèvement moléculaire en Lombardia, mais je vis dans le Latium. La Lombardia est l'une des régions qui dispose du service d'assistance pour le chargement de données via les centres d'appels, la Lazio ne l'est pas. Vais-je recevoir le CUN et puis-je contacter le centre d'appels?",
       "content": "Oui, si tu a laissé tes coordonnées lors de l'écouvillonnage."
     },
     {
-      "id": 71,
+      "id": 67,
       "title": "Que dois-je faire si le citoyen a un CUN mais qu'il n'est pas présent sur le système TS?",
       "content": "Si le numéro CUN n'est pas transmis par la région compétente ou la province autonome, le citoyen est invité à contacter le service de prévention sanitaire de son ASL pour le déverrouillage de Immuni."
     }
