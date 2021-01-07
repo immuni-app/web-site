@@ -25,6 +25,8 @@
       "title": "Informations",
       "list": {
         "privacy": "Politique de confidentialité",
+        "privacy-cs": "Informations sur la confidentialité du centre de contact",
+        "privacy-cs-si": "Informations de confidentialité pour le service du centre de contact “Sblocca Immuni”",
         "tos": "Conditions d’utilisation"
       }
     },

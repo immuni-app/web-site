@@ -163,6 +163,12 @@ module.exports = {
       inject: true,
       chunks: ['main']
     }),
+    new HtmlWebpackPlugin({
+      filename: "cs-pn-si.html",
+      template: "src/pages/cs-pn-si.html",
+      inject: true,
+      chunks: ['main']
+    }),
     new CleanWebpackPlugin(buildPath),
     new FaviconsWebpackPlugin({
       // Your source logo
