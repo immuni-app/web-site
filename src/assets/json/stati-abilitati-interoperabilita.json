@@ -7,5 +7,9 @@
     {"state_name":"Croatia", "ISO":"HR"},
     {"state_name":"Poland", "ISO":"PL"},
     {"state_name":"Netherlands", "ISO":"NL"},
-    {"state_name":"Cyprus", "ISO":"CY"}
+    {"state_name":"Cyprus", "ISO":"CY"},
+    {"state_name":"Finland", "ISO":"FI"},
+    {"state_name":"FlemishRegion", "ISO":"BE"},
+    {"state_name":"WalloonRegion", "ISO":"BE"}
+    
 ]
