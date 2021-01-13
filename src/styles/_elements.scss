@@ -20,6 +20,15 @@
   &.centered {
     margin: auto;
   }
+  &.right {
+    position: absolute;
+    right: 110px;
+    bottom: 0;
+    @media screen and (max-width: 1024px) {
+      position: initial;
+      margin: auto;
+    }
+  }
   &.primary {
     width: 100%;
     @supports (display: grid) {
@@ -74,4 +83,16 @@
     padding: 8px 24px;
     cursor: pointer;
   }
+}
+/*  Numeration  */
+.numeration {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  border: 4px solid var(--primary);
+  margin-bottom: 20px;
+}
+.numeration .tagline {
+  margin: 0;
+  padding: 6.5px;
 }

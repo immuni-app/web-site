@@ -41,6 +41,37 @@
       }
     }
   }
+  &.rep-positivity {
+    padding: 180px 0;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    @media screen and (max-width: 1024px) {
+      padding: 0px;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+    p {
+      max-width: 550px;
+      position: absolute;
+      right: 24px;
+      top: 120px;
+      @media screen and (max-width: 1024px) {
+        position: initial;
+        margin: 20px auto 20px;
+      }
+    }
+    .rep-positivity-illustration {
+      position: absolute;
+      max-width: 350px;
+      top: 50px;
+      @media screen and (max-width: 1024px) {
+        position: static;
+        margin: auto;
+      }
+    }
+  }
   &.windows {
     background: var(--primaryLight);
     padding: 180px 0;

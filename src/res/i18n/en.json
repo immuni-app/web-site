@@ -38,6 +38,11 @@
       "title": "Let’s start afresh together",
       "content": "Living a normal life once again is possible. Immuni helps us reach this goal faster and without compromising our privacy."
     },
+    "report":{
+      "title": "News",
+      "content": "Another strumento in più contro l’epidemia.",
+      "positivity":"From today puoi segnalare la tua positività al Covid-19 appena hai il risultato del tampone, senza attendere la chiamata dell’operatore sanitario. I tuoi contatti stretti potranno così essere informati tempestivamente del rischio di contagio e contattare il proprio medico di medicina generale, isolarsi per interrompere la catena di contagio e tenere sotto controllo l’eventuale comparsa di sintomi e contenere possibili complicanze."
+    },
     "cta": {
       "span": "Help <span class='underlined'>yourself</span>, your <span class='underlined'>family</span>, and your <span class='underlined'>country</span>.",
       "button": "Download the app",
