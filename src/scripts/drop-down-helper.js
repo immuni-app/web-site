@@ -1,6 +1,6 @@
 import { handleFaq } from "./faq-helper";
 import { updateCookiesLang } from "./cookies-helper";
-import { handleHomeImage } from "./translation-helper";
+import { handleHomeImage, handleReportImage } from "./translation-helper";
 import { updateChartLang } from "./chart"
 export function selectSupport(translator) {
   /**
@@ -339,6 +339,7 @@ export function selectSupport(translator) {
     updateCookiesLang();
     updateChartLang();
     handleHomeImage();
+    handleReportImage()
     if (window.location.href.indexOf("faq") != -1) {
       handleFaq();
     }
