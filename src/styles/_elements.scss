@@ -28,6 +28,12 @@
       position: initial;
       margin: auto;
     }
+    @media screen and (max-width: 375px) {
+      margin-left: -7px;
+    }
+    @media screen and (max-width: 320px) {
+      font-size: 13px;
+    }
   }
   &.primary {
     width: 100%;
@@ -91,6 +97,9 @@
   border-radius: 25px;
   border: 4px solid var(--primary);
   margin-bottom: 20px;
+  @media screen and (max-width: 1024px) {
+     margin: 0 auto 20px;
+  }
 }
 .numeration .tagline {
   margin: 0;

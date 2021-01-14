@@ -59,9 +59,9 @@
         padding: 32px 0 0;
       }
     }
-    &.no-padding-bottom-web {
-      padding: 120px 0 0;
-    }
+  }
+  &.no-padding-bottom--web {
+    padding: 120px 0 0;
   }
   &.divider-bottom {
     padding: 120px 0 600px;
@@ -320,6 +320,18 @@
   h3 {
     width: auto;
   }
+  &.mobile{
+    display: none;
+    @media screen and (max-width: 1024px) {
+      display: inherit;
+      margin-top: 80px;
+  }
+  }
+ &.web{
+    @media screen and (max-width: 1024px) {
+      display: none;
+  }
+  }
   @media screen and (max-width: 1024px) {
     flex-direction: column;
   }
@@ -328,7 +340,7 @@
 /*  CONTENT TEXT RIGHT  */
 .text-right {
   max-width: 450px;
-  margin-left: auto;
+  margin: auto;
 }
 /* FOOTER REPORT */
 

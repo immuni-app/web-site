@@ -65,6 +65,15 @@ h2 {
   &.colored {
     color: var(--primary);
   }
+  &.cta-report{
+    max-width: 100%;
+    @media screen and (max-width: 480px) {
+      max-width: 80%;
+    }
+  }
+  &.cta-report > strong{
+    color: #fff;
+  }
 }
 
 h3 {
@@ -158,6 +167,9 @@ h5 {
     &.left {
       text-align: left;
       margin-bottom: 20px;
+      @media screen and (max-width: 1024px) {
+        text-align: center;
+  }
     }
     &__faq {
       margin: 48px auto;

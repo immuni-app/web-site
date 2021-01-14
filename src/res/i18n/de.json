@@ -38,6 +38,12 @@
       "title": "Starten wir gemeinsam neu durch",
       "content": "Eine Rückkehr zum normalen Leben ist möglich. Mit Immuni gelingt uns das schneller, ohne auf unsere Privatsphäre verzichten zu müssen."
     },
+    "report":{
+      "title": "Novità",
+      "content": "Segnala positività",
+      "positivity": "Segnalando la tua positività tramite app Immuni gli utenti con cui sei entrato in contatto verranno informati tempestivamente. Potranno così contattare subito il medico di medicina generale e ridurre il rischio di complicanze o di ulteriori contagi.",
+      "button": "Descubre cómo informar"
+    },
     "cta": {
       "span": "Helfen Sie <span class='underlined'>sich selbst</span>, Ihrer <span class='underlined'>Familie</span> und Ihrem <span class='underlined'>Land</span>.",
       "button": "App herunterladen",
@@ -81,6 +87,17 @@
     "title": "Grafik",
     "content": "Offizielle Grafikressourcen, die heruntergeladen werden können",
     "button": "Herunterladen"
+  },
+    "report": {
+    "title": "Segnala positività",
+    "content": "Proteggi te stesso, la tua famiglia e gli altri.",
+    "subtitle": "Vogliamo aiutarti ad aiutare",
+    "cta": "HAI BISOGNO DI AIUTO? <br> CHIEDI L’ASSISTENZA DEL CALL CENTER <strong>800 91 24 91</strong> ",
+    "tag": {
+      "title1": "Sono attive due modalità di segnalazione",
+      "title2": "sei stato contattato da un operatore sanitario?",
+      "title3": "Hai il codice CUN?"
+    }
   },
   "dashboard": {
     "title": "Die Zahlen von immuni",

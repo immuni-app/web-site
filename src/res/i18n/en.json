@@ -39,9 +39,10 @@
       "content": "Living a normal life once again is possible. Immuni helps us reach this goal faster and without compromising our privacy."
     },
     "report":{
-      "title": "News",
-      "content": "Another strumento in più contro l’epidemia.",
-      "positivity":"From today puoi segnalare la tua positività al Covid-19 appena hai il risultato del tampone, senza attendere la chiamata dell’operatore sanitario. I tuoi contatti stretti potranno così essere informati tempestivamente del rischio di contagio e contattare il proprio medico di medicina generale, isolarsi per interrompere la catena di contagio e tenere sotto controllo l’eventuale comparsa di sintomi e contenere possibili complicanze."
+      "title": "Novità",
+      "content": "Segnala positività",
+      "positivity": "Segnalando la tua positività tramite app Immuni gli utenti con cui sei entrato in contatto verranno informati tempestivamente. Potranno così contattare subito il medico di medicina generale e ridurre il rischio di complicanze o di ulteriori contagi.",
+      "button": "Descubre cómo informar"
     },
     "cta": {
       "span": "Help <span class='underlined'>yourself</span>, your <span class='underlined'>family</span>, and your <span class='underlined'>country</span>.",
@@ -86,6 +87,17 @@
     "title": "Graphics",
     "content": "Official graphic assets available for download",
     "button": "Download"
+  },
+   "report": {
+    "title": "Segnala positività",
+    "content": "Proteggi te stesso, la tua famiglia e gli altri.",
+    "subtitle": "Vogliamo aiutarti ad aiutare",
+    "cta": "HAI BISOGNO DI AIUTO? <br> CHIEDI L’ASSISTENZA DEL CALL CENTER <strong>800 91 24 91</strong> ",
+    "tag": {
+      "title1": "Sono attive due modalità di segnalazione",
+      "title2": "sei stato contattato da un operatore sanitario?",
+      "title3": "Hai il codice CUN?"
+    }
   },
   "dashboard": {
     "title": "The numbers of immuni",

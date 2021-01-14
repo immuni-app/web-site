@@ -200,11 +200,11 @@
     <section class="section small-padding">
         <div class="container">
             <h3>
-                <div class="text-wrapper revealer revealed" data-i18n="home.privacy.subtitle" style="transform: translate(0px, 0px); opacity: 1; visibility: inherit;">Immuni <span>non</span> raccoglie:</div>
+                <div class="text-wrapper revealer revealed" data-i18n="report.subtitle" style="transform: translate(0px, 0px); opacity: 1; visibility: inherit;">Vogliamo aiutarti ad aiutare</div>
             </h3>
           <div class="cta-wrapper">
             <img
-            src="<%= require('../assets/img/feat-illustration-mobile-it.png') %>"
+            src="<%= require('../assets/img/report-illustration-mobile-de.png') %>"
             alt="Illustration of a woman at the window with smartphone and alert symbol"
             class="report-illustration"
           />
@@ -213,57 +213,64 @@
                 <h5 class="tagline">1</h5>
             </div>
             <h5 class="tagline left">
-            <div class="text-wrapper revealer revealed" data-i18n="home.privacy.tag" style="transform: translate(0px, 0px); opacity: 1; visibility: inherit;">Privacy</div>
+            <div class="text-wrapper revealer revealed" data-i18n="report.tag.title1" style="transform: translate(0px, 0px); opacity: 1; visibility: inherit;">SONO ATTIVE DUE MODALITÀ DI SEGNALAZIONE</div>
             </h5>
-            <p class="left" data-i18n="home.benefits.oldPeople">
-                Venendo informati tempestivamente, gli utenti possono anche
-                contattare il proprio medico di base e ridurre così il rischio di
-                complicanze.
-            </p>
         </div>
         </div>
-        <div class="cta-wrapper"> 
+        <div class="cta-wrapper web"> 
           <div class="text-right">
             <div class="numeration">
                 <h5 class="tagline">2</h5>
             </div>
             <h5 class="tagline left">
-            <div class="text-wrapper revealer revealed" data-i18n="home.privacy.tag" style="transform: translate(0px, 0px); opacity: 1; visibility: inherit;">Privacy</div>
+            <div class="text-wrapper revealer revealed" data-i18n="report.tag.title2" style="transform: translate(0px, 0px); opacity: 1; visibility: inherit;">SEI STATO CONTATTATO DA UN OPERATORE SANITARIO?</div>
             </h5>
-            <p class="left" data-i18n="home.benefits.oldPeople">
-                Venendo informati tempestivamente, gli utenti possono anche
-                contattare il proprio medico di base e ridurre così il rischio di
-                complicanze.
-            </p>
         </div>
         <img
-            src="<%= require('../assets/img/feat-illustration-mobile-it.png') %>"
+            src="<%= require('../assets/img/report-illustration-mobile-de.png') %>"
             alt="Illustration of a woman at the window with smartphone and alert symbol"
             class="report-illustration report-illustration__right"
           />
         </div>
-        <div class="cta-wrapper">
-            <img
-            src="<%= require('../assets/img/feat-illustration-mobile-it.png') %>"
+         <div class="cta-wrapper mobile"> 
+         <img
+            src="<%= require('../assets/img/report-illustration-mobile-de.png') %>"
             alt="Illustration of a woman at the window with smartphone and alert symbol"
-            class="report-illustration"
+            class="report-illustration report-illustration__right"
           />
+          <div class="text-right">
+            <div class="numeration">
+                <h5 class="tagline">2</h5>
+            </div>
+            <h5 class="tagline left">
+            <div class="text-wrapper revealer revealed" data-i18n="report.tag.title2" style="transform: translate(0px, 0px); opacity: 1; visibility: inherit;">SEI STATO CONTATTATO DA UN OPERATORE SANITARIO?</div>
+            </h5>
+        </div>
+        
+        </div>
+        <div class="cta-wrapper">
+          <div  data-i18n="">
+            <img
+              src="<%= require('../assets/img/report-illustration-mobile-de.png') %>"
+              alt="Screenshot of the main Immuni App dashboard"
+              class="report-illustration"
+            />
+        </div>
+       
           <div class="text-right">
             <div class="numeration">
                 <h5 class="tagline">3</h5>
             </div>
             <h5 class="tagline left">
-            <div class="text-wrapper revealer revealed" data-i18n="home.privacy.tag" style="transform: translate(0px, 0px); opacity: 1; visibility: inherit;">Privacy</div>
+            <div class="text-wrapper revealer revealed" data-i18n="report.tag.title3" style="transform: translate(0px, 0px); opacity: 1; visibility: inherit;">SONO ATTIVE DUE MODALITÀ DI SEGNALAZIONE</div>
             </h5>
-            <p class="left" data-i18n="home.benefits.oldPeople">
-                Venendo informati tempestivamente, gli utenti possono anche
-                contattare il proprio medico di base e ridurre così il rischio di
-                complicanze.
-            </p>
+        </div>
         </div>
         </div>
       </section>
-      <section id="section1" class="section froster divider-bottom">
+      <div class="large-divider"></div>
+      <div class="large-divider"></div>
+      <section id="section1" class="section">
         <svg
           class="section-divider section-divider__bottom"
           preserveAspectRatio="xMinYMin meet"
@@ -284,47 +291,28 @@
       </section>
       <section class="section blue no-padding-bottom">
         <div class="container">
-          <div class="feat-illustration" data-i18n="">
+          <div class="call-center-illustration" data-i18n="">
             <img
               src="<%= require('../assets/img/call-center-illustation.png') %>"
-              alt="Screenshot of the main Immuni App dashboard"
+              alt="Call center icon inside circle"
             />
           </div>
-          <div class="feat-illustration--mobile">
+          <div class="call-center-illustration--mobile">
             <img
               src="<%= require('../assets/img/call-center-illustation.png') %>"
-              alt="Screenshot of the main Immuni App dashboard"
+              alt="Call center icon inside circle"
             />
           </div>
-          <h2 class="light has-margin-bottom" data-i18n="home.benefits.title">
-            Proteggiamo noi stessi e i nostri cari
+          <h2 class="light has-margin-bottom cta-report" data-i18n="report.cta">
+            HAI BISOGNO DI AIUTO? CHIEDI L’ASSISTENZA DEL CALL CENTER <strong>800 91 24 91 </strong>
           </h2>
       </section>
-      <section id="section2" class="section divider-top">
-        <svg
-          class="section-divider section-divider__top"
-          preserveAspectRatio="xMinYMin meet"
-          viewBox="0 0 1440 197"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            opacity="0.1"
-            d="M0 0V52.5C0 52.5 297 197 720 197C1143 197 1440 50 1440 50V0H0Z"
-            fill="#5751FF"
-          />
-          <path
-            d="M720 147C1143 147 1440 0 1440 0H0C0 0 297 147 720 147Z"
-            fill="#5751FF"
-          />
-        </svg>
-        </section>
         <section class="section no-padding-bottom--web no-padding-bottom--smaller">
             <div class="container">
                 <h3 class="colored no-margin" data-i18n="home.cta.span">
                     Proteggi <span class="underlined">te stesso</span>, la tua
-                    <span class="underlined">famiglia</span> e il tuo
-                    <span class="underlined">Paese</span>
+                    <span class="underlined">famiglia</span> e gli
+                    <span class="underlined">altri</span>
                   </h3>
               <div class="medium-divider"></div>
             </div>

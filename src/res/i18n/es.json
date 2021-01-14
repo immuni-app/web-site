@@ -38,18 +38,24 @@
       "title": "Salgamos adelante juntos",
       "content": "Volver a la normalidad es posible. Con Immuni, podremos lograrlo antes y sin renunciar a nuestra privacidad."
     },
+    "report":{
+      "title": "Novedad",
+      "content": "Reporta positividad",
+      "positivity": "Al informar tu positividad a través de la aplicación Immuni, los usuarios con los que has entrado en contacto serán informados de inmediato. De esta forma podrán contactar de inmediato a tu médico y reducir el riesgo de complicaciones o nuevas infecciones.",
+      "button": "Descubre cómo informar"
+    },
     "cta": {
-      "span": "Hazlo por <span class='underlined'>ti</span>, por tu <span class='underlined'>familia</span> y por tu <span class='underlined'>país</span>.",
+      "span": "Protege a <span class='underlined'>ti</span> mismo, a tu <span class='underlined'>familia</span> y los <span class='underlined'>demás</span>.",
       "button": "Descárgate la aplicación",
       "cta": "Available now"
     },
     "feats": {
       "tag": "¿Qué es?",
-      "title": "Una herramienta más para luchar contra la epidemia",
+      "title": "Una herramienta más para romper la cadena de transmisión",
       "content": "Immuni es una aplicación que se ha desarrollado para ayudarnos a combatir la epidemia de la COVID-19. La aplicación se sirve de la tecnología para avisar a los usuarios que han estado expuestos al riesgo, aunque sean asintomáticos."
     },
     "benefits": {
-      "tag": "Ventajas",
+      "tag": "Ventajas de instalar Immuni",
       "title": "Cuidemos de nosotros mismos y de nuestros seres queridos",
       "isolation": "Cuando la aplicación avisa a los usuarios de un posible contagio, estos se pueden aislar para evitar poner en riesgo a otras personas. De ese modo, ayudan a contener la epidemia y contribuyen a que volvamos a la normalidad cuanto antes.",
       "oldPeople": "Además, como reciben un aviso de inmediato, los usuarios pueden contactar con su médico de cabecera y reducir así el riesgo de complicaciones."
@@ -60,7 +66,7 @@
       "content": "Cuando una persona ha estado en contacto cercano con un usuario que haya dado positivo en la COVID-19, la aplicación le envía una notificación para comunicarle que podría haberse contagiado. Gracias al uso de la tecnología Bluetooth Low Energy, todo esto ocurre sin necesidad de recopilar datos sobre la identidad o la ubicación del usuario."
     },
     "privacy": {
-      "tag": "Privacidad",
+      "tag": "Seguridad",
       "title": "Tu privacidad está garantizada",
       "content": "Al diseñar y desarrollar Immuni, una de las prioridades ha sido proteger la privacidad de los usuarios. El Ministerio de Salud y otras entidades públicas se encargan de recopilar y gestionar los datos, que se guardan en servidores en Italia. Los datos y las conexiones de la aplicación con el servidor están protegidos.",
       "subtitle": "Immuni <span>no</span> recopila:",
@@ -81,6 +87,17 @@
     "title": "Gráficos",
     "content": "Recursos gráficos oficiales disponibles para descargar",
     "button": "Descargar"
+  },
+   "report": {
+    "title": "Reporta positividad",
+    "content": "Protege a ti mismo, a tu familia y los demás",
+    "subtitle": "Queremos ayudarte a ayudar",
+    "cta": "¿NECESITAS AYUDA?  <br> SOLICITA LA ASISTENCIA DEL CENTRO DE LLAMADAS <strong>800 91 24 91</strong> ",
+    "tag": {
+      "title1": "Hay dos modalidades activas para informar",
+      "title2": "¿Has sido contactado por un profesional sanitario?",
+      "title3": "¿Tienes el código CUN?"
+    }
   },
   "dashboard": {
     "title": "Los números de immuni",

@@ -131,3 +131,26 @@
     }
   }
 }
+/* FEAT ILLUSTRATION CALL CENTER */
+
+.call-center-illustration {
+    max-width: 300px;
+    display: block;
+    margin: -500px auto 0;
+    @media screen and (max-width: 1024px) {
+      margin: -350px auto 0;
+  }
+  @media screen and (max-width: 480px) {
+    display: none;
+  }
+  &--mobile {
+    min-height: auto;
+    display: none;
+    margin: -650px auto 0;
+    @media screen and (max-width: 480px) {
+      display: block;
+      margin: -250px auto 0;
+      max-width: 200px;
+    }
+  }
+}

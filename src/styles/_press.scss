@@ -40,4 +40,10 @@
 .report-illustration {
   max-width: 350px;
   margin: 80px auto 0;
+&__right{
+  margin-right: 0;
+  @media screen and (max-width: 1024px) {
+     margin: auto;
+  }
+}
 }

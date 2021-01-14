@@ -52,7 +52,7 @@ class Translator {
     var lang = navigator.languages
       ? navigator.languages[0]
       : navigator.language;
-
+      
     return lang.substr(0, 2);
   }
 
