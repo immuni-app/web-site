@@ -337,9 +337,18 @@
   }
 }
 
-/*  CONTENT TEXT RIGHT  */
+/*  CONTENT RIGHT  */
 
 .text-right {
   max-width: 450px;
   margin: auto;
+}
+.section-right{
+  position: absolute;
+  right: 0;
+  top: 150px;
+  @media screen and (max-width: 1024px) {
+    position: inherit;
+    top: 0;
+}
 }

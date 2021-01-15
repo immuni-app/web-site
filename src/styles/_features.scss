@@ -52,16 +52,7 @@
       margin-bottom: 0;
       margin-top: 0;
     }
-    p {
-      max-width: 550px;
-      position: absolute;
-      right: 24px;
-      top: 120px;
-      @media screen and (max-width: 1024px) {
-        position: initial;
-        margin: 20px auto 20px;
-      }
-    }
+
     .rep-positivity-illustration {
       position: absolute;
       max-width: 350px;
@@ -169,4 +160,17 @@
       left: 40px;
     }
   }
+}
+.report-illustration {
+  max-width: 450px;
+  margin: 80px auto 0;
+  @media screen and (max-width: 1024px) {
+    margin-top: 0px;
+ }
+&__right{
+  margin-right: 0;
+  @media screen and (max-width: 1024px) {
+     margin: auto;
+  }
+}
 }

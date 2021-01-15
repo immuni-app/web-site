@@ -37,16 +37,3 @@
   max-width: 540px;
   margin: 80px auto 0;
 }
-.report-illustration {
-  max-width: 450px;
-  margin: 80px auto 0;
-  @media screen and (max-width: 1024px) {
-    margin-top: 0px;
- }
-&__right{
-  margin-right: 0;
-  @media screen and (max-width: 1024px) {
-     margin: auto;
-  }
-}
-}

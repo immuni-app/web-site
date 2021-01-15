@@ -20,19 +20,18 @@
   &.centered {
     margin: auto;
   }
-  &.right {
-    position: absolute;
-    right: 110px;
-    bottom: 0;
-    @media screen and (max-width: 1024px) {
-      position: initial;
-      margin: auto;
-    }
+  &.label_de{
+    font-size: 14px;
+    padding: 5px 32px;
     @media screen and (max-width: 375px) {
-      margin-left: -7px;
+      padding: 4px 24px;
+      font-size: 12px;
     }
-    @media screen and (max-width: 320px) {
-      font-size: 13px;
+  }
+  &.label_not_de{
+    padding: 10px 32px;
+    @media screen and (max-width: 375px) {
+      padding: 8px 24px;
     }
   }
   &.primary {
