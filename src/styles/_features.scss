@@ -154,3 +154,19 @@
     }
   }
 }
+/* BOTTOM FIXED BANNER REPORT */
+
+.report {
+  max-width: 500px;
+  @media screen and (max-width: 1024px) {
+    display: none;
+  }
+  &__people {
+    display:block;
+    margin:0px auto;
+    text-align:center;
+    @media screen and (max-width: 1215px) {
+      left: 40px;
+    }
+  }
+}

@@ -39,23 +39,23 @@
       "content": "Eine Rückkehr zum normalen Leben ist möglich. Mit Immuni gelingt uns das schneller, ohne auf unsere Privatsphäre verzichten zu müssen."
     },
     "report":{
-      "title": "Novità",
-      "content": "Segnala positività",
-      "positivity": "Segnalando la tua positività tramite app Immuni gli utenti con cui sei entrato in contatto verranno informati tempestivamente. Potranno così contattare subito il medico di medicina generale e ridurre il rischio di complicanze o di ulteriori contagi.",
-      "button": "Descubre cómo informar"
+      "title": "Ankündigungen",
+      "content": "Positivität melden",
+      "positivity": "Wenn Sie Ihr positives Testergebnis über die Immuni-App melden, werden die Benutzer, mit denen Sie in Kontakt gekommen sind, umgehend informiert. Auf diese Weise können Sie den Hausarzt sofort kontaktieren und das Risiko von Komplikationen oder weiteren Infektionen verringern.",
+      "button": "Finden Sie heraus, wie Sie Bericht erstatten können"
     },
     "cta": {
-      "span": "Helfen Sie <span class='underlined'>sich selbst</span>, Ihrer <span class='underlined'>Familie</span> und Ihrem <span class='underlined'>Land</span>.",
+      "span": "Schützen Sie <span class='underlined'>sich</span>, Ihre <span class='underlined'>Familie</span> und <span class='underlined'>andere</span>.",
       "button": "App herunterladen",
       "cta": "Available now"
     },
     "feats": {
       "tag": "Was ist Immuni?",
-      "title": "Immuni ist ein weiteres Instrument im Kampf gegen die Pandemie",
+      "title": "Ein weiteres Mittel, um die Ansteckungskette zu durchbrechen",
       "content": "Die App wurde entwickelt, um uns im Kampf gegen die COVID-19-Pandemie zu unterstützen. Dank modernster Technologie warnt die App Nutzer, die einem Ansteckungsrisiko ausgesetzt waren, auch wenn sie keine Symptome zeigen."
     },
     "benefits": {
-      "tag": "Die Vorteile",
+      "tag": "Warum Immuni installieren?",
       "title": "Wir schützen uns und unsere Angehörigen",
       "isolation": "Warnt die App einen Nutzer vor einer möglichen Infektion, kann er sich in Isolation begeben und so vermeiden, andere anzustecken. Auf diese Weise trägt man zur Eindämmung der Pandemie bei und unterstützt eine rasche Rückkehr zur Normalität.",
       "oldPeople": "Da Nutzer sofort verständigt werden, können sie sich an ihren Hausarzt wenden und so das Komplikationsrisiko mindern."
@@ -66,7 +66,7 @@
       "content": "Wer engen Kontakt zu einem Nutzer hatte, der positiv auf COVID-19 getestet wurde, erhält von der App eine Warnung hinsichtlich eines potentiellen Infektionsrisikos. Dafür wird die Bluetooth Low Energy-Technologie eingesetzt, die weder Daten über die Identität noch über den Standort der Nutzer sammelt."
     },
     "privacy": {
-      "tag": "Die Datenschutzbestimmungen",
+      "tag": "Sicherheit",
       "title": "Ihre Privatsphäre ist sicher",
       "content": "Bei der Entwicklung von Immuni wurde besonders auf den Schutz Ihrer Privatsphäre geachtet. Die Daten werden vom Gesundheitsministerium und öffentlichen Einrichtungen gesammelt und auf Servern in Italien gespeichert. Die Daten und Verbindungen der App zum Server sind geschützt.",
       "subtitle": "Immuni <span>sammelt keine</span> der folgenden Informationen:",
@@ -89,14 +89,14 @@
     "button": "Herunterladen"
   },
     "report": {
-    "title": "Segnala positività",
-    "content": "Proteggi te stesso, la tua famiglia e gli altri.",
-    "subtitle": "Vogliamo aiutarti ad aiutare",
-    "cta": "HAI BISOGNO DI AIUTO? <br> CHIEDI L’ASSISTENZA DEL CALL CENTER <strong>800 91 24 91</strong> ",
+    "title": "Positivität melden",
+    "content": "Schützen Sie sich, Ihre Familie und andere.",
+    "subtitle": "Wir möchten Ihnen helfen anderen zu helfen",
+    "cta": "BRAUCHEN SIE HILFE? <br> BITTE UM UNTERSTÜTZUNG IM CALL CENTER <strong>800 91 24 91</strong> anfragen ",
     "tag": {
-      "title1": "Sono attive due modalità di segnalazione",
-      "title2": "sei stato contattato da un operatore sanitario?",
-      "title3": "Hai il codice CUN?"
+      "title1": "Zwei Signalisierungs-möglichkeiten sind aktiv",
+      "title2": "Wurden Sie von einem medizinischen Fachpersonal kontaktiert?",
+      "title3": "Haben Sie den CUN-Code?"
     }
   },
   "dashboard": {

@@ -39,23 +39,23 @@
       "content": "Living a normal life once again is possible. Immuni helps us reach this goal faster and without compromising our privacy."
     },
     "report":{
-      "title": "Novità",
-      "content": "Segnala positività",
-      "positivity": "Segnalando la tua positività tramite app Immuni gli utenti con cui sei entrato in contatto verranno informati tempestivamente. Potranno così contattare subito il medico di medicina generale e ridurre il rischio di complicanze o di ulteriori contagi.",
-      "button": "Descubre cómo informar"
+      "title": "News",
+      "content": "Report positivity",
+      "positivity": "By reporting your positive test result, via the Immuni app, the users you have come into contact with will be promptly informed. In this way they will be able to contact your general practitioner immediately and reduce the risk of complications and or further infections.",
+      "button": "Learn how out how to make a report"
     },
     "cta": {
-      "span": "Help <span class='underlined'>yourself</span>, your <span class='underlined'>family</span>, and your <span class='underlined'>country</span>.",
+      "span": "Protect <span class='underlined'>yourself</span>, your <span class='underlined'>family</span> and <span class='underlined'>others</span>.",
       "button": "Download the app",
       "cta": "Available now"
     },
     "feats": {
       "tag": "What is it?",
-      "title": "An extra tool to fight the epidemic",
+      "title": "One more tool to break the chain of contagion",
       "content": "Immuni is an app that helps us fight the COVID-19 epidemic. The app uses technology to alert the users who have had a risky exposure—even if they are asymptomatic."
     },
     "benefits": {
-      "tag": "Benefits",
+      "tag": "Why you should install Immuni",
       "title": "Protection for ourselves and our loved ones",
       "isolation": "Users who have been notified by the app of a possible infection can isolate themselves to avoid infecting other people. By doing so, they help contain the epidemic and speed up the return to a normal life.",
       "oldPeople": "By being alerted early, the users can contact their general practitioner and, therefore, lower the risk of serious consequences."
@@ -66,7 +66,7 @@
       "content": "The app sends a notification to people who were in close contact with a user who tested positive for the COVID-19 virus, alerting them of the risk of infection. Thanks to Bluetooth Low Energy technology, this takes place without the app gathering any data on the identity or the location of its users."
     },
     "privacy": {
-      "tag": "Privacy",
+      "tag": "Safety",
       "title": "Your privacy is protected",
       "content": "Immuni has been designed and developed while taking great care to safeguard user privacy. Any data, collected and managed by the Ministry of Health and by public bodies, is stored on servers located in Italy. All the data and app connections with the server are protected.",
       "subtitle": "Immuni <span>does not</span> gather:",
@@ -89,14 +89,14 @@
     "button": "Download"
   },
    "report": {
-    "title": "Segnala positività",
-    "content": "Proteggi te stesso, la tua famiglia e gli altri.",
-    "subtitle": "Vogliamo aiutarti ad aiutare",
-    "cta": "HAI BISOGNO DI AIUTO? <br> CHIEDI L’ASSISTENZA DEL CALL CENTER <strong>800 91 24 91</strong> ",
+    "title": "Report positivity",
+    "content": "Protect yourself, your family and others.",
+    "subtitle": "We want to help you to be able to help",
+    "cta": "DO YOU NEED HELP? <br> ASK FOR ASSISTANCE FROM THE CALL CENTER <strong>800 91 24 91</strong> ",
     "tag": {
-      "title1": "Sono attive due modalità di segnalazione",
-      "title2": "sei stato contattato da un operatore sanitario?",
-      "title3": "Hai il codice CUN?"
+      "title1": "Two reporting methods in use",
+      "title2": "Have you been contacted by a healthcare professional?",
+      "title3": "Do you have a CUN code?"
     }
   },
   "dashboard": {

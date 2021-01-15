@@ -15,30 +15,30 @@ import * as feat_fr_mobile from "../assets/img/feat-illustration-mobile-fr.png";
 import * as feat_es from "../assets/img/feat-illustration-es.png";
 import * as feat_es_mobile from "../assets/img/feat-illustration-mobile-es.png";
 
-/* Report positivty Images */
+/* Report positivity Images */
 import * as report_it_left_top from "../assets/img/report-illustration-it.png";
-import * as report_en_left_top from "../assets/img/report-illustration-it.png";
+import * as report_en_left_top from "../assets/img/report-illustration-en.png";
 import * as report_de_left_top from "../assets/img/report-illustration-de.png";
-import * as report_fr_left_top from "../assets/img/report-illustration-it.png";
-import * as report_es_left_top from "../assets/img/report-illustration-it.png";
+import * as report_fr_left_top from "../assets/img/report-illustration-fr.png";
+import * as report_es_left_top from "../assets/img/report-illustration-es.png";
 
-import * as report_it_right from "../assets/img/report-illustration-it.png";
-import * as report_en_right from "../assets/img/report-illustration-it.png";
-import * as report_de_right from "../assets/img/report-illustration-de.png";
-import * as report_fr_right from "../assets/img/report-illustration-it.png";
-import * as report_es_right from "../assets/img/report-illustration-it.png";
+import * as report_it_right from "../assets/img/report-illustration-op-it.png";
+import * as report_en_right from "../assets/img/report-illustration-op-en.png";
+import * as report_de_right from "../assets/img/report-illustration-op-de.png";
+import * as report_fr_right from "../assets/img/report-illustration-op-fr.png";
+import * as report_es_right from "../assets/img/report-illustration-op-es.png";
 
-import * as report_it_right_mobile from "../assets/img/report-illustration-it.png";
-import * as report_en_right_mobile from "../assets/img/report-illustration-it.png";
-import * as report_de_right_mobile from "../assets/img/report-illustration-de.png";
-import * as report_fr_right_mobile from "../assets/img/report-illustration-it.png";
-import * as report_es_right_mobile from "../assets/img/report-illustration-it.png";
+import * as report_it_right_mobile from "../assets/img/report-illustration-mobile-op-it.png";
+import * as report_en_right_mobile from "../assets/img/report-illustration-mobile-op-en.png";
+import * as report_de_right_mobile from "../assets/img/report-illustration-mobile-op-de.png";
+import * as report_fr_right_mobile from "../assets/img/report-illustration-mobile-op-fr.png";
+import * as report_es_right_mobile from "../assets/img/report-illustration-mobile-op-es.png";
 
-import * as report_it_left_bottom from "../assets/img/report-illustration-it.png";
-import * as report_en_left_bottom from "../assets/img/report-illustration-it.png";
-import * as report_de_left_bottom from "../assets/img/report-illustration-de.png";
-import * as report_fr_left_bottom from "../assets/img/report-illustration-it.png";
-import * as report_es_left_bottom from "../assets/img/report-illustration-it.png";
+import * as report_it_left_bottom from "../assets/img/report-illustration-cun-it.png";
+import * as report_en_left_bottom from "../assets/img/report-illustration-cun-en.png";
+import * as report_de_left_bottom from "../assets/img/report-illustration-cun-de.png";
+import * as report_fr_left_bottom from "../assets/img/report-illustration-cun-fr.png";
+import * as report_es_left_bottom from "../assets/img/report-illustration-cun-es.png";
 
 
 const image = {

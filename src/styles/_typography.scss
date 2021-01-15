@@ -65,13 +65,13 @@ h2 {
   &.colored {
     color: var(--primary);
   }
-  &.cta-report{
+  &.cta-full-w{
     max-width: 100%;
     @media screen and (max-width: 480px) {
       max-width: 80%;
     }
   }
-  &.cta-report > strong{
+  &.cta-full-w > strong{
     color: #fff;
   }
 }
