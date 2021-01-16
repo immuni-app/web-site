@@ -273,12 +273,12 @@
     {
       "id": 54,
       "title": "À quoi sert le CUN?",
-      "content": "Le CUN est utilisé par les opérateurs du centre d'appels Immuni pour vérifier s’il est testée possible pour LA covid-19 réelle de la personne qui a contacté le service."
+      "content": "Le CUN est utilisé pour procéder indépendamment au rapport de positivité via l'application Immuni et aux opérateurs du centre d'appels pour vérifier la positivité réelle de la personne et l'aider dans l'opération de rapport de positivité."
     },
     {
       "id": 55,
       "title": "Qui peut débloquer Immuni?",
-      "content": "Immuni peut être débloquée par le citoyen qui a l'APP sur son téléphone portable et qui a été testé positif au test de prélèvement moléculaire. Cependant, cette opération ne peut pas être réalisée de manière autonome, mais doit être assistée, en temps réel, par l'agent de santé qui a communiqué le résultat du prélèvement au citoyen, ou par l'opérateur téléphonique du centre d'appel Immuni 800 91 24 91, pour les régions et provinces autonomes dans lesquelles ce service est déjà actif et pour les citoyens qui ont reçu le CUN.\nAvertissement: les médecins généralistes ne sont pas autorisés à prendre en charge le déblocage de Immuni.\n"
+      "content": "Les citoyens qui ont déjà installé l'APP sur leur téléphone portable et dont le test est positif au test de prélèvement moléculaire. Cette opération peut être réalisée en temps réel avec l'aide de l'agent de santé qui a communiqué le résultat de l'écouvillon au citoyen, ou directement via l'application Immune en saisissant le code CUN de votre test de prélèvement moléculaire. Pour toute éventualité, les opérateurs du centre d'appels Immuni 800.91.24.91 sont disponibles pour vous guider également dans cette opération de déverrouillage via CUN.\nAvertissement: les médecins généralistes ne sont pas autorisés à prendre en charge le déblocage de Immuni.\n"
     },
     {
       "id": 56,
@@ -318,7 +318,7 @@
     {
       "id": 63,
       "title": "Dans quelles régions ou provinces autonomes le service téléphonique Immuni pour le chargement et le déblocage des données est-il actif?",
-      "content": "À partir du 21 décembre, le service est disponible en Lombardia, Campania, Friuli Venezia Giulia, Molise et dans la province autonome de Trente. En janvier, d'autres régions s'ajouteront, pour couvrir l'ensemble du territoire national."
+      "content": "Le service est actif à partir du 15 janvier sur tout le territoire national. En Sardaigne, il sera actif à partir du 19 janvier. En Calabre,  Piémont et dans la province autonome de Bolzano à partir du 1er février."
     },
     {
       "id": 64,

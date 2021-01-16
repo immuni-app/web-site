@@ -273,12 +273,12 @@
     {
       "id": 54,
       "title": "What is the CUN for?",
-      "content": "The CUN is used by the Immuni call center operators to verify the actual positivity of the person who contacted the service."
+      "content": "The CUN is used to independently proceed to report positivity through the Immuni app and to call center operators to verify the actual positivity of the person and support in the positivity reporting operation."
     },
     {
       "id": 55,
       "title": "Who can unlock Immuni?",
-      "content": "Immuni can be unlocked by the citizen who has the APP on his mobile phone, and who has tested positive for the molecular swab test. However, this operation cannot be carried out independently, but it must be assisted, in real time, by the health worker who communicated the result of the swab to the citizen, or by the telephone operator of the Immuni call center 800 91 24 91, to the regions and autonomous provinces in which this service is already active and for those citizens who have received the CUN.\nWarning: GPs are not authorized to support the unlocking of Immuni.\n"
+      "content": "Citizens who have already installed the APP on their mobile phones and who test positive for the molecular swab can proceed with the unlock of Immuni. This operation can be carried out in real time with the assistance of the health worker who communicated the result of the swab to the citizen, or directly through the Immuni app by entering the CUN code relating to the molecular swab. For any eventuality, the operators of Immuni call center 800.91.24.91 are available to guide you also in this unlocking operation via CUN.\n\nWarning: GPs are not authorized to support the unlocking of Immuni\n\n"
     },
     {
       "id": 56,
@@ -318,7 +318,7 @@
     {
       "id": 63,
       "title": "In which regions or autonomous provinces is the Immuni data upload and unblocking support telephone service active?",
-      "content": "From 21 December the service is available in Lombardia, Campania, Friuli Venezia Giulia, Molise and in the autonomous province of Trento. In January, other regions will be added, to cover the entire national territory."
+      "content": "The service is active from January the 15th on the whole national territory. In Sardinia it will be active from January the 19th. In Calabria, Piedmont and the autonomous province of Bolzano from February  the 1st."
     },
     {
       "id": 64,
