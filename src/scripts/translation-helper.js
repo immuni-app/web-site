@@ -182,13 +182,15 @@ export function handleHomeImage() {
     featImgMobile.innerHTML = `<img src="${imgUrlMobile}" alt="Screenshot of the main Immuni App dashboard"/>`;
   }
 
-  /* script button de */
-  if (lang == "de") {
-    document.getElementsByClassName("label_de")[0].style.display = "block";
-    document.getElementsByClassName("label_not_de")[0].style.display = "none";
-  } else {
-    document.getElementsByClassName("label_de")[0].style.display = "none";
-    document.getElementsByClassName("label_not_de")[0].style.display = "block";
+   /* script button de */
+   if (document.getElementsByClassName("label_de")[0]) {
+    if (lang == "de") {
+      document.getElementsByClassName("label_de")[0].style.display = "block";
+      document.getElementsByClassName("label_not_de")[0].style.display = "none";
+    } else {
+      document.getElementsByClassName("label_de")[0].style.display = "none";
+      document.getElementsByClassName("label_not_de")[0].style.display = "block";
+    }
   }
 
 
