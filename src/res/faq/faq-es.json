@@ -18,7 +18,7 @@
     {
       "id": 3,
       "title": "¿Cómo se protege mi privacidad?",
-      "content": "Al desarrollar Immuni, se prestó gran atención a la protección de la privacidad. En consecuencia, se tomaron múltiples medidas de seguridad, como las siguientes:\n• La aplicación no recopila datos que permitan averiguar tu identidad. No solicita ni puede conseguir tu nombre, apellidos, fecha de nacimiento, dirección, número de teléfono ni correo electrónico. \n• No se lleva un seguimiento de tus movimientos ni se pueden rastrear de ningún modo.\n• Los códigos aleatorios que intercambian los teléfonos inteligentes a través de Bluetooth no contienen información sobre tu dispositivo ni, por supuesto, sobre ti.\n• Para proteger mejor tu privacidad, estos códigos aleatorios cambian varias veces cada hora. \n• Los datos que se guardan en tu teléfono inteligente y las conexiones entre la aplicación y el servidor están cifrados. \n• Todos los datos que se guarden en el dispositivo o el servidor se eliminarán cuando ya no sean necesarios y, en cualquier caso, antes del 31 de diciembre de 2020. \n• Tus datos los recopila el Ministerio de Salud y se utilizarán únicamente para contener la epidemia de la COVID-19 o con fines de investigación científica.\n• Los datos se guardan en servidores en Italia y los gestionan entidades públicas."
+      "content": "Al desarrollar Immuni, se prestó gran atención a la protección de la privacidad. En consecuencia, se tomaron múltiples medidas de seguridad, como las siguientes:\n• La aplicación no recopila datos que permitan averiguar tu identidad. No solicita ni puede conseguir tu nombre, apellidos, fecha de nacimiento, dirección, número de teléfono ni correo electrónico. \n• No se lleva un seguimiento de tus movimientos ni se pueden rastrear de ningún modo.\n• Los códigos aleatorios que intercambian los teléfonos inteligentes a través de Bluetooth no contienen información sobre tu dispositivo ni, por supuesto, sobre ti.\n• Para proteger mejor tu privacidad, estos códigos aleatorios cambian varias veces cada hora. \n• Los datos que se guardan en tu teléfono inteligente y las conexiones entre la aplicación y el servidor están cifrados. \n• Todos los datos que se guarden en el dispositivo o el servidor se eliminarán cuando ya no sean necesarios y, en cualquier caso, antes del 31 de diciembre de 2021. \n• Tus datos los recopila el Ministerio de Salud y se utilizarán únicamente para contener la epidemia de la COVID-19 o con fines de investigación científica.\n• Los datos se guardan en servidores en Italia y los gestionan entidades públicas."
     },
     {
       "id": 4,
@@ -48,7 +48,7 @@
     {
       "id": 9,
       "title": "¿Dónde puedo descargar Immuni? ¿Qué dispositivos y sistemas operativos son compatibles?",
-      "content": "Dependiendo del teléfono que tengas, podrás descargar Immuni desde el App Store o desde Google Play. Comprueba a continuación si tu móvil es compatible con la aplicación.\n\n→ App Store\nTu iPhone debe tener una versión de iOS 13.5 o superior. Los modelos compatibles son: 11, 11 Pro, 11 Pro Max, Xr, Xs, Xs Max, X, 8, 8 Plus, 7, 7 Plus, 6s, 6s Plus, SE. Actualiza iOS a la última versión disponible antes de descargar Immuni.\n\n→ Google Play\nTu teléfono inteligente Android debe contar con:\n• Bluetooth Low Energy\n• Versión de Android 6 (Marshmallow, API 23) o superior\n• Versión de Google Play Services 20.18.13 o superior\nActualiza Android y Google Play Services a la última versión disponible antes de descargar Immuni.\n"
+      "content": "Dependiendo del teléfono que tengas, podrás descargar Immuni desde el App Store o desde Google Play. Comprueba a continuación si tu móvil es compatible con la aplicación.\n\n→ App Store\nTu iPhone debe tener una versión de iOS 13.5 o superior. Los modelos compatibles son: 11, 11 Pro, 11 Pro Max, Xr, Xs, Xs Max, X, 8, 8 Plus, 7, 7 Plus, 6s, 6s Plus, SE. Actualiza iOS a la última versión disponible antes de descargar Immuni.\n\n→ Google Play\nTu teléfono inteligente Android debe contar con:\n• Bluetooth Low Energy\n• Versión de Android 6 (Marshmallow, API 23) o superior\n• Versión de Google Play Services 20.18.13 o superior\n\nActualiza Android y Google Play Services a la última versión disponible antes de descargar Immuni.\n\n→ HMS core\n • Huawei smartphone (MATE 40 PRO, P Smart 2021, P40 Pro+, P Smart S, P40 Lite 5G, Y5p, Y6p, P40 Pro, P40, P40 Lite E, Mate Xs, P40 Lite, Mate30 Pro o superior) \n • HMS core 5.1.0.300 o superior\n\nActualiza HMS core a la última versión disponible antes de descargar Immuni.\n"
     },
     {
       "id": 10,
@@ -58,7 +58,7 @@
     {
       "id": 11,
       "title": "Mi teléfono no es compatible con Immuni. ¿Por qué? ¿Qué puedo hacer al respecto?",
-      "content": "Immuni utiliza el sistema para las notificaciones de exposición que han desarrollado Apple y Google. Se trata de una tecnología que se usa en muchos lugares del mundo (por ejemplo, en Alemania, los Países Bajos, Japón y en decenas de países más) y que permite que la aplicación funcione de forma óptima en la mayoría de los dispositivos. Debido a limitaciones técnicas, esta tecnología no está disponible en versiones anteriores de iOS, Android y Google Play Services. Si hay algún cambio, te lo comunicaremos de forma inmediata."
+      "content": "Immuni utiliza el sistema para las notificaciones de exposición que han desarrollado Apple, Google y Huawei. Se trata de una tecnología que se usa en muchos lugares del mundo (por ejemplo, en Alemania, los Países Bajos, Japón y en decenas de países más) y que permite que la aplicación funcione de forma óptima en la mayoría de los dispositivos. Debido a limitaciones técnicas, esta tecnología no está disponible en versiones anteriores de iOS, Android y Google Play Services. Si hay algún cambio, te lo comunicaremos de forma inmediata."
     },
     {
       "id": 12,
@@ -153,12 +153,12 @@
     {
       "id": 30,
       "title": "¿Qué es el código de un solo uso y cómo funciona?",
-      "content": "El código de un solo uso es una secuencia alfanumérica de diez caracteres que se utiliza únicamente en caso de que un usuario dé positivo en el virus y que no identifica de ninguna forma a dicha persona. \nSi dio positivo por el virus, puede decidir subir los datos necesarios al servidor de Immuni para notificar, de forma anónima, a las personas que han estado en contacto cercano en los últimos 14 días.\nPara ello, debe dictar el código desechable que se encuentra en \"informar positividad\" de Immuni (en el menú \"Configuración\") al profesional de la salud que le comunicó el resultado del hisopo, o al operador telefónico del centro de llamadas. 800 91 24 91. El servicio de centro de llamadas está activo actualmente solo para algunas regiones y provincias autónomas, a saber, Campania, Lombardía, Friuli Venezia Giulia, Molise, Trento, y solo para aquellos que han recibido el CUN (Código Nacional Único).\nUna vez que el operador haya validado el código desechable, puede proceder a cargar los datos de positividad. Esto también se denomina “desbloqueo” de Immuni.\n"
+      "content": "El código de un solo uso es una secuencia alfanumérica de diez caracteres que se utiliza únicamente en caso de que un usuario dé positivo en el virus y que no identifica de ninguna forma a dicha persona. \nSi dio positivo por el virus, puede decidir subir los datos necesarios al servidor de Immuni para notificar, de forma anónima, a las personas que han estado en contacto cercano en los últimos 14 días.\nPara ello, debe dictar el código desechable que se encuentra en \"informar positividad\" de Immuni al profesional de la salud que le comunicó el resultado del hisopo, o al operador telefónico del centro de llamadas. 800 91 24 91. \nUna vez que el operador haya validado el código desechable, puede proceder a cargar los datos de positividad. Esto también se denomina “desbloqueo” de Immuni.\n"
     },
     {
       "id": 31,
       "title": "¿Cómo y cuándo puedo subir mis datos?",
-      "content": "Solo puede cargar tus datos si da positivo en la prueba de la COVID-19 y tiene una prueba de test molecular. La operación es voluntaria y permite a Immuni advertir a las personas con las que ha estado en contacto en los últimos 14 días.\nEsta operación debe realizarse con el apoyo del trabajador sanitario que le comunicó el resultado positivo del hisopo, o con el apoyo del operador del call center 800 91 24 91, si ha realizado la prueba en una de las regiones o provincias autónomas en las que el servicio de centro de llamadas está activo: Campania, Lombardía, Friuli Venezia Giulia, Molise, Trento.\n"
+      "content": "Solo puede cargar tus datos si da positivo en la prueba de la COVID-19 y tiene una prueba de test molecular, comunicando el código CUN asociado con el informe. La operación de desbloqueo a través del código CUN es voluntaria y permite a Immuni advertir a las personas con las que ha estado en contacto en los últimos 14 días.\nEsta operación se puede realizar con el apoyo del trabajador sanitario que comunicó el resultado positivo del hisopo o con la ayuda de los operadores del call center 800 91 24 91."
     },
     {
       "id": 32,
@@ -223,7 +223,7 @@
     {
       "id": 44,
       "title": "¿Quiénes son los profesionales sanitarios de los que se habla en Immuni?",
-      "content": "Se trata del personal sanitario del Departamento de Prevención de las Agencias Sanitarias Locales o de los hospitales que normalmente comunica por teléfono al usuario que ha dado positivo en la prueba. Si una persona que dé positivo tiene instalada Immuni, podrá informar de que tiene el virus. De ese modo, permitirá que la aplicación avise a los usuarios con los que ha estado en contacto cercano de que se han visto expuestos a un riesgo de contagio. \nPara orientar y habilitar al usuario positivo en la carga de datos y en el \"desbloqueo\" de Immuni, puede ser el propio trabajador de salud quien comunicó el resultado del informe o un operador telefónico del centro de llamadas dedicado a Immuni, accesible a el numero verde 800 91 24 91, para aquellas regiones donde el servicio ya está activo: Campania, Lombardía, Friuli Venezia Giulia, Molise, Trento.\n"
+      "content": "Se trata del personal sanitario del Departamento de Prevención de las Agencias Sanitarias Locales o de los hospitales responsable de comunicar por teléfono los resultados de la prueba molecular a los ciudadanos. Comunicando el código CUN combinado con el informe, los ciudadanos que ya han instalado Immuni pueden proceder a informar de su positividad a las personas con las que han entrado en contacto cercano.\nPara orientar y habilitar al usuario positivo en la carga de datos y en el \"desbloqueo\" de Immuni, puede ser el propio trabajador de salud quien comunicó el resultado del informe o un operador telefónico del centro de llamadas dedicado a Immuni, accesible a el numero verde 800 91 24 91.\n"
     },
     {
       "id": 45,
@@ -278,7 +278,7 @@
     {
       "id": 55,
       "title": "¿Quién puede desbloquear Immuni?",
-      "content": "Immuni puede ser desbloqueado por ciudadanos que tengan la aplicación en su teléfono móvil y que hayan dado positivo en la prueba del test molecular. Sin embargo, esta operación no se puede realizar de forma independiente, sino que debe ser asistida, en tiempo real, por el trabajador de salud que comunicó el resultado del test molecular al ciudadano, o por el operador telefónico del call center de Immuni 800 91 24 91, para las regiones y provincias autónomas en las que este servicio ya está activo y para aquellos ciudadanos que han recibido el CUN.\nAdvertencia: los médicos de cabecera no están autorizados a admitir el desbloqueo inmunológico.\n\n"
+      "content": "Immuni puede ser desbloqueado por ciudadanos que tengan la aplicación en su teléfono móvil y que hayan dado positivo en la prueba del test molecular. Sin embargo, esta operación no se puede realizar de forma independiente, sino que debe ser asistida, en tiempo real, por el trabajador de salud que comunicó el resultado del test molecular al ciudadano, o por el operador telefónico del call center de Immuni 800 91 24 91,  para aquellos ciudadanos que han recibido el CUN.\n Advertencia: los médicos de cabecera no están autorizados a admitir el desbloqueo inmunológico."
     },
     {
       "id": 56,
@@ -314,11 +314,6 @@
       "id": 62,
       "title": "¿Cómo funciona el desbloqueo de Immuni a través del call center?",
       "content": "Cuando llame al centro de llamadas, se le guiará para desbloquear Immuni: primero se le pedirá que comunique su CUN, a través del cual el operador verificará su positividad real; luego deberás comunicar tu número de Tarjeta Sanitaria, a través del cual se verificará tu identidad, y finalmente, al comunicar el código desechable que encuentras en la sección \"reportar positividad\" de la aplicación, estarás autorizado para ingresar tus datos de positividad."
-    },
-    {
-      "id": 63,
-      "title": "¿En qué regiones o provincias autónomas está activo el servicio telefónico Immuni para soportar la carga y el desbloqueo de datos?",
-      "content": "A partir del 21 de diciembre, el servicio está disponible en Lombardía, Campania, Friuli Venezia Giulia, Molise y en la provincia autónoma de Trento. En enero se sumarán otras regiones, para cubrir todo el territorio nacional."
     },
     {
       "id": 64,
