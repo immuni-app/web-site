@@ -18,7 +18,7 @@
     {
       "id": 3,
       "title": "How is my privacy protected?",
-      "content": "In developing Immuni, we have taken many measures to protect you and your privacy. Here’s a list of some of these measures:\n \n• The app doesn’t collect any data that could enable your identity to be traced. It doesn’t ask for (and can’t obtain) information such as your name, surname, date of birth, address, telephone number, or email address. \n• Your movements aren’t tracked or traceable in any shape or form. \n• The random codes that smartphones exchange via Bluetooth don’t contain information about you or your device. \n• These random codes change several times every hour, protecting your privacy even further.\n• The data saved on your smartphone and the connections between the app and the server are encrypted.\n• All data, whether stored on the device or on the server, is deleted when no longer relevant, and certainly no later than December 31, 2020.\n• The Ministry of Health is the body that collects your data. The data is used solely with the aim of containing the COVID-19 epidemic or for scientific research.\n• The data is saved on servers in Italy and managed by public bodies."
+      "content": "In developing Immuni, we have taken many measures to protect you and your privacy. Here’s a list of some of these measures:\n \n• The app doesn’t collect any data that could enable your identity to be traced. It doesn’t ask for (and can’t obtain) information such as your name, surname, date of birth, address, telephone number, or email address. \n• Your movements aren’t tracked or traceable in any shape or form. \n• The random codes that smartphones exchange via Bluetooth don’t contain information about you or your device. \n• These random codes change several times every hour, protecting your privacy even further.\n• The data saved on your smartphone and the connections between the app and the server are encrypted.\n• All data, whether stored on the device or on the server, is deleted when no longer relevant, and certainly no later than December 31, 2021.\n• The Ministry of Health is the body that collects your data. The data is used solely with the aim of containing the COVID-19 epidemic or for scientific research.\n• The data is saved on servers in Italy and managed by public bodies."
     },
     {
       "id": 4,
@@ -48,7 +48,7 @@
     {
       "id": 9,
       "title": "Where can I download Immuni? Which devices and operating systems are supported?",
-      "content": "You can download Immuni from the App Store or Google Play, depending on your smartphone. Check below to see if your smartphone supports Immuni.\n\n→ App Store\nYour iPhone must have iOS version 13.5 or later. Supported models: 11, 11 Pro, 11 Pro Max, Xr, Xs, Xs Max, X, 8, 8 Plus, 7, 7 Plus, 6s, 6s Plus, SE. \n\nPlease update iOS to the latest version before downloading Immuni.\n\n→ Google Play\n Your Android smartphone must check all three of the following requirements:\n • Bluetooth Low Energy\n • Android version 6 (Marshmallow, API 23) or later\n • Google Play Services version 20.18.13 or later\n \nPlease update Android and Google Play Services to the latest version before downloading Immuni."
+      "content": "You can download Immuni from the App Store or Google Play, depending on your smartphone. Check below to see if your smartphone supports Immuni.\n\n→ App Store\nYour iPhone must have iOS version 13.5 or later. Supported models: 11, 11 Pro, 11 Pro Max, Xr, Xs, Xs Max, X, 8, 8 Plus, 7, 7 Plus, 6s, 6s Plus, SE. \n\nPlease update iOS to the latest version before downloading Immuni.\n\n→ Google Play\n Your Android smartphone must check all three of the following requirements:\n • Bluetooth Low Energy\n • Android version 6 (Marshmallow, API 23) or later\n • Google Play Services version 20.18.13 or later\n\nPlease update Android and Google Play Services to the latest version before downloading Immuni.\n\n→ HMS core\n • Huawei smartphone supported (MATE 40 PRO, P Smart 2021, P40 Pro+, P Smart S, P40 Lite 5G, Y5p, Y6p, P40 Pro, P40, P40 Lite E, Mate Xs, P40 Lite, Mate30 Pro or later) \n • HMS core 5.1.0.300 or later\nPlease update HMS core to the latest version before downloading Immuni.\n\n\n \n"
     },
     {
       "id": 10,
@@ -58,7 +58,7 @@
     {
       "id": 11,
       "title": "My smartphone does not support Immuni. Why not? What can I do about this?",
-      "content": "Immuni draws on the exposure notification system developed by Apple and Google. This technology is shared by many other countries (including Germany, Japan, the Netherlands, and dozens more), and it allows the app to work at its best on most devices. Due to technical limitations, this technology is not available on older versions of iOS, Android, and Google Play Services. If things change, we will immediately make that information public."
+      "content": "Immuni draws on the exposure notification system developed by Apple, Google and Huawei. This technology is shared by many other countries (including Germany, Japan, the Netherlands, and dozens more), and it allows the app to work at its best on most devices. Due to technical limitations, this technology is not available on older versions of iOS, Android, and Google Play Services. If things change, we will immediately make that information public."
     },
     {
       "id": 12,
@@ -153,17 +153,17 @@
     {
       "id": 30,
       "title": "What is a 'one-time code' and how does it work?",
-      "content": "A one-time code is a ten-character alphanumeric sequence that is used only upon testing positive for the SARS-CoV-2  virus. It does not (and cannot) identify the user of the Immuni app.\nWhen a user tests positive for the virus, you can decide to upload to the Immuni server the data necessary to anonymously warn users who have been in close contact with you in the last 14 days. To do this, the user must dictate the one-time code found in the appropriate section “report a positive result” of the app to the healthcare worker who has informed you of the result of their swab test, or to the telephone operator of the call center 800 91 24 91. \nThe call center service is currently active only for some regions and autonomous provinces: Campania, Lombardia, Friuli Venezia Giulia, Molise, Trento, and only for those who have received the CUN (National Unique Code).\nAfter the operator has validated the one-time  code, you can proceed to upload the positivity data. This is also called “unlocking” Immuni.\n"
+      "content": "A one-time code is a ten-character alphanumeric sequence that is used only upon testing positive for the SARS-CoV-2  virus. It does not (and cannot) identify the user of the Immuni app.\nWhen a user tests positive for the virus, you can decide to upload to the Immuni server the data necessary to anonymously warn users who have been in close contact with you in the last 14 days. To do this, the user must dictate the one-time code found in the appropriate section “report a positive result” of the app to the healthcare worker who has informed you of the result of their swab test, or to the telephone operator of the call center 800 91 24 91. \nAfter the operator has validated the one-time  code, you can proceed to upload the positivity data. This is also called “unlocking” Immuni.\n"
     },
     {
       "id": 31,
       "title": "How and when can I upload my data?",
-      "content": "You can only upload your data if your test was positive for Coronavirus and you have a molecular swab test. The operation is voluntary and allows Immuni to warn the people with whom you have been in contact in the previous 14 days.\nThis operation must be carried out with the support of the health worker who communicated the positive result of the swab to you, or with the support of the call center operator 800 91 24 91, if you have taken the test in one of the regions or autonomous provinces in which the call center service is active: Campania, Lombardia, Friuli Venezia Giulia, Molise, Trento.\n"
+      "content": "You can upload your data only if you test positive with a molecular swab by communicating the CUN code associated with the test. The \"unlocking\" operation using the CUN code is on a voluntary basis and allows Immuni to warn the people with whom you came into contact in the previous 14 days.\nThis operation can be carried out with the support of the health care worker who communicated the positive result of the swab or with the help of the call center operators 800 91 24 91."
     },
     {
       "id": 32,
       "title": "Which are the steps to report a positive result on Immuni?",
-      "content": "\nThe healthcare worker of the prevention service who communicated to you the result of the molecular swab or the telephone operator of the Immuni call center will ask you to enter the \"Settings\" section in the App and choose \"Report a positive result\".\nImmuni will show you a one-time code, a sequence of ten randomly generated characters.\nCommunicate this code to the operator, who will give you the authorization to continue\nClick \"Continue\"\nImmuni will show you a summary of the data that will be uploaded.\nBy clicking on \"Upload data\", the app will upload your data\nFinally, you will be asked for permission to access the random codes saved on your device\nThe app will show you a confirmation message once the upload is complete\n"
+      "content": "The healthcare worker of the prevention service who communicated to you the result of the molecular swab or the telephone operator of the Immuni call center will ask you to enter the \"Settings\" section in the App and choose \"Report a positive result\".\nImmuni will show you a one-time code, a sequence of ten randomly generated characters.\nCommunicate this code to the operator, who will give you the authorization to continue\nClick \"Continue\"\nImmuni will show you a summary of the data that will be uploaded.\nBy clicking on \"Upload data\", the app will upload your data\nFinally, you will be asked for permission to access the random codes saved on your device\nThe app will show you a confirmation message once the upload is complete\n"
     },
     {
       "id": 33,
@@ -223,7 +223,7 @@
     {
       "id": 44,
       "title": "Who are the healthcare workers that Immuni refers to?",
-      "content": "These are healthcare personnel from the Prevention Department of the local health authority or hospitals who normally inform someone by phone in the event of a positive swab test result. If the person who tested positive has Immuni installed, they can choose to report their positive test result. Doing so allows Immuni to warn users with whom they’ve been in close contact of the risk of infection.\nTo guide and enable the user in uploading data and in the unlocking of Immuni, it can be either the healthcare worker himself who communicated the result of the report, or a telephone operator of the call center dedicated to Immuni, reachable at the number green 800 91 24 91, for those regions where the service is already active: Campania, Lombardia, Friuli Venezia Giulia, Molise, Trento.\n"
+      "content": "These are healthcare personnel from the Prevention Department of the local health authority or hospitals in charge of communicating the results of the swab to citizens by telephone. By communicating the CUN code associated with the report, citizens who have already installed Immuni can proceed to report their positivity to the people with whom they have come into close contact.\nTo guide and enable the user in uploading data and in the unlocking of Immuni, it can be either the healthcare worker himself who communicated the result of the report, or a telephone operator of the call center dedicated to Immuni, reachable at the number green 800 91 24 91.\n\n"
     },
     {
       "id": 45,
@@ -278,7 +278,7 @@
     {
       "id": 55,
       "title": "Who can unlock Immuni?",
-      "content": "Immuni can be unlocked by the citizen who has the APP on his mobile phone, and who has tested positive for the molecular swab test. However, this operation cannot be carried out independently, but it must be assisted, in real time, by the health worker who communicated the result of the swab to the citizen, or by the telephone operator of the Immuni call center 800 91 24 91, to the regions and autonomous provinces in which this service is already active and for those citizens who have received the CUN.\nWarning: GPs are not authorized to support the unlocking of Immuni.\n"
+      "content": "Immuni can be unlocked by the citizen who has the APP on his mobile phone, and who has tested positive for the molecular swab test. However, this operation cannot be carried out independently, but it must be assisted, in real time, by the health worker who communicated the result of the swab to the citizen, or by the telephone operator of the Immuni call center 800 91 24 91, for those citizens who have received the CUN.\n Warning: GPs are not authorized to support the unlocking of Immuni."
     },
     {
       "id": 56,
@@ -314,11 +314,6 @@
       "id": 62,
       "title": "How does the Immuni unblocking work through the call center?",
       "content": "When you call the call center, you will be guided to unlock Immuni: you will first be asked to communicate your CUN, through which the operator will verify your actual positivity; then you will need to communicate your Health Card number, through which your identity will be verified, and finally, by communicating the disposable code that you find in the \"report positivity\" section of the app, you will be authorized to enter your positivity data."
-    },
-    {
-      "id": 63,
-      "title": "In which regions or autonomous provinces is the Immuni data upload and unblocking support telephone service active?",
-      "content": "From 21 December the service is available in Lombardia, Campania, Friuli Venezia Giulia, Molise and in the autonomous province of Trento. In January, other regions will be added, to cover the entire national territory."
     },
     {
       "id": 64,

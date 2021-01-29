@@ -116,7 +116,7 @@
     "button": "Télécharger",
     "appleOs": "iPhone avec iOS version 13.5 ou supérieure. Mettez à jour iOS en téléchargeant la dernière version disponible avant de télécharger Immuni. Les modèles d’iPhone qui prennent en charge iOS 13.5 sont les suivants : 11, 11 Pro, 11 Pro Max, Xr, Xs, Xs Max, X, SE (2e génération), 8, 8 Plus, 7, 7 Plus, 6s, 6s Plus, SE (1ère génération).",
     "googleOs": "Smartphone avec Bluetooth Low Energy, Android version 6 (Marshmallow, API 23) ou supérieure et Google Play Services version 20.18.13 ou supérieure (les trois conditions sont nécessaires pour utiliser Immuni). Il est conseillé de mettre à jour Android et Google Play Services en téléchargeant la dernière version disponible avant de télécharger Immuni.",
-    "huaweiOs": "Nous nous efforçons de rendre Immuni accessible à partir de l’AppGallery le plus rapidement possible. Cela permettra aux utilisateurs détenteurs de certains modèles de smartphones Huawei d’utiliser Immuni aussi.",
+    "huaweiOs": "Smartphones Huawei pris en charge (MATE 40 PRO, P Smart 2021, P40 Pro +, P Smart S, P40 Lite 5G, Y5p, Y6p, P40 Pro, P40, P40 Lite E, Mate Xs, P40 Lite, Mate30 Pro ou modèles plus récents) et HMS core 5.1.0.300 ou supérieur.",
     "notSupported": "Mon appareil n’est pas pris en charge"
   },
   "deviceSupport": {
