@@ -10,6 +10,7 @@
     {"state_name":"Cyprus", "ISO":"CY"},
     {"state_name":"Finland", "ISO":"FI"},
     {"state_name":"FlemishRegion", "ISO":"BE"},
-    {"state_name":"WalloonRegion", "ISO":"BE"}
+    {"state_name":"WalloonRegion", "ISO":"BE"},
+    {"state_name":"Austria", "ISO":"AT"}
     
 ]
