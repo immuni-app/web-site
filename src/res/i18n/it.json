@@ -97,7 +97,7 @@
     "downloadDetail":"<sup>(1)</sup> Utenti che hanno scaricato l’applicazione (non comprende gli aggiornamenti e le reinstallazioni).",
     "positiveUserDetail": "<sup>(2)</sup> Utenti positivi che hanno caricato le loro chiavi.",
     "notificationDetail": "<sup>(3)</sup> Notifiche di possibile esposizione al rischio generate dall’applicazione. La rilevazione è parziale poiché vengono rilevate tutte le notifiche per i dispositivi iOS e solamente un terzo di quelle inviate da Android che hanno a disposizione la tecnologia necessaria per rilevarle in modo sicuro.",
-    "androidDownloadDetail":"<sup>(4)</sup> Dispositivi android con GMS (Google Mobile Services) e HMS Core (Huawei Mobile Services Core).",
+    "androidDownloadDetail":"<sup>(4)</sup> Dispositivi Android con GMS (Google Mobile Services) e HMS Core (Huawei Mobile Services Core).",
     "percentageOverPopulation":"Percentuale di download su numero di abitanti",
     "penetrationByRegionNote":"Proiezione effettuata dal Ministero della Salute, aggiornata al",
     "weeklyNotificationsRegionalData":"Notifiche per regione su base settimanale",
