@@ -411,7 +411,7 @@ function generateChart() {
 				
 				labels: [
 					'iOS',
-					'Android',
+					'Android ⁽⁴⁾',
 				]
 			},
 			
