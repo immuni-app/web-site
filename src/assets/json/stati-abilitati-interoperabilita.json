@@ -13,6 +13,7 @@
     {"state_name":"WalloonRegion", "ISO":"BE"},
     {"state_name":"Austria", "ISO":"AT"},
     {"state_name":"Slovenia", "ISO":"SI"},
-    {"state_name":"Norway", "ISO":"NO"}
+    {"state_name":"Norway", "ISO":"NO"},
+    {"state_name":"CzechRepublic", "ISO":"CZ"}
     
 ]
