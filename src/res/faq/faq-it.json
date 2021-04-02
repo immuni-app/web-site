@@ -153,12 +153,12 @@
     {
       "id": 30,
       "title": "Cos’è e come funziona il codice monouso?",
-      "content": "Il codice monouso è una sequenza alfanumerica di dieci caratteri che viene utilizzata soltanto in caso di positività al virus SARS-CoV-2 e che non identifica in alcun modo l’utente dell’app Immuni.\nSe sei risultato positivo/a al virus, puoi decidere di caricare sul server di Immuni i dati necessari ad avvertire, in maniera anonima, le persone che sono state a stretto contatto con te negli ultimi 14 giorni. \nPer farlo devi dettare il codice monouso che si trova alla voce “segnala positività” di Immuni (all’interno del menù “Impostazioni”) all’operatore sanitario che ti ha comunicato l’esito del tampone, oppure all’operatore telefonico del call center 800 91 24 91. Il servizio di call center attualmente è attivo solo per alcune regioni e province autonome, ovvero Campania, Lombardia, Friuli Venezia Giulia, Molise, Trento, e solo per coloro che hanno ricevuto il CUN (Codice Univoco Nazionale).\nDopo che l’operatore avrà validato il codice monouso, potrai procedere al caricamento del dato di positività. Questa operazione è anche detta “sblocco” di Immuni.\n\n"
+      "content": "Il codice monouso è una sequenza alfanumerica di dieci caratteri che viene utilizzata soltanto in caso di positività al virus SARS-CoV-2 e che non identifica in alcun modo l’utente dell’app Immuni.\nSe sei risultato positivo/a al virus, puoi decidere di caricare sul server di Immuni i dati necessari ad avvertire, in maniera anonima, le persone che sono state a stretto contatto con te da 2 giorni prima dei sintomi (o del tampone se sei asintomatico) e fino ad un massimo di 14 giorni. Per farlo devi dettare il codice monouso che si trova alla voce “segnala positività” di Immuni (all’interno del menù “Impostazioni”) all’operatore sanitario che ti ha comunicato l’esito del tampone, oppure all’operatore telefonico del call center 800 91 24 91 se hai ricevuto il CUN (Codice Univoco Nazionale).\nDopo che l’operatore avrà validato il codice monouso, potrai procedere al caricamento del dato di positività. Questa operazione è anche detta “sblocco” di Immuni."
     },
     {
       "id": 31,
       "title": "Come e quando posso caricare i miei dati?",
-      "content": "Puoi caricare i tuoi dati soltanto se risulti positivo al coronavirus e se hai effettuato un test tramite tampone molecolare. L’operazione è su base volontaria e permette a Immuni di avvertire le persone con cui sei stato a contatto nei 14 giorni precedenti. \nQuesta operazione va svolta con il supporto dell’operatore sanitario che ti ha comunicato l’esito positivo del tampone, oppure col supporto dell’operatore del call center 800 91 24 91, se hai fatto il test in una delle regioni o province autonome in cui il servizio di call center è attivo, ovvero Campania, Lombardia, Friuli Venezia Giulia, Molise, Trento.\n"
+      "content": "Puoi caricare i tuoi dati soltanto se risulti positivo al coronavirus e se hai effettuato un test tramite tampone molecolare. L’operazione è su base volontaria e permette a Immuni di avvertire le persone con cui sei stato in contatto stretto da 2 giorni prima dei sintomi (o del tampone se sei asintomatico) e fino ad un massimo di 14 giorni. \nQuesta operazione può essere svolta con il supporto dell’operatore sanitario che ti ha comunicato l’esito positivo del tampone, oppure  se hai ricevuto il CUN col supporto dell’operatore del call center 800 91 24 91 o in autonomia con la specifica funzione a disposizione nell'APP.\n\n"
     },
     {
       "id": 32,
@@ -223,7 +223,7 @@
     {
       "id": 44,
       "title": "Chi sono gli operatori sanitari di cui parla Immuni?",
-      "content": "Si tratta di personale sanitario del Dipartimento di Prevenzione dell’ASL o delle Aziende ospedaliere che normalmente comunica telefonicamente l’esito del tampone all’utente. Se la persona che è risultata positiva ha installato Immuni, può scegliere di segnalare la propria positività. Così facendo permetterà ad Immuni di avvertire del rischio di contagio le persone con cui è stata a stretto contatto. \nA guidare e abilitare l’utente positivo nel caricamento dei dati e nello “sblocco” di Immuni, può essere sia lo stesso operatore sanitario che ha comunicato l’esito del referto, sia un operatore telefonico del call center dedicato a Immuni, raggiungibile al numero verde 800 91 24 91, per quelle regioni in cui è già attivo il servizio: Campania, Lombardia, Friuli Venezia Giulia, Molise, Trento."
+      "content": "Si tratta di personale sanitario del Dipartimento di Prevenzione dell’ASL o delle Aziende ospedaliere che normalmente comunica telefonicamente l’esito del tampone all’utente. Se la persona che è risultata positiva ha installato Immuni, può scegliere di segnalare la propria positività. Così facendo permetterà ad Immuni di avvertire del rischio di contagio le persone con cui è stata a stretto contatto. \nA guidare e abilitare l’utente positivo nel caricamento dei dati e nello “sblocco” di Immuni, può essere sia lo stesso operatore sanitario che ha comunicato l’esito del referto, sia un operatore telefonico del call center dedicato a Immuni, raggiungibile al numero verde 800 91 24 91, se l'utente è anche in possesso del CUN."
     },
     {
       "id": 45,
@@ -273,12 +273,12 @@
     {
       "id": 54,
       "title": "A cosa serve il CUN?",
-      "content": "Il CUN serve agli operatori del call center di Immuni a verificare l’effettiva positività della persona che si è rivolta al servizio."
+      "content": "Il CUN serve per procedere in autonomia alla segnalazione di positività tramite app Immuni e agli operatori del call center per verificare l’effettiva positività della persona e supportarla nell'operazione di segnalazione di positività."
     },
     {
       "id": 55,
       "title": "Chi può sbloccare Immuni?",
-      "content": "Immuni può essere sbloccata dal cittadino che dispone della APP sul proprio cellulare, e che è risultato positivo al test del tampone molecolare. Questa operazione non può però essere svolta in autonomia, ma occorre che sia assistita, in tempo reale, dall’operatore sanitario che ha comunicato al cittadino l’esito del tampone, oppure dall’operatore telefonico del call center Immuni 800 91 24 91, per le regioni e province autonome in cui questo servizio è già attivo e per quei cittadini che hanno ricevuto il CUN.\nAttenzione: i medici di base non sono autorizzati a supportare lo sblocco di Immuni.\n"
+      "content": "Immuni può essere sbloccata dal cittadino che dispone della APP sul proprio cellulare, e che è risultato positivo al test del tampone molecolare. Questa operazione può essere svolta con il supporto dell’operatore sanitario che ti ha comunicato l’esito positivo del tampone, oppure  se hai ricevuto il CUN col supporto dell’operatore del call center 800 91 24 91 o in autonomia con la specifica funzione a disposizione nell'APP.\nAttenzione: i medici di base non sono autorizzati a supportare lo sblocco di Immuni.\n\n"
     },
     {
       "id": 56,
@@ -318,7 +318,7 @@
     {
       "id": 63,
       "title": "In quali regioni o province autonome è attivo il servizio telefonico di supporto al caricamento dati e sblocco di Immuni?",
-      "content": "Dal 21 dicembre il servizio è disponibile in Lombardia, Campania, Friuli Venezia Giulia, Molise e nella provincia autonoma di Trento. A gennaio si aggiungeranno altre regioni, fino a coprire l’intero territorio nazionale.\n"
+      "content": "Il servizio è attivo su tutto il territorio nazionale."
     },
     {
       "id": 64,
@@ -339,6 +339,16 @@
       "id": 67,
       "title": "Come mi comporto se il cittadino è in possesso di un CUN ma sul sistema TS non è presente?",
       "content": "Se il numero CUN non risulta trasmesso dalla regione o provincia autonoma competente, si invita il cittadino a rivolgersi al dipartimento di prevenzione salute della sua ASL per lo sblocco di immuni."
+    },
+    {
+      "id": 68,
+      "title": "Posso sbloccare Immuni autonomamente, senza l'assistenza del personale sanitario o del call center?",
+      "content": "Dal 6 aprile è possibile, in caso di positività al Covid19, sbloccare in autonomia il caricamento avendo ricevuto il CUN da inserire nell'apposita funzione della APP insieme al numero della propria tessera sanitaria"
+    },
+    {
+      "id": 69,
+      "title": "Sbloccando in autonomia l'app Immuni, mi viene chiesto di inserire la data inizio sintomi, ma io sono asintomatico, come devo comportarmi?",
+      "content": "Nel caso tu sia asintomatico puoi barrare la scelta \"Nessun sintomo\" e non indicare alcuna data. Il sistema in tal caso baserà i propri calcoli  dalla data a partire da 2 giorni prima della data del tampone positivo."
     }
   ]
 }

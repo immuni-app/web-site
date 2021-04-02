@@ -153,12 +153,12 @@
     {
       "id": 30,
       "title": "¿Qué es el código de un solo uso y cómo funciona?",
-      "content": "El código de un solo uso es una secuencia alfanumérica de diez caracteres que se utiliza únicamente en caso de que un usuario dé positivo en el virus y que no identifica de ninguna forma a dicha persona. \nSi dio positivo por el virus, puede decidir subir los datos necesarios al servidor de Immuni para notificar, de forma anónima, a las personas que han estado en contacto cercano en los últimos 14 días.\nPara ello, debe dictar el código desechable que se encuentra en \"informar positividad\" de Immuni (en el menú \"Configuración\") al profesional de la salud que le comunicó el resultado del hisopo, o al operador telefónico del centro de llamadas. 800 91 24 91. El servicio de centro de llamadas está activo actualmente solo para algunas regiones y provincias autónomas, a saber, Campania, Lombardía, Friuli Venezia Giulia, Molise, Trento, y solo para aquellos que han recibido el CUN (Código Nacional Único).\nUna vez que el operador haya validado el código desechable, puede proceder a cargar los datos de positividad. Esto también se denomina “desbloqueo” de Immuni.\n"
+      "content": "El código de un solo uso es una secuencia alfanumérica de diez caracteres que se utiliza únicamente en caso de positividad al virus SARS-CoV-2 y que no identifica de ninguna forma el usuario de la aplicación Immuni. \nSi resultas positivo/a al virus, puede decidir subir los datos necesarios al servidor de Immuni para notificar, de forma anónima, a las personas que han estado en contacto cercano contigo desde 2 días antes del principio de los síntomas (o del hisopo si eres asintomático) hasta un máximo de 14 días. Para hacerlo, debes dictar el código de un solo uso que se encuentra en \"Informa de un resultado positivo\" en la aplicación Immuni (en el menú \"Ajustes\") al profesional de la salud que te comunicó el resultado del hisopo, o al operador telefónico del centro de llamadas 800 91 24 91 si recibiste el código CUN (Código Único Nacional).\nUna vez que el operador haya validado el código de un solo uso, puedes proceder a cargar los datos de positividad. Esta operación se denomina también “desbloqueo” de Immuni.Si dio positivo por el virus, puede decidir subir los datos necesarios al servidor de Immuni para notificar, de forma anónima, a las personas que han estado en contacto cercano en los últimos 14 días.\nPara ello, debe dictar el código desechable que se encuentra en \"informar positividad\" de Immuni (en el menú \"Configuración\") al profesional de la salud que le comunicó el resultado del hisopo, o al operador telefónico del centro de llamadas. 800 91 24 91. El servicio de centro de llamadas está activo actualmente solo para algunas regiones y provincias autónomas, a saber, Campania, Lombardía, Friuli Venezia Giulia, Molise, Trento, y solo para aquellos que han recibido el CUN (Código Nacional Único).\nUna vez que el operador haya validado el código desechable, puede proceder a cargar los datos de positividad. Esto también se denomina “desbloqueo” de Immuni.\n"
     },
     {
       "id": 31,
       "title": "¿Cómo y cuándo puedo subir mis datos?",
-      "content": "Solo puede cargar tus datos si da positivo en la prueba de la COVID-19 y tiene una prueba de test molecular. La operación es voluntaria y permite a Immuni advertir a las personas con las que ha estado en contacto en los últimos 14 días.\nEsta operación debe realizarse con el apoyo del trabajador sanitario que le comunicó el resultado positivo del hisopo, o con el apoyo del operador del call center 800 91 24 91, si ha realizado la prueba en una de las regiones o provincias autónomas en las que el servicio de centro de llamadas está activo: Campania, Lombardía, Friuli Venezia Giulia, Molise, Trento.\n"
+      "content": "Solo puedes cargar tus datos si resultas positivo al coronavirus y si has hecho una prueba de test molecular. La operación es voluntaria y permite a Immuni de advertir a las personas con las cuales has estado en contacto directo desde 2 días antes del principio de los síntomas (o del hisopo si eres asintomático) hasta un máximo de 14 días.\nEsta operación debe realizarse con el apoyo del profesional sanitario que te comunicó el resultado positivo del hisopo, o si recibiste el código CUN, con la ayuda del operador telefónico del centro de llamadas 800 91 24 91 o por tu cuenta con la función especifica disponible en la aplicación. "
     },
     {
       "id": 32,
@@ -223,7 +223,7 @@
     {
       "id": 44,
       "title": "¿Quiénes son los profesionales sanitarios de los que se habla en Immuni?",
-      "content": "Se trata del personal sanitario del Departamento de Prevención de las Agencias Sanitarias Locales o de los hospitales que normalmente comunica por teléfono al usuario que ha dado positivo en la prueba. Si una persona que dé positivo tiene instalada Immuni, podrá informar de que tiene el virus. De ese modo, permitirá que la aplicación avise a los usuarios con los que ha estado en contacto cercano de que se han visto expuestos a un riesgo de contagio. \nPara orientar y habilitar al usuario positivo en la carga de datos y en el \"desbloqueo\" de Immuni, puede ser el propio trabajador de salud quien comunicó el resultado del informe o un operador telefónico del centro de llamadas dedicado a Immuni, accesible a el numero verde 800 91 24 91, para aquellas regiones donde el servicio ya está activo: Campania, Lombardía, Friuli Venezia Giulia, Molise, Trento.\n"
+      "content": "Se trata del personal sanitario del Departamento de Prevención de las Agencias Sanitarias Locales o de los hospitales que normalmente comunican por teléfono al usuario el resultado del hisopo. Si la persona que resultó positiva ya tiene instalada la aplicación Immuni, puede elegir si notificar o menos la positividad. De ese modo, permitirá que la aplicación Immuni avise a los usuarios con los que has estado en contacto directo.\nA orientar y habilitar al usuario positivo en la carga de datos y en el \"desbloqueo\" de Immuni, puede ser el mismo profesional sanitario quien comunicó el resultado del informe, o si el usuario ya tiene el CUN,  un operador telefónico del centro de llamadas dedicado a Immuni, disponible a través del número verde 800 91 24 91."
     },
     {
       "id": 45,
@@ -273,12 +273,12 @@
     {
       "id": 54,
       "title": "¿Para qué sirve el CUN?",
-      "content": "Los operadores del centro de llamadas de Immuni utilizan el CUN para verificar la positividad real de la persona que se comunicó con el servicio."
+      "content": "El CUN se utiliza para proceder de forma independiente a comunicar su propia positividad a través de la aplicación Immuni, y a los operadores del centro de llamadas para verificar la positividad real de la persona y apoyarla en la operación de informe de la positividad."
     },
     {
       "id": 55,
       "title": "¿Quién puede desbloquear Immuni?",
-      "content": "Immuni puede ser desbloqueado por ciudadanos que tengan la aplicación en su teléfono móvil y que hayan dado positivo en la prueba del test molecular. Sin embargo, esta operación no se puede realizar de forma independiente, sino que debe ser asistida, en tiempo real, por el trabajador de salud que comunicó el resultado del test molecular al ciudadano, o por el operador telefónico del call center de Immuni 800 91 24 91, para las regiones y provincias autónomas en las que este servicio ya está activo y para aquellos ciudadanos que han recibido el CUN.\nAdvertencia: los médicos de cabecera no están autorizados a admitir el desbloqueo inmunológico.\n\n"
+      "content": "Immuni puede ser desbloqueada por los ciudadanos que ya hayan instalado la aplicación en sus teléfonos móviles y que obtengan un resultado positivo en la prueba de test molecular. Esta operación se puede realizar con la ayuda del profesional sanitario que comunicó el resultado positivo del hisopo, o si recibiste el código CUN, con el apoyo del operador telefónico del centro de llamadas 800 91 24 91 o por tu cuenta con la función especifica disponible en la aplicación.\nAdvertencia: los médicos de cabecera no están autorizados a admitir el desbloqueo de la aplicación Immuni."
     },
     {
       "id": 56,
@@ -317,8 +317,8 @@
     },
     {
       "id": 63,
-      "title": "¿En qué regiones o provincias autónomas está activo el servicio telefónico Immuni para soportar la carga y el desbloqueo de datos?",
-      "content": "A partir del 21 de diciembre, el servicio está disponible en Lombardía, Campania, Friuli Venezia Giulia, Molise y en la provincia autónoma de Trento. En enero se sumarán otras regiones, para cubrir todo el territorio nacional."
+      "title": "¿En qué regiones o provincias autónomas está activo el servicio telefónico de atención asistencial de Immuni para la carga y el desbloqueo de datos?",
+      "content": "El servicio está activo en todo el territorio nacional."
     },
     {
       "id": 64,
@@ -339,6 +339,16 @@
       "id": 67,
       "title": "¿Qué hago si el ciudadano tiene un CUN pero no está presente en el sistema TS?",
       "content": "Si el número CUN no es transmitido por la región competente o provincia autónoma, se invita al ciudadano a ponerse en contacto con el departamento de prevención sanitaria de su ASL para el desbloqueo de Immuni."
+    },
+    {
+      "id": 68,
+      "title": "¿Puedo desbloquear Immuni por mí cuentan sin el apoyo del profesional de salud o del operador del centro di llamadas?",
+      "content": "Desde el 6 de abril, en caso de positividad al Covid-19, es posible desbloquear por tu propia cuenta la carga de datos, si recibiste el CUN que tiene que ser digitado, junto al número de la tarjeta sanitaria, en la función correspondiente de la aplicación. "
+    },
+    {
+      "id": 69,
+      "title": "Desbloqueando por mi cuenta la aplicación Immuni, se me pide que ingrese la fecha de inicio de los síntomas, pero yo soy asintomático, ¿qué debo hacer?",
+      "content": "Si eres asintomático puedes marcar la casilla “Sin síntomas” sin indicar ninguna fecha. En este caso el sistema basará sus cálculos desde dos días antes de la fecha del hisopo positivo. "
     }
   ]
 }
