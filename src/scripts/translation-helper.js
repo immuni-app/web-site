@@ -15,6 +15,32 @@ import * as feat_fr_mobile from "../assets/img/feat-illustration-mobile-fr.png";
 import * as feat_es from "../assets/img/feat-illustration-es.png";
 import * as feat_es_mobile from "../assets/img/feat-illustration-mobile-es.png";
 
+/* Report positivity Images */
+import * as report_it_left_top from "../assets/img/report-illustration-it.png";
+import * as report_en_left_top from "../assets/img/report-illustration-en.png";
+import * as report_de_left_top from "../assets/img/report-illustration-de.png";
+import * as report_fr_left_top from "../assets/img/report-illustration-fr.png";
+import * as report_es_left_top from "../assets/img/report-illustration-es.png";
+
+import * as report_it_right from "../assets/img/report-illustration-op-it.png";
+import * as report_en_right from "../assets/img/report-illustration-op-en.png";
+import * as report_de_right from "../assets/img/report-illustration-op-de.png";
+import * as report_fr_right from "../assets/img/report-illustration-op-fr.png";
+import * as report_es_right from "../assets/img/report-illustration-op-es.png";
+
+import * as report_it_right_mobile from "../assets/img/report-illustration-mobile-op-it.png";
+import * as report_en_right_mobile from "../assets/img/report-illustration-mobile-op-en.png";
+import * as report_de_right_mobile from "../assets/img/report-illustration-mobile-op-de.png";
+import * as report_fr_right_mobile from "../assets/img/report-illustration-mobile-op-fr.png";
+import * as report_es_right_mobile from "../assets/img/report-illustration-mobile-op-es.png";
+
+import * as report_it_left_bottom from "../assets/img/report-illustration-cun-it.png";
+import * as report_en_left_bottom from "../assets/img/report-illustration-cun-en.png";
+import * as report_de_left_bottom from "../assets/img/report-illustration-cun-de.png";
+import * as report_fr_left_bottom from "../assets/img/report-illustration-cun-fr.png";
+import * as report_es_left_bottom from "../assets/img/report-illustration-cun-es.png";
+
+
 const image = {
   it: feat_it,
   en: feat_en,
@@ -29,6 +55,38 @@ const imageMobile = {
   de: feat_de_mobile,
   fr: feat_fr_mobile,
   es: feat_es_mobile,
+};
+
+const repo_image_left_top = {
+  it: report_it_left_top,
+  en: report_en_left_top,
+  de: report_de_left_top,
+  fr: report_fr_left_top,
+  es: report_es_left_top,
+};
+
+const repo_image_right = {
+  it: report_it_right,
+  en: report_en_right,
+  de: report_de_right,
+  fr: report_fr_right,
+  es: report_es_right,
+};
+
+const repo_image_right_mobile = {
+  it: report_it_right_mobile,
+  en: report_en_right_mobile,
+  de: report_de_right_mobile,
+  fr: report_fr_right_mobile,
+  es: report_es_right_mobile,
+};
+
+const repo_image_left_bottom = {
+  it: report_it_left_bottom,
+  en: report_en_left_bottom,
+  de: report_de_left_bottom,
+  fr: report_fr_left_bottom,
+  es: report_es_left_bottom,
 };
 
 class Translator {
@@ -123,4 +181,45 @@ export function handleHomeImage() {
     featImg.innerHTML = `<img src="${imgUrl}" alt="Screenshot of the main Immuni App dashboard"/>`;
     featImgMobile.innerHTML = `<img src="${imgUrlMobile}" alt="Screenshot of the main Immuni App dashboard"/>`;
   }
+
+   /* script button de */
+   if (document.getElementsByClassName("label_de")[0]) {
+    if (lang == "de") {
+      document.getElementsByClassName("label_de")[0].style.display = "block";
+      document.getElementsByClassName("label_not_de")[0].style.display = "none";
+    } else {
+      document.getElementsByClassName("label_de")[0].style.display = "none";
+      document.getElementsByClassName("label_not_de")[0].style.display = "block";
+    }
+  }
+
+
 }
+
+export function handleReportImage() {
+  const lang = localStorage.getItem("language");
+
+  const reportImg_left_top = document.querySelector(".repo_image_left_top");
+  const reportImgRight = document.querySelector(".repo_image_right");
+  const reportImgRight_mobile = document.querySelector(".repo_image_right_mobile");
+  const reportImg_left_bottom = document.querySelector(".repo_image_left_bottom");
+
+  const imgUrl_left_top = repo_image_left_top[lang].default;
+  const imgUrl_right = repo_image_right[lang].default;
+  const imgUrl_right_mobile = repo_image_right_mobile[lang].default;
+  const imgUrl_left_bottom = repo_image_left_bottom[lang].default;
+
+  if (reportImg_left_top) {
+    reportImg_left_top.innerHTML = `<img src="${imgUrl_left_top}" class="report-illustration" alt="Screenshot of the report Immuni App"/>`;
+  }
+  if (reportImgRight) {
+    reportImgRight.innerHTML = `<img src="${imgUrl_right}" class="report-illustration report-illustration__right" alt="Screenshot of the report Immuni App"/>`;
+  }
+  if (reportImgRight_mobile) {
+    reportImgRight_mobile.innerHTML = `<img src="${imgUrl_right_mobile}" class="report-illustration report-illustration__right" alt="Screenshot of the report Immuni App"/>`;
+  }
+  if (reportImg_left_bottom) {
+    reportImg_left_bottom.innerHTML = `<img src="${imgUrl_left_bottom}" class="report-illustration" alt="Screenshot of the report Immuni App"/>`;
+  }
+}
+

@@ -152,13 +152,14 @@
     },
     {
       "id": 30,
-      "title": "Qu’est-ce que le code à usage unique et comment fonctionne-t-il ?",
-      "content": "Le code à usage unique est une séquence alphanumérique de dix caractères utilisée uniquement en cas de positivité au SARS-CoV-2 et qui n’identifie en aucun cas l’utilisateur de l’application.\nSi vous avez été testé positif au virus, vous pouvez décider de télécharger les données nécessaires sur le serveur Immuni pour notifier, de manière anonyme, les personnes qui ont été en contact étroit avec vous au cours des 14 derniers jours.\nPour ce faire, vous devez dicter le code à usage unique qui se trouve sous «Signaler un résultat positif » d'Immuni au prestataire de soins qui vous a communiqué le résultat du prélèvement, ou à l'opérateur téléphonique du centre d'appels 800 91 24 91.\nUne fois que l'opérateur a validé le code jetable, vous pouvez procéder au téléchargement des données de positivité. Ceci est également appelé «déverrouiller» Immuni.\n"
+
+      "title": "Qu’est-ce que c’est le code à usage unique et comment fonctionne-t-il ?",
+      "content": "Le code à usage unique est une séquence alphanumérique de dix caractères utilisée uniquement en cas de positivité au SARS-CoV-2 et qui n’identifie en aucun cas l’utilisateur de l’application.\nSi vous avez été testé positif au virus, vous pouvez décider de télécharger les données nécessaires sur le serveur Immuni pour notifier, de manière anonyme, les personnes qui ont été en contact étroit avec vous au cours des 2 jours avant l’apparition des symptômes (ou du prélèvement si vous êtes asymptômatique) et jusqu’à un maximum de 14 jours.\nPour ce faire, vous devez donner le code à usage unique qui se trouve sous l’onglet «Signaler un résultat positif » d'Immuni (dans le menu «Paramètres») au prestataire de soins qui vous a communiqué le résultat du prélèvement, ou à l'opérateur téléphonique du centre d'appels 800 91 24 91, si vous avez reçu le CUN ( Code Univoque Nationale).\nUne fois que l'opérateur a validé le code à usage unique vous pouvez procéder au téléchargement des données de positivité. Cette opération est aussi appelé «déverrouiller» Immuni"
     },
     {
       "id": 31,
-      "title": "Comment et quand puis-je télécharger mes données ?",
-      "content": "Vous ne pouvez charger vos données que si vous êtes testé positif à la Covid-19 avec un prélèvement moléculaire en communiquant le code CUN associé au rapport. L'opération de «déverrouillage» à l'aide du code CUN se fait sur une base volontaire et permet à Immuni d'avertir les personnes avec lesquelles vous êtes entré en contact au cours des 14 jours précédents.\nCette opération peut être réalisée avec le soutien de l'agent de santé qui a communiqué le résultat positif de l'écouvillon ou avec l'aide des opérateurs du centre d'appels 800 91 24 91."
+      "title": "Comment et quand puis-je télécharger mes données ?",
+      "content": "Vous pouvez télécharger vos données que si vous avez été testé positif à la Covid-19 et si vous avez effectué un prélèvement moléculaire. L’opération est basée sur le volontariat et permet à Immuni de notifier les personnes avec lesquelles vous avez eu des contacts au cours des 2 jours avant l’apparition des symptômes (ou du prélèvement si vous êtes asymptomatique) et jusqu’à un maximum de 14 jours.\nCette opération peut être réalisée avec le soutien du prestataire de soins qui vous a communiqué le résultat positif de l'écouvillon, avec le soutien de l'opérateur du centre\n d'appels 800 91 24 91 (si vous avez reçu le CUN) ou en autonomie à travers la fonction spécifique disponible sur l’APP"
     },
     {
       "id": 32,
@@ -223,7 +224,8 @@
     {
       "id": 44,
       "title": "Quels sont les professionnels de santé dont parle Immuni?",
-      "content": "Il s’agit du personnel de santé dépendant du Département de prévention de l’ASL (Agence de santé locale) ou des structures hospitalières en charge de communiquer les résultats du prélèvement aux citoyens par téléphone. En communiquant le code CUN associé au rapport, les citoyens qui ont déjà installé Immuni peuvent procéder à signaler leur positivité aux personnes avec lesquelles ils ont été en contact étroit.\nCette opération doit être réalisée avec le soutien du professionnel de santé qui vous a communiqué le résultat positif de l'écouvillon, ou avec le soutien de l'opérateur du centre d'appels 800 91 24 91.\n"
+      "content": "Il s’agit du personnel de santé dépendant du Département de prévention de l’ASL (Agence de santé locale) ou des structures hospitalières qui communique normalement le résultat positif du test à l’utilisateur par téléphone. Si la personne testée positive a installé Immuni, elle peut choisir de signaler sa positivité. Ceci permettra à Immuni d’avertir les utilisateurs avec lesquels elle a été en contact étroit d’un possible risque de contagion.\nCette opération peut être réalisée avec le soutien du prestataire de soins qui vous a communiqué le résultat positif de l'écouvillon ou l'opérateur du centre d'appels 800 91 24 91, si vous avez reçu le CUN."
+
     },
     {
       "id": 45,
@@ -273,12 +275,14 @@
     {
       "id": 54,
       "title": "À quoi sert le CUN?",
-      "content": "Le CUN est utilisé par les opérateurs du centre d'appels Immuni pour vérifier s’il est testée possible pour LA covid-19 réelle de la personne qui a contacté le service."
+      "content": "Le CUN est utilisé pour procéder indépendamment au rapport de positivité via l'application Immuni et aux opérateurs du centre d'appels pour vérifier la positivité réelle de la personne et l'aider dans l'opération de rapport de positivité."
     },
     {
       "id": 55,
-      "title": "Qui peut débloquer Immuni?",
-      "content": "Immuni peut être débloquée par le citoyen qui a l'APP sur son téléphone portable et qui a été testé positif au test de prélèvement moléculaire. Cependant, cette opération ne peut pas être réalisée de manière autonome, mais doit être assistée, en temps réel, par l'agent de santé qui a communiqué le résultat du prélèvement au citoyen, ou par l'opérateur téléphonique du centre d'appel Immuni 800 91 24 91, pour les citoyens qui ont reçu le CUN.\n Avertissement: les médecins généralistes ne sont pas autorisés à prendre en charge le déblocage de Immuni."
+
+      "title": "Qui peut dévérouiller Immuni?",
+      "content": "Immuni peut être dévérouillé par les citoyens qui ont déjà installé l'APP sur leur téléphone portable et dont le prélèvement moléculaire est résulté positif. Cette opération peut être réalisée avec le soutien de l’opérateur sanitaire qui vous a communiqué le résultat positif de l'écouvillon, avec le soutien de l'opérateur du centre d'appels 800 91 24 91 (si vous avez reçu le CUN) ou en autonomie à travers la fonction spécifique disponible sur l’APP\nAvertissement: les médecins généralistes ne sont pas autorisés à prendre en charge le déverouillement de Immuni"
+
     },
     {
       "id": 56,
@@ -316,6 +320,13 @@
       "content": "Lorsque tu contactes le centre d'appels, tu seras guidé pour déverrouiller Immuni: il te sera d'abord demandé de communiquer ton CUN, à travers lequel l'opérateur vérifiera ta positivité réelle; il te faudra ensuite communiquer ton numéro de carte vitale, par lequel ton identité sera vérifiée, et enfin, en communiquant le code unique que tu trouveras dans la section «rapport de positivité» de l'application, tu seras autorisé à saisir tes données de positivité."
     },
     {
+
+      "id": 63,
+      "title": "Dans quelles régions ou provinces autonomes le service téléphonique Immuni pour le chargement et le déblocage des données est-il actif?",
+      "content": "Le service est actif sur tous le territoire nationale"
+    },
+    {
+
       "id": 64,
       "title": "Les professionnels de la santé continueront-ils à soutenir le déverrouillage Immuni?",
       "content": "Oui, absolument. Le centre d'appels ne remplace pas les opérateurs des services de prévention sanitaire, mais les accompagne. Par conséquent, tu peux débloquer Immuni même lorsque tu es appelé par le professionnel de la santé qui te informe du résultat du prélèvement moléculaire."
@@ -334,6 +345,16 @@
       "id": 67,
       "title": "Que dois-je faire si le citoyen a un CUN mais qu'il n'est pas présent sur le système TS?",
       "content": "Si le numéro CUN n'est pas transmis par la région compétente ou la province autonome, le citoyen est invité à contacter le service de prévention sanitaire de son ASL pour le déverrouillage de Immuni."
+    },
+    {
+      "id": 68,
+      "title": "Puis-je déverouiller Immuni en autonomie, sans le soutient d’un préstataire de soin ou du call center?",
+      "content": "A partir du 6 avril, en cas de positivité au Covid-19, il est possible de déverrouiller en autonomie le téléchargement après reception du CUN qui devra etre inséré avec le numéros de la carte sanitaire dans la fonction spécifiaue de l’APP."
+    },
+    {
+      "id": 69,
+      "title": "En débloquant en autonomie l’app Immuni on me demande d’insérer la date du début des symptômes, mais je suis asymptomatiques. Comment dois-je procéder?",
+      "content": "Dans la cas où vous soyez asymptomatiques, il suffit de cochez le choix “ Aucun symptômes” et de ne pas insérer une date. Le système, dans le cas d’espace, basera ses calculs à partir de la date correspondante à 2 jours avant la date du prélèvement résultant positif."
     }
   ]
 }

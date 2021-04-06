@@ -20,6 +20,20 @@
   &.centered {
     margin: auto;
   }
+  &.label_de{
+    font-size: 14px;
+    padding: 5px 32px;
+    @media screen and (max-width: 375px) {
+      padding: 4px 24px;
+      font-size: 12px;
+    }
+  }
+  &.label_not_de{
+    padding: 10px 32px;
+    @media screen and (max-width: 375px) {
+      padding: 8px 24px;
+    }
+  }
   &.primary {
     width: 100%;
     @supports (display: grid) {
@@ -74,4 +88,19 @@
     padding: 8px 24px;
     cursor: pointer;
   }
+}
+/*  Numeration  */
+.numeration {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  border: 4px solid var(--primary);
+  margin-bottom: 20px;
+  @media screen and (max-width: 1024px) {
+     margin: 0 auto 20px;
+  }
+}
+.numeration .tagline {
+  margin: 0;
+  padding: 6.5px;
 }

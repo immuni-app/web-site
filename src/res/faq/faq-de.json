@@ -18,7 +18,8 @@
     {
       "id": 3,
       "title": "Wie wird meine Privatsphäre geschützt?",
-      "content": "Bei der Entwicklung von Immuni hat man besonders großes Augenmerk auf den Schutz der Privatsphäre gelegt. Es wurden viele Maßnahmen ergriffen, um die Privatsphäre zu schützen, wie beispielsweise:\n• Die App sammelt keine Daten, mit denen man Ihre Identität ermitteln kann. Es werden weder Ihr Name, Nachname, Geburtsdatum, ihre Adresse, Telefonnummer oder E-Mail-Adresse abgefragt, noch können diese Informationen abgerufen werden.\n• Ihre Bewegungen werden weder nachverfolgt, noch in irgeneiner Weise aufgezeichnet;\n• Die von den Smartphones über  Bluetooth ausgetauschten Zufallscodes enthalten weder Informationen zu Ihrem Gerät noch zu Ihrer Person;\n• Für einen größeren Schutz Ihrer Privatsphäre ändern sich diese Zufallscodes mehrmals pro Stunde; \n• Die auf Ihrem Smartphone gespeicherten Daten und die Verbindungen zwischen App und Server sind verschlüsselt;\n• Alle auf dem Gerät oder Server gespeicherten Daten werden gelöscht, wenn sie nicht mehr benötigt werden, in jedem Fall vor dem 31. Dezember 2021;\n• Ihre Daten werden vom Gesundheitsministerium gesammelt und nur zur Eindämmung der Covid-19-Epidemie oder zu Forschungszwecken verwendet; \n• Die Daten werden auf Servern in Italien gespeichert, die von öffentlichen Einrichtungen betrieben werden."
+      "content": "Bei der Entwicklung von Immuni hat man besonders großes Augenmerk auf den Schutz der Privatsphäre gelegt. Es wurden viele Maßnahmen ergriffen, um die Privatsphäre zu schützen, wie beispielsweise:\n• Die App sammelt keine Daten, mit denen man Ihre Identität ermitteln kann. Es werden weder Ihr Name, Nachname, Geburtsdatum, ihre Adresse, Telefonnummer oder E-Mail-Adresse abgefragt, noch können diese Informationen abgerufen werden.\n• Ihre Bewegungen werden weder nachverfolgt, noch in irgeneiner Weise aufgezeichnet;\n• Die von den Smartphones über  Bluetooth ausgetauschten Zufallscodes enthalten weder Informationen zu Ihrem Gerät noch zu Ihrer Person;\n• Für einen größeren Schutz Ihrer Privatsphäre ändern sich diese Zufallscodes mehrmals pro Stunde; \n• Die auf Ihrem Smartphone gespeicherten Daten und die Verbindungen zwischen App und Server sind verschlüsselt;\n• Alle auf dem Gerät oder Server gespeicherten Daten werden gelöscht, wenn sie nicht mehr benötigt werden, in jedem Fall vor dem 31. Dezember 2020;\n• Ihre Daten werden vom Gesundheitsministerium gesammelt und nur zur Eindämmung der Covid-19-Epidemie oder zu Forschungszwecken verwendet; \n• Die Daten werden auf Servern in Italien gespeichert, die von öffentlichen Einrichtungen betrieben werden."
+
     },
     {
       "id": 4,
@@ -48,7 +49,7 @@
     {
       "id": 9,
       "title": "Wo kann ich Immuni herunterladen? Welche Geräte und Betriebssysteme werden unterstützt?",
-      "content": "Je nach Gerätetyp können Sie Immuni vom \"App Store\" oder von \"Google Play\" herunterladen. Überprüfen Sie nachfolgend, ob Ihr Smartphone die Immuni-App unterstützt.\n\n→ App Store:\nIhr iPhone muss über die iOS-Version 13.5 oder höher verfügen. Folgende Modelle werden unterstützt: 11, 11 Pro, 11 Pro Max, Xr, Xs, Xs Max, X, 8, 8 Plus, 7, 7 Plus, 6s, 6s Plus, SE. Aktualisieren Sie Ihr iOS-Betriebssystem auf die letzte verfügbare Version, bevor Sie Immuni herunterladen.\n\n→ Google Play:\nIhr Android-Smartphone muss alle drei folgenden Anforderungen erfüllen:\n• Bluetooth-Low-Energy;\n• Android, Version 6 (Marshmallow, API 23) oder höher;\n• Google Play Services, Version 20.18.13 oder höher.\n\nAktualisieren Sie Android und \"Google Play Services\" auf die letzte verfügbare Version, bevor Sie Immuni herunterladen.\n\n→ HMS core\n • Huawei smartphone (MATE 40 PRO, P Smart 2021, P40 Pro+, P Smart S, P40 Lite 5G, Y5p, Y6p, P40 Pro, P40, P40 Lite E, Mate Xs, P40 Lite, Mate30 Pro oder höher) \n • HMS core 5.1.0.300 oder höher.\n\nAktualisieren HMS core auf die letzte verfügbare Version, bevor Sie Immuni herunterladen."
+      "content": "Je nach Gerätetyp können Sie Immuni vom \"App Store\" oder von \"Google Play\" herunterladen. Überprüfen Sie nachfolgend, ob Ihr Smartphone die Immuni-App unterstützt.\n\n→ App Store:\nIhr iPhone muss über die iOS-Version 13.5 oder höher verfügen. Folgende Modelle werden unterstützt: 11, 11 Pro, 11 Pro Max, Xr, Xs, Xs Max, X, 8, 8 Plus, 7, 7 Plus, 6s, 6s Plus, SE. Aktualisieren Sie Ihr iOS-Betriebssystem auf die letzte verfügbare Version, bevor Sie Immuni herunterladen.\n\n→ Google Play:\nIhr Android-Smartphone muss alle drei folgenden Anforderungen erfüllen:\n• Bluetooth-Low-Energy;\n• Android, Version 6 (Marshmallow, API 23) oder höher;\n• Google Play Services, Version 20.18.13 oder höher.\n\nAktualisieren Sie Android und \"Google Play Services\" auf die letzte verfügbare Version, bevor Sie Immuni herunterladen."
     },
     {
       "id": 10,
@@ -58,7 +59,8 @@
     {
       "id": 11,
       "title": "Mein Smartphone unterstützt Immuni nicht. Warum? Was kann ich diesbezüglich tun?",
-      "content": "Immuni nutzt das von Apple, Google  und Huawei entwickelte Expositionbenachrichtigungssystem. Es handelt sich um eine international angewendete Technologie (Deutschland, Japan, Holland und dutzende andere Länder auf der Welt verwenden sie), die der App ermöglicht, auf den meisten Geräten bestens zu funktionieren. Aufgrund technischer Begrenzungen ist diese Technologie in älteren Versionen von iOS, Android und \"Google Play Services\" nicht verfügbar. Sollte sich diesbezüglich etwas ändern, werden wir Sie umgehend benachrichtigen."
+      "content": "Immuni nutzt das von Apple und Google entwickelte Expositionbenachrichtigungssystem. Es handelt sich um eine international angewendete Technologie (Deutschland, Japan, Holland und dutzende andere Länder auf der Welt verwenden sie), die der App ermöglicht, auf den meisten Geräten bestens zu funktionieren. Aufgrund technischer Begrenzungen ist diese Technologie in älteren Versionen von iOS, Android und \"Google Play Services\" nicht verfügbar. Sollte sich diesbezüglich etwas ändern, werden wir Sie umgehend benachrichtigen."
+
     },
     {
       "id": 12,
@@ -152,13 +154,15 @@
     },
     {
       "id": 30,
-      "title": "Was ist der einmalige Code und wie funktioniert er?",
-      "content": "Der für den Einmalgebrauch bestimmte Code ist eine alphanumerische Sequenz, bestehend aus zehn Zeichen, der nur im Falle einer Positivität auf das Virus SARS-CoV-2 verwendet wird und der in keiner Weise den Nutzer der App Immuni identifiziert. \nWenn Sie als positiv getestet aufscheinen, können Sie entscheiden, die Daten für die Warnung der Personen, die in den letzten 14 Tagen mit Ihnen in engem Kontakt standen, in anonymer Form auf den Server von Immuni zu laden. Dafür müssen Sie dem medizinischen Fachpersonal, das Ihnen das Ergebnis des Abstriches mitgeteilt hat, oder dem Mitarbeiter des Call-Centers 800 91 24 91 den für den Einmalgebrauch bestimmten Code mitteilen, den Sie in Immuni unter „Positives Ergebnis  melden“ (im Menü „Einstellungen“) finden. Nachdem der Mitarbeiter den für den Einmalgebrauch bestimmten Code validiert hat, können Sie die Daten betreffend die Positivität hochladen. Diese Tätigkeit wird auch als „Freigabe\" von Immuni bezeichnet. "
+
+      "title": "Was ist der Einwegcode und wie funktioniert er?",
+      "content": "Der Einwegcode ist eine zehnstellige alphanumerische Sequenz, die nur im Falle einer positiven Wirkung auf das SARS-CoV-2-Virus verwendet wird und den Benutzer der Immuni-App in keiner Weise identifiziert.\nWenn Sie positiv auf das Virus getestet haben, können Sie die Daten auf den Immuni-Server hochladen, die erforderlich sind, um die Personen, die 2 Tage vor den Symptomen in engem Kontakt mit Ihnen standen, anonym zu benachrichtigen (oder den Tupfer, wenn Sie asymptomatisch sind). und bis zu maximal 14 Tagen. Dazu müssen Sie dem medizinischen Fachpersonal, das Ihnen das Ergebnis des Tupfers mitgeteilt hat, oder dem Telefonisten des Anrufs den unter dem Punkt \"Positivität melden\" von Immuni (im Menü \"Einstellungen\") gefundenen Einwegcode diktieren Zentrum 800 91 24 91, wenn Sie den CUN (National Unique Code) erhalten haben.\nNachdem der Bediener den Einwegcode validiert hat, können Sie mit dem Hochladen der Positivitätsdaten fortfahren. Dies wird auch als \"Entsperren\" von Immuni bezeichnet."
     },
     {
       "id": 31,
       "title": "Wie und wann kann ich meine Daten hochladen?",
-      "content": "Sie können Ihre Daten nur hochladen, wenn Sie mit einem molekularen Tupfer positiv testen, indem Sie den mit dem Test verknüpften CUN-Code mitteilen. Der Vorgang\" Entsperren \"mit dem CUN-Code ist freiwillig und ermöglicht es Immuni, die Personen zu warnen, mit denen Sie sind in den letzten 14 Tagen in Kontakt gekommen.\nDiese Operation kann mit Unterstützung des Gesundheitspersonals durchgeführt werden, das das positive Ergebnis des Tupfers mitgeteilt hat, oder mit Hilfe der Callcenter-Betreiber 800 91 24 91. "
+      "content": "Sie können Ihre Daten nur hochladen, wenn Sie positiv auf Coronavirus sind und einen Molekularabstrich-Test durchgeführt haben. Die Operation ist freiwillig und ermöglicht es Immuni, Personen, mit denen Sie in engem Kontakt waren, 2 Tage vor den Symptomen (oder den Tampon, wenn Sie asymptomatisch sind) und maximal 14 Tage zu warnen.\nDiese Operation kann mit Unterstützung des Gesundheitspersonals durchgeführt werden, das Ihnen das positive Ergebnis des Tupfers mitgeteilt hat, oder wenn Sie die CUN mit Unterstützung des Call-Center-Betreibers 800 91 24 91 oder unabhängig mit der in verfügbaren Funktion erhalten haben die App."
+
     },
     {
       "id": 32,
@@ -222,8 +226,8 @@
     },
     {
       "id": 44,
-      "title": "Was ist das \"medizinische Fachpersonal\", das in Immuni erwähnt wird?",
-      "content": "Es handelt sich um medizinisches Personal der Präventionsdepartements des Sanitätsbetriebes oder der Krankenhäuser, die dem Nutzer das positive Testergebnis in der Regel telefonisch übermitteln. Wenn die Person, die positiv getestet wurde, Immuni installiert hat, kann sie sich dafür entscheiden, ihr positives Ergebnis zu melden. Auf diese Weise kann Immuni Nutzer, mit denen man in engem Kontakt stand, vor dem Ansteckungsrisiko warnen. \nSowohl der medizinische Mitarbeiter, der Ihnen das Ergebnis des Befundes mitgeteilt hat, als auch der Mitarbeiter des für Immuni eingerichteten Call-Centers, in jenen Regionen/Autonomen Provinzen  in denen der Dienst schon aktiv ist, erreichbar über die Grünen Nummer 800 91 24 91, kann einen Corona-positiven Nutzer \"freischalten\" und bei der Datenfreigabe auf Immuni unterstützen."
+      "title": "Über wen spricht Immuni im Gesundheitswesen?",
+      "content": "Hierbei handelt es sich um Gesundheitspersonal der Präventionsabteilung der ASL oder um Krankenhäuser, die dem Benutzer normalerweise die Ergebnisse des Tupfers telefonisch mitteilen. Wenn die Person, die positiv getestet wurde, Immuni installiert hat, kann sie ihre Positivität melden. Auf diese Weise kann Immuni vor dem Risiko einer Ansteckung der Personen warnen, mit denen es in engem Kontakt stand.\nUm den positiven Benutzer beim Hochladen von Daten und beim \"Entsperren\" von Immuni zu unterstützen, kann es entweder der Gesundheitspersonal selbst sein, der das Ergebnis des Berichts mitgeteilt hat, oder ein Telefonist des Call Centers, der Immuni gewidmet ist und unter der erreichbar ist Nummer grün 800 91 24 91, wenn der Benutzer auch im Besitz der CUN ist."
     },
     {
       "id": 45,
@@ -273,12 +277,14 @@
     {
       "id": 54,
       "title": "Wozu dient der „CUN“?",
-      "content": "Die CUN wird von den Immuni-Callcenter-Betreibern verwendet, um die tatsächliche Positivität der Person zu überprüfen, die den Dienst kontaktiert hat."
+
+      "content": "Der \"CUN\" dient dazu, selbständig die Meldung der Positivität in der App \"Immuni\" vorzunehmen. Den Mitarbeitern des Call-Centers dient er, um die effektive Positivität der Person zu überprüfen und diese bei der Meldung der Positivität zu unterstützen."
     },
     {
       "id": 55,
-      "title": "Wer kann Immuni entsperren?",
-      "content": "Immuni kann von dem Bürger freigeschaltet werden, der die APP auf seinem Mobiltelefon hat und der positiv auf den Molekularabstrich getestet wurde. Diese Operation kann jedoch nicht unabhängig durchgeführt werden, sondern muss in Echtzeit von der Gesundheitspersonal, das dem Bürger oder vom Telefonisten des Immuni-Callcenters 800 91 24 91 das Ergebnis des Tupfers für diejenigen Bürger mitteilte, die die CUN erhalten haben.\n Warnung: Allgemeinmediziner sind nicht berechtigt, das Entsperren von Immuni zu unterstützen."
+      "title": "Wer kann Immuni freischalten?",
+      "content": "Immuni kann von dem Bürger freigeschaltet werden, der die APP auf seinem Mobiltelefon hat und der positiv auf den Molekularabstrich getestet wurde. Diese Operation kann mit Unterstützung des Gesundheitspersonals durchgeführt werden, das Ihnen das positive Ergebnis des Tupfers mitgeteilt hat, oder wenn Sie die CUN mit Unterstützung des Call-Center-Betreibers 800 91 24 91 oder unabhängig mit der in verfügbaren Funktion erhalten haben die App.\nWarnung: Allgemeinmediziner sind nicht berechtigt, das Entsperren von Immunsystemen zu unterstützen."
+
     },
     {
       "id": 56,
@@ -316,6 +322,13 @@
       "content": "Wenn Sie das Call-Center anrufen, werden Sie für die Freigabe von Immuni angeleitet: zuerst werden Sie ersucht, Ihren \"CUN\" mitzuteilen, mit dem der Mitarbeiter Ihre effektive Positivität überprüft. Anschließend müssen Sie die Nummer Ihrer Gesundheitskarte angeben, um Ihre Indentität zu überprüfen. Zum Schluss müssen Sie den Einmalcode mitteilen, den Sie in der Sektion „Positives Ergebnis  melden“ der App finden, dann können Sie zur Eingabe Ihrer Positiv-Meldung autorisiert werden."
     },
     {
+
+      "id": 63,
+      "title": "In welchen Regionen oder autonomen Provinzen ist der Support-Telefondienst für das Hochladen und Entsperren von Immuni-Daten aktiv?",
+      "content": "Der Dienst ist im gesamten Staatsgebiet aktiv."
+    },
+    {
+
       "id": 64,
       "title": "Wird das medizinische Fachpersonal weiterhin das Entsperren von Immuni unterstützen können?",
       "content": "Ja, auf jeden Fall. Das Call-Center ersetzt nicht die Mitarbeiter des Department für Prävention, sondern es unterstützt sie. Aus diesem Grund können Sie Immuni auch freigeben, wenn Sie vom medizinischen Fachpersonal angerufen werden, das Ihnen das Ergebnis des Abstriches mitteilt."
@@ -334,6 +347,18 @@
       "id": 67,
       "title": "Wie verhalte ich mich, wenn der Bürger im Besitz eines „CUN“ ist, aber nicht im „System TS“ aufscheint? ",
       "content": "Wenn der \"CUN\" als nicht durch die zuständige Region/Autonome Provinz übermittelt aufscheint, wird der Bürger gebeten, sichfür die Freigabe von Immuni an das Department für Prävention seines Sanitätsbetriebes  zu wenden."
+
+    },
+    {
+      "id": 68,
+      "title": "Kann ich Immuni ohne die Unterstützung des Gesundheitspersonals oder des Callcenters selbst entsperren?",
+      "content": "Ab dem 6. April ist es bei positivem Covid19 möglich, den Upload unabhängig zu entsperren, nachdem die CUN empfangen wurde, die zusammen mit der Nummer der Gesundheitskarte in die entsprechende Funktion der APP eingefügt werden soll"
+    },
+    {
+      "id": 69,
+      "title": "Durch das unabhängige Entsperren der Immuni-App werde ich aufgefordert, das Startdatum der Symptome einzugeben. Ich bin jedoch asymptomatisch. Was soll ich tun?",
+      "content": "Wenn Sie asymptomatisch sind, können Sie die Option \"Keine Symptome\" ankreuzen und kein Datum angeben. In diesem Fall basiert das System seine Berechnungen ab dem Datum, das 2 Tage vor dem Datum des positiven Puffers beginnt."
+
     }
   ]
 }

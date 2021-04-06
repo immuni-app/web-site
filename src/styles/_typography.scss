@@ -62,6 +62,18 @@ h2 {
       margin-bottom: 80px;
     }
   }
+  &.colored {
+    color: var(--primary);
+  }
+  &.cta-full-w{
+    max-width: 100%;
+    @media screen and (max-width: 480px) {
+      max-width: 80%;
+    }
+  }
+  &.cta-full-w > strong{
+    color: #fff;
+  }
 }
 
 h3 {
@@ -99,6 +111,9 @@ h3 {
   }
   &.no-margin {
     margin-bottom: 0;
+  }
+  &.colored {
+    color: var(--primary);
   }
 }
 
@@ -149,6 +164,13 @@ h5 {
     @media screen and (max-width: 1024px) {
       margin-bottom: 40px;
     }
+    &.left {
+      text-align: left;
+      margin-bottom: 20px;
+      @media screen and (max-width: 1024px) {
+        text-align: center;
+  }
+    }
     &__faq {
       margin: 48px auto;
     }
@@ -185,6 +207,9 @@ p {
   }
   &.white {
     color: var(--white);
+  }
+  &.left {
+    text-align: left;
   }
   a {
     color: var(--darkGray);

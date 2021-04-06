@@ -152,13 +152,17 @@
     },
     {
       "id": 30,
-      "title": "What is a 'one-time code' and how does it work?",
-      "content": "A one-time code is a ten-character alphanumeric sequence that is used only upon testing positive for the SARS-CoV-2  virus. It does not (and cannot) identify the user of the Immuni app.\nWhen a user tests positive for the virus, you can decide to upload to the Immuni server the data necessary to anonymously warn users who have been in close contact with you in the last 14 days. To do this, the user must dictate the one-time code found in the appropriate section “report a positive result” of the app to the healthcare worker who has informed you of the result of their swab test, or to the telephone operator of the call center 800 91 24 91. \nAfter the operator has validated the one-time  code, you can proceed to upload the positivity data. This is also called “unlocking” Immuni.\n"
+
+      "title": "What is the single-use code and how does it work?",
+      "content": "The disposable code is a ten-character alphanumeric sequence that is used only in the case of positivity to the SARS-CoV-2 virus and which does not in any way identify the user of the Immuni app.\nIf you have tested positive for the virus, you can decide to upload on the Immuni server the data necessary to notify, anonymously, the people who have been in close contact with you 2 days before the symptoms (or the swab if you are asymptomatic ) and up to a maximum of 14 days. To do this, you must dictate the disposable code found under the item \"report positivity\" of Immuni (in the \"Settings\" menu) to the healthcare professional who communicated the result of the swab to you, or to the telephone operator of the call center 800 91 24 91 if you have received the CUN (National Unique Code).\nAfter the operator has validated the disposable code, you can proceed to upload the positivity data. This is also known as “unlocking” Immuni.When a user tests positive for the virus, you can decide to upload to the Immuni server the data necessary to anonymously warn users who have been in close contact with you in the last 14 days. To do this, the user must dictate the one-time code found in the appropriate section “report a positive result” of the app to the healthcare worker who has informed you of the result of their swab test, or to the telephone operator of the call center 800 91 24 91. \nThe call center service is currently active only for some regions and autonomous provinces: Campania, Lombardia, Friuli Venezia Giulia, Molise, Trento, and only for those who have received the CUN (National Unique Code).\nAfter the operator has validated the one-time  code, you can proceed to upload the positivity data. This is also called “unlocking” Immuni.\n"
+
     },
     {
       "id": 31,
       "title": "How and when can I upload my data?",
-      "content": "You can upload your data only if you test positive with a molecular swab by communicating the CUN code associated with the test. The \"unlocking\" operation using the CUN code is on a voluntary basis and allows Immuni to warn the people with whom you came into contact in the previous 14 days.\nThis operation can be carried out with the support of the health care worker who communicated the positive result of the swab or with the help of the call center operators 800 91 24 91."
+
+      "content": "You can only upload your data if you are positive for coronavirus and if you have had a molecular swab test. The operation is on a voluntary basis and allows Immuni to warn people with whom you have been in close contact from 2 days before the symptoms (or the tampon if you are asymptomatic) and up to a maximum of 14 days.\nThis operation can be carried out with the support of the healthcare professional who communicated the positive result of the swab to you, or if you received the CUN with the support of the call center operator 800 91 24 91 or independently with the specific function available in the APP."
+
     },
     {
       "id": 32,
@@ -222,8 +226,10 @@
     },
     {
       "id": 44,
-      "title": "Who are the healthcare workers that Immuni refers to?",
-      "content": "These are healthcare personnel from the Prevention Department of the local health authority or hospitals in charge of communicating the results of the swab to citizens by telephone. By communicating the CUN code associated with the report, citizens who have already installed Immuni can proceed to report their positivity to the people with whom they have come into close contact.\nTo guide and enable the user in uploading data and in the unlocking of Immuni, it can be either the healthcare worker himself who communicated the result of the report, or a telephone operator of the call center dedicated to Immuni, reachable at the number green 800 91 24 91.\n\n"
+
+      "title": "Who are the healthcare professionals Immuni is talking about?",
+      "content": "These are health personnel from the Prevention Department of the ASL or hospitals who normally communicate the results of the swab to the user by telephone. If the person who tested positive has Immuni installed, they can choose to report their positivity. Doing so will allow Immuni to warn of the risk of contagion the people with whom it has been in close contact.\nTo guide and enable the positive user in uploading data and in the \"unblocking\" of Immuni, it can be either the health worker himself who communicated the outcome of the report, or a telephone operator of the call center dedicated to Immuni, reachable at the number green 800 91 24 91, if the user is also in possession of the CUN."
+
     },
     {
       "id": 45,
@@ -273,12 +279,13 @@
     {
       "id": 54,
       "title": "What is the CUN for?",
-      "content": "The CUN is used by the Immuni call center operators to verify the actual positivity of the person who contacted the service."
+      "content": "The CUN is used to independently proceed to report positivity through the Immuni app and to call center operators to verify the actual positivity of the person and support in the positivity reporting operation."
     },
     {
       "id": 55,
       "title": "Who can unlock Immuni?",
-      "content": "Immuni can be unlocked by the citizen who has the APP on his mobile phone, and who has tested positive for the molecular swab test. However, this operation cannot be carried out independently, but it must be assisted, in real time, by the health worker who communicated the result of the swab to the citizen, or by the telephone operator of the Immuni call center 800 91 24 91, for those citizens who have received the CUN.\n Warning: GPs are not authorized to support the unlocking of Immuni."
+      "content": "Immuni can be unlocked by the citizen who has the APP on his mobile phone, and who has tested positive for the molecular swab test. This operation can be carried out with the support of the healthcare professional who communicated the positive result of the swab to you, or if you received the CUN with the support of the call center operator 800 91 24 91 or independently with the specific function available in the APP.\nWarning: GPs are not authorized to support Immune unlocking."
+
     },
     {
       "id": 56,
@@ -316,6 +323,12 @@
       "content": "When you call the call center, you will be guided to unlock Immuni: you will first be asked to communicate your CUN, through which the operator will verify your actual positivity; then you will need to communicate your Health Card number, through which your identity will be verified, and finally, by communicating the disposable code that you find in the \"report positivity\" section of the app, you will be authorized to enter your positivity data."
     },
     {
+      "id": 63,
+      "title": "In which regions or autonomous provinces is the Immuni telephone service to support data loading and unblocking active?",
+      "content": "The service is active throughout the national territory."
+    },
+    {
+
       "id": 64,
       "title": "Will Healthcare Professionals Still be able to unlock Immuni?",
       "content": "Absolutely yes. The call center service does not replace the operators of the Health Prevention Departments, but supports them. Therefore, you can unlock Immuni even when you are called by the healthcare professional who informs you of the results of the test.\n"
@@ -334,6 +347,16 @@
       "id": 67,
       "title": "What do I do if the citizen has a CUN but it is not available on the TS system?",
       "content": "If the CUN number is not transmitted by the competent region or autonomous province, the citizen is invited to contact the health prevention department of his ASL for unlocking Immuni.\n"
+    },
+    {
+      "id": 68,
+      "title": "Can I unblock Immuni on my own, without the assistance of the healthcare staff or the call center?",
+      "content": "From April 6th it is possible, in case of positive Covid19, to independently unlock the upload having received the CUN to be inserted in the specific function of the APP together with the number of one's health card"
+    },
+    {
+      "id": 69,
+      "title": "By independently unlocking the Immuni app, I am asked to enter the symptom start date, but I am asymptomatic, what should I do?",
+      "content": "If you are asymptomatic you can tick the \"No symptoms\" option and do not indicate any date. In this case, the system will base its calculations from the date starting 2 days before the date of the positive buffer."
     }
   ]
 }

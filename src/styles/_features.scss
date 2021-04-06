@@ -41,6 +41,28 @@
       }
     }
   }
+  &.rep-positivity {
+    padding: 180px 0;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    @media screen and (max-width: 1024px) {
+      padding: 0px;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+
+    .rep-positivity-illustration {
+      position: absolute;
+      max-width: 350px;
+      top: 50px;
+      @media screen and (max-width: 1024px) {
+        position: static;
+        margin: auto;
+      }
+    }
+  }
   &.windows {
     background: var(--primaryLight);
     padding: 180px 0;
@@ -99,4 +121,56 @@
       display: block;
     }
   }
+}
+/* FEAT ILLUSTRATION CALL CENTER */
+
+.call-center-illustration {
+    max-width: 300px;
+    display: block;
+    margin: -500px auto 0;
+    @media screen and (max-width: 1024px) {
+      margin: -350px auto 0;
+  }
+  @media screen and (max-width: 480px) {
+    display: none;
+  }
+  &--mobile {
+    min-height: auto;
+    display: none;
+    margin: -650px auto 0;
+    @media screen and (max-width: 480px) {
+      display: block;
+      margin: -250px auto 0;
+      max-width: 200px;
+    }
+  }
+}
+/* BOTTOM FIXED BANNER REPORT */
+
+.report {
+  max-width: 500px;
+  @media screen and (max-width: 1024px) {
+    display: none;
+  }
+  &__people {
+    display:block;
+    margin:0px auto;
+    text-align:center;
+    @media screen and (max-width: 1215px) {
+      left: 40px;
+    }
+  }
+}
+.report-illustration {
+  max-width: 450px;
+  margin: 80px auto 0;
+  @media screen and (max-width: 1024px) {
+    margin-top: 0px;
+ }
+&__right{
+  margin-right: 0;
+  @media screen and (max-width: 1024px) {
+     margin: auto;
+  }
+}
 }
