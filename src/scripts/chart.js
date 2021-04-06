@@ -394,25 +394,31 @@ function generateChart() {
 
 	//Doughnut chart
 	let downloadDeviceDiv = document.getElementById('downloadDevice')
+	var seriesData = [iosDownload[iosDownload.length - 1], androidDownload[androidDownload.length - 1]];
+	var total = seriesData.reduce((a, v) => a + v);
+	var inPercent = seriesData.map(v => Math.max(v / total * 100, 1));
+
 	if (downloadDeviceDiv) {
 		var configDevice = {
 			type: 'doughnut',
 			data: {
 				datasets: [{
-					data: [
-						iosDownload[iosDownload.length - 1], androidDownload[androidDownload.length - 1]
-					],
+					data: inPercent,
 					backgroundColor: [
-						tertiaryChartColor, primaryChartColor,
+						tertiaryChartColor, primaryChartColor 
 					],
 				}],
+				
 				labels: [
 					'iOS',
-					'Android'
+					'Android ⁽⁴⁾',
 				]
 			},
+			
 			options: {
+				
 				responsive: true,
+				
 				tooltips: {
 						intersect: true,
 						backgroundColor: labelBackgroundColor,
@@ -422,9 +428,12 @@ function generateChart() {
 							return data['labels'][tooltipItem[0]['index']];
 						  },
 						  label: function(tooltipItem, data) {
+							var value = seriesData[tooltipItem.index];
+							
+
 							var dataset = data['datasets'][0];
 							var percent = ((dataset['data'][tooltipItem['index']] / (dataset['data'][0]+dataset['data'][1])) * 100).round(2)
-							return valueFormat(data['datasets'][0]['data'][tooltipItem['index']]) + '  (' + percent + '%)';;
+							return valueFormat(value) + '  (' + percent + '%)';
 						  }
 						  
 						},
@@ -769,7 +778,7 @@ export function updateChartLang() {
 	var downloadLabels = []
 	var downloadData = []
 	downloadDataset.forEach(function (elem) {
-		var total = elem.ios_android_total;
+		var total = elem.total;
 		let day = moment(elem.data).format('ll');
 		downloadLabels.push(day);
 		downloadData.push(total);

@@ -18,7 +18,7 @@
     {
       "id": 3,
       "title": "Come viene tutelata la mia privacy?",
-      "content": "Nello sviluppo di Immuni è stata dedicata grande attenzione alla tutela della privacy. Molte misure sono state adottate per proteggerla, eccone alcune:\n• L’app non raccoglie dati che permettono di risalire alla tua identità. Non chiede, né è in grado di ottenere, il tuo nome, cognome, data di nascita, indirizzo, numero di telefono o e-mail.\n• I tuoi spostamenti non sono tracciati né tracciabili in alcun modo. \n• I codici casuali che gli smartphone si scambiano tramite Bluetooth non contengono né informazioni sul tuo dispositivo, né tanto meno su di te. \n• Per maggior tutela della tua privacy questi codici casuali cambiano numerose volte ogni ora.\n• I dati salvati sul tuo smartphone e le connessioni tra l’app e il server sono cifrati.\n• Tutti i dati salvati sul dispositivo o sul server saranno cancellati quando non più necessari e in ogni caso prima del 31 dicembre 2020.\n• I tuoi dati sono raccolti dal Ministero della Salute e verranno usati solo per contenere l’epidemia del Covid-19 o ai fini della ricerca scientifica.\n• I dati sono salvati su server in Italia e gestiti da soggetti pubblici."
+      "content": "Nello sviluppo di Immuni è stata dedicata grande attenzione alla tutela della privacy. Molte misure sono state adottate per proteggerla, eccone alcune:\n• L’app non raccoglie dati che permettono di risalire alla tua identità. Non chiede, né è in grado di ottenere, il tuo nome, cognome, data di nascita, indirizzo, numero di telefono o e-mail.\n• I tuoi spostamenti non sono tracciati né tracciabili in alcun modo. \n• I codici casuali che gli smartphone si scambiano tramite Bluetooth non contengono né informazioni sul tuo dispositivo, né tanto meno su di te. \n• Per maggior tutela della tua privacy questi codici casuali cambiano numerose volte ogni ora.\n• I dati salvati sul tuo smartphone e le connessioni tra l’app e il server sono cifrati.\n• Tutti i dati salvati sul dispositivo o sul server saranno cancellati quando non più necessari e in ogni caso prima del 31 dicembre 2021.\n• I tuoi dati sono raccolti dal Ministero della Salute e verranno usati solo per contenere l’epidemia del Covid-19 o ai fini della ricerca scientifica.\n• I dati sono salvati su server in Italia e gestiti da soggetti pubblici."
     },
     {
       "id": 4,
@@ -48,7 +48,7 @@
     {
       "id": 9,
       "title": "Dove posso scaricare Immuni? Quali dispositivi e sistemi operativi sono supportati?",
-      "content": "A seconda del tuo smartphone puoi scaricare Immuni da App Store o Google Play. Verifica qui sotto se il tuo smartphone supporta Immuni.\n\n→ App Store\nIl tuo iPhone deve avere una versione di iOS pari o superiore alla 13.5. I modelli supportati sono: 11, 11 Pro, 11 Pro Max, Xr, Xs, Xs Max, X, 8, 8 Plus, 7, 7 Plus, 6s, 6s Plus, SE. Aggiorna iOS all’ultima versione disponibile prima di effettuare il download di Immuni.\n\n→ Google Play\nIl tuo smartphone Android deve soddisfare tutti e tre i seguenti requisiti:\n• Bluetooth Low Energy\n• Android versione 6 (Marshmallow, API 23) o superiore\n• Google Play Services versione 20.18.13 o superiore\nAggiorna Android e Google Play Services all’ultima versione prima di effettuare il download di Immuni.\n"
+      "content": "A seconda del tuo smartphone puoi scaricare Immuni da App Store o Google Play. Verifica qui sotto se il tuo smartphone supporta Immuni.\n \n → App Store\n Il tuo iPhone deve avere una versione di iOS pari o superiore alla 13.5. I modelli supportati sono: 11, 11 Pro, 11 Pro Max, Xr, Xs, Xs Max, X, 8, 8 Plus, 7, 7 Plus, 6s, 6s Plus, SE. Aggiorna iOS all’ultima versione disponibile prima di effettuare il download di Immuni.\n \n → Google Play\n Il tuo smartphone Android deve soddisfare tutti e tre i seguenti requisiti:\n • Bluetooth Low Energy\n • Android versione 6 (Marshmallow, API 23) o superiore\n • Google Play Services versione 20.18.13 o superiore\n \n → HMS core\n • Huawei smartphone supportati (MATE 40 PRO, P Smart 2021, P40 Pro+, P Smart S, P40 Lite 5G, Y5p, Y6p, P40 Pro, P40, P40 Lite E, Mate Xs, P40 Lite, Mate30 Pro o modelli più recenti) \n • HMS core 5.1.0.300 o superiore\n \n Aggiorna Android e Google Play Services, HMS Core all’ultima versione prima di effettuare il download di Immuni."
     },
     {
       "id": 10,
@@ -58,7 +58,7 @@
     {
       "id": 11,
       "title": "Il mio smartphone non supporta Immuni. Perché? Cosa posso fare a riguardo?",
-      "content": "Immuni sfrutta il sistema per le notifiche di esposizione sviluppato da Apple e Google. Si tratta di una tecnologia condivisa a livello internazionale (Germania, Giappone, Olanda e decine di altri paesi al mondo ne fanno uso) che permette all’app di funzionare al meglio sulla maggioranza dei dispositivi. A causa di limiti tecnici, questa tecnologia non è disponibile su versioni precedenti di iOS, Android e Google Play Services. Se le cose dovessero cambiare, ne daremo immediata comunicazione."
+      "content": "Immuni sfrutta il sistema per le notifiche di esposizione sviluppato da Apple, Google e Huawei. Si tratta di una tecnologia condivisa a livello internazionale (Germania, Giappone, Olanda e decine di altri paesi al mondo ne fanno uso) che permette all’app di funzionare al meglio sulla maggioranza dei dispositivi. A causa di limiti tecnici, questa tecnologia non è disponibile su versioni precedenti di iOS, Android e Google Play Services. Se le cose dovessero cambiare, ne daremo immediata comunicazione."
     },
     {
       "id": 12,
@@ -154,16 +154,19 @@
       "id": 30,
       "title": "Cos’è e come funziona il codice monouso?",
       "content": "Il codice monouso è una sequenza alfanumerica di dieci caratteri che viene utilizzata soltanto in caso di positività al virus SARS-CoV-2 e che non identifica in alcun modo l’utente dell’app Immuni.\nSe sei risultato positivo/a al virus, puoi decidere di caricare sul server di Immuni i dati necessari ad avvertire, in maniera anonima, le persone che sono state a stretto contatto con te da 2 giorni prima dei sintomi (o del tampone se sei asintomatico) e fino ad un massimo di 14 giorni. Per farlo devi dettare il codice monouso che si trova alla voce “segnala positività” di Immuni (all’interno del menù “Impostazioni”) all’operatore sanitario che ti ha comunicato l’esito del tampone, oppure all’operatore telefonico del call center 800 91 24 91 se hai ricevuto il CUN (Codice Univoco Nazionale).\nDopo che l’operatore avrà validato il codice monouso, potrai procedere al caricamento del dato di positività. Questa operazione è anche detta “sblocco” di Immuni."
+
     },
     {
       "id": 31,
       "title": "Come e quando posso caricare i miei dati?",
+
       "content": "Puoi caricare i tuoi dati soltanto se risulti positivo al coronavirus e se hai effettuato un test tramite tampone molecolare. L’operazione è su base volontaria e permette a Immuni di avvertire le persone con cui sei stato in contatto stretto da 2 giorni prima dei sintomi (o del tampone se sei asintomatico) e fino ad un massimo di 14 giorni. \nQuesta operazione può essere svolta con il supporto dell’operatore sanitario che ti ha comunicato l’esito positivo del tampone, oppure  se hai ricevuto il CUN col supporto dell’operatore del call center 800 91 24 91 o in autonomia con la specifica funzione a disposizione nell'APP.\n\n"
+
     },
     {
       "id": 32,
       "title": "Quali sono i passaggi per caricare il dato di positività su Immuni?",
-      "content": "L’operatore sanitario del servizio di prevenzione che ti ha comunicato l’esito del tampone o l’operatore telefonico del call center di Immuni ti chiederà di entrare nella sezione “Impostazioni” e di scegliere “Segnala positività”\nImmuni ti mostrerà un codice monouso, una sequenza di dieci caratteri generati in modo casuale\nComunica questo codice all’operatore, che ti darà l’autorizzazione a proseguire\nFai clic su “Prosegui”\nImmuni ti mostrerà un riepilogo dei dati che saranno caricati\nFacendo clic su “Carica i dati”, l’app caricherà i tuoi dati\nTi verrà infine chiesto il permesso per accedere ai codici casuali salvati sul tuo dispositivo\nL’app ti mostrerà un messaggio di conferma una volta completato il caricamento\n"
+      "content": "Questa operazione può essere svolta con il supporto dell’operatore sanitario che ti ha comunicato l’esito positivo del tampone oppure con l’aiuto degli operatori del call center 800 91 24 91."
     },
     {
       "id": 33,
@@ -224,6 +227,7 @@
       "id": 44,
       "title": "Chi sono gli operatori sanitari di cui parla Immuni?",
       "content": "Si tratta di personale sanitario del Dipartimento di Prevenzione dell’ASL o delle Aziende ospedaliere che normalmente comunica telefonicamente l’esito del tampone all’utente. Se la persona che è risultata positiva ha installato Immuni, può scegliere di segnalare la propria positività. Così facendo permetterà ad Immuni di avvertire del rischio di contagio le persone con cui è stata a stretto contatto. \nA guidare e abilitare l’utente positivo nel caricamento dei dati e nello “sblocco” di Immuni, può essere sia lo stesso operatore sanitario che ha comunicato l’esito del referto, sia un operatore telefonico del call center dedicato a Immuni, raggiungibile al numero verde 800 91 24 91, se l'utente è anche in possesso del CUN."
+
     },
     {
       "id": 45,
@@ -279,6 +283,7 @@
       "id": 55,
       "title": "Chi può sbloccare Immuni?",
       "content": "Immuni può essere sbloccata dal cittadino che dispone della APP sul proprio cellulare, e che è risultato positivo al test del tampone molecolare. Questa operazione può essere svolta con il supporto dell’operatore sanitario che ti ha comunicato l’esito positivo del tampone, oppure  se hai ricevuto il CUN col supporto dell’operatore del call center 800 91 24 91 o in autonomia con la specifica funzione a disposizione nell'APP.\nAttenzione: i medici di base non sono autorizzati a supportare lo sblocco di Immuni.\n\n"
+
     },
     {
       "id": 56,
@@ -321,6 +326,7 @@
       "content": "Il servizio è attivo su tutto il territorio nazionale."
     },
     {
+
       "id": 64,
       "title": "Gli operatori sanitari potranno ancora supportare lo sblocco di Immuni?",
       "content": "Assolutamente sì. Il servizio di call center non sostituisce gli operatori dei Dipartimenti di Prevenzione Sanitaria, ma li affianca. Pertanto, potrai sbloccare Immuni anche quando verrai chiamato dall’operatore sanitario che ti comunica l’esito del tampone."
