@@ -163,7 +163,9 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: "report.html",
-      template: "src/pages/report.html"
+      template: "src/pages/report.html",
+      inject: true,
+      chunks: ['main']
       
     }),
   ],

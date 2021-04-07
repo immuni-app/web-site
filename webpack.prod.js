@@ -128,6 +128,12 @@ module.exports = {
       chunks: ['main']
     }),
     new HtmlWebpackPlugin({
+      filename: "report.html",
+      template: "src/pages/report.html",
+      inject: true,
+      chunks: ['main']
+    }),
+    new HtmlWebpackPlugin({
       filename: "device-support.html",
       template: "src/pages/device-support.html",
       inject: true,
