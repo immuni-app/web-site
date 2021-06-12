@@ -49,8 +49,14 @@
       "button": "Scarica l'app",
       "cta": "Disponibile ora"
     },
+    "dgc": {
+      "tag": "Novità",
+      "title": "EU Digital Green Certificate",
+      "content": "Puoi acquisire la Certificazione verde COVID-19 utilizzando l’App Immuni attraverso l’apposita sezione “EU digital COVID certificate” visibile nella schermata iniziale della APP.<br>La Certificazione verde COVID–19 viene mostrata a video e il QR code salvato nel dispositivo mobile in modo che possa essere visualizzato e mostrato anche in modalità offline.",
+      "link": "Visita il sito http://www.dgc.gov.it/"
+    },
     "feats": {
-      "tag": "Che cosa è?",
+      "tag": "Che cos'è Immuni",
       "title": "Uno strumento in più per spezzare la catena del contagio",
       "content": "Immuni è un'app creata per aiutarci a combattere l'epidemia di COVID-19. L'app utilizza la tecnologia per avvertire gli utenti che hanno avuto un'esposizione a rischio, anche se sono asintomatici."
     },

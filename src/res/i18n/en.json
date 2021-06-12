@@ -49,8 +49,14 @@
       "button": "Download the app",
       "cta": "Available now"
     },
+    "dgc": {
+      "tag": "News",
+      "title": "EU Digital Green Certificate",
+      "content": "You can acquire the green COVID-19 certification using the Immuni App through the appropriate section “EU digital COVID certificate” visible on the home screen of the APP.<br>The green certification COVID–19 is shown on the screen and the QR code saved in the mobile device so that it can be viewed and shown even in offline mode.",
+      "link": "Visit the website http://www.dgc.gov.it/"
+    },
     "feats": {
-      "tag": "What is it?",
+      "tag": "What is Immuni?",
       "title": "One more tool to break the chain of contagion",
       "content": "Immuni is an app that helps us fight the COVID-19 epidemic. The app uses technology to alert the users who have had a risky exposure—even if they are asymptomatic."
     },

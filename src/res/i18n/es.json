@@ -49,8 +49,14 @@
       "button": "Descárgate la aplicación",
       "cta": "Available now"
     },
+    "dgc": {
+      "tag": "Novedad",
+      "title": "Certificado Covid Digital de la UE",
+      "content": "Puedes adquirir el certificado verde COVID-19 utilizando la aplicación Immuni a través de la sección correspondiente “Certificado COVID digital de la UE” visible en la pantalla de inicio de la aplicación. <br> El certificado verde COVID-19 se muestra en la pantalla y el código QR se guarda en el dispositivo móvil para que se pueda ver y mostrar incluso en modo fuera de línea.",
+      "link": "Visita la página web http://www.dgc.gov.it/"
+    },
     "feats": {
-      "tag": "¿Qué es?",
+      "tag": "¿Qué es Immuni?",
       "title": "Una herramienta más para romper la cadena de transmisión",
       "content": "Immuni es una aplicación que se ha desarrollado para ayudarnos a combatir la epidemia de la COVID-19. La aplicación se sirve de la tecnología para avisar a los usuarios que han estado expuestos al riesgo, aunque sean asintomáticos."
     },

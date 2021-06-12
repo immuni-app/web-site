@@ -38,6 +38,16 @@
   &.dashboard {
     padding: 200px 0 100px;
   }
+  &.dgc{
+    background-image:url('../assets/img/dgc-illustration.png');
+    background-size: cover;
+    background-position: 0 bottom;
+    background-repeat: no-repeat;
+    @media screen and (max-width: 1215px) {
+      background-image: none;
+      padding-bottom: 0;
+    }
+  }
   &.full-height {
     height: 100vh;
   }
@@ -295,7 +305,13 @@
     }
   }
 }
-
+/*  DGC ILLUSTRATION*/
+.dgc-img{
+  display: none;
+  @media screen and (max-width: 1215px) {
+    display: inherit;
+  }
+}
 /* DIVIDERS */
 
 .large-divider {
