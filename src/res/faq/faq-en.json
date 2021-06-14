@@ -48,7 +48,7 @@
     {
       "id": 9,
       "title": "Where can I download Immuni? Which devices and operating systems are supported?",
-      "content": "You can download Immuni from the App Store or Google Play, depending on your smartphone. Check below to see if your smartphone supports Immuni.\n\n→ App Store\nYour iPhone must have iOS version 13.5 or later. Supported models: 11, 11 Pro, 11 Pro Max, Xr, Xs, Xs Max, X, 8, 8 Plus, 7, 7 Plus, 6s, 6s Plus, SE. \n\nPlease update iOS to the latest version before downloading Immuni.\n\n→ Google Play\n Your Android smartphone must check all three of the following requirements:\n • Bluetooth Low Energy\n • Android version 6 (Marshmallow, API 23) or later\n • Google Play Services version 20.18.13 or later\n \nPlease update Android and Google Play Services to the latest version before downloading Immuni."
+      "content": "You can download Immuni from the App Store, AppGallery or Google Play, depending on your smartphone. Check below to see if your smartphone supports Immuni.\n\n→ App Store\nYour iPhone must have iOS version 13.5 or later. Supported models: 11, 11 Pro, 11 Pro Max, Xr, Xs, Xs Max, X, 8, 8 Plus, 7, 7 Plus, 6s, 6s Plus, SE. \n\nPlease update iOS to the latest version before downloading Immuni.\n\n→ Google Play\n Your Android smartphone must check all three of the following requirements:\n • Bluetooth Low Energy\n • Android version 6 (Marshmallow, API 23) or later\n • Google Play Services version 20.18.13 or later\n\nPlease update Android and Google Play Services to the latest version before downloading Immuni.\n\n→ AppGallery\n • Huawei smartphone supported (MATE 40 PRO, P Smart 2021, P40 Pro+, P Smart S, P40 Lite 5G, Y5p, Y6p, P40 Pro, P40, P40 Lite E, Mate Xs, P40 Lite, Mate30 Pro or later) \n • HMS core 5.1.0.300 or later\nPlease update HMS core to the latest version before downloading Immuni.\n\n\n \n"
     },
     {
       "id": 10,
@@ -58,7 +58,7 @@
     {
       "id": 11,
       "title": "My smartphone does not support Immuni. Why not? What can I do about this?",
-      "content": "Immuni draws on the exposure notification system developed by Apple and Google. This technology is shared by many other countries (including Germany, Japan, the Netherlands, and dozens more), and it allows the app to work at its best on most devices. Due to technical limitations, this technology is not available on older versions of iOS, Android, and Google Play Services. If things change, we will immediately make that information public."
+      "content": "Immuni draws on the exposure notification system developed by Apple, Google and Huawei. This technology is shared by many other countries (including Germany, Japan, the Netherlands, and dozens more), and it allows the app to work at its best on most devices. Due to technical limitations, this technology is not available on older versions of iOS, Android, and Google Play Services. If things change, we will immediately make that information public."
     },
     {
       "id": 12,

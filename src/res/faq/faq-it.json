@@ -48,7 +48,7 @@
     {
       "id": 9,
       "title": "Dove posso scaricare Immuni? Quali dispositivi e sistemi operativi sono supportati?",
-      "content": "A seconda del tuo smartphone puoi scaricare Immuni da App Store o Google Play. Verifica qui sotto se il tuo smartphone supporta Immuni.\n\n→ App Store\nIl tuo iPhone deve avere una versione di iOS pari o superiore alla 13.5. I modelli supportati sono: 11, 11 Pro, 11 Pro Max, Xr, Xs, Xs Max, X, 8, 8 Plus, 7, 7 Plus, 6s, 6s Plus, SE. Aggiorna iOS all’ultima versione disponibile prima di effettuare il download di Immuni.\n\n→ Google Play\nIl tuo smartphone Android deve soddisfare tutti e tre i seguenti requisiti:\n• Bluetooth Low Energy\n• Android versione 6 (Marshmallow, API 23) o superiore\n• Google Play Services versione 20.18.13 o superiore\nAggiorna Android e Google Play Services all’ultima versione prima di effettuare il download di Immuni.\n"
+      "content": "A seconda del tuo smartphone puoi scaricare Immuni da App Store, AppGallery o Google Play. Verifica qui sotto se il tuo smartphone supporta Immuni.\n \n → App Store\n Il tuo iPhone deve avere una versione di iOS pari o superiore alla 13.5. I modelli supportati sono: 11, 11 Pro, 11 Pro Max, Xr, Xs, Xs Max, X, 8, 8 Plus, 7, 7 Plus, 6s, 6s Plus, SE. Aggiorna iOS all’ultima versione disponibile prima di effettuare il download di Immuni.\n \n → Google Play\n Il tuo smartphone Android deve soddisfare tutti e tre i seguenti requisiti:\n • Bluetooth Low Energy\n • Android versione 6 (Marshmallow, API 23) o superiore\n • Google Play Services versione 20.18.13 o superiore\n \n → AppGallery\n • Huawei smartphone supportati (MATE 40 PRO, P Smart 2021, P40 Pro+, P Smart S, P40 Lite 5G, Y5p, Y6p, P40 Pro, P40, P40 Lite E, Mate Xs, P40 Lite, Mate30 Pro o modelli più recenti) \n • HMS core 5.1.0.300 o superiore\n \n Aggiorna Android e Google Play Services, HMS Core all’ultima versione prima di effettuare il download di Immuni."
     },
     {
       "id": 10,
@@ -58,7 +58,7 @@
     {
       "id": 11,
       "title": "Il mio smartphone non supporta Immuni. Perché? Cosa posso fare a riguardo?",
-      "content": "Immuni sfrutta il sistema per le notifiche di esposizione sviluppato da Apple e Google. Si tratta di una tecnologia condivisa a livello internazionale (Germania, Giappone, Olanda e decine di altri paesi al mondo ne fanno uso) che permette all’app di funzionare al meglio sulla maggioranza dei dispositivi. A causa di limiti tecnici, questa tecnologia non è disponibile su versioni precedenti di iOS, Android e Google Play Services. Se le cose dovessero cambiare, ne daremo immediata comunicazione."
+      "content": "Immuni sfrutta il sistema per le notifiche di esposizione sviluppato da Apple, Google e Huawei. Si tratta di una tecnologia condivisa a livello internazionale (Germania, Giappone, Olanda e decine di altri paesi al mondo ne fanno uso) che permette all’app di funzionare al meglio sulla maggioranza dei dispositivi. A causa di limiti tecnici, questa tecnologia non è disponibile su versioni precedenti di iOS, Android e Google Play Services. Se le cose dovessero cambiare, ne daremo immediata comunicazione."
     },
     {
       "id": 12,
@@ -163,7 +163,7 @@
     {
       "id": 32,
       "title": "Quali sono i passaggi per caricare il dato di positività su Immuni?",
-      "content": "L’operatore sanitario del servizio di prevenzione che ti ha comunicato l’esito del tampone o l’operatore telefonico del call center di Immuni ti chiederà di entrare nella sezione “Impostazioni” e di scegliere “Segnala positività”\nImmuni ti mostrerà un codice monouso, una sequenza di dieci caratteri generati in modo casuale\nComunica questo codice all’operatore, che ti darà l’autorizzazione a proseguire\nFai clic su “Prosegui”\nImmuni ti mostrerà un riepilogo dei dati che saranno caricati\nFacendo clic su “Carica i dati”, l’app caricherà i tuoi dati\nTi verrà infine chiesto il permesso per accedere ai codici casuali salvati sul tuo dispositivo\nL’app ti mostrerà un messaggio di conferma una volta completato il caricamento\n"
+      "content": "L’operatore sanitario del servizio di prevenzione che ti ha comunicato l’esito del tampone o l’operatore telefonico del call center di Immuni ti chiederà di entrare nella sezione “Impostazioni” e di scegliere “Segnala positività”.\nImmuni ti mostrerà un codice monouso, una sequenza di dieci caratteri generati in modo casuale.\nComunica questo codice all’operatore, che ti darà l’autorizzazione a proseguire\nFai clic su “Prosegui”\\nImmuni ti mostrerà un riepilogo dei dati che saranno caricati\nFacendo clic su “Carica i dati”, l’app caricherà i tuoi dati\nTi verrà infine chiesto il permesso per accedere ai codici casuali salvati sul tuo dispositivo\\nL’app ti mostrerà un messaggio di conferma una volta completato il caricamento."
     },
     {
       "id": 33,
