@@ -191,6 +191,13 @@ h5 {
 
 a {
   transition: color 200ms ease;
+  &.link{
+    color: var(--primary);
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 22px;
+  }
 }
 
 p {
