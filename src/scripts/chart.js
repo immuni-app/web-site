@@ -4,7 +4,7 @@ import * as ChartAnnotation from 'chartjs-plugin-annotation';
 import { feature } from "topojson-client";
 import downloadDataset from './../assets/json/andamento-download.json';
 import andamentoNazionale from './../assets/json/andamento-dati-nazionali.json';
-import andamentoRegionale from './../assets/json/andamento-settimanale-dati-regionali-latest.json';
+import andamentoRegionale from './../assets/json/andamento-mensile-dati-regionali-latest.json';
 
 import europe from './../assets/json/europe.json';
 import italyRegions from './../assets/json/italy-regions.json';
@@ -39,7 +39,7 @@ const primaryChartColor = '#5851FF';
 const primaryChartColorTrasparency = "rgba(68,110,255,0.4)";
 const secondaryChartColor = '#9f9eff';
 const tertiaryChartColor = '#ffc003';
-const maxDayGraph = 14;
+const maxDayGraph = 30;
 
 const labels = {
 	it: {
@@ -368,7 +368,7 @@ function generateChart() {
 						display: true,
 						scaleLabel: {
 							display: true,
-							labelString: labels[lang].month
+							labelString: labels[lang].day
 						}
 					}],
 					yAxes: [{
@@ -420,7 +420,7 @@ function generateChart() {
 						display: true,
 						scaleLabel: {
 							display: true,
-							labelString: labels[lang].month
+							labelString: labels[lang].day
 						}
 					}],
 					yAxes: [{
@@ -716,16 +716,24 @@ function generateChart() {
 	window.penetrationChart = new Chart(penetrationByRegion, configDevice);*/
 	//}
 
-	//Notification and positive chart week
+	//Notification and positive chart month
+	let monthNames = ["Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno",
+		"Luglio", "Agosto", "Settembre", "Ottobre", "Novembre", "Dicembre"
+	];
+	let formattedDate = new Date(andamentoRegionale[0]['mese'])
+	let meseLabel = monthNames[formattedDate.getMonth()]
+	let annoLabel = formattedDate.getFullYear()
 
 	let notificationByRegion = document.getElementById('notificationByRegion')
 	let positiveUsersByRegion = document.getElementById('positiveUsersByRegion')
 	let lastWeekUpdateNotifications = document.getElementById('lastWeekUpdateNotifications')
 	let lastWeekUpdatePositiveUsers = document.getElementById('lastWeekUpdatePositiveUsers')
 	if (lastWeekUpdateNotifications && lastWeekUpdatePositiveUsers) {
-		var lastWeek = moment(andamentoRegionale[0].settimana)
-		lastWeekUpdateNotifications.innerHTML = lastWeek.format('DD/MM/YYYY') + " - " + lastWeek.add(6, 'days').format('DD/MM/YYYY')
-		lastWeekUpdatePositiveUsers.innerHTML = lastWeekUpdateNotifications.innerHTML
+		//var lastWeek = moment(andamentoRegionale[0].mese)
+		//lastWeekUpdateNotifications.innerHTML = lastWeek.format('DD/MM/YYYY') + " - " + lastWeek.add(6, 'days').format('DD/MM/YYYY')
+		//lastWeekUpdatePositiveUsers.innerHTML = lastWeekUpdateNotifications.innerHTML
+		lastWeekUpdateNotifications.innerHTML = meseLabel + " " + annoLabel
+		lastWeekUpdatePositiveUsers.innerHTML = meseLabel + " " + annoLabel
 	}
 
 	if (notificationByRegion && positiveUsersByRegion) {

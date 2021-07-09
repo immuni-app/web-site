@@ -124,9 +124,9 @@
     "androidDownloadDetail":"<sup>(4)</sup> Dispositivos Android con GMS (Google Mobile Services) y HMS Core (Huawei Mobile Services Core).",
     "percentageOverPopulation":"Porcentaje de descargas sobre el número de habitantes",
     "penetrationByRegionNote":"Proyección realizada por el Ministerio de Salud actualizada a",
-    "weeklyNotificationsRegionalData":"Notificaciones por región semanalmente",
-    "weeklyPositiveUsersRegionalData":"Usuarios positivos por región semanalmente",
-    "dataReferringWeek":"Datos referidos a la semana",
+    "weeklyNotificationsRegionalData":"Notificaciones por región mensualmente",
+    "weeklyPositiveUsersRegionalData":"Usuarios positivos por región mensualmente",
+    "dataReferringWeek":"Datos referidos al mes de",
     "linkOpenData":"Todos los datos están disponibles en formato CSV y JSON en github en el siguiente",
     "europeanCountryActive":"Países europeos activos por la interoperabilidad"
   },
