@@ -14,8 +14,8 @@ import allowedCountry from './../assets/json/stati-abilitati-interoperabilita.js
 import countriesLang from './../assets/json/countries.json';
 
 let namedChartAnnotation = ChartAnnotation;
-namedChartAnnotation["id"]="annotation";
-Chart.pluginService.register( namedChartAnnotation);
+namedChartAnnotation["id"] = "annotation";
+Chart.pluginService.register(namedChartAnnotation);
 
 
 
@@ -28,8 +28,8 @@ import 'datatables-bulma'
 
 var moment = require('moment');
 
-Number.prototype.round = function(places) {
-	return +(Math.round(this + "e+" + places)  + "e-" + places);
+Number.prototype.round = function (places) {
+	return +(Math.round(this + "e+" + places) + "e-" + places);
 }
 
 
@@ -44,13 +44,15 @@ const maxDayGraph = 14;
 const labels = {
 	it: {
 		day: "Giorni",
+		month: "Mesi",
 		notification: "Notifiche",
 		positiveUsers: "Utenti positivi",
 		nationalAvg: "Media nazionale",
 		over14yo: "Popolazione con età superiore ai 14 anni"
 	},
 	en: {
-		day: "Day",
+		day: "Days",
+		month: "Months",
 		notification: "Notifications",
 		positiveUsers: "Positive users",
 		nationalAvg: "National average",
@@ -58,6 +60,7 @@ const labels = {
 	},
 	de: {
 		day: "Tage",
+		month: "Monate",
 		notification: "Benachrichtigen",
 		positiveUsers: "Positive Benutzer",
 		nationalAvg: "Nationaler Durchschnitt",
@@ -65,6 +68,7 @@ const labels = {
 	},
 	fr: {
 		day: "Journées",
+		month: "Mois",
 		notification: "Notifier",
 		positiveUsers: "Utilisateurs positifs",
 		nationalAvg: "Moyenne nationale",
@@ -72,6 +76,7 @@ const labels = {
 	},
 	es: {
 		day: "Dias",
+		month: "Meses",
 		notification: "Notificar",
 		positiveUsers: "Usuarios positivos",
 		nationalAvg: "Promedio nacional",
@@ -83,41 +88,41 @@ function valueFormat(labelValue) {
 	return labelValue.toLocaleString()
 }
 
-function addDot(number){
+function addDot(number) {
 	return Number(number).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")
 }
 
 
 window.onload = function () {
-	  /*
-	  $.when(
-		$.getJSON("https://raw.githubusercontent.com/immuni-app/immuni-dashboard-data/master/dati/andamento-download.json", function(data) {
-			downloadDataset = data;
-		}),
-		$.getJSON("https://raw.githubusercontent.com/immuni-app/immuni-dashboard-data/master/dati/andamento-settimanale-dati-regionali-latest.json", function(data) {
-			andamentoRegionale = data;
-		}),
-		$.getJSON("https://raw.githubusercontent.com/immuni-app/immuni-dashboard-data/master/dati/andamento-dati-nazionali.json", function(data) {
-			andamentoNazionale = data;
-		})
-		).then(function() {
-			if (!downloadDataset) {
-				downloadDataset=downloadDatasetStatic;
-			}
-			
-			if (!andamentoRegionale) {
-				andamentoRegionale=andamentoRegionaleStatic
-			}
-			
-			if (!andamentoNazionale) {
-				andamentoNazionale=andamentoNazionaleStatic
-			}
-			generateChart();
-			
-		});
-		*/
+	/*
+	$.when(
+	  $.getJSON("https://raw.githubusercontent.com/immuni-app/immuni-dashboard-data/master/dati/andamento-download.json", function(data) {
+		  downloadDataset = data;
+	  }),
+	  $.getJSON("https://raw.githubusercontent.com/immuni-app/immuni-dashboard-data/master/dati/andamento-settimanale-dati-regionali-latest.json", function(data) {
+		  andamentoRegionale = data;
+	  }),
+	  $.getJSON("https://raw.githubusercontent.com/immuni-app/immuni-dashboard-data/master/dati/andamento-dati-nazionali.json", function(data) {
+		  andamentoNazionale = data;
+	  })
+	  ).then(function() {
+		  if (!downloadDataset) {
+			  downloadDataset=downloadDatasetStatic;
+		  }
+	  	
+		  if (!andamentoRegionale) {
+			  andamentoRegionale=andamentoRegionaleStatic
+		  }
+	  	
+		  if (!andamentoNazionale) {
+			  andamentoNazionale=andamentoNazionaleStatic
+		  }
+		  generateChart();
+	  	
+	  });
+	  */
 
-		generateChart();
+	generateChart();
 
 }
 function generateChart() {
@@ -139,47 +144,48 @@ function generateChart() {
 		lengthChange: false,
 		fixedColumns: true,
 
-        responsive: true
+		responsive: true
 	} );
 	tableProvince.rows.add(provinceDataset)
 
 	*/
 
 	const lang = localStorage.getItem("language");
-	let lastDate = downloadDataset[downloadDataset.length-1].data
-	
-	let lastDownloadValue = downloadDataset[downloadDataset.length-1]
-	
+	console.log("olang", lang)
+	let lastDate = downloadDataset[downloadDataset.length - 1].data
 
-	let lastNotificationDate = andamentoNazionale[andamentoNazionale.length-1].data
-	let lastNotificationValue = andamentoNazionale[andamentoNazionale.length-1]
-	
+	let lastDownloadValue = downloadDataset[downloadDataset.length - 1]
+
+
+	let lastNotificationDate = andamentoNazionale[andamentoNazionale.length - 1].data
+	let lastNotificationValue = andamentoNazionale[andamentoNazionale.length - 1]
+
 
 	let nOfDownload = document.getElementById('nOfDownload')
 	if (nOfDownload) {
-		nOfDownload.innerHTML =  addDot(lastDownloadValue.ios_android_total)
-	} 
+		nOfDownload.innerHTML = addDot(lastDownloadValue.ios_android_total)
+	}
 
 	let sentNotifications = document.getElementById('sentNotifications')
 	if (sentNotifications) {
-		sentNotifications.innerHTML =  addDot(lastNotificationValue.notifiche_inviate_totali)
-	} 
+		sentNotifications.innerHTML = addDot(lastNotificationValue.notifiche_inviate_totali)
+	}
 
 	let positiveUsers = document.getElementById('positiveUsers')
 	if (positiveUsers) {
-		positiveUsers.innerHTML =  addDot(lastNotificationValue.utenti_positivi_totali)
-	} 
+		positiveUsers.innerHTML = addDot(lastNotificationValue.utenti_positivi_totali)
+	}
 
 
-	moment.locale(lang); 
-	
+	moment.locale(lang);
+
 
 	let lastUpdateDiv = document.getElementById('lastUpdate')
 	if (lastUpdateDiv) {
-		let lastDate = andamentoNazionale[andamentoNazionale.length-1].data
+		let lastDate = andamentoNazionale[andamentoNazionale.length - 1].data
 		var lastUpdate = moment(lastDate)
-		lastUpdateDiv.innerHTML =  lastUpdate.format('D MMMM YYYY')
-	} 
+		lastUpdateDiv.innerHTML = lastUpdate.format('D MMMM YYYY')
+	}
 
 
 	let downloadTrendDiv = document.getElementById('downloadTrend')
@@ -197,7 +203,7 @@ function generateChart() {
 			let day = moment(elem.data).format('ll');
 			downloadLabels.push(day);
 			downloadData.push(total);
-			
+
 			iosDownload.push(ios_value)
 			androidDownload.push(android_value)
 		})
@@ -215,7 +221,7 @@ function generateChart() {
 			pointBackgroundColor: primaryChartColor,
 
 		}]
-		
+
 
 		window.configDownloadTrend = {
 			type: 'line',
@@ -235,7 +241,7 @@ function generateChart() {
 					displayColors: false,
 					callbacks: {
 						label: function (tooltipItem, data) {
-							return addDot(tooltipItem.yLabel)+ " download";
+							return addDot(tooltipItem.yLabel) + " download";
 						}
 					}
 				},
@@ -271,13 +277,17 @@ function generateChart() {
 		};
 
 
-		window.downloadTrendChart = new Chart(downloadTrend, configDownloadTrend);		
-	} 
+		window.downloadTrendChart = new Chart(downloadTrend, configDownloadTrend);
+	}
 
 	//NOtification trend chart
 	let notificationTrendDiv = document.getElementById('notificationTrend')
-	if (notificationTrendDiv) {
+	let positiveTrendDiv = document.getElementById('positiveTrend')
+
+	if (notificationTrendDiv && positiveTrendDiv) {
 		var notificationTrend = notificationTrendDiv.getContext('2d');
+		var positiveTrend = positiveTrendDiv.getContext('2d');
+
 		//var notificationTrend = document.getElementById('notificationTrend').getContext('2d');
 		var notificationLabels = []
 		var notificationData = []
@@ -292,12 +302,12 @@ function generateChart() {
 			positiveUserData.push(utenti_positivi)
 
 		})
-		
+
 		notificationData = notificationData.slice(Math.max(notificationData.length - maxDayGraph, 0))
 		positiveUserData = positiveUserData.slice(Math.max(positiveUserData.length - maxDayGraph, 0))
 		notificationLabels = notificationLabels.slice(Math.max(notificationLabels.length - maxDayGraph, 0))
 
-		let dataset = [{
+		let datasetNotification = [{
 			data: notificationData,
 			fill: false,
 			borderColor: primaryChartColor,
@@ -309,8 +319,9 @@ function generateChart() {
 			label: labels[lang].notification
 
 
-		},
-		{
+		}]
+
+		let datasetPositive = [{
 			data: positiveUserData,
 			fill: false,
 			borderColor: tertiaryChartColor,
@@ -322,12 +333,12 @@ function generateChart() {
 			label: labels[lang].positiveUsers
 
 		}
-	]
+		]
 		window.configNotificationTrend = {
 			type: 'line',
 			data: {
 				labels: notificationLabels,
-				datasets: dataset
+				datasets: datasetNotification
 			},
 			options: {
 				responsive: true,
@@ -341,7 +352,7 @@ function generateChart() {
 					displayColors: false,
 					callbacks: {
 						label: function (tooltipItem, data) {
-							return addDot(tooltipItem.yLabel)+ " " + [labels[lang].notification.toLowerCase(), labels[lang].positiveUsers.toLowerCase()][tooltipItem.datasetIndex];
+							return addDot(tooltipItem.yLabel) + " " + [labels[lang].notification.toLowerCase(), labels[lang].positiveUsers.toLowerCase()][tooltipItem.datasetIndex];
 						}
 					}
 				},
@@ -357,7 +368,7 @@ function generateChart() {
 						display: true,
 						scaleLabel: {
 							display: true,
-							labelString: labels[lang].day
+							labelString: labels[lang].month
 						}
 					}],
 					yAxes: [{
@@ -369,27 +380,70 @@ function generateChart() {
 							display: true,
 							labelString: labels[lang].notification
 						},
-						
-					  }, {
+
+					}]
+				}
+			}
+		};
+
+		window.configPositiveTrend = {
+			type: 'line',
+			data: {
+				labels: notificationLabels,
+				datasets: datasetPositive
+			},
+			options: {
+				responsive: true,
+				title: {
+					display: false,
+				},
+				tooltips: {
+					mode: 'index',
+					intersect: false,
+					backgroundColor: labelBackgroundColor,
+					displayColors: false,
+					callbacks: {
+						label: function (tooltipItem, data) {
+							return addDot(tooltipItem.yLabel) + " " + [labels[lang].notification.toLowerCase(), labels[lang].positiveUsers.toLowerCase()][tooltipItem.datasetIndex];
+						}
+					}
+				},
+				legend: {
+					display: true,
+				},
+				hover: {
+					mode: 'nearest',
+					intersect: true
+				},
+				scales: {
+					xAxes: [{
+						display: true,
+						scaleLabel: {
+							display: true,
+							labelString: labels[lang].month
+						}
+					}],
+					yAxes: [{
 						id: 'positive_users',
 						type: 'linear',
-						position: 'right',
+						position: 'left',
 						scaleLabel: {
 							display: true,
 							labelString: labels[lang].positiveUsers
 						},
-					  }]
+					}]
 				}
 			}
 		};
 
 
-		
 
 
 
-		window.notificationTrendChart = new Chart(notificationTrend, window.configNotificationTrend);		
-	} 
+		window.notificationTrendChart = new Chart(notificationTrend, window.configNotificationTrend);
+		window.positiveTrendChart = new Chart(positiveTrend, window.configPositiveTrend);
+
+	}
 
 
 	//Doughnut chart
@@ -405,38 +459,38 @@ function generateChart() {
 				datasets: [{
 					data: inPercent,
 					backgroundColor: [
-						tertiaryChartColor, primaryChartColor 
+						tertiaryChartColor, primaryChartColor
 					],
 				}],
-				
+
 				labels: [
 					'iOS',
 					'Android ⁽⁴⁾',
 				]
 			},
-			
+
 			options: {
-				
+
 				responsive: true,
-				
+
 				tooltips: {
-						intersect: true,
-						backgroundColor: labelBackgroundColor,
-						displayColors: false,
-						callbacks: {
-						  title: function(tooltipItem, data) {
+					intersect: true,
+					backgroundColor: labelBackgroundColor,
+					displayColors: false,
+					callbacks: {
+						title: function (tooltipItem, data) {
 							return data['labels'][tooltipItem[0]['index']];
-						  },
-						  label: function(tooltipItem, data) {
+						},
+						label: function (tooltipItem, data) {
 							var value = seriesData[tooltipItem.index];
-							
+
 
 							var dataset = data['datasets'][0];
-							var percent = ((dataset['data'][tooltipItem['index']] / (dataset['data'][0]+dataset['data'][1])) * 100).round(2)
+							var percent = ((dataset['data'][tooltipItem['index']] / (dataset['data'][0] + dataset['data'][1])) * 100).round(2)
 							return valueFormat(value) + '  (' + percent + '%)';
-						  }
-						  
-						},
+						}
+
+					},
 				}
 			}
 		};
@@ -445,18 +499,18 @@ function generateChart() {
 	}
 
 	//Europe chart interoperability
-	
+
 	var europeMap = document.getElementById('europeMap');
-	if(europeMap){
+	if (europeMap) {
 		const regions = feature(italyRegions, italyRegions.objects.ITA_adm1).features.filter((item) => item.properties.NAME_0 === 'Italy');
 		const countries = feature(europe, europe.objects.continent_Europe_subunits).features;
 
 		const Italy = countries.find((d) => (d.properties.geounit == 'Italy' && d.geometry != null));
-		
+
 		let allowedList = []
 		let mapState = {}
 		allowedCountry.forEach(element => {
-			mapState[element.state_name]=element.ISO;
+			mapState[element.state_name] = element.ISO;
 			allowedList.push(element.state_name)
 		});
 
@@ -464,16 +518,16 @@ function generateChart() {
 		let finaldataset = []
 		countries.forEach(element => {
 			let name = element.properties.geounit;
-			
-			if(allowedList.includes(name)){
-				let v = {feature:element, value:100}
+
+			if (allowedList.includes(name)) {
+				let v = { feature: element, value: 100 }
 				finaldataset.push(v)
 				labelsCountry.push(mapState[name])
 			}
-			
+
 		});
 
-	
+
 		const config = {
 			type: 'choropleth',
 			data: {
@@ -483,11 +537,11 @@ function generateChart() {
 					outline: countries,
 					showOutline: true,
 					backgroundColor: primaryChartColor,
-					data:finaldataset,
+					data: finaldataset,
 					outlineBackgroundColor: "#E9EFFF",
 					outlineBorderColor: "white",
 					outlineBorderWidth: 2,
-					
+
 				}]
 			},
 			options: {
@@ -523,20 +577,20 @@ function generateChart() {
 		window.configEuropeMap = config;
 		window.europeMap = new Chart(europeMap.getContext('2d'), config);
 	}
-	
-	
-	
+
+
+
 	//Download percentuale per regione
 	//Ordinamento percentuale
-	function compare( a, b ) {
+	function compare(a, b) {
 		var percentageA = ((a.download / a.popolazione_superiore_14anni) * 100).round(1);
 		var percentageB = ((b.download / b.popolazione_superiore_14anni) * 100).round(1);
 
-		if ( percentageA < percentageB ){
-		  return 1;
+		if (percentageA < percentageB) {
+			return 1;
 		}
-		if ( percentageA > percentageB ){
-		  return -1;
+		if (percentageA > percentageB) {
+			return -1;
 		}
 		return 0;
 	}
@@ -546,151 +600,151 @@ function generateChart() {
 		a = a.toLowerCase();
 		b = b.toLowerCase();
 		return (a < b) ? -1 : (a > b) ? 1 : 0;
-	  }
-	
-	andamentoRegionale.sort(function(a, b) {
+	}
+
+	andamentoRegionale.sort(function (a, b) {
 		return compareStrings(a.denominazione_regione, b.denominazione_regione);
 	})
 
 	//percentualeDownloadRegioni.sort(compare);
-	percentualeDownloadRegioni.sort(function(a, b) {
+	percentualeDownloadRegioni.sort(function (a, b) {
 		return compareStrings(a.denominazione_regione, b.denominazione_regione);
 	})
-	
+
 	let percentageAverage = 0.0;
 	let sumDownload = 0;
 	let sumPopulation = 0;
 	percentualeDownloadRegioni.forEach(a => {
 		//var percentage = ((a.download / a.popolazione_superiore_14anni) * 100).round(1);
 		//percentageAverage+=percentage;
-		sumDownload+=a.download;
-		sumPopulation+=a.popolazione_superiore_14anni;
+		sumDownload += a.download;
+		sumPopulation += a.popolazione_superiore_14anni;
 	});
 	//percentageAverage = (percentageAverage/percentualeDownloadRegioni.length).round(1);
-	percentageAverage = ((sumDownload/sumPopulation)*100).round(1);
+	percentageAverage = ((sumDownload / sumPopulation) * 100).round(1);
 
-	
+
 	let lastUpdatePenetrationByRegion = document.getElementById('lastUpdatePenetrationByRegion')
 	if (lastUpdatePenetrationByRegion) {
 		var lastMonth = moment(percentualeDownloadRegioni[0].mese)
-		lastUpdatePenetrationByRegion.innerHTML =  lastMonth.format('DD/MM/YYYY')
+		lastUpdatePenetrationByRegion.innerHTML = lastMonth.format('DD/MM/YYYY')
 	}
-	 
-	let penetrationByRegion = document.getElementById('penetrationByRegion')
-	if (penetrationByRegion) {
-		var penetrationChartData = {
-			labels:  percentualeDownloadRegioni.map((d) => d.denominazione_regione),
-			datasets: [{
-				label: '%',
-				backgroundColor: "#5851ff",
-				data: percentualeDownloadRegioni.map((d) => ((d.download / d.popolazione_superiore_14anni) * 100).round(1)),
-			}]
 
-		};
+	//let penetrationByRegion = document.getElementById('penetrationByRegion')
+	//if (penetrationByRegion) {
+	/*var penetrationChartData = {
+		labels:  percentualeDownloadRegioni.map((d) => d.denominazione_regione),
+		datasets: [{
+			label: '%',
+			backgroundColor: "#5851ff",
+			data: percentualeDownloadRegioni.map((d) => ((d.download / d.popolazione_superiore_14anni) * 100).round(1)),
+		}]
+
+	};*/
 
 
-		var configDevice = {
-			type: 'bar',
-			data: penetrationChartData,
-			options: {
-				title: {
-					display: false
-				},
-				legend: {
-					display: false
-				 },
-				tooltips: {
-					mode: 'index',
-					intersect: false,
-					backgroundColor: labelBackgroundColor,
-					displayColors: false,
-					callbacks: {
-						title:function (tooltipItem, data) {
+	/*var configDevice = {
+		type: 'bar',
+		data: penetrationChartData,
+		options: {
+			title: {
+				display: false
+			},
+			legend: {
+				display: false
+			 },
+			tooltips: {
+				mode: 'index',
+				intersect: false,
+				backgroundColor: labelBackgroundColor,
+				displayColors: false,
+				callbacks: {
+					title:function (tooltipItem, data) {
 
-							let i = tooltipItem[0].index
-							let region = percentualeDownloadRegioni[i]
-							var percent = tooltipItem[0].value
-							return ""+tooltipItem[0].label+" ("+percent+"%)\nDownload: "+addDot(region.download)+"\n"+labels[lang].over14yo+": "+addDot(region.popolazione_superiore_14anni)
-						},
-						label: function (tooltipItem, data) {
-							return ""
-							//return data.datasets[tooltipItem.datasetIndex].label+": " + valueFormat(data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index]);
-						},
-						
+						let i = tooltipItem[0].index
+						let region = percentualeDownloadRegioni[i]
+						var percent = tooltipItem[0].value
+						return ""+tooltipItem[0].label+" ("+percent+"%)\nDownload: "+addDot(region.download)+"\n"+labels[lang].over14yo+": "+addDot(region.popolazione_superiore_14anni)
+					},
+					label: function (tooltipItem, data) {
+						return ""
+						//return data.datasets[tooltipItem.datasetIndex].label+": " + valueFormat(data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index]);
 					},
 					
-
-
-				},
-				responsive: true,
-				scales: {
-					xAxes: [{
-						stacked: true,
-					}],
-					yAxes: [{
-						stacked: true
-					}]
-				},
-
-				annotation: {
-					drawTime: 'afterDatasetsDraw',
-					annotations: [{
-						id: 'a-line-1',
-						type: 'line',
-						mode: 'horizontal',
-						scaleID: 'y-axis-0',
-						value: percentageAverage,
-						borderColor: tertiaryChartColor,
-						borderWidth: 4,
-						label: {
-							backgroundColor: tertiaryChartColor,
-							content: labels[lang].nationalAvg+' ('+percentageAverage+'%)',
-							enabled: true,
-							position: "right",
-							xAdjust: 10,
-							fontColor: "#182c57"
-
-						}
-						
-					}]
 				},
 				
-				
-			}
+
+
+			},
+			responsive: true,
+			scales: {
+				xAxes: [{
+					stacked: true,
+				}],
+				yAxes: [{
+					stacked: true
+				}]
+			},
+
+			annotation: {
+				drawTime: 'afterDatasetsDraw',
+				annotations: [{
+					id: 'a-line-1',
+					type: 'line',
+					mode: 'horizontal',
+					scaleID: 'y-axis-0',
+					value: percentageAverage,
+					borderColor: tertiaryChartColor,
+					borderWidth: 4,
+					label: {
+						backgroundColor: tertiaryChartColor,
+						content: labels[lang].nationalAvg+' ('+percentageAverage+'%)',
+						enabled: true,
+						position: "right",
+						xAdjust: 10,
+						fontColor: "#182c57"
+
+					}
+					
+				}]
+			},
+			
+			
 		}
-		window.configPenetration = configDevice;
-		window.penetrationChart = new Chart(penetrationByRegion, configDevice);
 	}
-	
+	window.configPenetration = configDevice;
+	window.penetrationChart = new Chart(penetrationByRegion, configDevice);*/
+	//}
+
 	//Notification and positive chart week
-	
+
 	let notificationByRegion = document.getElementById('notificationByRegion')
 	let positiveUsersByRegion = document.getElementById('positiveUsersByRegion')
 	let lastWeekUpdateNotifications = document.getElementById('lastWeekUpdateNotifications')
 	let lastWeekUpdatePositiveUsers = document.getElementById('lastWeekUpdatePositiveUsers')
-	if(lastWeekUpdateNotifications && lastWeekUpdatePositiveUsers){
+	if (lastWeekUpdateNotifications && lastWeekUpdatePositiveUsers) {
 		var lastWeek = moment(andamentoRegionale[0].settimana)
-		lastWeekUpdateNotifications.innerHTML =  lastWeek.format('DD/MM/YYYY')+" - "+lastWeek.add(6, 'days').format('DD/MM/YYYY')
-		lastWeekUpdatePositiveUsers.innerHTML =  lastWeekUpdateNotifications.innerHTML
+		lastWeekUpdateNotifications.innerHTML = lastWeek.format('DD/MM/YYYY') + " - " + lastWeek.add(6, 'days').format('DD/MM/YYYY')
+		lastWeekUpdatePositiveUsers.innerHTML = lastWeekUpdateNotifications.innerHTML
 	}
 
 	if (notificationByRegion && positiveUsersByRegion) {
-		
+
 		var notificationsChartData = {
-			labels:  andamentoRegionale.map((d) => d.denominazione_regione),
+			labels: andamentoRegionale.map((d) => d.denominazione_regione),
 			datasets: [{
 				label: labels[lang].notification,
 				backgroundColor: primaryChartColor,
-				data: andamentoRegionale.map((d) => {if(d.notifiche_inviate==-1)return 0; else return d.notifiche_inviate})
+				data: andamentoRegionale.map((d) => { if (d.notifiche_inviate == -1) return 0; else return d.notifiche_inviate })
 			}]
 
 		};
 		var positiveUsersChartData = {
-			labels:  andamentoRegionale.map((d) => d.denominazione_regione),
+			labels: andamentoRegionale.map((d) => d.denominazione_regione),
 			datasets: [{
 				label: labels[lang].positiveUsers,
 				backgroundColor: tertiaryChartColor,
-				data: andamentoRegionale.map((d) => {if(d.utenti_positivi==-1)return 0; else return d.utenti_positivi})
+				data: andamentoRegionale.map((d) => { if (d.utenti_positivi == -1) return 0; else return d.utenti_positivi })
 			}]
 
 		};
@@ -708,34 +762,34 @@ function generateChart() {
 					backgroundColor: labelBackgroundColor,
 					displayColors: false,
 					callbacks: {
-						title:function (tooltipItem, data) {
-							
-							return ""+tooltipItem[0].label
+						title: function (tooltipItem, data) {
+
+							return "" + tooltipItem[0].label
 						},
 						label: function (tooltipItem, data) {
 							let thisVal = data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index]
-							if(thisVal!=0){
+							if (thisVal != 0) {
 								thisVal = valueFormat(thisVal)
 							} else {
 								thisVal = "< 6"
 							}
-							return data.datasets[tooltipItem.datasetIndex].label+": " + thisVal;
+							return data.datasets[tooltipItem.datasetIndex].label + ": " + thisVal;
 						},
-						
+
 					},
 				},
 				responsive: true,
 				legend: {
 					display: false
 				},
-				scales:{
+				scales: {
 					xAxes: [{
 						display: true,
 						ticks: {
 							autoSkip: false,
 							fontSize: 8
 						},
-						
+
 					}]
 				}
 			}
@@ -750,11 +804,11 @@ function generateChart() {
 		window.weeklyPositiveUsersReportByRegion = new Chart(positiveUsersByRegion, configDevice2);
 	}
 
-	
-	
-	
-	
-	
+
+
+
+
+
 };
 
 
@@ -763,15 +817,15 @@ function generateChart() {
 export function updateChartLang() {
 
 	const lang = localStorage.getItem("language");
-	moment.locale(lang); 
+	moment.locale(lang);
 
-	
+
 	let lastUpdateDiv = document.getElementById('lastUpdate')
 	if (lastUpdateDiv) {
-		let lastDate = andamentoNazionale[andamentoNazionale.length-1].data
+		let lastDate = andamentoNazionale[andamentoNazionale.length - 1].data
 		var lastUpdate = moment(lastDate)
-		lastUpdateDiv.innerHTML =  lastUpdate.format('D MMMM YYYY')
-	} 
+		lastUpdateDiv.innerHTML = lastUpdate.format('D MMMM YYYY')
+	}
 
 
 	//DOWNLOAD UPD
@@ -787,7 +841,7 @@ export function updateChartLang() {
 	downloadData = downloadData.slice(Math.max(downloadData.length - 7, 0))
 	downloadLabels = downloadLabels.slice(Math.max(downloadLabels.length - 7, 0))
 
-	if(window.configDownloadTrend){
+	if (window.configDownloadTrend) {
 		window.configDownloadTrend.data.labels = downloadLabels;
 		window.configDownloadTrend.options.scales.xAxes[0].scaleLabel.labelString = labels[lang].day;
 		window.downloadTrendChart.update();
@@ -797,7 +851,7 @@ export function updateChartLang() {
 	var notificationLabels = []
 	var notificationData = []
 	var positiveUserData = []
-	
+
 	andamentoNazionale.forEach(function (element) {
 		var day = element.data
 		var notifiche = element.notifiche_inviate;
@@ -813,54 +867,63 @@ export function updateChartLang() {
 	positiveUserData = positiveUserData.slice(Math.max(positiveUserData.length - maxDayGraph, 0))
 	notificationLabels = notificationLabels.slice(Math.max(notificationLabels.length - maxDayGraph, 0))
 
-	if(window.configNotificationTrend){
-		
+	if (window.configNotificationTrend) {
+
 		window.configNotificationTrend.data.labels = notificationLabels;
 		window.configNotificationTrend.data.datasets[0].label = labels[lang].notification;
-		window.configNotificationTrend.data.datasets[1].label = labels[lang].positiveUsers;
-		window.configNotificationTrend.options.scales.xAxes[0].scaleLabel.labelString = labels[lang].day;
+		window.configNotificationTrend.options.scales.xAxes[0].scaleLabel.labelString = labels[lang].month;
 		window.configNotificationTrend.options.scales.yAxes[0].scaleLabel.labelString = labels[lang].notification;
-		window.configNotificationTrend.options.scales.yAxes[1].scaleLabel.labelString = labels[lang].positiveUsers;
-		window.configNotificationTrend.options.tooltips.callbacks.label=function (tooltipItem, data) {
-			if(tooltipItem.datasetIndex==0)
-				return addDot(tooltipItem.yLabel)+ " " + labels[lang].notification.toLowerCase();
-			if(tooltipItem.datasetIndex==1)
-				return addDot(tooltipItem.yLabel)+ " " + labels[lang].positiveUsers.toLowerCase();
+		window.configNotificationTrend.options.tooltips.callbacks.label = function (tooltipItem, data) {
+			if (tooltipItem.datasetIndex == 0)
+				return addDot(tooltipItem.yLabel) + " " + labels[lang].notification.toLowerCase();
 		}
 		//window.configNotificationTrend.options.scales.xAxes[0].scaleLabel.labelString = labels[lang].day;
 		window.notificationTrendChart.update()
-		
+
+	}
+	if (window.configPositiveTrend) {
+
+		window.configPositiveTrend.data.labels = notificationLabels;
+		window.configPositiveTrend.data.datasets[0].label = labels[lang].positiveUsers;
+		window.configPositiveTrend.options.scales.xAxes[0].scaleLabel.labelString = labels[lang].month;
+		window.configPositiveTrend.options.scales.yAxes[0].scaleLabel.labelString = labels[lang].positiveUsers;
+		window.configPositiveTrend.options.tooltips.callbacks.label = function (tooltipItem, data) {
+			if (tooltipItem.datasetIndex == 0)
+				return addDot(tooltipItem.yLabel) + " " + labels[lang].positiveUsers.toLowerCase();
+		}
+		//window.configNotificationTrend.options.scales.xAxes[0].scaleLabel.labelString = labels[lang].day;
+		window.positiveTrendChart.update()
 	}
 
 	//Penetration region
 	let percentageAverage = 0.0;
-	
+
 	let sumDownload = 0;
 	let sumPopulation = 0;
 	percentualeDownloadRegioni.forEach(a => {
 		//var percentage = ((a.download / a.popolazione_superiore_14anni) * 100).round(1);
 		//percentageAverage+=percentage;
 
-		sumDownload+=a.download
-		sumPopulation+=a.popolazione_superiore_14anni
+		sumDownload += a.download
+		sumPopulation += a.popolazione_superiore_14anni
 	});
 	//percentageAverage = (percentageAverage/percentualeDownloadRegioni.length).round(1);
 	percentageAverage = ((sumDownload / sumPopulation) * 100).round(1);
 
-	
-	if(window.configPenetration){
+
+	if (window.configPenetration) {
 
 		window.penetrationChart.annotation.elements = [];
-		window.configPenetration.options.annotation.annotations[0].label.content = labels[lang].nationalAvg+' ('+percentageAverage+'%)'
+		window.configPenetration.options.annotation.annotations[0].label.content = labels[lang].nationalAvg + ' (' + percentageAverage + '%)'
 
 
 		window.configPenetration.options.tooltips.callbacks.title = function (tooltipItem, data) {
 			let i = tooltipItem[0].index
 			let region = percentualeDownloadRegioni[i]
 			var percent = tooltipItem[0].value
-			return ""+tooltipItem[0].label+" ("+percent+"%)\nDownload: "+addDot(region.download)+"\n"+labels[lang].over14yo+": "+addDot(region.popolazione_superiore_14anni)
+			return "" + tooltipItem[0].label + " (" + percent + "%)\nDownload: " + addDot(region.download) + "\n" + labels[lang].over14yo + ": " + addDot(region.popolazione_superiore_14anni)
 		}
-		
+
 
 
 		window.penetrationChart.update()
@@ -868,24 +931,24 @@ export function updateChartLang() {
 
 
 	//Notification by region
-	if(window.configWeeklyNotificationsReport ){
+	if (window.configWeeklyNotificationsReport) {
 		window.configWeeklyNotificationsReport.data.datasets[0].label = labels[lang].notification;
 		window.weeklyNotificationsReportByRegion.update();
 	}
 	//Positive users by region
-	if(window.configWeeklyPositiveUsersReport ){
+	if (window.configWeeklyPositiveUsersReport) {
 		window.configWeeklyPositiveUsersReport.data.datasets[0].label = labels[lang].positiveUsers;
 		window.weeklyPositiveUsersReportByRegion.update();
 	}
 
 
 	//Europe MAP
-	if(window.configEuropeMap ){
-		window.configEuropeMap.options.tooltips.callbacks.label=function (tooltipItem, data) {
+	if (window.configEuropeMap) {
+		window.configEuropeMap.options.tooltips.callbacks.label = function (tooltipItem, data) {
 			return countriesLang[lang][data['labels'][tooltipItem.index]]
 		}
 		window.europeMap.update();
 	}
-	
 
-  }
+
+}
