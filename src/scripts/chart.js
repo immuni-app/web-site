@@ -208,8 +208,9 @@ function generateChart() {
 			androidDownload.push(android_value)
 		})
 
-		downloadData = downloadData.slice(Math.max(downloadData.length - 7, 0))
-		downloadLabels = downloadLabels.slice(Math.max(downloadLabels.length - 7, 0))
+		downloadData = downloadData.slice(Math.max(downloadData.length - 31, 0))
+		downloadLabels = downloadLabels.slice(Math.max(downloadLabels.length - 31, 0))
+		console.log("dwn", downloadLabels)
 
 		let dataset = [{
 			data: downloadData,
@@ -879,7 +880,7 @@ export function updateChartLang() {
 
 		window.configNotificationTrend.data.labels = notificationLabels;
 		window.configNotificationTrend.data.datasets[0].label = labels[lang].notification;
-		window.configNotificationTrend.options.scales.xAxes[0].scaleLabel.labelString = labels[lang].month;
+		window.configNotificationTrend.options.scales.xAxes[0].scaleLabel.labelString = labels[lang].day;
 		window.configNotificationTrend.options.scales.yAxes[0].scaleLabel.labelString = labels[lang].notification;
 		window.configNotificationTrend.options.tooltips.callbacks.label = function (tooltipItem, data) {
 			if (tooltipItem.datasetIndex == 0)
@@ -893,7 +894,7 @@ export function updateChartLang() {
 
 		window.configPositiveTrend.data.labels = notificationLabels;
 		window.configPositiveTrend.data.datasets[0].label = labels[lang].positiveUsers;
-		window.configPositiveTrend.options.scales.xAxes[0].scaleLabel.labelString = labels[lang].month;
+		window.configPositiveTrend.options.scales.xAxes[0].scaleLabel.labelString = labels[lang].day;
 		window.configPositiveTrend.options.scales.yAxes[0].scaleLabel.labelString = labels[lang].positiveUsers;
 		window.configPositiveTrend.options.tooltips.callbacks.label = function (tooltipItem, data) {
 			if (tooltipItem.datasetIndex == 0)
