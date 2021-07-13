@@ -39,7 +39,7 @@ const primaryChartColor = '#5851FF';
 const primaryChartColorTrasparency = "rgba(68,110,255,0.4)";
 const secondaryChartColor = '#9f9eff';
 const tertiaryChartColor = '#ffc003';
-const maxDayGraph = 30;
+const maxDayGraph = 31;
 
 const labels = {
 	it: {
@@ -847,8 +847,9 @@ export function updateChartLang() {
 		downloadData.push(total);
 	})
 
-	downloadData = downloadData.slice(Math.max(downloadData.length - 7, 0))
-	downloadLabels = downloadLabels.slice(Math.max(downloadLabels.length - 7, 0))
+	downloadData = downloadData.slice(Math.max(downloadData.length - 31, 0))
+	downloadLabels = downloadLabels.slice(Math.max(downloadLabels.length - 31, 0))
+	console.log("dwn", downloadLabels)
 
 	if (window.configDownloadTrend) {
 		window.configDownloadTrend.data.labels = downloadLabels;
