@@ -137,7 +137,7 @@
         </a>
       </li>
 
-      
+
     </ul>
   </div>
 
@@ -166,7 +166,7 @@
               <span class="dashboard-card__title" data-i18n="dashboard.notification">notifiche inviate negli ultimi 10
                 giorni</span>
             </div>
-            
+
           </div>
         </div>
       </div>
@@ -181,14 +181,12 @@
         <div class="chart-card">
           <p class="colored" style="margin-bottom: 10px;" data-i18n="dashboard.downloadTrends">Andamento dei download
           </p>
-          <canvas id="downloadTrend" role="img"
-            aria-label="Andamento dei download negli ultimi 7 giorni."></canvas>
+          <canvas id="downloadTrend" role="img" aria-label="Andamento dei download negli ultimi 7 giorni."></canvas>
         </div>
         <div class="chart-card">
           <p class="colored" style="margin-bottom: 10px;" data-i18n="dashboard.usedDevices">Device utilizzati
           </p>
-          <canvas id="downloadDevice" role="img"
-            aria-label="Device utilizzati"></canvas>
+          <canvas id="downloadDevice" role="img" aria-label="Device utilizzati"></canvas>
         </div>
         <!--
         <div class="chart-card">
@@ -197,32 +195,37 @@
           <canvas id="downloadMap"></canvas>
         </div>-->
         <div class="chart-card">
-          <p class="colored" style="margin-bottom: 10px;" role="img"
-            aria-label="" data-i18n="dashboard.weeklyNotificationsRegionalData">Notifiche per regione su base settimanale</p>
-            <canvas id="notificationByRegion" ></canvas>
-          <p style="font-size: 12px; max-width: 780px;"> 
-            <span data-i18n="dashboard.dataReferringWeek">Dati riferiti alla settimana</span> <span id="lastWeekUpdateNotifications">30/09/2020</span>.<br/>
+          <p class="colored" style="margin-bottom: 10px;" role="img" aria-label=""
+            data-i18n="dashboard.weeklyPositiveUsersRegionalData">Utenti positivi per regione su base settimanale</p>
+          <canvas id="positiveUsersByRegion"></canvas>
+          <p style="font-size: 12px; max-width: 780px;">
+            <span data-i18n="dashboard.dataReferringWeek">Dati riferiti al mese di</span> <span
+              id="lastWeekUpdatePositiveUsers">Giugno 2020</span>.<br />
           </p>
         </div>
         <div class="chart-card">
-          <p class="colored" style="margin-bottom: 10px;" role="img"
-            aria-label="" data-i18n="dashboard.weeklyPositiveUsersRegionalData">Utenti positivi per regione su base settimanale</p>
-            <canvas id="positiveUsersByRegion" ></canvas>
-          <p style="font-size: 12px; max-width: 780px;"> 
-            <span data-i18n="dashboard.dataReferringWeek">Dati riferiti alla settimana</span> <span id="lastWeekUpdatePositiveUsers">30/09/2020</span>.<br/>
+          <p class="colored" style="margin-bottom: 10px;" role="img" aria-label=""
+            data-i18n="dashboard.weeklyNotificationsRegionalData">Notifiche per regione su base settimanale</p>
+          <canvas id="notificationByRegion"></canvas>
+          <p style="font-size: 12px; max-width: 780px;">
+            <span data-i18n="dashboard.dataReferringWeek">Dati riferiti al mese di</span> <span
+              id="lastWeekUpdateNotifications">Giugno 2020</span>.<br />
           </p>
         </div>
-        
-      </div>
-      <div class="dashboard-herochart-wrapper">
+
         <div class="chart-card">
-          <p class="colored" style="margin-bottom: 10px;" role="img"
-            aria-label="" data-i18n="dashboard.notificationTrends">Andamento delle notifiche</p>
+          <p class="colored" style="margin-bottom: 10px;" role="img" aria-label="" data-i18n="dashboard.positiveTrends">
+            Andamento degli utenti positivi</p>
+          <canvas id="positiveTrend"></canvas>
+        </div>
+        <div class="chart-card">
+          <p class="colored" style="margin-bottom: 10px;" role="img" aria-label=""
+            data-i18n="dashboard.notificationTrends">Andamento delle notifiche</p>
           <canvas id="notificationTrend"></canvas>
         </div>
-
-
-        <div class="chart-card">
+      </div>
+      <div class="dashboard-herochart-wrapper">
+        <!-- <div class="chart-card">
           <p class="colored" style="margin-bottom: 10px;" role="img"
             aria-label="" data-i18n="dashboard.percentageOverPopulation">Percentuale di download su numero di abitanti
            
@@ -232,15 +235,15 @@
           <p style="font-size: 12px; max-width: 780px;"> 
             <span data-i18n="dashboard.penetrationByRegionNote">Proiezione fatta dal ministero della salute aggiornata al</span> <span id="lastUpdatePenetrationByRegion">--</span>.<br/>
           </p>
-        </div>
+        </div>-->
 
         <div class="chart-card">
-          <p class="colored" style="margin-bottom: 10px;" role="img"
-            aria-label="" data-i18n="dashboard.europeanCountryActive">Paesi europei attivi per l'interoperabilità
+          <p class="colored" style="margin-bottom: 10px;" role="img" aria-label=""
+            data-i18n="dashboard.europeanCountryActive">Paesi europei attivi per l'interoperabilità
           </p>
-        
+
           <canvas id="europeMap"></canvas>
-            <!--<ul style="text-align:justify;font-size: larger;">
+          <!--<ul style="text-align:justify;font-size: larger;">
               <li class="country-flag"><img src="<%= require('../assets/img/flag/it.png') %>"> Italia</li>
               <li class="country-flag"><img src="<%= require('../assets/img/flag/de.png') %>"> Germania</li>
               <li class="country-flag"><img src="<%= require('../assets/img/flag/lv.png') %>"> Lettonia</li>
@@ -248,16 +251,16 @@
             </ul>-->
 
         </div>
-        
-        
 
-        
+
+
+
 
       </div>
-      
+
     </div>
   </section>
-<!--
+  <!--
   <section class="section  small-padding light">
     <div class="container">
       <p class="colored" style="margin-bottom: 10px;" role="img"
@@ -280,25 +283,30 @@
 </div>
 </section>
 -->
-  
+
 
   <section class="section  small-padding ">
     <div class="container">
       <div class="has-text-centered">
-        
+
         <p class="intro delayed">
           <span data-i18n="dashboard.lastUpdate">Dati forniti dal Ministero della Salute.<br />Ultimo
             aggiornamento:</span> <span id="lastUpdate">--</span><br>
         </p>
-        <br/>
-        <p style="font-size: 16px; max-width: 90%"> 
-          <span data-i18n="dashboard.linkOpenData">Tutti i dati sono disponibili in formato CSV e JSON su github al seguente</span> <a href="https://github.com/immuni-app/immuni-dashboard-data">link</a>.
+        <br />
+        <p style="font-size: 16px; max-width: 90%">
+          <span data-i18n="dashboard.linkOpenData">Tutti i dati sono disponibili in formato CSV e JSON su github al
+            seguente</span> <a href="https://github.com/immuni-app/immuni-dashboard-data">link</a>.
         </p>
-        <br/>
-        <p style="font-size: 12px; max-width: 90%"> 
-          <span data-i18n="dashboard.downloadDetail">1 Sono i download unici dell’applicazione (non comprende gli aggiornamenti)</span><br/>
-          <span data-i18n="dashboard.positiveUserDetail">2 Utenti di immuni che a seguito di un tampone positivo al virus hanno comunicato il proprio codice al Servizio Sanitario Nazionale</span><br/>
-          <span data-i18n="dashboard.notificationDetail">3 La rilevazione è parziale poichè solamente un terzo dei device Android utilizza la tecnologia di hardware attestation, condizione necessaria affinchè i dati vengano registrati dal server</span><br/>
+        <br />
+        <p style="font-size: 12px; max-width: 90%">
+          <span data-i18n="dashboard.downloadDetail">1 Sono i download unici dell’applicazione (non comprende gli
+            aggiornamenti)</span><br />
+          <span data-i18n="dashboard.positiveUserDetail">2 Utenti di immuni che a seguito di un tampone positivo al
+            virus hanno comunicato il proprio codice al Servizio Sanitario Nazionale</span><br />
+          <span data-i18n="dashboard.notificationDetail">3 La rilevazione è parziale poichè solamente un terzo dei
+            device Android utilizza la tecnologia di hardware attestation, condizione necessaria affinchè i dati vengano
+            registrati dal server</span><br />
           <span data-i18n="dashboard.androidDownloadDetail">4 </span>
         </p>
       </div>
@@ -355,35 +363,17 @@
                 <li>
                   <a href="tel:800912491">800 91 24 91</a><br />
                   <p data-i18n="footer.phoneInfo">(8-20, numero verde)</p>
-                  <a 
-                      href="https://www.facebook.com/appimmuni/"
-                      target="_blank"
-                    >
-                    <img
-                      src="<%= require('../assets/img/icon-facebook.png') %>"
-                      alt="Facebook Logo"
-                      class="footer__social"
-                    />
+                  <a href="https://www.facebook.com/appimmuni/" target="_blank">
+                    <img src="<%= require('../assets/img/icon-facebook.png') %>" alt="Facebook Logo"
+                      class="footer__social" />
                   </a>
-                  <a 
-                    href="https://twitter.com/immuni_app"
-                    target="_blank"
-                  >
-                    <img
-                      src="<%= require('../assets/img/icon-twitter.png') %>"
-                      alt="Twitter Logo"
-                      class="footer__social"
-                    />
+                  <a href="https://twitter.com/immuni_app" target="_blank">
+                    <img src="<%= require('../assets/img/icon-twitter.png') %>" alt="Twitter Logo"
+                      class="footer__social" />
                   </a>
-                  <a 
-                    href="https://www.instagram.com/immuni_app_official/?hl=it"
-                    target="_blank"
-                  >
-                    <img
-                      src="<%= require('../assets/img/icon-instagram.png') %>"
-                      alt="Instagram Logo"
-                      class="footer__social"
-                    />
+                  <a href="https://www.instagram.com/immuni_app_official/?hl=it" target="_blank">
+                    <img src="<%= require('../assets/img/icon-instagram.png') %>" alt="Instagram Logo"
+                      class="footer__social" />
                   </a>
                 </li>
               </ul>
@@ -409,12 +399,12 @@
                   Informativa privacy contact center
                 </a>
               </li>
-              <li >
+              <li>
                 <a href="/cs-pn-si.html" data-i18n="footer.info.list.privacy-cs-si">
                   Informativa privacy servizio di contact center “Sblocca Immuni”
                 </a>
               </li>
-      
+
             </ul>
           </div>
           <div class="list-wrapper mobile-hidden">
@@ -428,36 +418,18 @@
               <li>
                 <a href="tel:800912491">800 91 24 91</a><br />
                 <p data-i18n="footer.phoneInfo">(8-20, numero verde)</p>
-                <a 
-                      href="https://www.facebook.com/appimmuni/"
-                      target="_blank"
-                    >
-                    <img
-                      src="<%= require('../assets/img/icon-facebook.png') %>"
-                      alt="Facebook Logo"
-                      class="footer__social"
-                    />
-                  </a>
-                  <a 
-                    href="https://twitter.com/immuni_app"
-                    target="_blank"
-                  >
-                    <img
-                      src="<%= require('../assets/img/icon-twitter.png') %>"
-                      alt="Twitter Logo"
-                      class="footer__social"
-                    />
-                  </a>
-                  <a 
-                    href="https://www.instagram.com/immuni_app_official/?hl=it"
-                    target="_blank"
-                  >
-                    <img
-                      src="<%= require('../assets/img/icon-instagram.png') %>"
-                      alt="Instagram Logo"
-                      class="footer__social"
-                    />
-                  </a>
+                <a href="https://www.facebook.com/appimmuni/" target="_blank">
+                  <img src="<%= require('../assets/img/icon-facebook.png') %>" alt="Facebook Logo"
+                    class="footer__social" />
+                </a>
+                <a href="https://twitter.com/immuni_app" target="_blank">
+                  <img src="<%= require('../assets/img/icon-twitter.png') %>" alt="Twitter Logo"
+                    class="footer__social" />
+                </a>
+                <a href="https://www.instagram.com/immuni_app_official/?hl=it" target="_blank">
+                  <img src="<%= require('../assets/img/icon-instagram.png') %>" alt="Instagram Logo"
+                    class="footer__social" />
+                </a>
               </li>
             </ul>
           </div>
