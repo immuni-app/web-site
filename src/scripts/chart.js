@@ -358,7 +358,7 @@ function generateChart() {
 					displayColors: false,
 					callbacks: {
 						label: function (tooltipItem, data) {
-							return addDot(tooltipItem.yLabel) + " " + [labels[lang].notification.toLowerCase(), labels[lang].positiveUsers.toLowerCase()][tooltipItem.datasetIndex];
+							return addDot(tooltipItem.yLabel) + " " + [labels[lang].notification.toLowerCase()][tooltipItem.datasetIndex];
 						}
 					}
 				},
@@ -410,7 +410,7 @@ function generateChart() {
 					displayColors: false,
 					callbacks: {
 						label: function (tooltipItem, data) {
-							return addDot(tooltipItem.yLabel) + " " + [labels[lang].notification.toLowerCase(), labels[lang].positiveUsers.toLowerCase()][tooltipItem.datasetIndex];
+							return addDot(tooltipItem.yLabel) + " " + [labels[lang].positiveUsers.toLowerCase()][tooltipItem.datasetIndex];
 						}
 					}
 				},
