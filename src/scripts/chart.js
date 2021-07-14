@@ -40,6 +40,14 @@ const primaryChartColorTrasparency = "rgba(68,110,255,0.4)";
 const secondaryChartColor = '#9f9eff';
 const tertiaryChartColor = '#ffc003';
 const maxDayGraph = 31;
+let monthNames = {
+	"it": ["Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno", "Luglio", "Agosto", "Settembre", "Ottobre", "Novembre", "Dicembre"],
+	"fr": ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"],
+	"en": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+	"de": ["der Januar", "der Februar", "der März", "der April", "der Mai", "der Juni", "der Juli ", "der August", "der September", "der Oktober", "der November ", "der Dezember "],
+	"es": ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
+}
+let formattedDate = new Date(andamentoRegionale[0]['mese'])
 
 const labels = {
 	it: {
@@ -151,7 +159,6 @@ function generateChart() {
 	*/
 
 	const lang = localStorage.getItem("language");
-	console.log("olang", lang)
 	let lastDate = downloadDataset[downloadDataset.length - 1].data
 
 	let lastDownloadValue = downloadDataset[downloadDataset.length - 1]
@@ -210,7 +217,6 @@ function generateChart() {
 
 		downloadData = downloadData.slice(Math.max(downloadData.length - 31, 0))
 		downloadLabels = downloadLabels.slice(Math.max(downloadLabels.length - 31, 0))
-		console.log("dwn", downloadLabels)
 
 		let dataset = [{
 			data: downloadData,
@@ -718,13 +724,8 @@ function generateChart() {
 	//}
 
 	//Notification and positive chart month
-	let monthNames = ["Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno",
-		"Luglio", "Agosto", "Settembre", "Ottobre", "Novembre", "Dicembre"
-	];
-	let formattedDate = new Date(andamentoRegionale[0]['mese'])
-	let meseLabel = monthNames[formattedDate.getMonth()]
+	let meseLabel = monthNames[lang][formattedDate.getMonth()]
 	let annoLabel = formattedDate.getFullYear()
-
 	let notificationByRegion = document.getElementById('notificationByRegion')
 	let positiveUsersByRegion = document.getElementById('positiveUsersByRegion')
 	let lastWeekUpdateNotifications = document.getElementById('lastWeekUpdateNotifications')
@@ -827,7 +828,10 @@ export function updateChartLang() {
 
 	const lang = localStorage.getItem("language");
 	moment.locale(lang);
-
+	let meseLabel = monthNames[lang][formattedDate.getMonth()]
+	let annoLabel = formattedDate.getFullYear()
+	lastWeekUpdateNotifications.innerHTML = meseLabel + " " + annoLabel
+	lastWeekUpdatePositiveUsers.innerHTML = meseLabel + " " + annoLabel
 
 	let lastUpdateDiv = document.getElementById('lastUpdate')
 	if (lastUpdateDiv) {
@@ -849,7 +853,6 @@ export function updateChartLang() {
 
 	downloadData = downloadData.slice(Math.max(downloadData.length - 31, 0))
 	downloadLabels = downloadLabels.slice(Math.max(downloadLabels.length - 31, 0))
-	console.log("dwn", downloadLabels)
 
 	if (window.configDownloadTrend) {
 		window.configDownloadTrend.data.labels = downloadLabels;
