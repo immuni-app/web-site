@@ -31,7 +31,9 @@
       }
     },
     "phone": "Support",
-    "phoneInfo": "(8am-8pm, toll free)"
+    "phoneInfo": "(8am-8pm, toll free)",
+    "supporto_tecnico": "Technical support: ",
+    "segnalazione_positivita":"Report positivity: "
   },
   "home": {
     "hero": {
