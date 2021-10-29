@@ -34,7 +34,10 @@ let monthNames = {
 	"de": ["der Januar", "der Februar", "der März", "der April", "der Mai", "der Juni", "der Juli ", "der August", "der September", "der Oktober", "der November ", "der Dezember "],
 	"es": ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
 }
-let formattedDate = new Date(andamentoRegionale[0]['mese'])
+
+let lastDateString = andamentoRegionale[0]['mese']
+let formattedDate = moment(lastDateString).toDate()
+
 Number.prototype.round = function (places) {
 	return +(Math.round(this + "e+" + places) + "e-" + places);
 }
@@ -725,7 +728,7 @@ function generateChart() {
 	//Notification and positive chart month
 	let meseLabel = monthNames[lang][formattedDate.getMonth()]
 	let annoLabel = formattedDate.getFullYear()
-
+	
 	let notificationByRegion = document.getElementById('notificationByRegion')
 	let positiveUsersByRegion = document.getElementById('positiveUsersByRegion')
 	let lastWeekUpdateNotifications = document.getElementById('lastWeekUpdateNotifications')
