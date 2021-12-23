@@ -1,7 +1,6 @@
 import "./styles/index.scss";
 import { handleHamburger, fixNav, anchorScroll } from "./scripts/menu-helper";
 import { withinViewport } from "./scripts/reveal-helper";
-import { handleCookies } from "./scripts/cookies-helper";
 import { handleFaq } from "./scripts/faq-helper";
 import { animateTitle } from "./scripts/text-animation";
 import { cssVarSupport } from "./scripts/browser-helper";
@@ -56,7 +55,8 @@ selectors.forEach(function (el) {
 
 const intro = document.querySelectorAll(".intro");
 
-handleCookies();
+ga("set", "anonymizeIp", true);
+ga("send", "pageview");
 handleHamburger();
 anchorScroll();
 intro.forEach((el) => {

@@ -1,5 +1,4 @@
 import { handleFaq } from "./faq-helper";
-import { updateCookiesLang } from "./cookies-helper";
 import { handleHomeImage, handleReportImage } from "./translation-helper";
 import { updateChartLang } from "./chart"
 export function selectSupport(translator) {
@@ -336,7 +335,6 @@ export function selectSupport(translator) {
     // callback
     this.options.onChange(this.el.value);
     translator.load(this.el.value);
-    updateCookiesLang();
     updateChartLang();
     handleHomeImage();
     handleReportImage()
