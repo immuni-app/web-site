@@ -18,7 +18,7 @@
     {
       "id": 3,
       "title": "Come viene tutelata la mia privacy?",
-      "content": "Nello sviluppo di Immuni è stata dedicata grande attenzione alla tutela della privacy. Molte misure sono state adottate per proteggerla, eccone alcune:\n• L’app non raccoglie dati che permettono di risalire alla tua identità. Non chiede, né è in grado di ottenere, il tuo nome, cognome, data di nascita, indirizzo, numero di telefono o e-mail.\n• I tuoi spostamenti non sono tracciati né tracciabili in alcun modo. \n• I codici casuali che gli smartphone si scambiano tramite Bluetooth non contengono né informazioni sul tuo dispositivo, né tanto meno su di te. \n• Per maggior tutela della tua privacy questi codici casuali cambiano numerose volte ogni ora.\n• I dati salvati sul tuo smartphone e le connessioni tra l’app e il server sono cifrati.\n• Tutti i dati salvati sul dispositivo o sul server saranno cancellati quando non più necessari e in ogni caso prima del 31 dicembre 2020.\n• I tuoi dati sono raccolti dal Ministero della Salute e verranno usati solo per contenere l’epidemia del Covid-19 o ai fini della ricerca scientifica.\n• I dati sono salvati su server in Italia e gestiti da soggetti pubblici."
+      "content": "Nello sviluppo di Immuni è stata dedicata grande attenzione alla tutela della privacy. Molte misure sono state adottate per proteggerla, eccone alcune:\n• L’app non raccoglie dati che permettono di risalire alla tua identità. Non chiede, né è in grado di ottenere, il tuo nome, cognome, data di nascita, indirizzo, numero di telefono o e-mail.\n• I tuoi spostamenti non sono tracciati né tracciabili in alcun modo. \n• I codici casuali che gli smartphone si scambiano tramite Bluetooth non contengono né informazioni sul tuo dispositivo, né tanto meno su di te. \n• Per maggior tutela della tua privacy questi codici casuali cambiano numerose volte ogni ora.\n• I dati salvati sul tuo smartphone e le connessioni tra l’app e il server sono cifrati.\n• Tutti i dati salvati sul dispositivo o sul server saranno cancellati quando non più necessari e in ogni caso prima del 31 dicembre 2022.\n• I tuoi dati sono raccolti dal Ministero della Salute e verranno usati solo per contenere l’epidemia del Covid-19 o ai fini della ricerca scientifica.\n• I dati sono salvati su server in Italia e gestiti da soggetti pubblici."
     },
     {
       "id": 4,
@@ -153,17 +153,17 @@
     {
       "id": 30,
       "title": "Cos’è e come funziona il codice monouso?",
-      "content": "Il codice monouso è una sequenza alfanumerica di dieci caratteri che viene utilizzata soltanto in caso di positività al virus SARS-CoV-2 e che non identifica in alcun modo l’utente dell’app Immuni.\nSe sei risultato positivo/a al virus, puoi decidere di caricare sul server di Immuni i dati necessari ad avvertire, in maniera anonima, le persone che sono state a stretto contatto con te da 2 giorni prima dei sintomi (o del tampone se sei asintomatico) e fino ad un massimo di 14 giorni. Per farlo devi dettare il codice monouso che si trova alla voce “segnala positività” di Immuni (all’interno del menù “Impostazioni”) all’operatore sanitario che ti ha comunicato l’esito del tampone, oppure all’operatore telefonico del call center 800 91 24 91 se hai ricevuto il CUN (Codice Univoco Nazionale).\nDopo che l’operatore avrà validato il codice monouso, potrai procedere al caricamento del dato di positività. Questa operazione è anche detta “sblocco” di Immuni."
+      "content": "Il codice monouso è una sequenza alfanumerica di dieci caratteri che viene utilizzata soltanto in caso di positività al virus SARS-CoV-2 e che non identifica in alcun modo l’utente dell’app Immuni.\nSe sei risultato positivo/a al virus, puoi decidere di caricare sul server di Immuni i dati necessari ad avvertire, in maniera anonima, le persone che sono state a stretto contatto con te da 2 giorni prima dei sintomi (o del tampone se sei asintomatico) e fino ad un massimo di 14 giorni. Per farlo devi dettare il codice monouso che si trova alla voce “segnala positività” di Immuni (all’interno del menù “Impostazioni”) all’operatore sanitario che ti ha comunicato l’esito del tampone. Inoltre, se hai ricevuto il CUN, puoi segnalare in autonomia la tua positività  direttamente con la specifica funzione a disposizione nell'APP.\nQuesta operazione è anche detta “sblocco” di Immuni."
     },
     {
       "id": 31,
       "title": "Come e quando posso caricare i miei dati?",
-      "content": "Puoi caricare i tuoi dati soltanto se risulti positivo al coronavirus e se hai effettuato un test tramite tampone molecolare. L’operazione è su base volontaria e permette a Immuni di avvertire le persone con cui sei stato in contatto stretto da 2 giorni prima dei sintomi (o del tampone se sei asintomatico) e fino ad un massimo di 14 giorni. \nQuesta operazione può essere svolta con il supporto dell’operatore sanitario che ti ha comunicato l’esito positivo del tampone, oppure  se hai ricevuto il CUN col supporto dell’operatore del call center 800 91 24 91 o in autonomia con la specifica funzione a disposizione nell'APP.\n\n"
+      "content": "Puoi caricare i tuoi dati soltanto se risulti positivo al coronavirus e se hai effettuato un test tramite tampone molecolare. L’operazione è su base volontaria e permette a Immuni di avvertire le persone con cui sei stato in contatto stretto da 2 giorni prima dei sintomi (o del tampone se sei asintomatico) e fino ad un massimo di 14 giorni. \nQuesta operazione può essere svolta con il supporto dell’operatore sanitario che ti ha comunicato l’esito positivo del tampone, oppure  se hai ricevuto il CUN con la specifica funzione a disposizione nell'APP.\n\n"
     },
     {
       "id": 32,
       "title": "Quali sono i passaggi per caricare il dato di positività su Immuni?",
-      "content": "L’operatore sanitario del servizio di prevenzione che ti ha comunicato l’esito del tampone o l’operatore telefonico del call center di Immuni ti chiederà di entrare nella sezione “Impostazioni” e di scegliere “Segnala positività”.\nImmuni ti mostrerà un codice monouso, una sequenza di dieci caratteri generati in modo casuale.\nComunica questo codice all’operatore, che ti darà l’autorizzazione a proseguire\nFai clic su “Prosegui”\\nImmuni ti mostrerà un riepilogo dei dati che saranno caricati\nFacendo clic su “Carica i dati”, l’app caricherà i tuoi dati\nTi verrà infine chiesto il permesso per accedere ai codici casuali salvati sul tuo dispositivo\\nL’app ti mostrerà un messaggio di conferma una volta completato il caricamento."
+      "content": "L’operatore sanitario del servizio di prevenzione che ti ha comunicato l’esito del tampone ti chiederà di entrare nella sezione “Impostazioni” e di scegliere “Segnala positività”.\nImmuni ti mostrerà un codice monouso, una sequenza di dieci caratteri generati in modo casuale.\nComunica questo codice all’operatore, che ti darà l’autorizzazione a proseguire\nFai clic su “Prosegui” Immuni ti mostrerà un riepilogo dei dati che saranno caricati\nFacendo clic su “Carica i dati”, l’app caricherà i tuoi dati\nTi verrà infine chiesto il permesso per accedere ai codici casuali salvati sul tuo dispositivo L’app ti mostrerà un messaggio di conferma una volta completato il caricamento."
     },
     {
       "id": 33,
@@ -223,7 +223,7 @@
     {
       "id": 44,
       "title": "Chi sono gli operatori sanitari di cui parla Immuni?",
-      "content": "Si tratta di personale sanitario del Dipartimento di Prevenzione dell’ASL o delle Aziende ospedaliere che normalmente comunica telefonicamente l’esito del tampone all’utente. Se la persona che è risultata positiva ha installato Immuni, può scegliere di segnalare la propria positività. Così facendo permetterà ad Immuni di avvertire del rischio di contagio le persone con cui è stata a stretto contatto. \nA guidare e abilitare l’utente positivo nel caricamento dei dati e nello “sblocco” di Immuni, può essere sia lo stesso operatore sanitario che ha comunicato l’esito del referto, sia un operatore telefonico del call center dedicato a Immuni, raggiungibile al numero verde 800 91 24 91, se l'utente è anche in possesso del CUN."
+      "content": "Si tratta di personale sanitario del Dipartimento di Prevenzione dell’ASL o delle Aziende ospedaliere che normalmente comunica telefonicamente l’esito del tampone all’utente. Se la persona che è risultata positiva ha installato Immuni, può scegliere di segnalare la propria positività. Così facendo permetterà ad Immuni di avvertire del rischio di contagio le persone con cui è stata a stretto contatto. A guidare e abilitare l'utente positivo nel caricamento dei dati e nello \"sblocco\" di Immuni, può essere  lo stesso operatore sanitario che ha comunicato l'esito del referito oppure è possibile procedere in autonomia, se l'utente è anche in possesso del CUN, tramite l'apposita funzione dell'APP.\n"
     },
     {
       "id": 45,
@@ -243,7 +243,7 @@
     {
       "id": 48,
       "title": "Immuni mostra un messaggio di errore di connessione fin dalle prime fasi di utilizzo. Cosa posso fare?",
-      "content": "Se ti trovi al di fuori del territorio europeo, è normale che tu riceva un messaggio di errore. Alcune funzionalità di Immuni potrebbero infatti non essere disponibili.\n\nSe sei invece connesso da un luogo all’interno del territorio europeo, ti consigliamo di procedere come segue:\n• Verifica che il tuo smartphone sia connesso a Internet.\n• Connettiti da rete mobile. Il problema potrebbe essere dovuto ad una rete Wi-Fi configurata in modo errato.\n• Se stai utilizzando una VPN, disattivala. Potrebbe infatti averti assegnato un IP al di fuori del territorio europeo.\n\nTi ricordiamo che i paesi del territorio europeo sono: Austria, Belgio, Bulgaria, Croazia, Cipro, Danimarca, Estonia, Finlandia, Francia, Germania, Grecia, Ungheria, Irlanda, Italia, Lettonia, Lituania, Lussemburgo, Malta, Paesi Bassi, Polonia, Portogallo, Romania, Slovacchia, Slovenia, Spagna, Svezia, Islanda, Lichtenstein, Norvegia, Svizzera, Città del Vaticano, San Marino e Principato di Monaco."
+      "content": "Se ti trovi al di fuori del territorio europeo, è normale che tu riceva un messaggio di errore. Alcune funzionalità di Immuni potrebbero infatti non essere disponibili.\n\nSe sei invece connesso da un luogo all’interno del territorio europeo, ti consigliamo di procedere come segue:\n• Verifica che il tuo smartphone sia connesso a Internet.\n• Connettiti da rete mobile. Il problema potrebbe essere dovuto ad una rete Wi-Fi configurata in modo errato.\n• Se stai utilizzando una VPN, disattivala. Potrebbe infatti averti assegnato un IP al di fuori del territorio europeo.\n\nTi ricordiamo che i paesi del territorio europeo sono: Austria, Belgio, Bulgaria, Croazia, Cipro, Repubblica Ceca, Danimarca, Estonia, Finlandia, Francia, Germania, Grecia, Ungheria, Irlanda, Italia, Lettonia, Lituania, Lussemburgo, Malta, Paesi Bassi, Polonia, Portogallo, Romania, Slovacchia, Slovenia, Spagna, Svezia, Islanda, Lichtenstein, Norvegia, Svizzera, Città del Vaticano, San Marino e Principato di Monaco."
     },
     {
       "id": 49,
@@ -253,17 +253,17 @@
     {
       "id": 50,
       "title": "Che cosa si intende per “sblocco” di Immuni?\n",
-      "content": "Per avvisare della positività i contatti stretti avuti dalla persona risultata positiva al Covid-19, è necessario inviare il codice monouso al server di Immuni. Poiché il codice è temporaneo, questa operazione deve essere fatta in pochi minuti con il supporto di un operatore sanitario del Dipartimento di Prevenzione che ha eseguito il tampone oppure - per le regioni già abilitate al servizio - attraverso il call center Immuni. L’operatore verifica il codice monouso e autorizza il caricamento dei dati. \nL’intera operazione è comunemente chiamata “sblocco” di Immuni.\n"
+      "content": "Per avvisare della positività i contatti stretti avuti dalla persona risultata positiva al Covid-19, è necessario inviare il codice monouso al server di Immuni. Poiché il codice è temporaneo, questa operazione deve essere fatta in pochi minuti con il supporto di un operatore sanitario del Dipartimento di Prevenzione il quale verificherà la correttezza del codice ed autorizzerà il caricamento dei dati. In alternativa, se hai ricevuto il CUN, puoi utilizzare in autonomia la funzione a disposizione dell'APP. \nL’intera operazione è comunemente chiamata “sblocco” di Immuni."
     },
     {
       "id": 51,
       "title": "Che cos’è il CUN?",
-      "content": "Il CUN, o Codice Univoco Nazionale, è un codice che identifica univocamente l’esito di un tampone molecolare, sia esso positivo o negativo. È composto da 10 caratteri preceduti dal suffisso CUN-.\nAttraverso il CUN è possibile usufruire del servizio di call center che supporta il cittadino per lo sblocco di Immuni.\n"
+      "content": "Il CUN, o Codice Univoco Nazionale, è un codice che identifica univocamente l’esito di un tampone molecolare, sia esso positivo o negativo. È composto da 10 caratteri preceduti dal suffisso CUN-.\nAttraverso il CUN è possibile segnalare in autonomia la propria positività attraverso la funzione messa a disposizione sull'APP."
     },
     {
       "id": 52,
       "title": "Il CUN serve anche quando contatti o sei contattato dall’operatore sanitario del dipartimento di prevenzione?",
-      "content": "No, il CUN serve solo per richiedere il supporto al call center. "
+      "content": "No, il CUN serve solo per segnalare la propria positività in autonomia attraverso l'APP."
     },
     {
       "id": 53,
@@ -273,12 +273,12 @@
     {
       "id": 54,
       "title": "A cosa serve il CUN?",
-      "content": "Il CUN serve per procedere in autonomia alla segnalazione di positività tramite app Immuni e agli operatori del call center per verificare l’effettiva positività della persona e supportarla nell'operazione di segnalazione di positività."
+      "content": "Il CUN serve per procedere in autonomia alla segnalazione di positività tramite app Immuni."
     },
     {
       "id": 55,
       "title": "Chi può sbloccare Immuni?",
-      "content": "Immuni può essere sbloccata dal cittadino che dispone della APP sul proprio cellulare, e che è risultato positivo al test del tampone molecolare. Questa operazione può essere svolta con il supporto dell’operatore sanitario che ti ha comunicato l’esito positivo del tampone, oppure  se hai ricevuto il CUN col supporto dell’operatore del call center 800 91 24 91 o in autonomia con la specifica funzione a disposizione nell'APP.\nAttenzione: i medici di base non sono autorizzati a supportare lo sblocco di Immuni.\n\n"
+      "content": "Immuni può essere sbloccata dal cittadino che dispone della APP sul proprio cellulare, e che è risultato positivo al test del tampone molecolare. Questa operazione può essere svolta con il supporto dell’operatore sanitario che ti ha comunicato l’esito positivo del tampone, oppure se hai ricevuto il CUN puoi effettuarla in autonomia con la specifica funzione a disposizione nell'APP.\nAttenzione: i medici di base non sono autorizzati a supportare lo sblocco di Immuni."
     },
     {
       "id": 56,
@@ -287,136 +287,101 @@
     },
     {
       "id": 57,
-      "title": "Quando chiamo il call center, di quali informazioni ho bisogno per sbloccare Immuni?",
-      "content": "Per sbloccare Immuni tramite il call center, devi avere sotto mano il CUN (Codice Univoco Nazionale), la tua tessera sanitaria, la data di inizio sintomi (se sei sintomatico). E naturalmente la app Immuni."
-    },
-    {
-      "id": 58,
       "title": "Perché occorrono tutti questi passaggi (CUN, Tessera Sanitaria, codice monouso) per sbloccare Immuni?",
       "content": "Per una questione di sicurezza e per evitare che, anche involontariamente o per errore, qualcuno possa comunicare a Immuni un’informazione non corretta relativa alla propria positività, generando quindi, a cascata, un flusso di notifiche sbagliate a tutti i suoi contatti."
     },
     {
-      "id": 59,
-      "title": "Anche i minorenni possono utilizzare il servizio di sblocco del call center?",
-      "content": "Il genitore di un minore ultraquattordicenne potrà contattare il call center per supportare il figlio minore nello sblocco di Immuni. Il CUN verrà comunicato al numero di cellulare del genitore."
-    },
-    {
-      "id": 60,
-      "title": "Che servizi fornisce il call center 800 91 24 91?",
-      "content": "Il call center 800 91 24 91 fornisce informazioni sul funzionamento della app di Immuni e, a partire dal 21 dicembre 2020, supporta anche i cittadini nel caricamento dei dati di positività e nello sblocco della App. Questo nuovo servizio è stato istituito dal Ministero della Salute all’art 20 del decreto-legge 28 ottobre 2020, n 137.\nIl call center si rivolge sia ai cittadini sia agli operatori sanitari, con due diversi canali dedicati.\n"
-    },
-    {
-      "id": 61,
+      "id": 58,
       "title": "Quale tipologia di test è necessaria per lo sblocco di Immuni?",
       "content": "Allo stato attuale sono riconosciuti validi solo i test al tampone molecolare. I test antigenici (o test rapidi) non sono pertanto al momento utilizzabili per lo sblocco di Immuni. Il test inoltre dovrà essere effettuato in una struttura pubblica o privata accreditata dalle regioni o province autonome. Le strutture private non accreditate possono infatti non comunicare l’esito del referto al sistema sanitario regionale."
     },
     {
-      "id": 62,
-      "title": "Come funziona lo sblocco di Immuni tramite call center?",
-      "content": "Quando chiamerai il call center, sarai guidato allo sblocco di Immuni: ti verrà prima chiesto di comunicare il tuo CUN, attraverso cui l’operatore verificherà la tua effettiva positività; a seguire dovrai comunicare il numero di Tessera Sanitaria, attraverso cui verrà verificata la tua identità, e infine, comunicando il codice monouso che trovi nella sezione della app “segnala positività”, potrai essere autorizzato a inserire il tuo dato di positività.  "
-    },
-    {
-      "id": 63,
-      "title": "In quali regioni o province autonome è attivo il servizio telefonico di supporto al caricamento dati e sblocco di Immuni?",
-      "content": "Il servizio è attivo su tutto il territorio nazionale."
-    },
-    {
-      "id": 64,
-      "title": "Gli operatori sanitari potranno ancora supportare lo sblocco di Immuni?",
-      "content": "Assolutamente sì. Il servizio di call center non sostituisce gli operatori dei Dipartimenti di Prevenzione Sanitaria, ma li affianca. Pertanto, potrai sbloccare Immuni anche quando verrai chiamato dall’operatore sanitario che ti comunica l’esito del tampone."
-    },
-    {
-      "id": 65,
+      "id": 59,
       "title": "Se ricevo una notifica da Immuni, chi devo chiamare?",
       "content": "Puoi rivolgerti al tuo medico di base, che valuterà con te le misure da adottare."
     },
     {
-      "id": 66,
-      "title": "Ho fatto il tampone molecolare in Lombardia, ma risiedo nel Lazio. La Lombardia è fra le regioni che dispone del servizio di supporto al caricamento dati tramite call center, il Lazio no. Riceverò il CUN e potrò rivolgermi al call center?",
-      "content": "Sì, se hai lasciato i tuoi dati di contatto quando hai effettuato il tampone."
-    },
-    {
-      "id": 67,
+      "id": 60,
       "title": "Come mi comporto se il cittadino è in possesso di un CUN ma sul sistema TS non è presente?",
       "content": "Se il numero CUN non risulta trasmesso dalla regione o provincia autonoma competente, si invita il cittadino a rivolgersi al dipartimento di prevenzione salute della sua ASL per lo sblocco di immuni."
     },
     {
-      "id": 68,
-      "title": "Posso sbloccare Immuni autonomamente, senza l'assistenza del personale sanitario o del call center?",
+      "id": 61,
+      "title": "Posso sbloccare Immuni autonomamente, senza l'assistenza del personale sanitario?",
       "content": "Dal 6 aprile è possibile, in caso di positività al Covid19, sbloccare in autonomia il caricamento avendo ricevuto il CUN da inserire nell'apposita funzione della APP insieme al numero della propria tessera sanitaria"
     },
     {
-      "id": 69,
+      "id": 62,
       "title": "Sbloccando in autonomia l'app Immuni, mi viene chiesto di inserire la data inizio sintomi, ma io sono asintomatico, come devo comportarmi?",
       "content": "Nel caso tu sia asintomatico puoi barrare la scelta \"Nessun sintomo\" e non indicare alcuna data. Il sistema in tal caso baserà i propri calcoli  dalla data a partire da 2 giorni prima della data del tampone positivo."
     },
     {
-      "id": 70,
+      "id": 63,
       "title": "Sono vaccinato: come posso scaricare la Certificazione verde COVID-19 con Immuni?",
       "content": "Prima di iniziare, tieni a portata di mano il codice AUTHCODE e la tua Tessera Sanitaria. L’AUTHCODE viene inviato via SMS o email qualora sia stato comunicato il numero di telefono cellulare o la propria email al momento della somministrazione.\nPer scaricare la Certificazione verde COVID-19:\n- Vai nella sezione “EU Digital Covid Certificate” di Immuni e premi il tasto “Recupera EU Digital Covid Certificate”. In questa schermata ti verranno chieste alcune informazioni necessarie per il reperimento della tua certificazione verde;\n- Dal menu a tendina, scegli l’opzione \"AUTHCODE\" ed inserisci il tuo \"AUTHCODE\" alla voce “Codice”;\n- Inserisci le ultime 8 cifre che trovi sul retro della Tessera Sanitaria;\n- Inserisci la data di scadenza che trovi sul retro della Tessera Sanitaria;\n- Infine, premi il tasto “Conferma” per inviare la richiesta. \nSe i dati inseriti sono corretti ed è presente una certificazione verde, verrai reindirizzato alla pagina di visualizzazione del certificato.\n"
     },
     {
-      "id": 71,
+      "id": 64,
       "title": "Ho effettuato un tampone negativo: come posso scaricare la Certificazione verde COVID-19 con Immuni?",
       "content": "Prima di iniziare, tieni a portata di mano il codice NRFE (se hai effettuato un tampone antigenico) o il codice CUN (se hai effettuato un tampone molecolare) e la tua Tessera Sanitaria. In alternativa a questi codici, puoi inserire il codice autorizzativo AUTHCODE ricevuto via e-mail o SMS ai recapiti che hai comunicato in sede di esecuzione del tampone antigenico/molecolare.\n Per scaricare la Certificazione verde COVID-19:\n - Vai nella sezione “EU Digital Covid Certificate” di Immuni e premi il tasto “Recupera EU Digital Covid Certificate”. In questa schermata ti verranno chieste alcune informazioni necessarie per il reperimento della tua certificazione verde;\n - Dal menu a tendina, scegli l’opzione “NRFE”, “CUN” o \"AUTHCODE\", a seconda del tipo di tampone, ed inseriscilo alla voce “Codice”;\n - Inserisci le ultime 8 cifre che trovi sul retro della Tessera Sanitaria;\n - Inserisci la data di scadenza che trovi sul retro della Tessera Sanitaria;\n - Infine, premi il tasto “Conferma” per inviare la richiesta. \n Se i dati inseriti sono corretti ed è presente una certificazione verde, verrai reindirizzato alla pagina di visualizzazione del certificato."
     },
     {
-      "id": 72,
+      "id": 65,
       "title": "Sono guarito dal Covid e non sono ancora vaccinato: come posso scaricare la Certificazione verde COVID-19 con Immuni?",
       "content": "Prima di iniziare, tieni a portata di mano il codice NUCG presente sul certificato rilasciato dal medico e la tua Tessera Sanitaria. In alternativa a questo codice, puoi inserire il codice autorizzativo AUTHCODE ricevuto via e-mail o SMS ai recapiti che hai comunicato in sede di emissione del certificato di guarigione.\n Per scaricare la Certificazione verde COVID-19:\n - Vai nella sezione “EU Digital Covid Certificate” di Immuni e premi il tasto “Recupera EU Digital Covid Certificate”. In questa schermata ti verranno chieste alcune informazioni necessarie per il reperimento della tua certificazione verde;\n - Dal menu a tendina, scegli l’opzione “NUCG” ed inseriscilo alla voce “Codice”;\n - Inserisci le ultime 8 cifre che trovi sul retro della Tessera Sanitaria;\n - Inserisci la data di scadenza che trovi sul retro della Tessera Sanitaria;\n - Infine, premi il tasto “Conferma” per inviare la richiesta.\n Se i dati inseriti sono corretti ed è presente una certificazione verde, verrai reindirizzato alla pagina di visualizzazione del certificato.\n Si può scaricare anche con AUTHCODE"
     },
     {
-      "id": 73,
+      "id": 66,
       "title": "Immuni tutela la mia privacy anche se la uso per ottenere la Certificazione verde COVID-19?",
       "content": "Certo! Nello sviluppo delle nuove funzionalità relative all’ottenimento della Certificazione verde COVID-19 sono stati apportati numerosi accorgimenti per preservare la privacy dei Cittadini. Eccone alcuni:\n - Il servizio di Contact Tracing rimane totalmente anonimo e non ha subito modifiche mantenendo una separazione netta con la nuova funzionalità di recupero della Certificazione verde COVID-19;\n - Tutte le comunicazioni tra app e server sono cifrate;\n - Le informazioni inserite vengono utilizzate al solo scopo di prelevare dalla piattaforma la certificazione richiesta."
     },
     {
-      "id": 74,
+      "id": 67,
       "title": "In che formato viene scaricata la Certificazione verde COVID-19 su Immuni?",
       "content": "Con Immuni la tua Certificazione verde COVID-19 è in formato digitale, è composta da un QR Code che contiene le informazioni del certificato ed è firmato digitalmente dal Ministero della Salute che ne garantisce l’autenticità delle informazioni contenute. Cliccando su “Più dettagli” potrai vedere informazioni aggiuntive contenute nel QR Code. \n Premendo invece il pulsante “Salva”, il QR Code della Certificazione verrà salvato direttamente nello storage locale del tuo smartphone cosicché tu sia in grado di visualizzare il suo QR Code anche in modalità offline."
     },
     {
-      "id": 75,
+      "id": 68,
       "title": "Sono vaccinato: come posso scaricare la Certificazione verde COVID-19 dal sito web www.dgc.gov.it?",
       "content": "Attraverso il sito web www.dgc.gov.it hai 2 possibilità:\n 1. Grazie all’identità digitale (SPID/CIE) è possibile acquisire la Certificazione dal sito www.dgc.gov.it. E’ necessario accedere alla sezione dedicata e inserire le proprie credenziali. Non sarà necessario inserire alcun altro tipo di informazione.\n 2. Se non sei in possesso di identità digitale, per ottenere la Certificazione dal sito www.dgc.gov.it è sufficiente accedere alla sezione dedicata e inserire il codice AUTHCODE, inviato via SMS o email qualora sia stato comunicato il numero di telefono cellulare o la propria email al momento della somministrazione, assieme alle ultime 8 cifre del numero di identificazione della Tessera Sanitaria e alla data di scadenza della stessa tessera. Se non sei iscritto al SSN e non hai la Tessera Sanitaria puoi inserire insieme all’AUTHCODE il numero del documento di identità registrato al momento della prestazione sanitaria."
     },
     {
-      "id": 76,
+      "id": 69,
       "title": "Ho effettuato un tampone negativo: come posso scaricare la Certificazione verde COVID-19 dal sito web www.dgc.gov.it?",
       "content": "Attraverso il sito web www.dgc.gov.it hai 2 possibilità:\n 1. Grazie all’identità digitale (SPID/CIE) è possibile acquisire la Certificazione dal sito www.dgc.gov.it. E’ necessario accedere alla sezione dedicata e inserire le proprie credenziali. Non sarà necessario inserire alcun altro tipo di informazione.\n 2. Se non sei in possesso di identità digitale, per ottenere la Certificazione dal sito www.dgc.gov.it è sufficiente accedere alla sezione dedicata e inserire il codice NRFE (se hai effettuato un tampone antigenico) o il codice CUN (se hai effettuato un tampone molecolare) assieme alle ultime 8 cifre del numero di identificazione della Tessera Sanitaria e alla data di scadenza della stessa Tessera. In alternativa a questi due codici, puoi inserire il codice autorizzativo (AUTHCODE) ricevuto via e-mail o SMS ai recapiti che hai comunicato in sede di esecuzione del tampone antigenico/molecolare.\n Se non sei iscritto al SSN e non hai la Tessera Sanitaria puoi inserire insieme all’AUTHCODE il numero del documento di identità registrato al momento della prestazione sanitaria."
     },
     {
-      "id": 77,
+      "id": 70,
       "title": "Sono guarito dal Covid e non sono ancora vaccinato: Come posso scaricare la Certificazione verde COVID-19 dal sito web www.dgc.gov.it?",
       "content": "Attraverso il sito web www.dgc.gov.it hai 2 possibilità:\n 1. Grazie all’identità digitale (SPID/CIE) è possibile acquisire la Certificazione dal sito www.dgc.gov.it. E’ necessario accedere alla sezione dedicata e inserire le proprie credenziali. Non sarà necessario inserire alcun altro tipo di informazione.\n 2. Se non sei in possesso di identità digitale, per ottenere la Certificazione dal sito www.dgc.gov.it è sufficiente accedere alla sezione dedicata e inserire il codice NUCG presente sul certificato di guarigione rilasciato dal medico assieme alle ultime 8 cifre del numero di identificazione della Tessera Sanitaria e alla data di scadenza della stessa Tessera. In alternativa a questo codicei, puoi inserire il codice autorizzativo (AUTHCODE) ricevuto via e-mail o SMS ai recapiti che hai comunicato in sede di emissione del certificato di guarigione.\n Se non sei iscritto al SSN e non hai la Tessera Sanitaria puoi inserire insieme all’AUTHCODE il numero del documento di identità registrato al momento della prestazione sanitaria."
     },
     {
-      "id": 78,
+      "id": 71,
       "title": "Quali rischi corro mostrando il mio QR Code ad un estraneo o pubblicandolo sui social?",
       "content": "I dati presenti sul QR Code non sono criptati, quindi non si deve mostrare il QR a soggetti non titolati a effettuare controlli, come non si mostrerebbe un certificato personale cartaceo a chiunque. \n L'app di verifica ufficiale \"Verifica C19\" è la sola che deve essere utilizzata per la verifica del QRcode in quanto impedisce la visualizzazione dei dati personali non strettamente necessari.\n In caso di diffusione incauta del proprio QRcode (tramite social o tramite copia fotografica dello stesso) si rischia di rendere noti i dati anagrafici dell’interessato (nome, cognome, data di nascita), nonché i dati che hanno comportato l'emissione del certificato (guarigione, vaccinazione, test) a soggetti non titolati per legge a conoscerli."
     },
     {
-      "id": 79,
+      "id": 72,
       "title": "Come posso verificare se il mio QR Code è valido?",
       "content": "La Certificazione verde COVID-19 digitale contiene un codice a barre bidimensionale (QR Code) con una firma digitale del Ministero della Salute che ne impedisce la falsificazione. L’autenticità e validità della certificazione sono provate a livello europeo attraverso apposite app di verifica. \n L'app di verifica ufficiale in Italia è “Verifica C19” che è disponibile gratuitamente negli store digitali. Questa applicazione mobile garantisce sia la tutela della privacy, in quanto non prevede il salvataggio al suo interno dei dati personali del titolare della certificazione, sia l'interazione tra sistemi informativi appartenenti agli Stati membri dell’Unione Europea ai fini della verifica dell'EU Digital COVID Certificate emesso.\n Scaricando la APP VerificaC19 puoi poi inquadrare il tuo QR Code sia su stampa o sul telefono e verificarne la validità e autenticità."
     },
     {
-      "id": 80,
+      "id": 73,
       "title": "Perché la fotocamera del mio smartphone o uno scanner di QR Code generico non legge il QR Code della Certificazione verde COVID-19?",
       "content": "Perché i dati contentuti nel QR Code sono codificati secondo uno standard specifico e pertanto possono essere letti solo da una app come l'app Verifica C19 che conosce tale codifica."
     },
     {
-      "id": 81,
+      "id": 74,
       "title": "Ho effettuato un tampone antigenico ma non ho ricevuto il codice necessario per scaricare la Certificazione verde COVID-19 digitale attraverso Immuni: a chi devo rivolgermi?",
       "content": "In caso di non disponibilità del codice NRFE (se hai effettuato un tampone antigenico), del codice CUN (se hai effettuato un tampone molecolare) o del codice autorizzativo AUTHCODE (ricevuto via e-mail o SMS ai recapiti che hai comunicato in sede di esecuzione del tampone antigenico/molecolare), puoi richiedere direttamente al tuo medico di medicina generale/pediatra di libera scelta (MMG/PLS) oppure in farmacia di scaricare la tua Certificazione verde COVID-19 fornendo la Tessera Sanitaria."
     },
     {
-      "id": 82,
+      "id": 75,
       "title": "Ho ricevuto una/due dosi di vaccino ma non ho il codice necessario per scaricare la Certificazione verde COVID-19 attraverso Immuni: a chi devo rivolgermi?",
       "content": "In caso di non disponibilità del codice AUTHCODE ricevuto via e-mail o SMS ai recapiti che hai comunicato al momento della somministrazione del vaccino, puoi richiedere direttamente al tuo medico di medicina generale/pediatra di libera scelta (MMG/PLS) oppure in farmacia di scaricare la tua Certificazione verde COVID-19 fornendo la Tessera Sanitaria."
     },
     {
-      "id": 83,
+      "id": 76,
       "title": "Ho un certificato di guarigione emesso dal mio medico di medicina generale/pediatra di libera scelta ma non ho il codice necessario per scaricare la relativa Certificazione verde COVID-19 attraverso Immuni: a chi devo rivolgermi?",
       "content": "In caso di non disponibilità del codice NUCG presente sul certificato rilasciato dal medico o del codice autorizzativo (AUTHCODE) ricevuto via e-mail o SMS ai recapiti che hai comunicato in sede di emissione del certificato di guarigione, puoi richiedere direttamente al tuo medico di medicina generale/pediatra di libera scelta (MMG/PLS) oppure in farmacia di scaricare la tua Certificazione verde COVID-19 fornendo la Tessera Sanitaria."
     }

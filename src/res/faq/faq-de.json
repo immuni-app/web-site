@@ -3,12 +3,12 @@
     {
       "id": 0,
       "title": "Was ist Immuni?",
-      "content": "Die App Immuni wurde entwickelt, um uns bei der Bekämpfung von Epidemien zu unterstützen, allen voran die COVID-19-Epidemie. Auch Dank der Kontaktnachverfolgung ermöglicht Immuni dem positiv getesteten Nutzer auf anonyme Art und Weise, die Personen zu warnen, mit denen er in engem Kontakt war und die er daher infiziert haben könnte. Durch eine rechtzeitige Benachrichtigung (wenn möglich noch vor dem Auftreten der Covid-19-Symptome) können diese Personen ihren Arzt für Allgemeinmedizin kontaktieren, um ihren Gesundheitszustand überprüfen zu lassen. Zudem können sie es vermeiden, andere zu infizieren. Somit leisten sie einen Beitrag zur Vermindungerung des Ausbreitung des Coronavirus."
+      "content": "Die App Immuni wurde entwickelt, um uns bei der Bekämpfung von Epidemien zu unterstützen, beginnend mit die COVID-19-Epidemie. Auch Dank der Kontaktnachverfolgung ermöglicht Immuni dem positiv getesteten Nutzer auf anonyme Art und Weise, die Personen zu warnen, mit denen er in engem Kontakt war und die er daher infiziert haben könnte. Durch eine rechtzeitige Benachrichtigung (wenn möglich noch vor dem Auftreten der Covid-19-Symptome) können diese Personen ihren Arzt für Allgemeinmedizin kontaktieren, um ihren Gesundheitszustand überprüfen zu lassen. Zudem können diese Personen auch eine Ansteckung anderer vermeiden und die Ausbreitung des Coronavirus reduzieren."
     },
     {
       "id": 1,
       "title": "Wie funktioniert das Kontaktnachverfolgungssystem von Immuni?",
-      "content": "Immuni warnt die Nutzer, die in engem Kontakt mit einer Person waren, die dann positiv getestet wurde, über eine Mitteilung, die eine Reihe von Ratschlägen zur Bewältigung der Situation beinhaltet.\nImmuni kann feststellen, dass ein riskanter Kontakt zwischen zwei Nutzern stattgefunden hat, ohne zu wissen, wer die beiden Nutzer sind oder wo sie sich getroffen haben.\nDie App sammelt keine Daten, die Rückschlüsse auf die Identität der Nutzer zulassen. Sie fragt keine sensiblen Daten wie Name, Nachname, Geburtsdatum, Adresse, Telefonnummer oder E-Mail-Adresse ab, noch ist sie dazu in der Lage. Zudem verwendet Immuni zur Ermittlung des Kontakts die \"Bluetooth-Low-Energy-Technologie\" und nutzt keinerlei Geolokalisierungsdaten, auch nicht GPS. \n\nHier ist ein vereinfachtes Beispiel dafür, wie das Kontaktnachverfolgungssystem von Immuni funktioniert. Betrachten wir Alice und Marco, zwei hypothetische Nutzer. Wenn Immuni auf ihren Smartphones installiert ist, sendet es ein Bluetooth-Signal aus, das einen Zufallscode enthält. Wenn Alice sich Marco nähert, tauschen ihre Smartphones diese Codes aus und zeichnen diese in ihrem Speicher auf. Somit wird dieser Kontakt nachverfolgt. Es wird auch aufgezeichnet, wie lange der Kontakt dauerte und wie stark das empfangene Signal war. Dadurch kann grob abgeschätzt werden, wie groß der Abstand zwischen den beiden Smartphones war. \nDie Codes werden nach dem Zufallsprinzip generiert und enthalten keine Informationen über das Gerät oder den Nutzer. Darüber hinaus ändern sie sich mehrmals stündlich, um die Privatsphäre von Personen weiter zu schützen. Es ist in keiner Weise möglich, die Identität des Nutzers anhand der jeweiligen Zufallscodes zurückzuverfolgen.\nNehmen wir an, dass Marco anschließend  positiv auf Corona-Virus getestet wurde. Mit Hilfe des medizinischen Fachpersonals, das ihm das Testergebnis mitgeteilt hat, kann Marco seine Positivität Immuni melden, seine Zufallscodes teilen und die Personen benachrichtigen, mit denen er in engem Kontakt stand. \nImmuni lädt in regelmäßigen Abständen die Zufallscodes herunter, die von positiv getesteten Nutzern geteilt wurden. Auf diese Weise kann die App überprüfen, ob zwischen diesen Codes und den in den vorangegangenen Tagen aufgezeichneten Codes eine Übereinstimmung besteht. Im Fall unseres Beispiels findet die App von Alice den Zufallscode von Marco und  prüft, ob die Dauer und Entfernung des Kontakts so waren, dass er als gefährlich eingestuft werden kann. Sollte dies der Fall sein, wird Alice alarmiert."
+      "content": "Immuni warnt die Nutzer, die in engem Kontakt mit einer Person waren, die dann positiv getestet wurde, über eine Mitteilung, die eine Reihe von Ratschlägen zur Bewältigung der Situation beinhaltet.\nImmuni kann feststellen, dass ein riskanter Kontakt zwischen zwei Nutzern stattgefunden hat, ohne zu wissen, wer die beiden Nutzer sind oder wo sie sich getroffen haben.\nDie App sammelt keine Daten, die Rückschlüsse auf die Identität der Nutzer zulassen. Sie fragt keine sensiblen Daten wie Name, Nachname, Geburtsdatum, Adresse, Telefonnummer oder E-Mail-Adresse, noch ist sie dazu in der Lage. Zudem verwendet Immuni zur Ermittlung des Kontakts die \"Bluetooth-Low-Energy-Technologie\" und nutzt keinerlei Geolokalisierungsdaten, auch nicht GPS. \n\nHier ist ein vereinfachtes Beispiel dafür, wie das Kontaktnachverfolgungssystem von Immuni funktioniert. Betrachten wir Alice und Marco, zwei hypothetische Nutzer. Wenn Immuni auf ihren Smartphones installiert ist, sendet es ein Bluetooth-Signal aus, das einen Zufallscode enthält. Wenn Alice sich Marco nähert, tauschen ihre Smartphones diese Codes aus und zeichnen diese in ihrem Speicher auf. Somit wird dieser Kontakt nachverfolgt. Es wird auch aufgezeichnet, wie lange der Kontakt dauerte und wie stark das empfangene Signal war. Dadurch kann grob abgeschätzt werden, wie groß der Abstand zwischen den beiden Smartphones war. \nDie Codes werden nach dem Zufallsprinzip generiert und enthalten keine Informationen über das Gerät oder den Nutzer. Darüber hinaus, ändern sie sich mehrmals stündlich, um die Privatsphäre von Personen weiter zu schützen. Es ist in keiner Weise möglich, die Identität des Nutzers anhand der jeweiligen Zufallscodes zurückzuverfolgen.\nNehmen wir an, dass Marco anschließend positiv auf das Corona-Virus getestet wurde. Mit Hilfe des medizinischen Fachpersonals, das ihm das Testergebnis mitgeteilt hat, kann Marco seine Positivität Immuni melden, seine Zufallscodes teilen und die Personen benachrichtigen, mit denen er in engem Kontakt stand. \nImmuni lädt in regelmäßigen Abständen die Zufallscodes herunter, die von positiv getesteten Nutzern geteilt wurden. Auf diese Weise kann die App überprüfen, ob zwischen diesen Codes und den in den vorangegangenen Tagen aufgezeichneten Codes eine Übereinstimmung besteht. Im Fall unseres Beispiels findet die App von Alice den Zufallscode von Marco und prüft, ob die Dauer und Entfernung des Kontakts so waren, dass er als gefährlich eingestuft werden kann. Sollte dies der Fall sein, wird Alice alarmiert."
     },
     {
       "id": 2,
@@ -18,8 +18,7 @@
     {
       "id": 3,
       "title": "Wie wird meine Privatsphäre geschützt?",
-      "content": "Bei der Entwicklung von Immuni hat man besonders großes Augenmerk auf den Schutz der Privatsphäre gelegt. Es wurden viele Maßnahmen ergriffen, um die Privatsphäre zu schützen, wie beispielsweise:\n• Die App sammelt keine Daten, mit denen man Ihre Identität ermitteln kann. Es werden weder Ihr Name, Nachname, Geburtsdatum, ihre Adresse, Telefonnummer oder E-Mail-Adresse abgefragt, noch können diese Informationen abgerufen werden.\n• Ihre Bewegungen werden weder nachverfolgt, noch in irgeneiner Weise aufgezeichnet;\n• Die von den Smartphones über  Bluetooth ausgetauschten Zufallscodes enthalten weder Informationen zu Ihrem Gerät noch zu Ihrer Person;\n• Für einen größeren Schutz Ihrer Privatsphäre ändern sich diese Zufallscodes mehrmals pro Stunde; \n• Die auf Ihrem Smartphone gespeicherten Daten und die Verbindungen zwischen App und Server sind verschlüsselt;\n• Alle auf dem Gerät oder Server gespeicherten Daten werden gelöscht, wenn sie nicht mehr benötigt werden, in jedem Fall vor dem 31. Dezember 2020;\n• Ihre Daten werden vom Gesundheitsministerium gesammelt und nur zur Eindämmung der Covid-19-Epidemie oder zu Forschungszwecken verwendet; \n• Die Daten werden auf Servern in Italien gespeichert, die von öffentlichen Einrichtungen betrieben werden."
-
+      "content": "Bei der Entwicklung von Immuni hat man besonders großes Augenmerk auf den Schutz der Privatsphäre gelegt. Es wurden viele Maßnahmen ergriffen, um die Privatsphäre zu schützen, wie beispielsweise:\n• Die App sammelt keine Daten, mit denen man Ihre Identität ermitteln kann. Es werden weder Ihr Name, Nachname, Geburtsdatum, ihre Adresse, Telefonnummer oder E-Mail-Adresse abgefragt, noch können diese Informationen abgerufen werden.\n• Ihre Bewegungen werden weder nachverfolgt, noch in irgeneiner Weise aufgezeichnet;\n• Die von den Smartphones über Bluetooth ausgetauschten Zufallscodes enthalten weder Informationen zu Ihrem Gerät noch zu Ihrer Person;\n• Für einen größeren Schutz Ihrer Privatsphäre ändern sich diese Zufallscodes mehrmals pro Stunde; \n• Die auf Ihrem Smartphone gespeicherten Daten und die Verbindungen zwischen App und Server sind verschlüsselt;\n• Alle auf dem Gerät oder Server gespeicherten Daten werden gelöscht, wenn sie nicht mehr benötigt werden, in jedem Fall vor dem 31. Dezember 2022;\n• Ihre Daten werden vom Gesundheitsministerium gesammelt und nur zur Eindämmung der Covid-19-Epidemie oder zu Forschungszwecken verwendet; \n• Die Daten werden auf Servern in Italien gespeichert, die von öffentlichen Einrichtungen betrieben werden."
     },
     {
       "id": 4,
@@ -34,12 +33,12 @@
     {
       "id": 6,
       "title": "Was passiert, wenn die App nur von einer begrenzten Anzahl von Personen verwendet wird?",
-      "content": "Selbst wenn die Verbreitung von Immuni begrenzt sein sollte, kann sie dennoch dazu beitragen, Leben zu retten und das Virus einzudämmen, insbesondere wenn sie von anderen Maßnahmen wie soziale Distanzierung und der manuellen Nachverfolgung  von Kontakten begleitet wird. Immuni hat bereits zahlreiche Personen vor riskanten Kontakten mit Nutzern gewarnt, die dann positiv getestet wurden. Dank dieser Informationen konnten diese Menschen die Infektionskette unterbrechen und zur Eindämmung des Virus und zur Rettung von Leben beitragen."
+      "content": "Selbst wenn die Verbreitung von Immuni begrenzt sein sollte, kann sie dennoch dazu beitragen, Leben zu retten und das Virus einzudämmen, insbesondere wenn sie von anderen Maßnahmen wie soziale Distanzierung und der manuellen Nachverfolgung von Kontakten begleitet wird. Immuni hat bereits zahlreiche Personen vor riskanten Kontakten mit Nutzern gewarnt, die dann positiv getestet wurden. Dank dieser Informationen konnten diese Menschen die Infektionskette unterbrechen und zur Eindämmung des Virus und zur Rettung von Leben beitragen."
     },
     {
       "id": 7,
       "title": "Wie kann ich überprüfen, ob ich die App richtig verwende?",
-      "content": "Öffnen Sie die App und prüfen Sie, ob in der Sektion \"Home\"  „Service aktiv“ angezeigt wird. In diesem Fall müssen Sie nichts Weiteres tun, Immuni funktioniert bereits ordnungsgemäß. Sollte dies nicht der Fall sein, tippen Sie auf die Schaltfläche „Immuni erneut aktivieren“ und befolgen Sie die Anweisungen, um das korrekte Funktionieren der App wieder herzustellen.\n\nWeitere wichtige Ratschläge, mit denen Sie sicherstellen können, dass Immuni wirklich effektiv ist:\n• Nehmen Sie Ihr Smartphone mit der installierten App immer mit, wenn Sie das Haus verlassen;\n• Deaktivieren Sie Bluetooth nicht; \n• Deinstallieren Sie nicht die App;\n• Wenn Immuni Ihnen eine Benachrichtigung sendet, lesen Sie diese, öffnen Sie die App und befolgen Sie die Anweisungen. Zum Beispiel: wenn Sie von der App aufgefordert werden, eine Aktualisierung vorzunehmen, sollten Sie dies nicht verschieben, sondern gleich die aktuelle Version herunterladen;\n• Wenn Sie eine Mitteilung zu einem riskanten Kontakt erhalten, sollten  Sie die Anweisungen befolgen und umgehend Ihren Hausarzt anrufen."
+      "content": "Öffnen Sie die App und prüfen Sie, ob in der Sektion \"Home\"  „Service aktiv“ angezeigt wird. In diesem Fall müssen Sie nichts Weiteres tun, Immuni funktioniert bereits ordnungsgemäß. Sollte dies nicht der Fall sein, tippen Sie auf die Schaltfläche „Immuni erneut aktivieren“ und befolgen Sie die Anweisungen, um das korrekte Funktionieren der App wieder herzustellen.\n\nWeitere wichtige Ratschläge, mit denen Sie sicherstellen können, dass Immuni wirklich effektiv ist:\n• Nehmen Sie Ihr Smartphone mit der installierten App immer mit, wenn Sie das Haus verlassen;\n• Deaktivieren Sie Bluetooth nicht; \n• Deinstallieren Sie nicht die App;\n• Wenn Immuni Ihnen eine Benachrichtigung sendet, lesen Sie diese, öffnen Sie die App und befolgen Sie die Anweisungen. Zum Beispiel: wenn Sie von der App aufgefordert werden, eine Aktualisierung vorzunehmen, sollten Sie dies nicht verschieben, sondern gleich die aktuelle Version herunterladen;\n• Wenn Sie eine Mitteilung zu einem riskanten Kontakt erhalten, sollten Sie die Anweisungen befolgen und umgehend Ihren Hausarzt anrufen."
     },
     {
       "id": 8,
@@ -49,28 +48,27 @@
     {
       "id": 9,
       "title": "Wo kann ich Immuni herunterladen? Welche Geräte und Betriebssysteme werden unterstützt?",
-      "content": "Je nach Gerätetyp können Sie Immuni vom \"App Store\" oder von \"Google Play\" herunterladen. Überprüfen Sie nachfolgend, ob Ihr Smartphone die Immuni-App unterstützt.\n\n→ App Store:\nIhr iPhone muss über die iOS-Version 13.5 oder höher verfügen. Folgende Modelle werden unterstützt: 11, 11 Pro, 11 Pro Max, Xr, Xs, Xs Max, X, 8, 8 Plus, 7, 7 Plus, 6s, 6s Plus, SE. Aktualisieren Sie Ihr iOS-Betriebssystem auf die letzte verfügbare Version, bevor Sie Immuni herunterladen.\n\n→ Google Play:\nIhr Android-Smartphone muss alle drei folgenden Anforderungen erfüllen:\n• Bluetooth-Low-Energy;\n• Android, Version 6 (Marshmallow, API 23) oder höher;\n• Google Play Services, Version 20.18.13 oder höher.\n\nAktualisieren Sie Android und \"Google Play Services\" auf die letzte verfügbare Version, bevor Sie Immuni herunterladen."
+      "content": "Je nach Gerätetyp können Sie Immuni vom \"App Store\" oder von \"Google Play\" or AppGallery herunterladen. Überprüfen Sie nachfolgend, ob Ihr Smartphone die Immuni-App unterstützt.\n\n→ App Store:\nIhr iPhone muss über die iOS-Version 13.5 oder höher verfügen. Folgende Modelle werden unterstützt: 11, 11 Pro, 11 Pro Max, Xr, Xs, Xs Max, X, 8, 8 Plus, 7, 7 Plus, 6s, 6s Plus, SE. Aktualisieren Sie Ihr iOS-Betriebssystem auf die letzte verfügbare Version, bevor Sie Immuni herunterladen.\n\n→ Google Play:\nIhr Android-Smartphone muss alle drei folgenden Anforderungen erfüllen:\n• Bluetooth-Low-Energy;\n• Android, Version 6 (Marshmallow, API 23) oder höher;\n• Google Play Services, Version 20.18.13 oder höher.\n\nAktualisieren Sie Android und \"Google Play Services\" auf die letzte verfügbare Version, bevor Sie Immuni herunterladen.\n\n→ AppGallery\n • Huawei smartphone (MATE 40 PRO, P Smart 2021, P40 Pro+, P Smart S, P40 Lite 5G, Y5p, Y6p, P40 Pro, P40, P40 Lite E, Mate Xs, P40 Lite, Mate30 Pro oder höher) \n • HMS core 5.1.0.300 oder höher.\n\nAktualisieren HMS core auf die letzte verfügbare Version, bevor Sie Immuni herunterladen."
     },
     {
       "id": 10,
-      "title": "Sind die Anweisungen, welche von der App geliefert werden, zuverlässig?",
+      "title": "Sind die Anweisungen, die von der App geliefert werden, zuverlässig?",
       "content": "Die von der App gelieferten Empfehlungen hängen von der Dauer Ihrer Exposition mit potenziell ansteckenden Nutzern und vom Abstand ab, der während der Exposition zwischen Ihrem Smartphone und jenem dieser Nutzer bestand.\n\nEs handelt sich also um eine begrenzte Anzahl von Informationen, die übbrigens nie perfekt sind, da das Bluetooth-Low-Energy-Signal von verschiedenen Störfaktoren beeinflusst wird. Daher wird die Einschätzung nicht immer fehlerfrei sein. Wenn Ihnen die App beispielsweise empfiehlt, sich zu isolieren, bedeutet das nicht automatisch, dass Sie Covid-19 haben. Es bedeutet vielmehr, dass laut den Informationen, die der App zur Verfügung stehen, die Isolation das Sicherste für Sie und die Personen in Ihrer Nähe wäre.\n\nEs ist daher wichtig, dass Sie die Anweisungen der App befolgen, zum Wohle Ihrer Angehörigen und der Gemeinschaft und zu Ihrem eigenen Schutz. Zögern Sie nicht, Ihren Arzt für Allgemeinmedizin zu konsultieren, falls die App Sie vor einem riskanten Kontakt warnt."
     },
     {
       "id": 11,
       "title": "Mein Smartphone unterstützt Immuni nicht. Warum? Was kann ich diesbezüglich tun?",
-      "content": "Immuni nutzt das von Apple und Google entwickelte Expositionbenachrichtigungssystem. Es handelt sich um eine international angewendete Technologie (Deutschland, Japan, Holland und dutzende andere Länder auf der Welt verwenden sie), die der App ermöglicht, auf den meisten Geräten bestens zu funktionieren. Aufgrund technischer Begrenzungen ist diese Technologie in älteren Versionen von iOS, Android und \"Google Play Services\" nicht verfügbar. Sollte sich diesbezüglich etwas ändern, werden wir Sie umgehend benachrichtigen."
-
+      "content": "Immuni nutzt das von Apple, Google und Huawei entwickelte Expositionbenachrichtigungssystem. Es handelt sich um eine international angewendete Technologie (Deutschland, Japan, Niederlande und dutzende andere Länder auf der Welt verwenden sie), die der App ermöglicht, auf den meisten Geräten bestens zu funktionieren. Aufgrund technischer Begrenzungen ist diese Technologie in älteren Versionen von iOS, Android und \"Google Play Services\" nicht verfügbar. Sollte sich diesbezüglich etwas ändern, werden wir Sie umgehend benachrichtigen."
     },
     {
       "id": 12,
       "title": "Führt die App dazu, dass sich die Batterie meines Smartphones schneller entlädt?",
-      "content": "Sie sollten keinen Unterschied in der Laufzeit Ihrer Batterie bemerken. Immuni verwendet nämlich Bluetoot-Low-Energy. Dies ist eine Technologie mit niedrigem  Energiekonsum. Es ist dieselbe Technologie, die auch die kabellosen Kopfhörer ständig mit den Smartphones in Verbindung hält. Die Auswirkungen auf die Batterie sind minimal und die Verwendung der App verursacht keine Überhitzung oder andere ungewöhnliche Vorkommnisse."
+      "content": "Sie sollten keinen Unterschied in der Laufzeit Ihrer Batterie bemerken. Immuni verwendet nämlich Bluetooth-Low-Energy. Dies ist eine Technologie mit niedrigem  Energiekonsum. Es ist dieselbe Technologie, die auch die kabellosen Kopfhörer ständig mit den Smartphones in Verbindung hält. Die Auswirkungen auf die Batterie sind minimal und die Verwendung der App verursacht keine Überhitzung oder andere ungewöhnliche Vorkommnisse."
     },
     {
       "id": 13,
       "title": "Können Minderjährige die App nutzen?",
-      "content": "Sie müssen mindestens 14 Jahre alt sein, um Immuni benutzen zu dürfen. Wenn Sie zwischen 14 Jahre und  18 Jahre alt sind, benötigen Sie die Erlaubnis eines  Elternteils oder gesetzlichen Vertreters, um die App zu nutzen und müssen diese umgehend informieren, falls Sie eine Warnnachricht erhalten, dass eine Person  positiv auf das Corona-19-Virus getestet wurde, mit der Sie engen Kontakt hatten. "
+      "content": "Sie müssen mindestens 14 Jahre alt sein, um Immuni benutzen zu dürfen. Wenn Sie zwischen 14 Jahre und 18 Jahre alt sind, benötigen Sie die Erlaubnis eines Elternteils oder gesetzlichen Vertreters, um die App zu nutzen und müssen diese umgehend informieren, falls Sie eine Warnnachricht erhalten, dass eine Person  positiv auf das Corona-19-Virus getestet wurde, mit der Sie engen Kontakt hatten. "
     },
     {
       "id": 14,
@@ -80,7 +78,7 @@
     {
       "id": 15,
       "title": "Wird Immuni von der Regierung betrieben?",
-      "content": "Ja. Immuni ist die Kontaktnachverfolgungs-App der italienischen Regierung, die aus der Zusammenarbeit zwischen der Präsidentschaft des Ministerrates, dem Gesundheitsminister, dem Minister für technologische Innovation und Digitalisierung, den Regionen/Autonomen Provinzen, dem außerordentlichen Kommissar für den Notstand Covid-19 und den öffentlichen Gesellschaften „Sogei“ und „PagoPa“ entstanden ist.\n\nFür Immuni nutzt die italienische Regierung eine immerwährende und unwiderrufliche Lizenz für den gesamten Code, die Grafiken, Texte und Dokumentationen, die von „Bending Spoons S.p.A.“ kostenlos zur Verfügung gestellt werden. „Bending Spoons S.p.A.“ hat bis zum 13. Oktober 2020  einen völlig kostenlosen Dokumentations-, Design- und Softwareentwicklungsservice bereitgestellt,  ohne Entscheidungsbefugnisse oder Zugriff auf die Daten der Nutzer zu haben. \n\nIn der Entwicklung des Systems wurden die Anweisungen des Datenschutzbeauftragten befolgt, wobei größte Aufmerksamkeit auf die Privatsphäre der Nutzer gelegt wurde."
+      "content": "Ja. Immuni ist die Kontaktnachverfolgungs-App der italienischen Regierung, die aus der Zusammenarbeit zwischen der Präsidentschaft des Ministerrates, dem Gesundheitsminister, dem Minister für technologische Innovation und Digitalisierung, den Regionen/Autonomen Provinzen, dem außerordentlichen Kommissar für den Notstand Covid-19 und den öffentlichen Gesellschaften „Sogei“ und „PagoPa“ entstanden ist.\n\nFür Immuni nutzt die italienische Regierung eine immerwährende und unwiderrufliche Lizenz für den gesamten Code, die Grafiken, Texte und Dokumentationen, die von „Bending Spoons S.p.A.“ kostenlos zur Verfügung gestellt werden. „Bending Spoons S.p.A.“ hat bis zum 13. Oktober 2020 einen völlig kostenlosen Dokumentations-, Design- und Softwareentwicklungsservice bereitgestellt, ohne Entscheidungsbefugnisse oder Zugriff auf die Daten der Nutzer zu haben. \n\nIn der Entwicklung des Systems wurden die Anweisungen des Datenschutzbeauftragten befolgt, wobei größte Aufmerksamkeit auf die Privatsphäre der Nutzer gelegt wurde."
     },
     {
       "id": 16,
@@ -95,7 +93,7 @@
     {
       "id": 18,
       "title": "Immuni hat mit einen möglichen riskanten Kontakt erkannt, aber ich fühle mich gut. Was soll ich tun?",
-      "content": "Wenn Immuni einen riskanten Kontakt ermittelt hat, bedeutet dies, dass Sie in den letzten Tagen für mehr als 15 Minuten lang in engem Kontakt mit einer auf das Coronavirus positiv getesteten Person standen. Möglicherweise haben Sie sich daher mit dem Virus infiziert, ohne jedoch Symptome zu entwickeln.  Ihre Aufgabe ist es nun, die Empfehlungen zu befolgen: Dadurch werden Sie das Risiko für Sich und Ihre Angehörigen verringern und vermeiden, andere Personen anzustecken."
+      "content": "Wenn Immuni einen riskanten Kontakt ermittelt hat, bedeutet dies, dass Sie in den letzten Tagen für mehr als 15 Minuten lang in engem Kontakt mit einer auf das Coronavirus positiv getesteten Person standen. Möglicherweise haben Sie sich daher mit dem Virus infiziert, ohne jedoch Symptome zu entwickeln. Ihre Aufgabe ist es nun, die Empfehlungen zu befolgen: Dadurch werden Sie das Risiko für Sich und Ihre Angehörigen verringern und vermeiden, andere Personen anzustecken."
     },
     {
       "id": 19,
@@ -154,20 +152,18 @@
     },
     {
       "id": 30,
-
       "title": "Was ist der Einwegcode und wie funktioniert er?",
-      "content": "Der Einwegcode ist eine zehnstellige alphanumerische Sequenz, die nur im Falle einer positiven Wirkung auf das SARS-CoV-2-Virus verwendet wird und den Benutzer der Immuni-App in keiner Weise identifiziert.\nWenn Sie positiv auf das Virus getestet haben, können Sie die Daten auf den Immuni-Server hochladen, die erforderlich sind, um die Personen, die 2 Tage vor den Symptomen in engem Kontakt mit Ihnen standen, anonym zu benachrichtigen (oder den Tupfer, wenn Sie asymptomatisch sind). und bis zu maximal 14 Tagen. Dazu müssen Sie dem medizinischen Fachpersonal, das Ihnen das Ergebnis des Tupfers mitgeteilt hat, oder dem Telefonisten des Anrufs den unter dem Punkt \"Positivität melden\" von Immuni (im Menü \"Einstellungen\") gefundenen Einwegcode diktieren Zentrum 800 91 24 91, wenn Sie den CUN (National Unique Code) erhalten haben.\nNachdem der Bediener den Einwegcode validiert hat, können Sie mit dem Hochladen der Positivitätsdaten fortfahren. Dies wird auch als \"Entsperren\" von Immuni bezeichnet."
+      "content": "Der Wegwerfcode ist eine zehnstellige alphanumerische Sequenz, die nur bei Positivität des SARS-CoV-2-Virus verwendet wird und den Nutzer der Immuni-App in keiner Weise identifiziert.\nWenn Sie positiv auf das Virus getestet wurden, können Sie entscheiden, auf dem Immuni-Server die Daten hochzuladen, die erforderlich sind, um die Personen, die 2 Tage vor den Symptomen in engem Kontakt mit Ihnen standen (oder den Abstrich, wenn Sie asymptomatisch sind), anonym zu benachrichtigen. und maximal 14 Tage. Dazu müssen Sie den Einwegcode, den Sie unter „Positivität melden“ von Immuni (im Menü „Einstellungen“) finden, dem Arzt diktieren, der Ihnen das Ergebnis des Abstrichs mitgeteilt hat. Darüber hinaus können Sie, wenn Sie die CUN erhalten haben, Ihre Positivität direkt mit der in der APP verfügbaren spezifischen Funktion melden.\nDies wird auch als „Freischalten“ von Immuni bezeichnet."
     },
     {
       "id": 31,
       "title": "Wie und wann kann ich meine Daten hochladen?",
-      "content": "Sie können Ihre Daten nur hochladen, wenn Sie positiv auf Coronavirus sind und einen Molekularabstrich-Test durchgeführt haben. Die Operation ist freiwillig und ermöglicht es Immuni, Personen, mit denen Sie in engem Kontakt waren, 2 Tage vor den Symptomen (oder den Tampon, wenn Sie asymptomatisch sind) und maximal 14 Tage zu warnen.\nDiese Operation kann mit Unterstützung des Gesundheitspersonals durchgeführt werden, das Ihnen das positive Ergebnis des Tupfers mitgeteilt hat, oder wenn Sie die CUN mit Unterstützung des Call-Center-Betreibers 800 91 24 91 oder unabhängig mit der in verfügbaren Funktion erhalten haben die App."
-
+      "content": "Sie können Ihre Daten nur hochladen, wenn Sie positiv auf das Coronavirus sind und einen molekularen Abstrichtest gemacht haben. Die Operation erfolgt auf freiwilliger Basis und ermöglicht es Immuni, Personen zu warnen, mit denen Sie 2 Tage vor den Symptomen (oder den Tampon, wenn Sie asymptomatisch sind) und bis zu maximal 14 Tage in engem Kontakt standen.\nDiese Operation kann mit Unterstützung des Arztes durchgeführt werden, der Ihnen das positive Ergebnis des Abstrichs mitgeteilt hat, oder wenn Sie die CUN mit der in der APP verfügbaren spezifischen Funktion erhalten haben."
     },
     {
       "id": 32,
       "title": "Wie gehe ich vor, um die Information zur Positivität auf Immuni zu laden? ",
-      "content": "Das medizinische Fachpersonal des Dienstes für Prävention, welches Ihnen das Ergebnis des Abstriches mitgeteilt hat, oder der Mitarbeiter des Call-Centes von Immuni wird Sie ersuchen, in die Sektion \"Einstellungen\" einzusteigen und „Positivität melden“  auszuwählen.\nImmuni wird Ihnen den für den Einmalgebrauch bestimmten Code zeigen. Dabei handelt es sich um eine alphanumerische Sequenz, bestehend aus zehn Zeichen, die nach dem Zufallsprinzip generiert wird.\nTeilen Sie diesen Code dem Mitarbeiter mit, der Ihnen die Erlaubnis zum Fortfahren erteilen wird.\nWählen Sie \"Weiter\".\nImmuni wir Ihnen eine Zusammenfassung der Daten, die geladen werden, anzeigen.\nWenn Sie auf \"Daten laden\" tippen , wird die App Ihre Daten laden.\nAm Ende werden Sie um Erlaubnis gebeten, auf die auf Ihrem Gerät gespeicherten Zufallscodes zuzugreifen.\nDie App wird Ihnen eine Bestätigung anzeigen, sobald das Hochladen abgeschlossen ist."
+      "content": "Der Gesundheitsmitarbeiter des Präventionsdienstes, der Ihnen das Ergebnis des Abstrichs mitgeteilt hat, wird Sie bitten, den Abschnitt \"Einstellungen\" aufzurufen und \"Positivität melden\" auszuwählen.\nImmuni zeigt Ihnen einen einmaligen Code, eine Folge von zehn zufällig generierten Zeichen.\nTeilen Sie diesen Code dem Betreiber mit, der Ihnen die Berechtigung zum Fortfahren gibt\nKlicken Sie auf \"Weiter\"  Immuni zeigt Ihnen eine Zusammenfassung der Daten, die hochgeladen werden\nMit einem Klick auf „Daten hochladen“ lädt die App Ihre Daten hoch\nSchließlich werden Sie um Erlaubnis gebeten, auf die auf Ihrem Gerät gespeicherten Zufallscodes zuzugreifen  Die App zeigt Ihnen eine Bestätigungsnachricht an, sobald der Upload abgeschlossen ist."
     },
     {
       "id": 33,
@@ -227,7 +223,7 @@
     {
       "id": 44,
       "title": "Über wen spricht Immuni im Gesundheitswesen?",
-      "content": "Hierbei handelt es sich um Gesundheitspersonal der Präventionsabteilung der ASL oder um Krankenhäuser, die dem Benutzer normalerweise die Ergebnisse des Tupfers telefonisch mitteilen. Wenn die Person, die positiv getestet wurde, Immuni installiert hat, kann sie ihre Positivität melden. Auf diese Weise kann Immuni vor dem Risiko einer Ansteckung der Personen warnen, mit denen es in engem Kontakt stand.\nUm den positiven Benutzer beim Hochladen von Daten und beim \"Entsperren\" von Immuni zu unterstützen, kann es entweder der Gesundheitspersonal selbst sein, der das Ergebnis des Berichts mitgeteilt hat, oder ein Telefonist des Call Centers, der Immuni gewidmet ist und unter der erreichbar ist Nummer grün 800 91 24 91, wenn der Benutzer auch im Besitz der CUN ist."
+      "content": "Dies sind Gesundheitspersonal der Präventionsabteilung der ASL oder Krankenhäuser, die dem Benutzer normalerweise die Ergebnisse des Abstrichs telefonisch mitteilen. Wenn die positiv getestete Person Immuni installiert hat, kann sie ihre Positivität melden. Auf diese Weise kann Immuni die Personen, mit denen es in engem Kontakt stand, vor der Ansteckungsgefahr warnen. Um den positiven Benutzer beim Hochladen von Daten und bei der \"Entsperrung\" von Immuni anzuleiten und zu ermöglichen, kann es sich um dieselbe medizinische Fachkraft handeln, die das Ergebnis der Überweisung mitgeteilt hat, oder es ist möglich, unabhängig vorzugehen, wenn der Benutzer auch im Besitz der CUN, über die entsprechende Funktion der APP."
     },
     {
       "id": 45,
@@ -247,7 +243,7 @@
     {
       "id": 48,
       "title": "Immuni zeigt bereits seit der ersten Phase der Nutzung einen Verbindungsfehler an. Was kann ich tun?",
-      "content": "Wenn Sie sich außerhalb Europas befinden, ist es normal, dass Sie eine Fehlermeldung erhalten. Einige Funktionalitäten von Immuni könnten tatsächlich nicht verfügbar sein. \n\nWenn Sie jedoch von einem Ort innerhalb des europäischen Territoriums verbunden sind, empfehlen wir Ihnen wie folgt vorzugehen:\n• Überprüfen Sie , dass Ihr Smartphone mit dem Internet verbunden ist;\n• Verbinden Sie sich über das Mobilfunknetz. Das Problem könnte ein falsch konfiguriertes Wi-Fi-Netzwerk sein;\n• Wenn Sie eine \"VPN\" (Virtual Private Network) verwenden, deaktivieren sie sie. Es könnte durchaus sein, dass sie Ihnen eine IP außerhalb des europäischen Territoriums zugewiesen hat. \n\nWir erinnern Sie daran, dass folgende Länder zum europäischen Territorium gehören: Österreich, Belgien, Bulgarien, Kroatien, Zypern, Dänemark, Estland, Finnland, Frankreich, Deutschland, Griechenland, Ungarn, Irland, Italien, Lettland, Litauen, Luxemburg, Malta, Niederlande, Polen, Portugal, Rumänien, Slowakei, Slowenien, Spanien, Schweden, Island, Liechtenstein, Norwegen, Schweiz, Vatikanstadt, San Marino und das Fürstentum Monaco."
+      "content": "Wenn Sie sich außerhalb Europas befinden, ist es normal, dass Sie eine Fehlermeldung erhalten. Einige Funktionalitäten von Immuni könnten tatsächlich nicht verfügbar sein. \n\nWenn Sie jedoch von einem Ort innerhalb des europäischen Territoriums verbunden sind, empfehlen wir Ihnen wie folgt vorzugehen:\n• Überprüfen Sie , dass Ihr Smartphone mit dem Internet verbunden ist;\n• Verbinden Sie sich über das Mobilfunknetz. Das Problem könnte ein falsch konfiguriertes Wi-Fi-Netzwerk sein;\n• Wenn Sie eine \"VPN\" (Virtual Private Network) verwenden, deaktivieren sie sie. Es könnte durchaus sein, dass sie Ihnen eine IP außerhalb des europäischen Territoriums zugewiesen hat. \n\nWir erinnern Sie daran, dass folgende Länder zum europäischen Territorium gehören: Österreich, Belgien, Bulgarien, Kroatien, Zypern, Tschechische Republik, Dänemark, Estland, Finnland, Frankreich, Deutschland, Griechenland, Ungarn, Irland, Italien, Lettland, Litauen, Luxemburg, Malta, Niederlande, Polen, Portugal, Rumänien, Slowakei, Slowenien, Spanien, Schweden, Island, Liechtenstein, Norwegen, Schweiz, Vatikanstadt, San Marino und das Fürstentum Monaco."
     },
     {
       "id": 49,
@@ -257,17 +253,17 @@
     {
       "id": 50,
       "title": "Was versteht man unter „Freigabe“ von Immuni?",
-      "content": "Damit enge Kontakte von Corona-positiven Personen benachrichigt werden können, muss der Einmalcode an den Server von Immuni übermittlet werden. Da dieser Code zeitlich begrenzt ist, muss dies innnerhalb weniger Minuten, mit der Unterstützung des medizinischen Fachpersonals des Departments für Prävention, das den Abstrich genommen hat, oder, in den Regionen/Autonomen Provinzen, die schon für diesen Dienst befähigt wurden, mit Hilfe des Immuni- Call-Centers erfolgen.\nDer Mitarbeiter überprüft den Einmalcode und genehmigt das Hochladen der Daten.\nDie gesamte Operation wird allgemein „Freigabe\" genannt."
+      "content": "Um die engen Kontaktpersonen der positiv auf Covid-19 getesteten Person über die Positivität zu informieren, ist es notwendig, den Einwegcode an den Immuni-Server zu senden. Da der Code temporär ist, muss dieser Vorgang in wenigen Minuten mit Unterstützung eines Gesundheitspersonals der Abteilung Prävention durchgeführt werden, das die Richtigkeit des Codes überprüft und das Laden der Daten autorisiert. Alternativ können Sie, wenn Sie die CUN erhalten haben, die der APP zur Verfügung stehende Funktion selbstständig nutzen.\nDer gesamte Vorgang wird allgemein als \"Entsperren\" von Immuni bezeichnet."
     },
     {
       "id": 51,
       "title": "Was ist der „CUN“?",
-      "content": "Der CUN (eindeutiger, nationaler Code) ist ein Code, der das Ergebnis eines monekularen Abstriches eindeutig identifiziert, unabhängig davon, ob er positiv oder negativ ist. Er besteht aus 10 Zeichen, denen das Präfix \"CUN-\" vorangeht.\nÜber den \"CUN\" ist es möglich, den Dienst des Call-Centers in Anspruch zu nehmen, das die Bürger bei der Freigabe von Immuni unterstützt."
+      "content": "Der CUN oder National Unique Code ist ein Code, der das Ergebnis eines molekularen Abstrichs, ob positiv oder negativ, eindeutig identifiziert. Es besteht aus 10 Zeichen, denen das Suffix CUN- vorangestellt ist.\nDurch die CUN ist es möglich, über die auf der APP zur Verfügung gestellte Funktion selbstständig seine Positivität zu melden."
     },
     {
       "id": 52,
       "title": "Wird der „CUN“ auch benötigt, wenn ich das medizinische Fachpersonal des Departements für Prävention kontaktiere oder von diesem kontaktiert werde",
-      "content": "Nein, der \"CUN\" dient nur dazu, die Unterstützung des Call-Centers anzufordern."
+      "content": "Nein, die CUN wird nur verwendet, um die eigene Positivität selbstständig über die APP zu melden.."
     },
     {
       "id": 53,
@@ -277,14 +273,12 @@
     {
       "id": 54,
       "title": "Wozu dient der „CUN“?",
-
-      "content": "Der \"CUN\" dient dazu, selbständig die Meldung der Positivität in der App \"Immuni\" vorzunehmen. Den Mitarbeitern des Call-Centers dient er, um die effektive Positivität der Person zu überprüfen und diese bei der Meldung der Positivität zu unterstützen."
+      "content": "Die CUN wird verwendet, um die Meldung von Positivitäten über die Immuni-App autonom durchzuführen."
     },
     {
       "id": 55,
       "title": "Wer kann Immuni freischalten?",
-      "content": "Immuni kann von dem Bürger freigeschaltet werden, der die APP auf seinem Mobiltelefon hat und der positiv auf den Molekularabstrich getestet wurde. Diese Operation kann mit Unterstützung des Gesundheitspersonals durchgeführt werden, das Ihnen das positive Ergebnis des Tupfers mitgeteilt hat, oder wenn Sie die CUN mit Unterstützung des Call-Center-Betreibers 800 91 24 91 oder unabhängig mit der in verfügbaren Funktion erhalten haben die App.\nWarnung: Allgemeinmediziner sind nicht berechtigt, das Entsperren von Immunsystemen zu unterstützen."
-
+      "content": "Immuni kann von dem Bürger freigeschaltet werden, der die APP auf seinem Handy hat und positiv auf den molekularen Abstrichtest getestet wurde. Diese Operation kann mit Unterstützung des medizinischen Fachpersonals durchgeführt werden, das Ihnen das positive Ergebnis des Abstrichs mitgeteilt hat, oder wenn Sie die CUN erhalten haben, können Sie dies mit der in der APP verfügbaren spezifischen Funktion selbstständig durchführen.\nWarnung: GPs sind nicht lizenziert, um das Entsperren des Immunsystems zu unterstützen."
     },
     {
       "id": 56,
@@ -293,72 +287,103 @@
     },
     {
       "id": 57,
-      "title": "Welche Informationen benötige ich, wenn ich das Call-Center anrufe, um Immuni zu entsperren?",
-      "content": "Um Immuni mit Hilfe des Call-Centers freizuschalten, benötigen Sie den CUN (eindeutiger, nationaler Code), Ihre Gesundheitskarte und das Datum der ersten Symptome (wenn Sie symptomatisch sind). Natürlich benötigen Sie auch die App \"Immuni\"."
-    },
-    {
-      "id": 58,
       "title": "Warum bedarf es all dieser Schritte („CUN“, Gesundheitskarte, einmaliger Code), um Immuni zu entsperren?",
       "content": "Aus Sicherheitsgründen und um es zu vermeiden, dass jemand Immuni versehentlich oder irrtümlicherweise eine nicht korrekte Information zur eigenen Positivität mitteilt, wodurch in Folge eine ganze Reihe an falschen Benachrichtgungen an all Ihre Kontakte ausgelöst würde."
     },
     {
-      "id": 59,
-      "title": "Können auch Minderjährige den Dienst Call-Center für die \"Freigabe\" nutzen?",
-      "content": "Einr Elternteil eines Minderjährigen, welcher über 14 Jahre alt ist, kann das Call-Center kontaktieren, um das minderjährige Kind bei der Freigabe von Immuni zu unterstützen. Der \"CUN\" wird an die Telefonnummer des Mobiltelefons des Elternteils mitgeteilt."
-    },
-    {
-      "id": 60,
-      "title": "Welche Dienste erbringt das Call-Center 800 91 24 91?",
-      "content": "Das Call-Center 800 91 24 91 liefert Informationen zur Funktionsweise der App \"Immuni\" und unterstützt seit dem 21. Dezember 2020 die Bürger beim Hochladen der Daten zur Positivität und bei der Freigabe der App.\nDieser neue Dienst wurde vom Gesundheitsministerium eingerichtet (Art. 20 des Notverordnung-Gesetzesdekretes 28. Oktober 2020, Nr. 137).\nDas Call-Center kann über zwei separate Kommunikationskanäle sowohl von den Bürgern als auch vom  medizinische Fachpersonal kontaktiert werden. "
-    },
-    {
-      "id": 61,
+      "id": 58,
       "title": "Welche Arten von Tests sind für das Entsperren von Immuni notwendig? ",
       "content": "Gegenwärtig werden nur die molekularen Abstriche (PCR) als gültig erachtet. Antigentests (oder Schnelltests) sind im Moment nicht für die Freigabe von Immuni verwendbar. Der Test muss außerdem in einer öffentlichen oder privaten, von der Region/Autonomen Provinz akkreditierten Einrichtung durchgeführt werden. Die nicht akkreditierten, privaten Einrichtungen können tatsächlich das Ergebnis des Befundes nicht an den Landesgesundheitsdienst mitteilen."
     },
     {
-      "id": 62,
-      "title": "We funktioniert Freigabe von Immuni mittels Call-Center?",
-      "content": "Wenn Sie das Call-Center anrufen, werden Sie für die Freigabe von Immuni angeleitet: zuerst werden Sie ersucht, Ihren \"CUN\" mitzuteilen, mit dem der Mitarbeiter Ihre effektive Positivität überprüft. Anschließend müssen Sie die Nummer Ihrer Gesundheitskarte angeben, um Ihre Indentität zu überprüfen. Zum Schluss müssen Sie den Einmalcode mitteilen, den Sie in der Sektion „Positives Ergebnis  melden“ der App finden, dann können Sie zur Eingabe Ihrer Positiv-Meldung autorisiert werden."
-    },
-    {
-
-      "id": 63,
-      "title": "In welchen Regionen oder autonomen Provinzen ist der Support-Telefondienst für das Hochladen und Entsperren von Immuni-Daten aktiv?",
-      "content": "Der Dienst ist im gesamten Staatsgebiet aktiv."
-    },
-    {
-
-      "id": 64,
-      "title": "Wird das medizinische Fachpersonal weiterhin das Entsperren von Immuni unterstützen können?",
-      "content": "Ja, auf jeden Fall. Das Call-Center ersetzt nicht die Mitarbeiter des Department für Prävention, sondern es unterstützt sie. Aus diesem Grund können Sie Immuni auch freigeben, wenn Sie vom medizinischen Fachpersonal angerufen werden, das Ihnen das Ergebnis des Abstriches mitteilt."
-    },
-    {
-      "id": 65,
+      "id": 59,
       "title": "Wen muss ich anrufen, wenn ich eine Mitteilung von Immuni erhalte?",
       "content": "Sie können sich an Ihren Arzt für Allgemeinmedizin wenden, der mit Ihnen die zu ergreifenden Maßnahmen besprechen wird."
     },
     {
+      "id": 60,
+      "title": "Wie verhalte ich mich, wenn der Bürger im Besitz eines „CUN“ ist, aber nicht im „System TS“ aufscheint? ",
+      "content": "Wenn der \"CUN\" als nicht durch die zuständige Region/Autonome Provinz übermittelt aufscheint, wird der Bürger gebeten, sich für die Freigabe von Immuni an das Department für Prävention seines Sanitätsbetriebes zu wenden."
+    },
+    {
+      "id": 61,
+      "title": "Kann ich Immuni selbst ohne Hilfe des medizinischen Personals entsperren?",
+      "content": "Ab dem 6. April ist es bei positivem Covid19 möglich, den Upload nach Erhalt der CUN selbstständig zu entsperren, um sie in die spezifische Funktion der APP zusammen mit der Nummer der Gesundheitskarte einzufügen"
+    },
+    {
+      "id": 62,
+      "title": "Durch das unabhängige Entsperren der Immuni-App werde ich aufgefordert, das Startdatum der Symptome einzugeben. Ich bin jedoch asymptomatisch. Was soll ich tun?",
+      "content": "Wenn Sie asymptomatisch sind, können Sie die Option \"Keine Symptome\" ankreuzen und kein Datum angeben. In diesem Fall basiert das System seine Berechnungen ab dem Datum, das 2 Tage vor dem Datum des positiven Puffers beginnt."
+    },
+    {
+      "id": 63,
+      "title": "Ich bin geimpft: Wie lade ich das COVID-19 Green Certificate mit Immuni herunter?",
+      "content": "Bevor Sie beginnen, halten Sie Ihren AUTHCODE-Code und Ihre Krankenversicherungskarte bereit. Der AUTHCODE wird per SMS oder E-Mail verschickt, wenn Sie bei der Impfung Ihre Handynummer oder E-Mailadresse angegeben haben.So laden Sie das COVID-19 Green Certificate herunter:- Gehen Sie zum Abschnitt \"EU Digital Covid Certificate\" von Immuni und drücken Sie die Schaltfläche \"Recupera EU Digital Covid Certificate\". Auf dieser Seite werden Sie nach einigen Informationen gefragt, die Sie benötigen, um Ihre grüne Zertifizierung zu bekommen;- Wählen Sie im Dropdown-Menü die Option \"\"AUTHCODE\"\" und geben Sie unter \"Code\" Ihren \"\"AUTHCODE\"\" ein;- Geben Sie die letzten 8 Ziffern ein, die Sie auf der Rückseite Ihrer Krankenversicherungskarte finden;- Geben Sie das Ablaufdatum auf der Rückseite Ihrer Krankenversicherungskarte ein;- Drücken Sie abschließend die Schaltfläche \"Bestätigen\", um die Anfrage zu senden. Wenn die eingegebenen Daten korrekt sind und ein Green Certificate vorhanden ist, werden Sie zur Seite für die Zertifikatsanzeigeweitergeleitet."
+    },
+    {
+      "id": 64,
+      "title": "Ich habe einen negativen Abstrich gemacht - wie lade ich das COVID-19 Green Certificate mit Immuni herunter?",
+      "content": "Bevor Sie beginnen, halten Sie Ihren NRFE-Code (wenn Sie einen antigenen Abstrich gemacht haben) oder CUN-Code (wenn Sie einen molekularen Abstrich gemacht haben) und Ihre Krankenversicherungskarte bereit. Alternativ zu diesen Codes können Sie den Autorisierungscode AUTHCODE eingeben, den Sie per E-Mail oder SMS an die Kontaktdaten erhalten haben, die Sie bei der Durchführung des antigenen/molekularen Abstrichs angegeben haben. So laden Sie das COVID-19 Green Certificate herunter:- Gehen Sie zum Abschnitt \"EU Digital Covid Certificate\" von Immuni und drücken Sie die Schaltfläche \"Recupera EU Digital Covid Certificate\". Auf dieser Seite werden Sie nach einigen Informationen gefragt, die Sie benötigen, um Ihre grüne Zertifizierung zu bekommen;- Wählen Sie aus dem Dropdown-Menü je nach Pad-Typ die Option \"NRFE\", \"CUN\" oder\"AUTHCODE\" und geben Sie diese unter \"Code\" ein;- Geben Sie die letzten 8 Ziffern ein, die Sie auf der Rückseite Ihrer Krankenversicherungskarte finden;- Geben Sie das Ablaufdatum auf der Rückseite Ihrer Krankenversicherungskarte ein;- Drücken Sie abschließend die Schaltfläche \"Bestätigen\", um die Anfrage zu senden. Wenn die eingegebenen Daten korrekt sind und ein Green Certificate vorhanden ist, werden Sie zur Seite für die Zertifikatsanzeigeweitergeleitet."
+    },
+    {
+      "id": 65,
+      "title": "Ich bin von Covid-19 geheilt und noch nicht geimpft: Wie lade ich die COVID-19 Green Certificate mit Immuni herunter?",
+      "content": "Bevor Sie beginnen, halten Sie den NUCG-Code auf dem von Ihrem Arzt ausgestellten Attest und Ihre Krankenversicherungskarte bereit. Alternativ zu diesen Codes können Sie den Autorisierungscode AUTHCODE eingeben, den Sie per E-Mail oder SMS an die Kontaktdaten erhalten haben, die Sie bei der Durchführung des antigenen/molekularen Abstrichs angegeben haben. So laden Sie das COVID-19 Green Certificate herunter:- Gehen Sie zum Abschnitt \"EU Digital Covid Certificate\" von Immuni und drücken Sie die Schaltfläche \"Recupera EU Digital Covid Certificate\". Auf dieser Seite werden Sie nach einigen Informationen gefragt, die Sie benötigen, um Ihre grüne Zertifizierung zu bekommen;- Wählen Sie im Dropdown-Menü die Option \"NUCG\" und geben Sie sie unter \"Code\" ein;- Geben Sie die letzten 8 Ziffern ein, die Sie auf der Rückseite Ihrer Krankenversicherungskarte finden;- Geben Sie das Ablaufdatum auf der Rückseite Ihrer Krankenversicherungskarte ein;- Drücken Sie abschließend die Schaltfläche \"Bestätigen\", um die Anfrage zu senden. Wenn die eingegebenen Daten korrekt sind und ein Green Certificate vorhanden ist, werden Sie zur Seite für die Zertifikatsanzeige weitergeleitet. Sie können auch mit AUTHCODE herunterladen"
+    },
+    {
       "id": 66,
-      "title": "Ich habe den molekularen Abstrich in der Lombardei gemacht, bin aber im Latium wohnhaft. Die Lombardei ist eine jener Regionen, welche über den Support-Dienst zum Laden der Daten mittels Call-Center verfügt, das Latium aber nicht. Erhalte ich den „CUN“ und kann ich mich an das Call-Center wenden? ",
-      "content": "Ja, wenn Sie im Moment, in dem Sie den Abstrich gemacht haben, Ihre Kontaktdaten mitgeteilt haben."
+      "title": "Schützt Immuni meine Daten auch dann, wenn ich es benutze, um das COVID-19 Green Certificate zu erhalten?",
+      "content": "Natürlich ja! Bei der Entwicklung der neuen Funktionen im Zusammenhang mit der Erlangung des COVID-19 Green Certificate wurden mehrere Maßnahmen ergriffen, um die Privatsphäre der Bürger und Bürgerinnen zu schützen. Hier sind ein paar:- Der Dienst zur Ermittlung von Kontaktpersonen bleibt völlig anonym und hat sich nicht verändert, so dass eine klare Trennung mit der neuen Funktionalität COVID-19 Green Certificate beibehalten wird;- Die gesamte Kommunikation zwischen App und Server ist verschlüsselt;- Die eingegebenen Informationen werden ausschließlich dazu verwendet, die angeforderte Zertifizierung von der Plattform abzurufen."
     },
     {
       "id": 67,
-      "title": "Wie verhalte ich mich, wenn der Bürger im Besitz eines „CUN“ ist, aber nicht im „System TS“ aufscheint? ",
-      "content": "Wenn der \"CUN\" als nicht durch die zuständige Region/Autonome Provinz übermittelt aufscheint, wird der Bürger gebeten, sichfür die Freigabe von Immuni an das Department für Prävention seines Sanitätsbetriebes  zu wenden."
-
+      "title": "In welchem Format wird die COVID-19 Green Certificate auf Immuni heruntergeladen?",
+      "content": "Mit Immuni liegt Ihr COVID-19 Green Certificate im digitalen Format vor, es besteht aus einem QR-Code, der die Zertifikatsinformationen enthält und ist vom Gesundheitsministerium digital signiert, was die Echtheit der enthaltenen Informationen garantiert. Durch das Klicken auf \"Weitere Details\" können Sie zusätzliche Informationen sehen, die im QR-Code enthalten sind. Wenn Sie stattdessen auf die Schaltfläche \"Speichern\" klicken, wird der QR-Code der Zertifizierung direkt im lokalen Speicher Ihres Smartphones gespeichert, so dass Sie den QR-Code auch im Offline-Modus anzeigen können."
     },
     {
       "id": 68,
-      "title": "Kann ich Immuni ohne die Unterstützung des Gesundheitspersonals oder des Callcenters selbst entsperren?",
-      "content": "Ab dem 6. April ist es bei positivem Covid19 möglich, den Upload unabhängig zu entsperren, nachdem die CUN empfangen wurde, die zusammen mit der Nummer der Gesundheitskarte in die entsprechende Funktion der APP eingefügt werden soll"
+      "title": "Ich bin geimpft: Wie kann ich das COVID-19 Green Certificate von der Website www.dgc.gov.itherunterladen?",
+      "content": "Über die Website www.dgc.gov.it haben Sie 2 Möglichkeiten: 1. Dank der digitalen Identität (SPID/CIE) ist es möglich, die Zertifizierung auf der Website www.dgc.gov.it zu erwerben. Es ist notwendig, auf den entsprechenden Bereich zuzugreifen und Ihre Anmeldedaten einzugeben. Sie müssen keine weiteren Informationen eingeben. 2. Wenn Sie nicht im Besitz einer digitalen Identität sind, müssen Sie, um die Bescheinigung von der Website www.dgc.gov.it zu erhalten, nur auf den entsprechenden Bereich zugreifen und den AUTHCODE-Code eingeben, der Ihnen per SMS oder E-Mail zugeschickt wurde, wenn Sie bei der Verwaltung Ihre Mobiltelefonnummer oder E-Mailadresse mitgeteilt haben, zusammen mit den letzten 8 Ziffern der Identifikationsnummer Ihrer Krankenversicherungskarte und dem Ablaufdatum derselben Karte. Wenn Sie nicht mit der SSN registriert sind und keine Krankenversicherungskarte besitzen, können Sie die Nummer des zum Zeitpunkt der Gesundheitsdienstleistung registrierten Ausweises zusammen mit dem AUTHCODE eingeben."
     },
     {
       "id": 69,
-      "title": "Durch das unabhängige Entsperren der Immuni-App werde ich aufgefordert, das Startdatum der Symptome einzugeben. Ich bin jedoch asymptomatisch. Was soll ich tun?",
-      "content": "Wenn Sie asymptomatisch sind, können Sie die Option \"Keine Symptome\" ankreuzen und kein Datum angeben. In diesem Fall basiert das System seine Berechnungen ab dem Datum, das 2 Tage vor dem Datum des positiven Puffers beginnt."
-
+      "title": "Ich hatte einen negativen Abstrich: Wie kann ich das COVID-19 Green Certificate von der Website www.dgc.gov.itherunterladen?",
+      "content": "Über die Website www.dgc.gov.it haben Sie 2 Möglichkeiten: 1. Dank der digitalen Identität (SPID/CIE) ist es möglich, die Zertifizierung auf der Website www.dgc.gov.it zu erwerben. Es ist notwendig, auf den entsprechenden Bereich zuzugreifen und Ihre Anmeldedaten einzugeben. Sie müssen keine weiteren Informationen eingeben. 2. Wenn Sie nicht im Besitz einer digitalen Identität sind, müssen Sie, um die Bescheinigung von der Website www.dgc.gov.it zu erhalten, nur auf den entsprechenden Bereich zugreifen und den AUTHCODE-Code eingeben, der Ihnen per SMS oder E-Mail zugeschickt wurde, wenn Sie bei der Verwaltung Ihre Mobiltelefonnummer oder E-Mailadresse mitgeteilt haben, zusammen mit den letzten 8 Ziffern der Identifikationsnummer Ihrer Krankenversicherungskarte und dem Ablaufdatum derselben Karte. Alternativ zu diesen Codes können Sie den Autorisierungscode AUTHCODE eingeben, den Sie per E-Mail oder SMS an die Kontaktdaten erhalten haben, die Sie bei der Durchführung des antigenen/molekularen Abstrichs angegeben haben. Wenn Sie nicht mit der SSN registriert sind und keine Krankenversicherungskarte besitzen, können Sie die Nummer des zum Zeitpunkt der Gesundheitsdienstleistung registrierten Ausweises zusammen mit dem AUTHCODE eingeben."
+    },
+    {
+      "id": 70,
+      "title": "Ich bin von Covid geheilt und noch nicht geimpft: Wie kann ich das COVID-19 Green Certificate von der Website www.dgc.gov.it herunterladen?",
+      "content": "Über die Website www.dgc.gov.it haben Sie 2 Möglichkeiten: 1. Dank der digitalen Identität (SPID/CIE) ist es möglich, die Zertifizierung auf der Website www.dgc.gov.it zu erwerben. Es ist notwendig, auf den entsprechenden Bereich zuzugreifen und Ihre Anmeldedaten einzugeben. Sie müssen keine weiteren Informationen eingeben. 2. Wenn Sie nicht im Besitz einer digitalen Identität sind, müssen Sie, um die Bescheinigung von der Website www.dgc.gov.it zu erhalten, nur auf den entsprechenden Bereich zugreifen und den NUCG-Code, der auf der vom Arzt ausgestellten Genesungsbescheinigung steht,zusammen mit den letzten 8 Ziffern der Identifikationsnummer der Krankenversicherungskarte und dem Ablaufdatum derselben Karte eingeben. Alternativ zu diesem Code können Sie den Autorisierungscode (AUTHCODE) eingeben, den Sie per E-Mail oder SMS an die Kontaktdaten erhalten haben, die Sie bei der Ausstellung der Bescheinigung über die Heilung angegeben haben. Wenn Sie nicht mit der SSN registriert sind und keine Krankenversicherungskarte besitzen, können Sie die Nummer des zum Zeitpunkt der Gesundheitsdienstleistung registrierten Ausweises zusammen mit dem AUTHCODE eingeben."
+    },
+    {
+      "id": 71,
+      "title": "Welche Risiken gehe ich ein, wenn ich meinen QR-Code einem Fremden zeige oder ihn in sozialen Medien poste?",
+      "content": "Die Daten auf dem QR-Code sind nicht verschlüsselt, daher sollten Sie den QR-Code nicht prüfberechtigten Personen zeigen, so wie Sie auch ein persönliches Zertifikat auf Papier niemandem zeigen würden. Für die QR code-Verifizierung darf nur die offizielle Verifizierungs-App \"Verifica C19\" verwendet werden, da sie die Anzeige von nicht unbedingt notwendigen persönlichen Daten verhindert. Bei unvorsichtiger Verbreitung Ihres QR-Codes (über soziale Netzwerke oder durch eine fotografische Kopie desselben) besteht die Gefahr, dass die personenbezogenen Daten der betroffenen Person (Vorname, Nachname, Geburtsdatum) sowie die Daten, die zur Ausstellung des Zertifikats (Heilung, Impfung, Test) geführt haben, Personen bekannt werden, die gesetzlich nicht berechtigt sind, diese zu kennen."
+    },
+    {
+      "id": 72,
+      "title": "Wie kann ich überprüfen, ob mein QR-Code gültig ist?",
+      "content": "Das COVID-19 Digital Green Certificate enthält einen zweidimensionalen Barcode (QR-Code) mit einer fälschungssicheren digitalen Signatur des  Gesundheitsministeriums. Die Authentizität und Gültigkeit der Zertifizierung wird auf europäischer Ebene durch spezielle Verifizierungs-Apps nachgewiesen. Die offizielle Verifizierungs-App in Italien ist \"Verifica C19\", die kostenlos in digitalen Stores erhältlich ist. Diese mobile App gewährleistet sowohl den Schutz der Privatsphäre, da sie die persönlichen Daten des Zertifikatsinhabers nicht speichert, als auch die Interaktion zwischen den Informationssystemen der EU-Mitgliedstaaten zum Zweck der Überprüfung des ausgestellten digitalen EU-COVID-Zertifikats. Durch das Herunterladen der VerificaC19 APP können Sie dann Ihren QR-Code entweder auf Ihrem Ausgedruckten Papier oder auf Ihrem Telefon Bild nehmen und dessen Gültigkeit und Echtheit überprüfen."
+    },
+    {
+      "id": 73,
+      "title": "Warum liest meine Smartphone-Kamera oder ein generischerQR-Code-Scanner den COVID-19 Green Certificate QR-Code nicht?",
+      "content": "Die im QR-Code enthaltenen Daten sind nach einem bestimmten Standard kodiert und können daher nur von einer App wie der C19 Verification App gelesen werden, die diese Kodierung kennt."
+    },
+    {
+      "id": 74,
+      "title": "Ich habe einen Antigenabstrichgemacht, aber den Code zum Herunterladen des COVID-19 Digital Green Certificate über Immuni nicht erhalten - an wen soll ich mich wenden?",
+      "content": "Wenn der NRFE-Code (wenn Sie einen antigenen Abstrich durchgeführt haben), der CUN-Code (wenn Sie einen molekularen Abstrich durchgeführt haben) oder der Autorisierungscode AUTHCODE (den Sie per E-Mail oder SMS an die Kontaktdaten erhalten haben, die Sie bei der Durchführung des antigenen/molekularen Abstrichs mitgeteilt haben) nicht verfügbar sind, können Sie Ihren Hausarzt/Arzt freier Wahl (MMG/PLS) oder die Apotheke direkt bitten, Ihr Green Certificate COVID-19 unter Vorlage Ihrer Krankenversicherungskarte herunterzuladen."
+    },
+    {
+      "id": 75,
+      "title": "Ich habe eine / zwei Dosen des Impfstoffs erhalten, aber ich habe nicht den erforderlichen Code, um die COVID-19 Green-Zertifizierung über Immuni herunterzuladen - an wen soll ich mich wenden?",
+      "content": "Bei Nichtverfügbarkeit des AUTHCODE-Codes, den Sie per E-Mail oder SMS an die von Ihnen bei der Impfstoffverabreichung angegebenen Adressen erhalten haben, können Sie sich unter Vorlage Ihrer Krankenversicherungskarte direkt an Ihren Hausarzt/Arzt freier Wahl (MMG/PLS) oder andie Apotheke wenden, um Ihr COVID-19 Green Certificate herunterzuladen."
+    },
+    {
+      "id": 76,
+      "title": "Ich habe eine Genesungsbescheinigung meines Hausarztes/Kinderarztes, aber ich habe nicht den Code, den ich brauche, um das entsprechende COVID-19 Green Certificate über Immuni herunterzuladen: An wen soll ich mich wenden?",
+      "content": "Bei Nichtverfügbarkeit des NUCG-Codes, der auf der vom Arzt ausgestellten Bescheinigung vorhanden ist, oder des Autorisierungscodes (AUTHCODE), der per E-Mail oder SMS an die von Ihnen bei der Ausstellung der Genesungsbescheinigung angegebenen Adressen erhalten wurde, können Sie direkt Ihren Hausarzt / Kinderarzt freier Wahl (Hausarzt / PLS) oder in der Apotheke bitten, Ihre COVID-19-Grün-Zertifizierung unter Vorlage der Gesundheitskarte herunterzuladen."
     }
   ]
 }

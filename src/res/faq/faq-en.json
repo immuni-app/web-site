@@ -18,7 +18,7 @@
     {
       "id": 3,
       "title": "How is my privacy protected?",
-      "content": "In developing Immuni, we have taken many measures to protect you and your privacy. Here’s a list of some of these measures:\n \n• The app doesn’t collect any data that could enable your identity to be traced. It doesn’t ask for (and can’t obtain) information such as your name, surname, date of birth, address, telephone number, or email address. \n• Your movements aren’t tracked or traceable in any shape or form. \n• The random codes that smartphones exchange via Bluetooth don’t contain information about you or your device. \n• These random codes change several times every hour, protecting your privacy even further.\n• The data saved on your smartphone and the connections between the app and the server are encrypted.\n• All data, whether stored on the device or on the server, is deleted when no longer relevant, and certainly no later than December 31, 2020.\n• The Ministry of Health is the body that collects your data. The data is used solely with the aim of containing the COVID-19 epidemic or for scientific research.\n• The data is saved on servers in Italy and managed by public bodies."
+      "content": "In developing Immuni, we have taken many measures to protect you and your privacy. Here’s a list of some of these measures:\n \n• The app doesn’t collect any data that could enable your identity to be traced. It doesn’t ask for (and can’t obtain) information such as your name, surname, date of birth, address, telephone number, or email address. \n• Your movements aren’t tracked or traceable in any shape or form. \n• The random codes that smartphones exchange via Bluetooth don’t contain information about you or your device. \n• These random codes change several times every hour, protecting your privacy even further.\n• The data saved on your smartphone and the connections between the app and the server are encrypted.\n• All data, whether stored on the device or on the server, is deleted when no longer relevant, and certainly no later than December 31, 2022.\n• The Ministry of Health is the body that collects your data. The data is used solely with the aim of containing the COVID-19 epidemic or for scientific research.\n• The data is saved on servers in Italy and managed by public bodies."
     },
     {
       "id": 4,
@@ -153,17 +153,17 @@
     {
       "id": 30,
       "title": "What is the single-use code and how does it work?",
-      "content": "The disposable code is a ten-character alphanumeric sequence that is used only in the case of positivity to the SARS-CoV-2 virus and which does not in any way identify the user of the Immuni app.\nIf you have tested positive for the virus, you can decide to upload on the Immuni server the data necessary to notify, anonymously, the people who have been in close contact with you 2 days before the symptoms (or the swab if you are asymptomatic ) and up to a maximum of 14 days. To do this, you must dictate the disposable code found under the item \"report positivity\" of Immuni (in the \"Settings\" menu) to the healthcare professional who communicated the result of the swab to you, or to the telephone operator of the call center 800 91 24 91 if you have received the CUN (National Unique Code).\nAfter the operator has validated the disposable code, you can proceed to upload the positivity data. This is also known as “unlocking” Immuni.When a user tests positive for the virus, you can decide to upload to the Immuni server the data necessary to anonymously warn users who have been in close contact with you in the last 14 days. To do this, the user must dictate the one-time code found in the appropriate section “report a positive result” of the app to the healthcare worker who has informed you of the result of their swab test, or to the telephone operator of the call center 800 91 24 91. \nThe call center service is currently active only for some regions and autonomous provinces: Campania, Lombardia, Friuli Venezia Giulia, Molise, Trento, and only for those who have received the CUN (National Unique Code).\nAfter the operator has validated the one-time  code, you can proceed to upload the positivity data. This is also called “unlocking” Immuni.\n"
+      "content": "The disposable code is a ten-character alphanumeric sequence that is used only in the case of positivity to the SARS-CoV-2 virus and which does not in any way identify the user of the Immuni app.\nIf you have tested positive for the virus, you can decide to upload on the Immuni server the data necessary to notify, anonymously, the people who have been in close contact with you 2 days before the symptoms (or the swab if you are asymptomatic ) and up to a maximum of 14 days. To do this, you must dictate the disposable code found under \"report positivity\" of Immuni (in the \"Settings\" menu) to the healthcare professional who communicated the result of the swab to you. Furthermore, if you have received the CUN, you can independently report your positivity directly with the specific function available in the APP.\nThis is also known as “unlocking” Immuni.\n"
     },
     {
       "id": 31,
       "title": "How and when can I upload my data?",
-      "content": "You can only upload your data if you are positive for coronavirus and if you have had a molecular swab test. The operation is on a voluntary basis and allows Immuni to warn people with whom you have been in close contact from 2 days before the symptoms (or the tampon if you are asymptomatic) and up to a maximum of 14 days.\nThis operation can be carried out with the support of the healthcare professional who communicated the positive result of the swab to you, or if you received the CUN with the support of the call center operator 800 91 24 91 or independently with the specific function available in the APP."
+      "content": "You can only upload your data if you are positive for coronavirus and if you have had a molecular swab test. The operation is voluntary and allows Immuni to warn people with whom you have been in close contact from 2 days before symptoms (or the tampon if you are asymptomatic) and up to a maximum of 14 days.\nThis operation can be carried out with the support of the healthcare professional who communicated the positive result of the swab to you, or if you have received the CUN with the specific function available in the APP."
     },
     {
       "id": 32,
       "title": "Which are the steps to report a positive result on Immuni?",
-      "content": "\nThe healthcare worker of the prevention service who communicated to you the result of the molecular swab or the telephone operator of the Immuni call center will ask you to enter the \"Settings\" section in the App and choose \"Report a positive result\".\nImmuni will show you a one-time code, a sequence of ten randomly generated characters.\nCommunicate this code to the operator, who will give you the authorization to continue\nClick \"Continue\"\nImmuni will show you a summary of the data that will be uploaded.\nBy clicking on \"Upload data\", the app will upload your data\nFinally, you will be asked for permission to access the random codes saved on your device\nThe app will show you a confirmation message once the upload is complete\n"
+      "content": "The health worker of the prevention service who communicated the result of the swab to you will ask you to enter the \"Settings\" section and choose \"Report positivity\".\nImmuni will show you a one-time code, a sequence of ten randomly generated characters.\nCommunicate this code to the operator, who will give you the authorization to continue\nClick \"Continue\" Immuni will show you a summary of the data that will be uploaded\nBy clicking on \"Upload data\", the app will upload your data\nFinally, you will be asked for permission to access the random codes saved on your device The app will show you a confirmation message once the upload is complete."
     },
     {
       "id": 33,
@@ -223,7 +223,7 @@
     {
       "id": 44,
       "title": "Who are the healthcare professionals Immuni is talking about?",
-      "content": "These are health personnel from the Prevention Department of the ASL or hospitals who normally communicate the results of the swab to the user by telephone. If the person who tested positive has Immuni installed, they can choose to report their positivity. Doing so will allow Immuni to warn of the risk of contagion the people with whom it has been in close contact.\nTo guide and enable the positive user in uploading data and in the \"unblocking\" of Immuni, it can be either the health worker himself who communicated the outcome of the report, or a telephone operator of the call center dedicated to Immuni, reachable at the number green 800 91 24 91, if the user is also in possession of the CUN."
+      "content": "These are health personnel from the Prevention Department of the ASL or hospitals who normally communicate the results of the swab to the user by telephone. If the person who tested positive has Immuni installed, they can choose to report their positivity. Doing so will allow Immuni to warn the people with whom she has been in close contact of the risk of contagion. To guide and enable the positive user in uploading data and in the \"unblocking\" of Immuni, it can be the same healthcare professional who communicated the result of the referral or it is possible to proceed independently, if the user is also in possession of the CUN, through the appropriate function of the APP."
     },
     {
       "id": 45,
@@ -243,7 +243,7 @@
     {
       "id": 48,
       "title": "Immuni displays a connection error message when I try to use it. What can I do?",
-      "content": "If you’re outside the European Union, it’s normal to receive an error message. Some features of Immuni may not be available.\n\nIf you’re connected from within the European Union, we recommend that you proceed as follows:\n• Check that your smartphone is connected to the Internet.\n• Connect from a mobile network. The problem may be due to an incorrectly configured Wi-Fi network.\n• If you’re using a VPN, turn it off. The VPN may have assigned you an IP outside the European Union.\n\nWe remind you that the countries of the European Union are as follows: Austria, Belgium, Bulgaria, Croatia, Cyprus, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Iceland, Lichtenstein, Norway, Switzerland, Vatican City, San Marino, and Principality of Monaco."
+      "content": "If you’re outside the European Union, it’s normal to receive an error message. Some features of Immuni may not be available.\n\nIf you’re connected from within the European Union, we recommend that you proceed as follows:\n• Check that your smartphone is connected to the Internet.\n• Connect from a mobile network. The problem may be due to an incorrectly configured Wi-Fi network.\n• If you’re using a VPN, turn it off. The VPN may have assigned you an IP outside the European Union.\n\nWe remind you that the countries of the European Union are as follows: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Iceland, Lichtenstein, Norway, Switzerland, Vatican City, San Marino, and Principality of Monaco."
     },
     {
       "id": 49,
@@ -253,17 +253,17 @@
     {
       "id": 50,
       "title": "What is meant by \"unlocking\" of Immuni?",
-      "content": "To notify the close contacts of the person who tested positive for Covid-19, it is necessary to send the disposable code to the Immuni server. Since the code is temporary, this operation must be done within a few minutes with the assistance of a health care worker from the Prevention Department who performed the swab or - for regions already registered for the service - through the Immuni call center. The operator checks the disposable code and authorizes the data to be uploaded.\nThe whole operation is commonly called \"unlocking\" of Immuni.\n"
+      "content": "To notify the close contacts of the person who tested positive for Covid-19 of the positivity, it is necessary to send the disposable code to the Immuni server. Since the code is temporary, this operation must be done in a few minutes with the support of a health worker from the Prevention Department who will verify the correctness of the code and authorize the data to be loaded. Alternatively, if you have received the CUN, you can independently use the function available to the APP.\nThe whole operation is commonly called \"unlocking\" of Immuni."
     },
     {
       "id": 51,
       "title": "What is the CUN?",
-      "content": "The CUN, or National Unique Code, is a code that uniquely identifies the outcome of a molecular swab, be it positive or negative. It consists of 10 characters preceded by the suffix CUN-.\nThrough the CUN it is possible to contact the call center that supports the citizen for the unlocking of Immuni.\n"
+      "content": "The CUN, or National Unique Code, is a code that uniquely identifies the outcome of a molecular swab, whether positive or negative. It consists of 10 characters preceded by the suffix CUN-.\nThrough the CUN it is possible to independently report one's positivity through the function made available on the APP.\n"
     },
     {
       "id": 52,
       "title": "Is the CUN also needed when I contact or I am contacted by the health care worker of the prevention department?",
-      "content": "No, the CUN is only used to request assistance from the call center."
+      "content": "No, the CUN is only used to report one's positivity independently through the APP."
     },
     {
       "id": 53,
@@ -273,12 +273,12 @@
     {
       "id": 54,
       "title": "What is the CUN for?",
-      "content": "The CUN is used to independently proceed to report positivity through the Immuni app and to call center operators to verify the actual positivity of the person and support in the positivity reporting operation."
+      "content": "The CUN is used to autonomously proceed with the reporting of positivity through the Immuni app."
     },
     {
       "id": 55,
       "title": "Who can unlock Immuni?",
-      "content": "Immuni can be unlocked by the citizen who has the APP on his mobile phone, and who has tested positive for the molecular swab test. This operation can be carried out with the support of the healthcare professional who communicated the positive result of the swab to you, or if you received the CUN with the support of the call center operator 800 91 24 91 or independently with the specific function available in the APP.\nWarning: GPs are not authorized to support Immune unlocking."
+      "content": "Immuni can be unlocked by the citizen who has the APP on his mobile phone, and who has tested positive for the molecular swab test. This operation can be carried out with the support of the healthcare professional who communicated the positive result of the swab to you, or if you have received the CUN you can do it independently with the specific function available in the APP.\nWarning: GPs are not licensed to support immune unlocking."
     },
     {
       "id": 56,
@@ -287,136 +287,101 @@
     },
     {
       "id": 57,
-      "title": "When I call the call center, what information do I need to have in order to unlock Immuni?",
-      "content": "To unlock Immuni through the call center, you must have the CUN (National Unique Code), your health card, the start date of symptoms (if you are symptomatic). And of course the Immuni app."
-    },
-    {
-      "id": 58,
       "title": "Why are all these steps required (CUN, Health Card, single use code) to unlock Immuni?",
       "content": "As a matter of safety and to avoid that, even unintentionally or by mistake, someone can communicate incorrect information relating to their positivity to Immuni, thus generating, as a consequence, a flow of incorrect notifications to all their contacts."
     },
     {
-      "id": 59,
-      "title": "Can minors also use the call center unlocking service?",
-      "content": "The parent of a minor over 14 may contact the call center to support the minor child in unlocking Immuni. The CUN will be communicated to the parent's mobile number."
-    },
-    {
-      "id": 60,
-      "title": "What services does the call center 800 91 24 91 provide?",
-      "content": "The call center 800 91 24 91 provides general information regarding the Immuni app and, starting from 21 December 2020, also supports citizens in uploading positivity data and in unlocking the App. This new service was established by the Ministry of Health under article 20 of the decree-law of 28 October 2020, n 137.\nThe call center is dedicated to both citizens and healthcare professionals, with two different dedicated channels.\n"
-    },
-    {
-      "id": 61,
+      "id": 58,
       "title": "What type of test is needed to unlock Immuni?",
       "content": "At present, only molecular swab tests are recognized as valid. The antigen tests (or rapid tests) are therefore not currently usable for the unblocking of Immuni. The test must also be carried out in a public or private structure accredited by the regions or autonomous provinces. Non-accredited private facilities may in fact not communicate the outcome of the report to the regional health system."
     },
     {
-      "id": 62,
-      "title": "How does the Immuni unblocking work through the call center?",
-      "content": "When you call the call center, you will be guided to unlock Immuni: you will first be asked to communicate your CUN, through which the operator will verify your actual positivity; then you will need to communicate your Health Card number, through which your identity will be verified, and finally, by communicating the disposable code that you find in the \"report positivity\" section of the app, you will be authorized to enter your positivity data."
-    },
-    {
-      "id": 63,
-      "title": "In which regions or autonomous provinces is the Immuni telephone service to support data loading and unblocking active?",
-      "content": "The service is active throughout the national territory."
-    },
-    {
-      "id": 64,
-      "title": "Will Healthcare Professionals Still be able to unlock Immuni?",
-      "content": "Absolutely yes. The call center service does not replace the operators of the Health Prevention Departments, but supports them. Therefore, you can unlock Immuni even when you are called by the healthcare professional who informs you of the results of the test.\n"
-    },
-    {
-      "id": 65,
+      "id": 59,
       "title": "If I get a notification from Immuni, who should I call?",
       "content": "You can go to your GP, who will discuss the measures to be taken with you.\n"
     },
     {
-      "id": 66,
-      "title": "I did the molecular test in Lombardia, but I live in Lazio. Lombardy is one of the regions that has the support service for data loading via call centers, Lazio is not. Will I receive the CUN and can I contact the call center?",
-      "content": "Yes, if you left your contact details when you were tested."
-    },
-    {
-      "id": 67,
+      "id": 60,
       "title": "What do I do if the citizen has a CUN but it is not available on the TS system?",
       "content": "If the CUN number is not transmitted by the competent region or autonomous province, the citizen is invited to contact the health prevention department of his ASL for unlocking Immuni.\n"
     },
     {
-      "id": 68,
-      "title": "Can I unblock Immuni on my own, without the assistance of the healthcare staff or the call center?",
-      "content": "From April 6th it is possible, in case of positive Covid19, to independently unlock the upload having received the CUN to be inserted in the specific function of the APP together with the number of one's health card"
+      "id": 61,
+      "title": "Can I unblock Immuni on my own, without the assistance of the healthcare staff?",
+      "content": "From 6 April it is possible, in case of positive Covid19, to independently unlock the upload having received the CUN to be inserted in the specific function of the APP together with the number of one's health card"
     },
     {
-      "id": 69,
+      "id": 62,
       "title": "By independently unlocking the Immuni app, I am asked to enter the symptom start date, but I am asymptomatic, what should I do?",
       "content": "If you are asymptomatic you can tick the \"No symptoms\" option and do not indicate any date. In this case, the system will base its calculations from the date starting 2 days before the date of the positive buffer."
     },
     {
-      "id": 70,
+      "id": 63,
       "title": "I am vaccinated, how can I download the EU Digital Covid Certificate using Immuni?",
       "content": "Before you start, please be sure to have the AUTHCODE code and your Health Insurance Card next to you. The AUTHCODE is sent by SMS or email if you provided your mobile phone number or email when you did your vaccination.\nTo download the EU Digital Covid Certificate:\n- Go to the \"EU Digital Covid Certificate\" section of Immuni and press the \"Retrieve EU Digital Covid Certificate\" button. On this screen you will be asked for some information needed to retrieve your green certificate;\n- From the drop-down menu, choose \"AUTHCODE\" and enter your \"AUTHCODE\" in the \"Code\" form;\n- Enter the last 8 digits found on the back of your Health Insurance Card;\n- Enter the expiry date on the back of your Health Insurance Card;\n- Finally, press the \"Confirm\" button to send the request. \nIf the data entered is correct and a certificate is present, you will be redirected to the certificate viewing page."
     },
     {
-      "id": 71,
+      "id": 64,
       "title": "I did a COVID-19 swab test and it resulted negative: how can I download the EU Digital Covid Certificate using Immuni?",
       "content": "Before starting, please be sure to have your NRFE code (in case of antigenic test) or CUN code (in case of molecular test) and your Health Insurance Card next to you. As an alternative to these codes, you can enter the AUTHCODE authorisation code received by e-mail or SMS to the contact details you provided.\n To download the EU Digital Covid Certificate\n - Go to the \"EU Digital Covid Certificate\" section of Immuni and press the \"Retrieve EU Digital Covid Certificate\" button. On this screen you will be asked for some information needed to retrieve your green certificate;\n - From the drop-down menu, choose the \"NRFE\", \"CUN\" or \"AUTHCODE\" option, depending on the type of test, and then enter such code in the \"Code\" form;\n - Enter the last 8 digits found on the back of the Health Insurance Card;\n - Enter the expiry date on the back of the Health Card;\n - Finally, press the \"Confirm\" button to send the request. \n If the data entered is correct and a green certificate is present, you will be redirected to the certificate viewing page."
     },
     {
-      "id": 72,
+      "id": 65,
       "title": "I recovered from Covid-19 and I am not vaccinated yet: how can I download the EU Digital Covid Certificate using Immuni?",
       "content": "Before you start, be sure to have the NUCG code on the certificate issued by your doctor and your Health Insurance Card next to you. As an alternative to this code, you can enter the AUTHCODE authorisation code received by e-mail or SMS to the contact details you provided.\n To download the EU Digital Covid Certificate:\n - Go to the \"EU Digital Covid Certificate\" section of the Immuni app and press the \"Retrieve EU Digital Covid Certificate\" button. On this screen you will be asked for some information needed to retrieve your green certificate;\n - From the drop-down menu, choose the \"NUCG\" option and enter it in the \"Code\" form;\n - Enter the last 8 digits you may find on the back of your Health Insurance Card;\n - Enter the expiry date you may find on the back of the Health Card;\n - Finally, press the \"Confirm\" button to send the request.\n If the data entered is correct and a green certificate is present, you will be redirected to the certificate viewing page.\n All the previous steps can also be done using the AUTHCODE."
     },
     {
-      "id": 73,
+      "id": 66,
       "title": "Is Immuni protecting my privacy even if I use it to obtain the EU Digital Covid Certificate?",
       "content": "Of course! In the development of the new functionalities related to obtaining the EU Digital Covid Certificate, a number of measures have been taken to preserve the privacy of every citizen. Here are some of them:\n - The Contact Tracing service remains totally anonymous and has not changed, maintaining a clear separation with the new EU Digital Covid Certificate retrieval functionality;\n - All communication between the app and the server is encrypted;\n - The information entered is used solely for the purpose of retrieving the required certification from the platform.\n"
     },
     {
-      "id": 74,
+      "id": 67,
       "title": "In which format is the EU Digital Covid Certificate downloaded on Immuni?",
       "content": "With Immuni your EU Digital Covid Certificate is digital. It consists of a QR Code that contains the certificate information and it is digitally signed by the Ministry of Health, which guarantees the authenticity of the information contained. By clicking on \"More details\" inside the app you can see the additional information contained in the QR Code. \n By pressing the \"Save\" button, the QR Code of the certificate will be saved directly inside the local storage of your smartphone so that you will be able to view its QR Code also when offline."
     },
     {
-      "id": 75,
+      "id": 68,
       "title": "I am vaccinated, how can I download the EU Digital Covid Certificate throughout the www.dgc.gov.it website?",
       "content": "There are 2 possibilities offered by the www.dgc.gov.it website:\n1. you can download the Certificate from the website www.dgc.gov.it by using your digital identity (SPID / CIE). It is necessary to access the dedicated section, then enter your credentials. You will not need to enter any other type of information.\n2. If you do not have a digital identity, you can access the dedicated section of the website www.dgc.gov.it and enter the AUTHCODE received via e-mail or SMS to the contact details you provided while your were being vaccinated, in combination with the last 8 digits of the number identification of your Health Insurance Card and the expiration date of the card itself.\nIf you are not registered with the NHS and do not have a Health Insurance Card, you can enter the number of the identity document registered at the time of the health service together with the AUTHCODE."
     },
     {
-      "id": 76,
+      "id": 69,
       "title": "I did a COVID-19 swab test and it resulted negative: how can I download the EU Digital Covid Certificate throughout the www.dgc.gov.it website?",
       "content": "Using the website www.dgc.gov.it you have 2 possibilities :\n1. you can download the Certificate using your digital identity (SPID / CIE). It is necessary to access the dedicated section, then enter your credentials. You will not need to enter any other type of information.\n2. If you do not have a digital identity, you can access the dedicated section on the website www.dgc.gov.it and enter the NRFE code (in case of antigen test) or the CUN code (in case of molecular test) in combination with the last 8 digits of the number identification of your Health Insurance Card and the expiration date of the card itself. As an alternative to this method, you can enter the authorization code (AUTHCODE) received via e-mail or SMS to the contact details you provided while taking the swab test.\nIf you are not registered with the NHS and do not have a Health Insurance Card, you can enter the number of the identity document registered at the time of the health service together with the AUTHCODE."
     },
     {
-      "id": 77,
+      "id": 70,
       "title": "I recovered from Covid-19 and I am not vaccinated yet: how can I download the EU Digital Covid Certificate throughout the www.dgc.gov.it website?",
       "content": "Using the website www.dgc.gov.it you have 2 possibilities :\n1. you can download the Certificate from the website www.dgc.gov.it using your digital identity (SPID / CIE). To do so, it is necessary to access the dedicated section and then enter your credentials. You will not need to enter any other type of information.\n2. If you do not have a digital identity, you can access the dedicated website section and enter the NUCG code shown on the recovery certificate issued by your general practitioner in combination with the last 8 digits of the identification number shown at the back of your Health Insurance Card (Italian Tessera Sanitaria) together with the expiration date of the card itself. As an alternative to this method, you can enter the authorization code (AUTHCODE) received via e-mail or SMS to the contact details you provided.\nIf you are not registered with the NHS (Italian SSN) and do not have a Health Insurance Card, you can enter the number of the identity document registered together with the AUTHCODE."
     },
     {
-      "id": 78,
+      "id": 71,
       "title": "Which risks could I run into when showing my QR code to a stranger or when publishing it on social media?",
       "content": "The data contained in the QR Code is not encrypted, so you do not have to show the QR Code to subjects not entitled to check it, as you would not show a personal paper certificate to anyone.\nThe official verification app \"Verifica C19\" is the only one that must be used to verify the QRcode as it prevents the display of personal data that are not strictly necessary.\nIn case of careless sharing of your QRcode (via social media or through a photographic copy) there might be a risk of disclosing personal data (name, surname, date of birth), as well as data related to the issuance of the certificate (healing, vaccination, tests) by entities not entitled to know them by law."
     },
     {
-      "id": 79,
+      "id": 72,
       "title": "How can I verify if my QR code is valid?",
       "content": "The EU Digital Covid Certificate contains a two-dimensional barcode (QR Code) with a digital signature of the Ministry of Health that prevents it from being falsified. The authenticity and validity of the certification are proven at a European level through special verification apps. \nThe official verification app in Italy is “Verifica C19” which is available for free in digital stores. This mobile application guarantees both the protection of privacy, as it does not provide any storage of the personal data of the certification holder, as well as an interaction between information systems belonging to the Member States of the European Union in order to verify the issued EU Digital COVID Certificate.\nBy downloading the VerificaC19 app you can then scan your QR Code either on paper or on the phone and verify its validity and authenticity."
     },
     {
-      "id": 80,
+      "id": 73,
       "title": "Why isn't my smartphone's camera or a generic QR code scanner not able to read the EU Digital Covid Certificate's QR code?",
       "content": "The data contained in the QR Code is encoded according to a specific standard and therefore can only be read by an app such as Verifica19 that knows how to encode it."
     },
     {
-      "id": 81,
+      "id": 74,
       "title": "I did an antigenic swab but I did not receive the code needed to download the EU Digital Covid Certificate throughout Immuni: who may I contact? ",
       "content": "In case you lost your NRFE code (if you have carried out an antigenic swab), or the CUN code (if you have carried out a molecular swab) or of the AUTHCODE authorization code (received via e-mail or SMS to the addresses you communicated during the execution of the antigenic / molecular swab), you can ask your general practitioner / pediatrician (GP / PLS) or directly in a pharmacy to download your EU Digital Covid Certificate by providing your Health Insurance Card."
     },
     {
-      "id": 82,
+      "id": 75,
       "title": "I received one / two doses of the vaccine but I do not have the necessary code to download the EU Digital Covid Certificate throughout Immuni: who may I contact?",
       "content": "In case you lost the AUTHCODE code received by e-mail or SMS to the addresses you communicated while getting vaccinated, you can ask your general practitioner / pediatrician (GP / PLS) or directly in a pharmacy to download your EU Digital Covid Certificate by providing your Health Insurance Card."
     },
     {
-      "id": 83,
+      "id": 76,
       "title": "I received a COVID-19 recovery certificate from my general practitioner but I do not have the code needed to download the EU Digital Covid Certificate throughout Immuni: who may I contact?",
       "content": "In case you lost the NUCG code shown on the certificate issued by your doctor or the authorisation code (AUTHCODE) received by e-mail or SMS to the contact details you provided, you can ask your general practitioner / pediatrician (GP/PLS) or directly in a pharmacy to download your EU Digital Covid Certificate by providing your Health Insurance Card."
     }

@@ -18,7 +18,7 @@
     {
       "id": 3,
       "title": "Comment mes données confidentielles sont-elles protégées ?",
-      "content": "Immuni a été développée en accordant une grande attention à la protection des données confidentielles. De nombreuses mesures ont été adoptées pour les protéger, en voici quelques-unes :\n• L’application ne collecte pas de données permettant de retracer votre identité. Elle ne demande pas et ne peut pas obtenir, vos nom, prénom, date de naissance, adresse, numéro de téléphone ou email. \n• Vos déplacements ne sont en aucun cas suivis ou traçables.\n• Les codes aléatoires que les smartphones échangent via Bluetooth ne contiennent aucune information sur votre appareil, encore moins sur vous.\n• Pour protéger vos données confidentielles, ces codes aléatoires changent plusieurs fois par heure.\n• Les données enregistrées sur votre smartphone et les connexions entre l’application et le serveur sont cryptées.\n• Toutes les données enregistrées sur votre appareil ou le serveur seront supprimées lorsqu’elles ne seront plus nécessaires, et dans tous les cas avant le 31 décembre 2021.\n• Vos données sont collectées par le Ministère de la Santé et ne seront utilisées que pour contenir l’épidémie de Covid-19 ou à des fins de recherche scientifique.\n• Elles sont enregistrées sur des serveurs basés en Italie et gérées par des organismes publics."
+      "content": "Immuni a été développée en accordant une grande attention à la protection des données confidentielles. De nombreuses mesures ont été adoptées pour les protéger, en voici quelques-unes :\n• L’application ne collecte pas de données permettant de retracer votre identité. Elle ne demande pas et ne peut pas obtenir, vos nom, prénom, date de naissance, adresse, numéro de téléphone ou email. \n• Vos déplacements ne sont en aucun cas suivis ou traçables.\n• Les codes aléatoires que les smartphones échangent via Bluetooth ne contiennent aucune information sur votre appareil, encore moins sur vous.\n• Pour protéger vos données confidentielles, ces codes aléatoires changent plusieurs fois par heure.\n• Les données enregistrées sur votre smartphone et les connexions entre l’application et le serveur sont cryptées.\n• Toutes les données enregistrées sur votre appareil ou le serveur seront supprimées lorsqu’elles ne seront plus nécessaires, et dans tous les cas avant le 31 décembre 2022.\n• Vos données sont collectées par le Ministère de la Santé et ne seront utilisées que pour contenir l’épidémie de Covid-19 ou à des fins de recherche scientifique.\n• Elles sont enregistrées sur des serveurs basés en Italie et gérées par des organismes publics."
     },
     {
       "id": 4,
@@ -48,7 +48,7 @@
     {
       "id": 9,
       "title": "Où puis-je télécharger Immuni ? Quels sont les appareils et systèmes d’exploitation pris en charge ?",
-      "content": "En fonction de votre smartphone, vous pouvez télécharger Immuni sur l’App Store ou Google Play. Vérifiez ci-dessous si votre smartphone prend en charge Immuni.\n\n→ App Store\nVotre iPhone doit disposer de la version iOS 13.5 ou supérieure. Les modèles pris en charge sont : 11, 11 Pro, 11 Pro Max, Xr, Xs, Xs Max, X, 8, 8 Plus, 7, 7 Plus, 6s, 6s Plus, SE. Mettez iOS à jour en téléchargeant la dernière version disponible, avant de télécharger Immuni.\n\n→ Google Play\nVotre smartphone Android doit remplir les trois critères suivants :\n\n• Bluetooth Low Energy\n• Android version 6 (Marshmallow, API 23) ou supérieure\n• Services Google Play version 20.18.13 ou supérieure\n\nMettez à jour les services Android et Google Play à la dernière version disponible avant de télécharger Immuni.\n \n→ HMS core\n • Huawei smartphone (MATE 40 PRO, P Smart 2021, P40 Pro+, P Smart S, P40 Lite 5G, Y5p, Y6p, P40 Pro, P40, P40 Lite E, Mate Xs, P40 Lite, Mate30 Pro ou supérieure) \n • HMS core 5.1.0.300 ou supérieure\n\nMettez à jour HMS core à la dernière version disponible avant de télécharger Immuni.\n "
+      "content": "En fonction de votre smartphone, vous pouvez télécharger Immuni sur l’App Store, AppGallery ou Google Play. Vérifiez ci-dessous si votre smartphone prend en charge Immuni.\n\n→ App Store\nVotre iPhone doit disposer de la version iOS 13.5 ou supérieure. Les modèles pris en charge sont : 11, 11 Pro, 11 Pro Max, Xr, Xs, Xs Max, X, 8, 8 Plus, 7, 7 Plus, 6s, 6s Plus, SE. Mettez iOS à jour en téléchargeant la dernière version disponible, avant de télécharger Immuni.\n\n→ Google Play\nVotre smartphone Android doit remplir les trois critères suivants :\n\n• Bluetooth Low Energy\n• Android version 6 (Marshmallow, API 23) ou supérieure\n• Services Google Play version 20.18.13 ou supérieure\n\nMettez à jour les services Android et Google Play à la dernière version disponible avant de télécharger Immuni.\n \n→ AppGallery\n • Huawei smartphone (MATE 40 PRO, P Smart 2021, P40 Pro+, P Smart S, P40 Lite 5G, Y5p, Y6p, P40 Pro, P40, P40 Lite E, Mate Xs, P40 Lite, Mate30 Pro ou supérieure) \n • HMS core 5.1.0.300 ou supérieure\n\nMettez à jour HMS core à la dernière version disponible avant de télécharger Immuni.\n "
     },
     {
       "id": 10,
@@ -152,19 +152,18 @@
     },
     {
       "id": 30,
-
       "title": "Qu’est-ce que c’est le code à usage unique et comment fonctionne-t-il ?",
-      "content": "Le code à usage unique est une séquence alphanumérique de dix caractères utilisée uniquement en cas de positivité au SARS-CoV-2 et qui n’identifie en aucun cas l’utilisateur de l’application.\nSi vous avez été testé positif au virus, vous pouvez décider de télécharger les données nécessaires sur le serveur Immuni pour notifier, de manière anonyme, les personnes qui ont été en contact étroit avec vous au cours des 2 jours avant l’apparition des symptômes (ou du prélèvement si vous êtes asymptômatique) et jusqu’à un maximum de 14 jours.\nPour ce faire, vous devez donner le code à usage unique qui se trouve sous l’onglet «Signaler un résultat positif » d'Immuni (dans le menu «Paramètres») au prestataire de soins qui vous a communiqué le résultat du prélèvement, ou à l'opérateur téléphonique du centre d'appels 800 91 24 91, si vous avez reçu le CUN ( Code Univoque Nationale).\nUne fois que l'opérateur a validé le code à usage unique vous pouvez procéder au téléchargement des données de positivité. Cette opération est aussi appelé «déverrouiller» Immuni"
+      "content": "Le code jetable est une séquence alphanumérique de dix caractères qui n'est utilisée qu'en cas de positivité au virus SARS-CoV-2 et qui n'identifie en aucun cas l'utilisateur de l'application Immuni.\nSi vous avez été testé positif au virus, vous pouvez décider de télécharger sur le serveur Immuni les données nécessaires pour notifier, de manière anonyme, les personnes qui ont été en contact étroit avec vous 2 jours avant les symptômes (ou l'écouvillon si vous êtes asymptomatique) et jusqu'à un maximum de 14 jours. Pour ce faire, vous devez dicter le code jetable qui se trouve dans la rubrique « signaler la positivité » d'Immuni (dans le menu « Paramètres ») au professionnel de santé qui vous a communiqué le résultat de l'écouvillonnage. De plus, si vous avez reçu le CUN, vous pouvez signaler votre positivité de manière indépendante directement avec la fonction spécifique disponible dans l'APP.\nCeci est également connu sous le nom de « déverrouillage » d'Immuni."
     },
     {
       "id": 31,
       "title": "Comment et quand puis-je télécharger mes données ?",
-      "content": "Vous pouvez télécharger vos données que si vous avez été testé positif à la Covid-19 et si vous avez effectué un prélèvement moléculaire. L’opération est basée sur le volontariat et permet à Immuni de notifier les personnes avec lesquelles vous avez eu des contacts au cours des 2 jours avant l’apparition des symptômes (ou du prélèvement si vous êtes asymptomatique) et jusqu’à un maximum de 14 jours.\nCette opération peut être réalisée avec le soutien du prestataire de soins qui vous a communiqué le résultat positif de l'écouvillon, avec le soutien de l'opérateur du centre\n d'appels 800 91 24 91 (si vous avez reçu le CUN) ou en autonomie à travers la fonction spécifique disponible sur l’APP"
+      "content": "Vous ne pouvez télécharger vos données que si vous êtes positif pour le coronavirus et si vous avez subi un test d'écouvillonnage moléculaire. L'opération est volontaire et permet à Immuni de prévenir les personnes avec lesquelles vous avez été en contact étroit dès 2 jours avant les symptômes (ou le tampon si vous êtes asymptomatique) et jusqu'à 14 jours maximum.\nCette opération peut être réalisée avec le soutien du professionnel de santé qui vous a communiqué le résultat positif de l'écouvillonnage, ou si vous avez reçu le CUN avec la fonction spécifique disponible dans l'APP."
     },
     {
       "id": 32,
       "title": "Quelles sont les étapes pour télécharger le résultat positif sur Immuni?",
-      "content": "L'agent de santé du service de prévention qui vous a communiqué le résultat du prélèvement moléculaire ou l'opérateur téléphonique du centre d'appels Immuni vous demandera d'entrer dans la section Réglages et de choisir «Signaler un résultat positif».\n• Le professionnel de santé vous demandera d’accéder à la section « Réglages » et de choisir « Signaler la positivité ».\n• Immuni affichera un code à usage unique, c’est-à-dire une séquence alphanumérique de dix caractères choisis de façon aléatoire.\n• Vous devrez communiquer ce code au professionnel de santé qui l’autorisera.\n• Le professionnel de santé vous demandera d’appuyer sur «Continuer»\n• L’application affichera un résumé des données qui seront téléchargées.\n• En appuyant sur « Télécharger les données », l’application procédera au téléchargement des données décrites précédemment.\n"
+      "content": "L'agent de santé du service de prévention qui vous a communiqué le résultat de l'écouvillonnage vous demandera de saisir la rubrique \"Paramètres\" et de choisir \"Signaler positivité\".\nImmuni vous montrera un code à usage unique, une séquence de dix caractères générés aléatoirement.\nCommuniquez ce code à l'opérateur, qui vous donnera l'autorisation de continuer\nCliquez sur \"Continuer\" Immuni vous montrera un résumé des données qui seront téléchargées\nEn cliquant sur \"Télécharger les données\", l'application téléchargera vos données\nEnfin, il vous sera demandé la permission d'accéder aux codes aléatoires enregistrés sur votre appareil L'application vous affichera un message de confirmation une fois le téléchargement terminé."
     },
     {
       "id": 33,
@@ -224,8 +223,7 @@
     {
       "id": 44,
       "title": "Quels sont les professionnels de santé dont parle Immuni?",
-      "content": "Il s’agit du personnel de santé dépendant du Département de prévention de l’ASL (Agence de santé locale) ou des structures hospitalières qui communique normalement le résultat positif du test à l’utilisateur par téléphone. Si la personne testée positive a installé Immuni, elle peut choisir de signaler sa positivité. Ceci permettra à Immuni d’avertir les utilisateurs avec lesquels elle a été en contact étroit d’un possible risque de contagion.\nCette opération peut être réalisée avec le soutien du prestataire de soins qui vous a communiqué le résultat positif de l'écouvillon ou l'opérateur du centre d'appels 800 91 24 91, si vous avez reçu le CUN."
-
+      "content": "Il s'agit du personnel de santé du service de prévention de l'ASL ou des hôpitaux qui communiquent normalement les résultats de l'écouvillonnage à l'utilisateur par téléphone. Si la personne testée positive a installé Immuni, elle peut choisir de signaler sa positivité. Cela permettra à Immuni d'avertir les personnes avec lesquelles il a été en contact étroit du risque de contagion. Pour guider et permettre l'utilisateur positif dans le téléchargement des données et dans le \"déblocage\" d'Immuni, il peut s'agir du même professionnel de santé qui a communiqué le résultat de la référence ou il est possible de procéder de manière autonome, si l'utilisateur est également en possession du CUN, via la fonction appropriée de l'APP."
     },
     {
       "id": 45,
@@ -245,7 +243,7 @@
     {
       "id": 48,
       "title": "Immuni affiche un message d’erreur de connexion dès les premières étapes d’utilisation. Que puis-je faire ?",
-      "content": "Si vous vous trouvez hors du territoire européen, il est normal que vous receviez un message d’erreur. Certaines fonctionnalités d’Immuni pourraient ne pas être disponibles. \n\nSi vous êtes connecté(e) depuis un lieu se trouvant sur le territoire européen, nous vous recommandons de procéder comme suit :\n• Vérifiez que votre smartphone est connecté à Internet.\n• Connectez-vous en utilisant le réseau mobile. Le problème peut être dû à un réseau wifi mal configuré.\n• Si vous utilisez un VPN (réseau privé virtuel), désactivez-le. Celui-ci pourrait vous avoir attribué une IP en dehors du territoire européen.\n\nNous vous rappelons que les pays du territoire européen sont : Allemagne, Autriche, Belgique, Bulgarie, Croatie, Chypre, Danemark, Espagne, Estonie, Finlande, France, Grèce, Hongrie, Irlande, Italie, Lettonie, Lituanie, Luxembourg, Malte, Pays-Bas, Pologne, Portugal, Roumanie, Slovaquie, Slovénie, Suède, Islande, Liechtenstein, Norvège, Suisse, Cité du Vatican, Saint-Marin et Principauté de Monaco."
+      "content": "Si vous vous trouvez hors du territoire européen, il est normal que vous receviez un message d’erreur. Certaines fonctionnalités d’Immuni pourraient ne pas être disponibles. \n\nSi vous êtes connecté(e) depuis un lieu se trouvant sur le territoire européen, nous vous recommandons de procéder comme suit :\n• Vérifiez que votre smartphone est connecté à Internet.\n• Connectez-vous en utilisant le réseau mobile. Le problème peut être dû à un réseau wifi mal configuré.\n• Si vous utilisez un VPN (réseau privé virtuel), désactivez-le. Celui-ci pourrait vous avoir attribué une IP en dehors du territoire européen.\n\nNous vous rappelons que les pays du territoire européen sont : Allemagne, Autriche, Belgique, Bulgarie, Croatie, Chypre, Danemark, Espagne, Estonie, Finlande, France, Grèce, Hongrie, Irlande, Italie, Lettonie, Lituanie, Luxembourg, Malte, Pays-Bas, Pologne, Portugal, Roumanie, Slovaquie, Slovénie, Suède, Islande, Liechtenstein, Norvège, Suisse, République tchèque, Cité du Vatican, Saint-Marin et Principauté de Monaco."
     },
     {
       "id": 49,
@@ -255,17 +253,17 @@
     {
       "id": 50,
       "title": "Qu'entend-on par «déblocage» d’Immuni?",
-      "content": "Pour informer les contacts proches de la personne qui a été positive pour la Covid-19, il est nécessaire d'envoyer le code unique au serveur Immuni. Le code étant temporaire, cette opération doit être effectuée en quelques minutes avec le soutien d'un agent de santé du service de prévention qui a réalisé le prélèvement ou - pour les régions déjà habilitées pour le service - via le centre d'appels Immuni. L'opérateur vérifie le code unique et autorise le téléchargement des données.\nL'ensemble de l'opération est communément appelé \"déverrouillage\" d'Immuni.\n"
+      "content": "Pour notifier de la positivité les proches de la personne testée positive au Covid-19, il est nécessaire d'envoyer le code jetable au serveur Immuni. Le code étant temporaire, cette opération doit être effectuée en quelques minutes avec l'aide d'un agent de santé du service de prévention qui vérifiera l'exactitude du code et autorisera le chargement des données. Alternativement, si vous avez reçu le CUN, vous pouvez utiliser indépendamment la fonction disponible pour l'APP.\nL'ensemble de l'opération est communément appelé « déverrouillage » d'Immuni."
     },
     {
       "id": 51,
       "title": "Qu'est-ce que le CUN?",
-      "content": "Le CUN, ou National Unique Code, est un code qui identifie de manière unique le résultat d'un prélèvement moléculaire, qu'il soit positif ou négatif. Il se compose de 10 caractères précédés du suffixe CUN-.\nGrâce au CUN, il est possible d'utiliser le service du centre d'appels qui soutient le citoyen pour la libération d'Immuni.\n"
+      "content": "Le CUN, ou National Unique Code, est un code qui identifie de manière unique le résultat d'un écouvillonnage moléculaire, qu'il soit positif ou négatif. Il se compose de 10 caractères précédés du suffixe CUN-.\nGrâce au CUN, il est possible de signaler indépendamment sa positivité grâce à la fonction mise à disposition sur l'APP."
     },
     {
       "id": 52,
       "title": "Le CUN est-il également nécessaire lorsque tu contactes ou tu es contacté par l'agent de santé du service de prévention?",
-      "content": "Non, le CUN est utilisé uniquement pour demander assistance au centre d'appels."
+      "content": "Non, le CUN est uniquement utilisé pour signaler sa positivité de manière indépendante via l'APP."
     },
     {
       "id": 53,
@@ -275,14 +273,12 @@
     {
       "id": 54,
       "title": "À quoi sert le CUN?",
-      "content": "Le CUN est utilisé pour procéder indépendamment au rapport de positivité via l'application Immuni et aux opérateurs du centre d'appels pour vérifier la positivité réelle de la personne et l'aider dans l'opération de rapport de positivité."
+      "content": "Le CUN est utilisé pour procéder de manière autonome au signalement de la positivité via l'application Immuni."
     },
     {
       "id": 55,
-
       "title": "Qui peut dévérouiller Immuni?",
-      "content": "Immuni peut être dévérouillé par les citoyens qui ont déjà installé l'APP sur leur téléphone portable et dont le prélèvement moléculaire est résulté positif. Cette opération peut être réalisée avec le soutien de l’opérateur sanitaire qui vous a communiqué le résultat positif de l'écouvillon, avec le soutien de l'opérateur du centre d'appels 800 91 24 91 (si vous avez reçu le CUN) ou en autonomie à travers la fonction spécifique disponible sur l’APP\nAvertissement: les médecins généralistes ne sont pas autorisés à prendre en charge le déverouillement de Immuni"
-
+      "content": "Immuni peut être débloqué par le citoyen qui a l'APP sur son téléphone portable, et qui a été testé positif pour le test d'écouvillonnage moléculaire. Cette opération peut être réalisée avec le soutien du professionnel de santé qui vous a communiqué le résultat positif de l'écouvillonnage, ou si vous avez reçu le CUN vous pouvez le faire de manière autonome avec la fonction spécifique disponible dans l'APP.\nAvertissement : Les médecins généralistes ne sont pas autorisés à prendre en charge le déverrouillage immunitaire."
     },
     {
       "id": 56,
@@ -291,70 +287,103 @@
     },
     {
       "id": 57,
-      "title": "Lorsque j'appelle le centre d'appels, de quelles informations ai-je besoin pour débloquer Immuni?",
-      "content": "Pour débloquer Immuni via le centre d'appels, tu dois avoir le CUN (National Unique Code), ta carte vitale, la date de début des symptômes (si tu es symptomatique). Et bien sûr, l'application Immuni."
-    },
-    {
-      "id": 58,
       "title": "Pourquoi toutes ces étapes sont-elles nécessaires (CUN, carte Sanitaire, code à usage unique) pour déverrouiller Immuni?",
       "content": "Par sécurité et pour éviter que, même involontairement ou par erreur, quelqu'un puisse communiquer des informations erronées relatives à sa positivité à Immuni, générant ainsi, en cascade, un flux de notifications incorrectes à tous ses contacts."
     },
     {
-      "id": 59,
-      "title": "Les mineurs peuvent-ils également utiliser le service de déverrouillage du centre d'appels?",
-      "content": "Le parent d'un mineur de plus de 14 ans peut contacter le centre d'appels pour aider l'enfant mineur à déverrouiller Immuni. Le CUN sera communiqué au numéro de portable du parent."
-    },
-    {
-      "id": 60,
-      "title": "Quels services le centre d'appels 800 91 24 91 propose-t-il?",
-      "content": "Le centre d'appels 800 91 24 91 fournit des informations sur le fonctionnement de l'application Immuni et, à partir du 21 décembre 2020, il aide également les citoyens à télécharger des données de test possible pour la Covid-19 et à déverrouiller l'application. Ce nouveau service a été créé par le ministère de la Santé selon l'article 20 du décret-loi du 28 octobre 2020, n 137.\nLe centre d'appels s'adresse à la fois aux citoyens et aux professionnels de santé, avec deux canaux dédiés différents.\n"
-    },
-    {
-      "id": 61,
+      "id": 58,
       "title": "Quel type de test est nécessaire pour déverrouiller Immuni?",
       "content": "À l'heure actuelle, seuls les tests sur prélèvement moléculaire sont reconnus comme valides. Les tests antigéniques (ou tests rapides) ne sont donc actuellement pas utilisables pour le déblocage des immunités. Le test doit également être effectué dans une structure publique ou privée agréée par les régions ou provinces autonomes. Les établissements privés non agréés peuvent en effet ne pas communiquer les résultats du rapport au système de santé régional."
     },
     {
-      "id": 62,
-      "title": "Comment fonctionne le déblocage IMMUNI via le centre d'appels?\n",
-      "content": "Lorsque tu contactes le centre d'appels, tu seras guidé pour déverrouiller Immuni: il te sera d'abord demandé de communiquer ton CUN, à travers lequel l'opérateur vérifiera ta positivité réelle; il te faudra ensuite communiquer ton numéro de carte vitale, par lequel ton identité sera vérifiée, et enfin, en communiquant le code unique que tu trouveras dans la section «rapport de positivité» de l'application, tu seras autorisé à saisir tes données de positivité."
-    },
-    {
-
-      "id": 63,
-      "title": "Dans quelles régions ou provinces autonomes le service téléphonique Immuni pour le chargement et le déblocage des données est-il actif?",
-      "content": "Le service est actif sur tous le territoire nationale"
-    },
-    {
-
-      "id": 64,
-      "title": "Les professionnels de la santé continueront-ils à soutenir le déverrouillage Immuni?",
-      "content": "Oui, absolument. Le centre d'appels ne remplace pas les opérateurs des services de prévention sanitaire, mais les accompagne. Par conséquent, tu peux débloquer Immuni même lorsque tu es appelé par le professionnel de la santé qui te informe du résultat du prélèvement moléculaire."
-    },
-    {
-      "id": 65,
+      "id": 59,
       "title": "Si je reçois une notification d'Immuni, qui dois-je appeler?",
       "content": "Tu peux contacter ton médecin généraliste, qui évaluera les mesures à prendre."
     },
     {
-      "id": 66,
-      "title": "J'ai fait le prélèvement moléculaire en Lombardia, mais je vis dans le Latium. La Lombardia est l'une des régions qui dispose du service d'assistance pour le chargement de données via les centres d'appels, la Lazio ne l'est pas. Vais-je recevoir le CUN et puis-je contacter le centre d'appels?",
-      "content": "Oui, si tu a laissé tes coordonnées lors de l'écouvillonnage."
-    },
-    {
-      "id": 67,
+      "id": 60,
       "title": "Que dois-je faire si le citoyen a un CUN mais qu'il n'est pas présent sur le système TS?",
       "content": "Si le numéro CUN n'est pas transmis par la région compétente ou la province autonome, le citoyen est invité à contacter le service de prévention sanitaire de son ASL pour le déverrouillage de Immuni."
     },
     {
+      "id": 61,
+      "title": "Puis-je débloquer Immuni seul, sans l'aide du personnel soignant ?",
+      "content": "À partir du 6 avril, il est possible, en cas de Covid19 positif, de déverrouiller indépendamment le téléchargement ayant reçu le CUN à insérer dans la fonction spécifique de l'APP avec le numéro de sa carte de santé"
+    },
+    {
+      "id": 62,
+      "title": "En débloquant en autonomie l’app Immuni on me demande d’insérer la date du début des symptômes, mais je suis asymptomatiques. Comment dois-je procéder?",
+      "content": "Dans la cas où vous soyez asymptomatiques, il suffit de cochez le choix “ Aucun symptômes” et de ne pas insérer une date. Le système, dans le cas d’espace, basera ses calculs à partir de la date correspondante à 2 jours avant la date du prélèvement résultant positif."
+    },
+    {
+      "id": 63,
+      "title": "Je suis vacciné : comment télécharger le Certificat vert COVID-19 via l’application Immuni?",
+      "content": "Avant de commencer, munissez-vous de votre code AUTHCODE et de votre carte européenne d’assurance maladie. L'AUTHCODE est envoyé par SMS ou par courriel si vous avez renseigné votre numéro de téléphone mobile ou votre adresse électronique au moment de l'injection.Pour télécharger le Certificat vert COVID-19 :- Allez à la section \"EU Digital Covid Certificate\" de l’application Immuni et cliquez sur le bouton \"Recupera EU Digital Covid Certificate\". Entrez les informations requises pour récupérer votre Certificat vert:- Dans le menu déroulant, sélectionnez l'option \"\"AUTHCODE\"\" et entrez votre \"\"AUTHCODE\"\"à la rubrique \"Code\" ;- Entrez les 8 derniers chiffres figurant au dos de votre carte européenne d’assurance maladie ;- Entrez la date d'expiration figurant au dos de la CEAM ;- Cliquez sur le bouton \"Confirmer\" pour validerla demande.Si les données saisies sont correctes et qu'un Certificat vert est présent, vous serez redirigé vers la page pour visualiser le certificat."
+    },
+    {
+      "id": 64,
+      "title": "J'ai un résultat négatifau test de dépistage, comment télécharger le Certificat vert COVID-19 via l’application Immuni?",
+      "content": "Avant de commencer, munissez-vous de votre code NRFE (si vous avez effectué un test antigénique) ou de votre code CUN (si vous avez effectué un test PCR) et de votre carte européenne d’assurance maladie. En alternative, vous pouvez entrerle code d'autorisation AUTHCODE envoyé par courriel ou par SMS aux coordonnées que vous avez renseignées au moment du test antigénique/PCR.Pour télécharger le Certificat vert COVID-19 :- Allez à la section \"EU Digital Covid Certificate\" de l’application Immuni et cliquez sur le bouton \"Recupera EU Digital Covid Certificate\". Entrez les informations requises pour récupérer votre Certificat vert:- Dans le menu déroulant, sélectionnez l'option \"NRFE\", \"CUN\" ou \"AUTHCODE\", en fonction du type de test effectué, et saisissez le code à la rubrique \"Code\" ;- Entrez les 8 derniers chiffres figurant au dos de la carte européenne d’assurance maladie ;- Indiquez la date d'expiration figurant au dos de la CEAM ;- Cliquez sur le bouton \"Confirmer\" pour validerla demande.Si les données saisies sont correctes et qu'un Certificat vert est présent, vous serez redirigé vers la page pour visualiser le certificat."
+    },
+    {
+      "id": 65,
+      "title": "Je suis guéri(e) de la Covid, mais pas encore vacciné(e), comment télécharger le Certificat vert COVID-19 via l’application Immuni?",
+      "content": "Avant de commencer, munissez-vous du code NUCG figurant sur le certificat délivré par votre médecin et de votre carte européenne d’assurance maladie. En alternative, vous pouvez entrer le code d'autorisation AUTHCODE envoyé par courriel ou par SMS aux coordonnées que vous avez renseignées au moment de la délivrance du certificat de rétablissement.Pour télécharger le Certificat vert COVID-19 :- Allez à la section \"EU Digital Covid Certificate\" de l’application Immuni et cliquez sur le bouton \"Recupera EU Digital Covid Certificate\". Entrez les informations requises pour récupérer votre Certificat vert:- Dans le menu déroulant, sélectionnez l'option \"NUCG\" et saisissez le code à la rubrique \"Code\" ;- Entrez les 8 derniers chiffres figurant au dos de votre carte européenne d'assurance maladie ;- Entrez la date d'expiration figurant au dos de la CEAM ;- Cliquez sur le bouton \"Confirmer\" pour validerla demande.Si les données saisies sont correctes et qu'un Certificat vert est présent, vous serez redirigé vers la page pour visualiser le certificat.Vous pouvez également télécharger avec AUTHCODE"
+    },
+    {
+      "id": 66,
+      "title": "L’application Immuni protège-t-elle ma vie privée, même si je l'utilise pour obtenir le Certificat vert COVID-19 ?",
+      "content": "Bien sûr ! Lors du développement de nouvellesfonctionnalités liées à l'obtention du Certificat vert COVID-19, plusieurs mesures ont été prises pour protéger la vie privée des utilisateurs. En voici quelques-unes :- Le service de Contact Tracing est totalement anonyme et n'a subi aucune modification tout en maintenant une séparation nette avec la nouvelle fonctionnalité permettant de récupérerle Certificat vert COVID-19 ;- Toutes les communications entre l'application et le serveur sont cryptées ;- Les informations saisies sont utilisées dans leseul but de récupérer sur le portail le certificat demandé."
+    },
+    {
+      "id": 67,
+      "title": "Quel est le format du Certificat vert COVID-19 téléchargeable via l’application Immuni ?",
+      "content": "Avec l’application Immuni, votre Certificat vert COVID-19 est au format numérique, il est composé d’un QR Code contenant les informations du certificat ainsi qu’une signaturenumérique du ministère de la Santé qui garantitl'authenticité des informations contenues. En cliquant sur \"Plus de détails\", vous pouvez visualiser les informations complémentaires contenues dans le QR Code.En cliquant sur le bouton \"Enregistrer\", le QR Code du certificat sera stocké directement sur votre smartphone et vous pourrez le visualiser en mode hors connexion."
+    },
+    {
       "id": 68,
-      "title": "Puis-je déverouiller Immuni en autonomie, sans le soutient d’un préstataire de soin ou du call center?",
-      "content": "A partir du 6 avril, en cas de positivité au Covid-19, il est possible de déverrouiller en autonomie le téléchargement après reception du CUN qui devra etre inséré avec le numéros de la carte sanitaire dans la fonction spécifiaue de l’APP."
+      "title": "Je suis vacciné : comment télécharger le Certificat vert COVID-19 sur www.dgc.gov.it ?",
+      "content": "Le site web www.dgc.gov.it vous propose deux modalités :1. Grâce à l'identité numérique (SPID/CIE), vous pouvez obtenir le certificat sur le site www.dgc.gov.it. Vous devez accéder à la section dédiée et entrer vos données d'identification. Vous n'aurez pas à renseigner d'autres informations.2. Si vous n'avez pas d'identité numérique, pour obtenir le certificat depuis le site www.dgc.gov.it, il suffit d'accéder à la section dédiée et d’entrer le code AUTHCODE que vous avez reçu par SMS ou par courriel si vousavez fourni votre numéro de téléphone mobile ou votre adresse électronique au moment de l'injection, ainsi que les 8 derniers chiffres de votre carte européenne d’assurance maladie etsa date d'expiration. Si vous n'êtes pas inscrit au SSN et que vous n'avez pas de CEAM, vous pouvez saisir l'AUTHCODE ainsi que le numéro du document d'identité enregistré au moment de l’injection."
     },
     {
       "id": 69,
-      "title": "En débloquant en autonomie l’app Immuni on me demande d’insérer la date du début des symptômes, mais je suis asymptomatiques. Comment dois-je procéder?",
-      "content": "Dans la cas où vous soyez asymptomatiques, il suffit de cochez le choix “ Aucun symptômes” et de ne pas insérer une date. Le système, dans le cas d’espace, basera ses calculs à partir de la date correspondante à 2 jours avant la date du prélèvement résultant positif."
+      "title": "J'ai un résultat négatifau test de dépistage, comment télécharger le Certificat vert COVID-19 sur le site www.dgc.gov.it ?",
+      "content": "Le site www.dgc.gov.it vous propose deux modalités :1. Grâce à l'identité numérique (SPID/CIE), vous pouvez obtenir le certificat depuis le site www.dgc.gov.it. Vous devez accéder à la section dédiée et entrer vos données d'identification. Vous n'aurez pas à renseigner d'autres informations.2. Si vous ne disposez pas d'une identité numérique, pour obtenir le certificat sur le site www.dgc.gov.it, il suffit d'accéder à la section dédiée et d’entrer le code NRFE (si vous avez effectué un test antigénique) ou le code CUN (si vous avez effectué un test PCR) ainsi que les 8 derniers chiffres du numéro de votre carteeuropéenne d’assurance maladie et sa date d'expiration. En alternative, vous pouvez entrerle code d'autorisation (AUTHCODE) envoyé par courriel ou par SMS aux coordonnées que vous avez renseignées au moment du test antigénique/PCR.Si vous n'êtes pas enregistré au SSN et que vous n'avez pas de CEAM, vous pouvez saisir l'AUTHCODE ainsi que le numéro du document d'identité enregistré au moment du test."
+    },
+    {
+      "id": 70,
+      "title": "Je suis guéri(e) de la Covid, mais pas encore vacciné(e), comment télécharger le Certificat vert COVID-19 sur le site www.dgc.gov.it ?",
+      "content": "Le site www.dgc.gov.it vous propose deux modalités :1. Grâce à l'identité numérique (SPID/CIE), vous pouvez obtenir le certificat sur le site www.dgc.gov.it. Vous devez accéder à la section dédiée et entrer vos données d'identification. Vous n'aurez pas à renseigner d'autres informations.2. Si vous n'avez pas d'identité numérique, pour obtenir le certificat depuis le site www.dgc.gov.it, il suffit d'accéder à la section dédiée et d'entrer le code NUCG présent sur lecertificat de rétablissement délivré par le médecin, ainsi que les 8 derniers chiffres du numéro de la carte européenne d’assurance maladie et sa date d'expiration. En alternative, vous pouvez entrer le code d'autorisation (AUTHCODE) envoyé par courriel ou par SMS aux coordonnées que vous avez renseignées au moment de la délivrance du certificat de rétablissement.Si vous n'êtes pas inscrit au SSN et que vous n'avez pas de CEAM, vous pouvez saisir l'AUTHCODE ainsi que le numéro du document d'identité enregistré au moment du contrôle médical."
+    },
+    {
+      "id": 71,
+      "title": "Quels sont les risquesauxquels je m’expose si je montre mon QR Code à un inconnu ousi je le partage sur lesréseaux sociaux ?",
+      "content": "Les données figurant sur le QR Code ne sont pas cryptées. Vous n’avez donc pas à montrer le QR Code à des personnes non habilitées à effectuer des contrôles, de même que vous ne présenteriez pas un certificat personnel papier à un inconnu.L'application officielle de vérification \"Verifica C19\" est la seule application pouvant être utilisée pour vérifier le QR Code, car elle affiche uniquement les données personnelles strictement nécessaires.En cas de divulgation imprudente de votre QR Code (partage d’une capture d’écran sur les réseaux sociaux ou autres), vous risquez de rendre accessibles les données personnelles de la personne concernée (nom, prénom, date de naissance), ainsi que les données ayant permis la délivrance du certificat (rétablissement, vaccination, test) à des tiers non autorisés par la loi à en prendre connaissance."
+    },
+    {
+      "id": 72,
+      "title": "Comment savoir si mon QR Code est valide ?",
+      "content": "Le Certificat vert numérique COVID-19 est composé d’un code-barres 2D (QR Code) ainsique d’une signature numérique du ministère dela Santé qui permet de prévenir toute falsification. L'authenticité et la validité du certificat sont attestées au niveau européen par des applications spécifiques de vérification.En Italie, l'application officielle de vérification est \"Verifica C19\", disponible gratuitement dans les magasins de matériel informatique. Cette application mobile garantit à la fois la protection de la vie privée, car elle ne stocke pas les données personnelles du titulaire du certificat, et l'interaction entre les systèmes d'information appartenant aux États membres de l'UE aux fins de la vérification de l'EU DigitalCOVID Certificate émis.En téléchargeant l'application VerificaC19, vous pouvez ensuite scanner votre QR Code sur papier ou sur votre téléphone et vérifier sa validité et son authenticité."
+    },
+    {
+      "id": 73,
+      "title": "L'appareil photo de mon smartphone ou un lecteur de QR Code standard ne lit pas le QR Code du Certificat vert COVID-19, pourquoi ?",
+      "content": "Parce que les données contenues dans le QR Code sont chiffrées selon une norme spécifique et peuvent être lues uniquement parune application telle que Verifica C19 qui reconnaît cet encodage."
+    },
+    {
+      "id": 74,
+      "title": "J'ai effectué un test antigénique, mais je n'ai pas reçu le code nécessaire pour télécharger le Certificat vert numérique COVID-19 via l’application Immuni, à -qui dois-je m’adresser ?",
+      "content": "Si vous ne disposez pas du code NRFE (si vous avez effectué un test antigénique), du code CUN (si vous avez effectué un test PCR) ou du code d'autorisation AUTHCODE (envoyépar courriel ou par SMS aux coordonnées que vous avez renseignées au moment du test antigénique/PCR), vous pouvez récupérer votre Certificat vert COVID-19 directement auprès de votre médecin traitant/pédiatre de votre choix (MMG/PLS) ou de votre pharmacien sur présentation de votre carte européenne d’assurance maladie."
+    },
+    {
+      "id": 75,
+      "title": "J'ai reçu une/deux doses de vaccin, maisje n'ai pas le code pour télécharger le Certificat vert COVID-19 via l’application Immuni : à qui dois-je m’adresser ?",
+      "content": "Si vous ne disposez pas du code AUTHCODE envoyé par courriel ou par SMS aux coordonnées que vous avez renseignées au moment de l’injection, vous pouvez récupérer votre Certificat vert COVID-19 directement auprès de votre médecin traitant/pédiatre de votre choix (MMG/PLS) ou de votre pharmacien sur présentation de votre carte européenne d’assurance maladie."
+    },
+    {
+      "id": 76,
+      "title": "J’ai un certificat de rétablissement délivrépar mon médecin traitant/pédiatre, mais pas le code pour télécharger le Certificat vert COVID-19 via l’application Immuni, à qui dois-je m’adresser ?",
+      "content": "Si vous ne disposez pas du code NUCG figurant sur le certificat délivré par votre médecin ou du code d'autorisation (AUTHCODE) envoyé par courriel ou par SMS aux coordonnées que vous avez renseignées au moment de la délivrance du certificat de rétablissement, vous pouvez récupérer votre Certificat vert COVID-19 directement auprès devotre médecin traitant/pédiatre de votre choix (MMG/PLS) ou de votre pharmacien sur présentation de votre carte européenne d’assurance maladie."
     }
   ]
 }
