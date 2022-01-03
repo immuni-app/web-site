@@ -37,7 +37,8 @@ let monthNames = {
 
 let lastDateString = andamentoRegionale[0]['mese']
 let formattedDate = moment(lastDateString).toDate()
-
+let lastWeekUpdateNotifications = ""
+let lastWeekUpdatePositiveUsers = ""
 Number.prototype.round = function (places) {
 	return +(Math.round(this + "e+" + places) + "e-" + places);
 }
@@ -457,54 +458,56 @@ function generateChart() {
 
 	//Doughnut chart
 	let downloadDeviceDiv = document.getElementById('downloadDevice')
-	var seriesData = [iosDownload[iosDownload.length - 1], androidDownload[androidDownload.length - 1]];
-	var total = seriesData.reduce((a, v) => a + v);
-	var inPercent = seriesData.map(v => Math.max(v / total * 100, 1));
+	if (iosDownload != undefined) {
+		var seriesData = [iosDownload[iosDownload.length - 1], androidDownload[androidDownload.length - 1]];
+		var total = seriesData.reduce((a, v) => a + v);
+		var inPercent = seriesData.map(v => Math.max(v / total * 100, 1));
 
-	if (downloadDeviceDiv) {
-		var configDevice = {
-			type: 'doughnut',
-			data: {
-				datasets: [{
-					data: inPercent,
-					backgroundColor: [
-						tertiaryChartColor, primaryChartColor
-					],
-				}],
+		if (downloadDeviceDiv) {
+			var configDevice = {
+				type: 'doughnut',
+				data: {
+					datasets: [{
+						data: inPercent,
+						backgroundColor: [
+							tertiaryChartColor, primaryChartColor
+						],
+					}],
 
-				labels: [
-					'iOS',
-					'Android ⁽⁴⁾',
-				]
-			},
+					labels: [
+						'iOS',
+						'Android ⁽⁴⁾',
+					]
+				},
 
-			options: {
+				options: {
 
-				responsive: true,
+					responsive: true,
 
-				tooltips: {
-					intersect: true,
-					backgroundColor: labelBackgroundColor,
-					displayColors: false,
-					callbacks: {
-						title: function (tooltipItem, data) {
-							return data['labels'][tooltipItem[0]['index']];
+					tooltips: {
+						intersect: true,
+						backgroundColor: labelBackgroundColor,
+						displayColors: false,
+						callbacks: {
+							title: function (tooltipItem, data) {
+								return data['labels'][tooltipItem[0]['index']];
+							},
+							label: function (tooltipItem, data) {
+								var value = seriesData[tooltipItem.index];
+
+
+								var dataset = data['datasets'][0];
+								var percent = ((dataset['data'][tooltipItem['index']] / (dataset['data'][0] + dataset['data'][1])) * 100).round(2)
+								return valueFormat(value) + '  (' + percent + '%)';
+							}
+
 						},
-						label: function (tooltipItem, data) {
-							var value = seriesData[tooltipItem.index];
-
-
-							var dataset = data['datasets'][0];
-							var percent = ((dataset['data'][tooltipItem['index']] / (dataset['data'][0] + dataset['data'][1])) * 100).round(2)
-							return valueFormat(value) + '  (' + percent + '%)';
-						}
-
-					},
+					}
 				}
-			}
-		};
+			};
 
-		window.downloadDeviceChart = new Chart(downloadDeviceDiv, configDevice);
+			window.downloadDeviceChart = new Chart(downloadDeviceDiv, configDevice);
+		}
 	}
 
 	//Europe chart interoperability
@@ -728,11 +731,11 @@ function generateChart() {
 	//Notification and positive chart month
 	let meseLabel = monthNames[lang][formattedDate.getMonth()]
 	let annoLabel = formattedDate.getFullYear()
-	
+
 	let notificationByRegion = document.getElementById('notificationByRegion')
 	let positiveUsersByRegion = document.getElementById('positiveUsersByRegion')
-	let lastWeekUpdateNotifications = document.getElementById('lastWeekUpdateNotifications')
-	let lastWeekUpdatePositiveUsers = document.getElementById('lastWeekUpdatePositiveUsers')
+	lastWeekUpdateNotifications = document.getElementById('lastWeekUpdateNotifications')
+	lastWeekUpdatePositiveUsers = document.getElementById('lastWeekUpdatePositiveUsers')
 	if (lastWeekUpdateNotifications && lastWeekUpdatePositiveUsers) {
 		//var lastWeek = moment(andamentoRegionale[0].mese)
 		//lastWeekUpdateNotifications.innerHTML = lastWeek.format('DD/MM/YYYY') + " - " + lastWeek.add(6, 'days').format('DD/MM/YYYY')
@@ -833,8 +836,10 @@ export function updateChartLang() {
 	moment.locale(lang);
 	let meseLabel = monthNames[lang][formattedDate.getMonth()]
 	let annoLabel = formattedDate.getFullYear()
-	lastWeekUpdateNotifications.innerHTML = meseLabel + " " + annoLabel
-	lastWeekUpdatePositiveUsers.innerHTML = meseLabel + " " + annoLabel
+	if (lastWeekUpdateNotifications != undefined)
+		lastWeekUpdateNotifications.innerHTML = meseLabel + " " + annoLabel
+	if (lastWeekUpdatePositiveUsers != undefined)
+		lastWeekUpdatePositiveUsers.innerHTML = meseLabel + " " + annoLabel
 
 	let lastUpdateDiv = document.getElementById('lastUpdate')
 	if (lastUpdateDiv) {
