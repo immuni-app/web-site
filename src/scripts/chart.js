@@ -836,9 +836,9 @@ export function updateChartLang() {
 	moment.locale(lang);
 	let meseLabel = monthNames[lang][formattedDate.getMonth()]
 	let annoLabel = formattedDate.getFullYear()
-	if (lastWeekUpdateNotifications != undefined)
+	if (lastWeekUpdateNotifications != undefined && lastWeekUpdateNotifications != "")
 		lastWeekUpdateNotifications.innerHTML = meseLabel + " " + annoLabel
-	if (lastWeekUpdatePositiveUsers != undefined)
+	if (lastWeekUpdatePositiveUsers != undefined && lastWeekUpdatePositiveUsers != "")
 		lastWeekUpdatePositiveUsers.innerHTML = meseLabel + " " + annoLabel
 
 	let lastUpdateDiv = document.getElementById('lastUpdate')
