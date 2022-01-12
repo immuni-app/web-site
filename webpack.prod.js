@@ -164,12 +164,6 @@ module.exports = {
       chunks: ['main']
     }),
     new HtmlWebpackPlugin({
-      filename: "cs-pn.html",
-      template: "src/pages/cs-pn.html",
-      inject: true,
-      chunks: ['main']
-    }),
-    new HtmlWebpackPlugin({
       filename: "cs-pn-si.html",
       template: "src/pages/cs-pn-si.html",
       inject: true,
