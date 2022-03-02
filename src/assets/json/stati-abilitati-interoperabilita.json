@@ -1,19 +1,62 @@
-[{"state_name":"Germany", "ISO":"DE"}, 
-    {"state_name":"Italy", "ISO":"IT"}, 
-    {"state_name":"Latvia", "ISO":"LV"}, 
-    {"state_name":"Ireland", "ISO":"IE"}, 
-    {"state_name":"Spain", "ISO":"ES"},
-    {"state_name":"Denmark", "ISO":"DK"},
-    {"state_name":"Croatia", "ISO":"HR"},
-    {"state_name":"Poland", "ISO":"PL"},
-    {"state_name":"Netherlands", "ISO":"NL"},
-    {"state_name":"Cyprus", "ISO":"CY"},
-    {"state_name":"Finland", "ISO":"FI"},
-    {"state_name":"FlemishRegion", "ISO":"BE"},
-    {"state_name":"WalloonRegion", "ISO":"BE"},
-    {"state_name":"Austria", "ISO":"AT"},
-    {"state_name":"Slovenia", "ISO":"SI"},
-    {"state_name":"Norway", "ISO":"NO"}
-   
-    
+[
+    {
+        "state_name": "Germany",
+        "ISO": "DE"
+    },
+    {
+        "state_name": "Italy",
+        "ISO": "IT"
+    },
+    {
+        "state_name": "Latvia",
+        "ISO": "LV"
+    },
+    {
+        "state_name": "Ireland",
+        "ISO": "IE"
+    },
+    {
+        "state_name": "Spain",
+        "ISO": "ES"
+    },
+    {
+        "state_name": "Denmark",
+        "ISO": "DK"
+    },
+    {
+        "state_name": "Croatia",
+        "ISO": "HR"
+    },
+    {
+        "state_name": "Poland",
+        "ISO": "PL"
+    },
+    {
+        "state_name": "Netherlands",
+        "ISO": "NL"
+    },
+    {
+        "state_name": "Cyprus",
+        "ISO": "CY"
+    },
+    {
+        "state_name": "Finland",
+        "ISO": "FI"
+    },
+    {
+        "state_name": "FlemishRegion",
+        "ISO": "BE"
+    },
+    {
+        "state_name": "WalloonRegion",
+        "ISO": "BE"
+    },
+    {
+        "state_name": "Slovenia",
+        "ISO": "SI"
+    },
+    {
+        "state_name": "Norway",
+        "ISO": "NO"
+    }
 ]
