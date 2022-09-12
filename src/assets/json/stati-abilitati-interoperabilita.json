@@ -28,10 +28,6 @@
         "ISO": "NL"
     },
     {
-        "state_name": "Finland",
-        "ISO": "FI"
-    },
-    {
         "state_name": "FlemishRegion",
         "ISO": "BE"
     },
@@ -42,9 +38,6 @@
     {
         "state_name": "Slovenia",
         "ISO": "SI"
-    },
-    {
-        "state_name": "Norway",
-        "ISO": "NO"
     }
+
 ]
