@@ -55,8 +55,6 @@ selectors.forEach(function (el) {
 
 const intro = document.querySelectorAll(".intro");
 
-ga("set", "anonymizeIp", true);
-ga("send", "pageview");
 handleHamburger();
 anchorScroll();
 intro.forEach((el) => {
