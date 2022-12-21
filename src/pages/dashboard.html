@@ -34,12 +34,12 @@
     /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
     _paq.push(['trackPageView']);
     _paq.push(['enableLinkTracking']);
-    (function() {
-      var u="https://ingestion.webanalytics.italia.it/";
-      _paq.push(['setTrackerUrl', u+'matomo.php']);
+    (function () {
+      var u = "https://ingestion.webanalytics.italia.it/";
+      _paq.push(['setTrackerUrl', u + 'matomo.php']);
       _paq.push(['setSiteId', 'XKqJ17LpYR']);
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+      var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+      g.type = 'text/javascript'; g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
     })();
   </script>
   <!-- End Matomo Code -->
@@ -47,17 +47,18 @@
 
 <body>
   <nav class="navigation navigation--desktop">
-    <a href="/">
+    <a href="#section0">
       <img src="<%= require('../assets/img/logo.svg') %>" alt="Immuni Logo" class="navigation__logo" />
     </a>
     <div class="navigation__wrapper">
       <a href="/" data-i18n="navigation.home">Home</a>
+      <a href="/funzionamento.html" data-i18n="navigation.funzionamento">Funzionamento</a>
       <a href="https://github.com/immuni-app/documentation/" target="_blank" rel="noopener noreferrer"
         data-i18n="navigation.documentation">Documentazione</a>
       <a href="/press.html" data-i18n="navigation.press">Sala stampa</a>
       <a href="/dashboard.html" data-i18n="navigation.dashboard">I numeri</a>
-      <a href="/faq.html" data-i18n="navigation.faq"></a>
-      <a href="/download.html" class="button nav-button" data-i18n="navigation.download">Scarica l'app</a>
+      <!-- <a href="/faq.html" data-i18n="navigation.faq"></a> -->
+      <!-- <a href="/download.html" class="button nav-button" data-i18n="navigation.download">Scarica l'app</a> -->
 
       <select class="cs-select">
         <option value="it">Italiano</option>
@@ -73,7 +74,6 @@
       <img src="<%= require('../assets/img/logo.png') %>" alt="Immuni Logo" class="navigation__logo" />
     </a>
     <div class="navigation__wrapper">
-      <a href="/download.html" class="button nav-button" data-i18n="navigation.downloadMobile">Scarica</a>
       <button class="hamburger hamburger--spring" type="button">
         <span class="hamburger-box">
           <span class="hamburger-inner"></span>
@@ -85,8 +85,10 @@
     <div class="menu-mobile__overlay"></div>
     <ul class="menu-mobile__list">
       <li>
-        <a href="/" data-i18n="navigation.home">Home</a>
+        <a href="/funzionamento.html" data-i18n="navigation.funzionamento">Funzionamento</a>
+
       </li>
+
       <li>
         <a href="https://github.com/immuni-app/documentation/" target="_blank" rel="noopener noreferrer"
           data-i18n="navigation.documentation">Documentazione</a>
@@ -97,9 +99,7 @@
       <li>
         <a href="/dashboard.html" data-i18n="navigation.dashboard">I numeri</a>
       </li>
-      <li>
-        <a href="/faq.html" data-i18n="navigation.faq">Domande frequenti</a>
-      </li>
+
     </ul>
     <ul class="menu-mobile__legal">
       <li class="legal-link">
@@ -112,10 +112,14 @@
         </select>
       </li>
       <li class="legal-link">
-        <a href="/pn.html" data-i18n="footer.info.list.privacy">Informativa privacy</a>
+        <a href="/pn.html" data-i18n="footer.info.list.privacy">
+          Informativa privacy
+        </a>
       </li>
       <li class="legal-link">
-        <a href="/tou.html" data-i18n="footer.info.list.tos">Termini di utilizzo</a>
+        <a href="/tou.html" data-i18n="footer.info.list.tos">
+          Termini di utilizzo
+        </a>
       </li>
     </ul>
   </div>
@@ -203,8 +207,8 @@
           <canvas id="notificationTrend"></canvas>
         </div>
       </div>
-      <div class="dashboard-herochart-wrapper">
-        <!-- <div class="chart-card">
+      <!-- <div class="dashboard-herochart-wrapper"> -->
+      <!-- <div class="chart-card">
           <p class="colored" style="margin-bottom: 10px;" role="img"
             aria-label="" data-i18n="dashboard.percentageOverPopulation">Percentuale di download su numero di abitanti
            
@@ -216,26 +220,21 @@
           </p>
         </div>-->
 
-        <div class="chart-card">
+      <!-- <div class="chart-card">
           <p class="colored" style="margin-bottom: 10px;" role="img" aria-label=""
             data-i18n="dashboard.europeanCountryActive">Paesi europei attivi per l'interoperabilità
           </p>
 
           <canvas id="europeMap"></canvas>
-          <!--<ul style="text-align:justify;font-size: larger;">
-              <li class="country-flag"><img src="<%= require('../assets/img/flag/it.png') %>"> Italia</li>
-              <li class="country-flag"><img src="<%= require('../assets/img/flag/de.png') %>"> Germania</li>
-              <li class="country-flag"><img src="<%= require('../assets/img/flag/lv.png') %>"> Lettonia</li>
-              <li class="country-flag"><img src="<%= require('../assets/img/flag/ie.png') %>"> Irlanda</li>
-            </ul>-->
 
-        </div>
+
+        </div> -->
 
 
 
 
 
-      </div>
+      <!-- </div> -->
 
     </div>
   </section>
@@ -315,6 +314,9 @@
                 <a href="/" data-i18n="footer.sitemap.list.home">Home</a>
               </li>
               <li>
+                <a href="/funzionamento.html" data-i18n="navigation.funzionamento">Funzionamento</a>
+              </li>
+              <li>
                 <a data-i18n="footer.sitemap.list.documentation" href="https://github.com/immuni-app/documentation/"
                   target="_blank" rel="noopener noreferrer">Documentazione</a>
               </li>
@@ -324,39 +326,9 @@
               <li>
                 <a href="/dashboard.html" data-i18n="footer.sitemap.list.dashboard">I numeri</a>
               </li>
-              <li>
-                <a href="/faq.html" data-i18n="footer.sitemap.list.faq">Domande frequenti</a>
-              </li>
-              <li>
-                <a href="/download.html" data-i18n="footer.sitemap.list.download">Download</a>
-              </li>
-            </ul>
-            <div class="mobile-phone">
-              <h4 class="list-title list-wrapper__title" style="margin-top: 24px;" data-i18n="footer.phone">
-                Supporto
-              </h4>
-              <ul class="list-wrapper__list">
-                <li>
-                  <span class="color-textFooter-white" data-i18n="footer.supporto_tecnico">Supporto tecnico: </span>
-                  <a href="mailto:cittadini@immuni.italia.it">cittadini@immuni.italia.it</a><br />
-                </li>
-                <li>
 
-                  <a href="https://www.facebook.com/appimmuni/" target="_blank">
-                    <img src="<%= require('../assets/img/icon-facebook.png') %>" alt="Facebook Logo"
-                      class="footer__social" />
-                  </a>
-                  <a href="https://twitter.com/immuni_app" target="_blank">
-                    <img src="<%= require('../assets/img/icon-twitter.png') %>" alt="Twitter Logo"
-                      class="footer__social" />
-                  </a>
-                  <a href="https://www.instagram.com/immuni_app_official/?hl=it" target="_blank">
-                    <img src="<%= require('../assets/img/icon-instagram.png') %>" alt="Instagram Logo"
-                      class="footer__social" />
-                  </a>
-                </li>
-              </ul>
-            </div>
+            </ul>
+
           </div>
           <div class="list-wrapper">
             <h4 class="list-title list-wrapper__title" data-i18n="footer.info.title">
@@ -375,31 +347,7 @@
               </li>
             </ul>
           </div>
-          <div class="list-wrapper mobile-hidden">
-            <h4 class="list-title list-wrapper__title" data-i18n="footer.phone">
-              Supporto
-            </h4>
-            <ul class="list-wrapper__list">
-              <li>
-                <span class="color-textFooter-white" data-i18n="footer.supporto_tecnico">Supporto tecnico: </span>
-                <a href="mailto:cittadini@immuni.italia.it">cittadini@immuni.italia.it</a><br />
-              </li>
-              <li>
-                <a href="https://www.facebook.com/appimmuni/" target="_blank">
-                  <img src="<%= require('../assets/img/icon-facebook.png') %>" alt="Facebook Logo"
-                    class="footer__social" />
-                </a>
-                <a href="https://twitter.com/immuni_app" target="_blank">
-                  <img src="<%= require('../assets/img/icon-twitter.png') %>" alt="Twitter Logo"
-                    class="footer__social" />
-                </a>
-                <a href="https://www.instagram.com/immuni_app_official/?hl=it" target="_blank">
-                  <img src="<%= require('../assets/img/icon-instagram.png') %>" alt="Instagram Logo"
-                    class="footer__social" />
-                </a>
-              </li>
-            </ul>
-          </div>
+
         </div>
       </div>
     </div>

@@ -1,465 +1,364 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <style>
-      html {
-        visibility: hidden;
-        opacity: 0;
-      }
-    </style>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Immuni - Privacy notice contact center "Sblocca Immuni"</title>
-    <meta
-      name="Description"
-      content="Ripartiamo insieme - Tornare a vivere normalmente è possibile. Immuni ci aiuta a farlo prima e senza rinunciare alla privacy."
-    />
-    <!-- Twitter Card data -->
-    <meta
-      name="twitter:card"
-      value="Ripartiamo insieme - Tornare a vivere normalmente è possibile. Immuni ci aiuta a farlo prima e senza rinunciare alla privacy."
-    />
-    <!-- Open Graph data -->
-    <meta property="og:title" content="Immuni - Privacy notice contact center Sblocca Immuni" />
-    <meta
-      property="og:description"
-      content="Tornare a vivere normalmente è possibile. Immuni ci aiuta a farlo prima e senza rinunciare alla privacy."
-    />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="www.immuni.italia.it" />
-    <meta
-      property="og:image"
-      content="<%= require('../assets/img/og-image.png') %>"
-    />
-    <!-- Mobile header color for Chrome, Firefox OS and Opera -->
-    <meta name="theme-color" content="#5751ff" />
-    <!-- Mobile header color Windows Phone -->
-    <meta name="msapplication-navbutton-color" content="#5751ff" />
-    <!-- Mobile header color for iOS Safari (supports black, black-translucent or default) -->
-    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-    <script type="text/javascript">
-      var _paq = window._paq = window._paq || [];
-      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-      _paq.push(['trackPageView']);
-      _paq.push(['enableLinkTracking']);
-      (function() {
-        var u="https://ingestion.webanalytics.italia.it/";
-        _paq.push(['setTrackerUrl', u+'matomo.php']);
-        _paq.push(['setSiteId', 'XKqJ17LpYR']);
-        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-        g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-      })();
-    </script>
-    <!-- End Matomo Code -->
-  </head>
 
-  <body>
-    <nav class="navigation navigation--desktop">
-      <a href="/">
-        <img
-          src="<%= require('../assets/img/logo.svg') %>"
-          alt="Immuni Logo"
-          class="navigation__logo"
-        />
-      </a>
-      <div class="navigation__wrapper">
-        <a href="/" data-i18n="navigation.home">Home</a>
-        <a
-          href="https://github.com/immuni-app/documentation/"
-          target="_blank"
-          rel="noopener noreferrer"
-          data-i18n="navigation.documentation"
-          >Documentazione</a
-        >
+<head>
+  <style>
+    html {
+      visibility: hidden;
+      opacity: 0;
+    }
+  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Immuni - Privacy notice contact center "Sblocca Immuni"</title>
+  <meta name="Description"
+    content="Ripartiamo insieme - Tornare a vivere normalmente è possibile. Immuni ci aiuta a farlo prima e senza rinunciare alla privacy." />
+  <!-- Twitter Card data -->
+  <meta name="twitter:card"
+    value="Ripartiamo insieme - Tornare a vivere normalmente è possibile. Immuni ci aiuta a farlo prima e senza rinunciare alla privacy." />
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Immuni - Privacy notice contact center Sblocca Immuni" />
+  <meta property="og:description"
+    content="Tornare a vivere normalmente è possibile. Immuni ci aiuta a farlo prima e senza rinunciare alla privacy." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="www.immuni.italia.it" />
+  <meta property="og:image" content="<%= require('../assets/img/og-image.png') %>" />
+  <!-- Mobile header color for Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#5751ff" />
+  <!-- Mobile header color Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#5751ff" />
+  <!-- Mobile header color for iOS Safari (supports black, black-translucent or default) -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <script type="text/javascript">
+    var _paq = window._paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function () {
+      var u = "https://ingestion.webanalytics.italia.it/";
+      _paq.push(['setTrackerUrl', u + 'matomo.php']);
+      _paq.push(['setSiteId', 'XKqJ17LpYR']);
+      var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+      g.type = 'text/javascript'; g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+    })();
+  </script>
+  <!-- End Matomo Code -->
+</head>
+
+<body>
+  <nav class="navigation navigation--desktop">
+    <a href="#section0">
+      <img src="<%= require('../assets/img/logo.svg') %>" alt="Immuni Logo" class="navigation__logo" />
+    </a>
+    <div class="navigation__wrapper">
+      <a href="/" data-i18n="navigation.home">Home</a>
+      <a href="/funzionamento.html" data-i18n="navigation.funzionamento">Funzionamento</a>
+      <a href="https://github.com/immuni-app/documentation/" target="_blank" rel="noopener noreferrer"
+        data-i18n="navigation.documentation">Documentazione</a>
+      <a href="/press.html" data-i18n="navigation.press">Sala stampa</a>
+      <a href="/dashboard.html" data-i18n="navigation.dashboard">I numeri</a>
+      <!-- <a href="/faq.html" data-i18n="navigation.faq"></a> -->
+      <!-- <a href="/download.html" class="button nav-button" data-i18n="navigation.download">Scarica l'app</a> -->
+
+      <select class="cs-select">
+        <option value="it">Italiano</option>
+        <option value="en">English</option>
+        <option value="de">Deutsch</option>
+        <option value="fr">Français</option>
+        <option value="es">Español</option>
+      </select>
+    </div>
+  </nav>
+  <nav class="navigation navigation--mobile">
+    <a href="/">
+      <img src="<%= require('../assets/img/logo.png') %>" alt="Immuni Logo" class="navigation__logo" />
+    </a>
+    <div class="navigation__wrapper">
+      <button class="hamburger hamburger--spring" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+    </div>
+  </nav>
+  <div class="menu-mobile">
+    <div class="menu-mobile__overlay"></div>
+    <ul class="menu-mobile__list">
+      <li>
+        <a href="/funzionamento.html" data-i18n="navigation.funzionamento">Funzionamento</a>
+
+      </li>
+
+      <li>
+        <a href="https://github.com/immuni-app/documentation/" target="_blank" rel="noopener noreferrer"
+          data-i18n="navigation.documentation">Documentazione</a>
+      </li>
+      <li>
         <a href="/press.html" data-i18n="navigation.press">Sala stampa</a>
+      </li>
+      <li>
         <a href="/dashboard.html" data-i18n="navigation.dashboard">I numeri</a>
-        <a href="/faq.html" data-i18n="navigation.faq"></a>
-        <a
-          href="/download.html"
-          class="button nav-button"
-          data-i18n="navigation.download"
-          >Scarica l'app</a
-        >
+      </li>
 
-        <select class="cs-select">
+    </ul>
+    <ul class="menu-mobile__legal">
+      <li class="legal-link">
+        <select class="cs-select cs-select--mobile">
           <option value="it">Italiano</option>
           <option value="en">English</option>
           <option value="de">Deutsch</option>
           <option value="fr">Français</option>
           <option value="es">Español</option>
         </select>
+      </li>
+      <li class="legal-link">
+        <a href="/pn.html" data-i18n="footer.info.list.privacy">
+          Informativa privacy
+        </a>
+      </li>
+      <li class="legal-link">
+        <a href="/tou.html" data-i18n="footer.info.list.tos">
+          Termini di utilizzo
+        </a>
+      </li>
+    </ul>
+  </div>
+  <section class="section press froster">
+    <div class="container">
+      <div class="has-text-centered">
+        <h1 class="intro">
+          Informativa privacy contact center "Sblocca Immuni"
+        </h1>
+        <p class="intro delayed">
+          www.immuni.italia.it
+        </p>
       </div>
-    </nav>
-    <nav class="navigation navigation--mobile">
-      <a href="/">
-        <img
-          src="<%= require('../assets/img/logo.png') %>"
-          alt="Immuni Logo"
-          class="navigation__logo"
-        />
-      </a>
-      <div class="navigation__wrapper">
-        <a
-          href="/download.html"
-          class="button nav-button"
-          data-i18n="navigation.downloadMobile"
-          >Scarica</a
-        >
-        <button class="hamburger hamburger--spring" type="button">
-          <span class="hamburger-box">
-            <span class="hamburger-inner"></span>
-          </span>
-        </button>
-      </div>
-    </nav>
-    <div class="menu-mobile">
-      <div class="menu-mobile__overlay"></div>
-      <ul class="menu-mobile__list">
-        <li>
-          <a href="/" data-i18n="navigation.home">Home</a>
-        </li>
-        <li>
-          <a
-            href="https://github.com/immuni-app/documentation/"
-            target="_blank"
-            rel="noopener noreferrer"
-            data-i18n="navigation.documentation"
-            >Documentazione</a
-          >
-        </li>
-        <li>
-          <a href="/press.html" data-i18n="navigation.press">Sala stampa</a>
-        </li>
-        <li>
-          <a href="/dashboard.html" data-i18n="navigation.dashboard">I numeri</a>
-        </li>
-        <li>
-          <a href="/faq.html" data-i18n="navigation.faq">Domande frequenti</a>
-        </li>
-      </ul>
-      <ul class="menu-mobile__legal">
-        <li class="legal-link">
-          <select class="cs-select cs-select--mobile">
-            <option value="it">Italiano</option>
-            <option value="en">English</option>
-            <option value="de">Deutsch</option>
-            <option value="fr">Français</option>
-            <option value="es">Español</option>
-          </select>
-        </li>
-        <li class="legal-link">
-          <a href="/pn.html" data-i18n="footer.info.list.privacy">
-              Informativa privacy
-          </a>
-        </li>
-        <li class="legal-link">
-          <a href="/tou.html" data-i18n="footer.info.list.tos">
-              Termini di utilizzo
-          </a>
-        </li>
-      </ul>
+      <img src="<%= require('../assets/img/policy-illustration.png') %>"
+        alt="Illustration of a woman reading a document" class="press-illustration" />
     </div>
-    <section class="section press froster">
-      <div class="container">
-        <div class="has-text-centered">
-          <h1 class="intro">
-            Informativa privacy contact center "Sblocca Immuni"
-          </h1>
-          <p class="intro delayed">
-            www.immuni.italia.it
+  </section>
+  <section class="section small-padding">
+    <div class="container container--align-left">
+      <p class="smaller">
+        La presente informativa &egrave; resa ai sensi dell&rsquo;art. 13 del Regolamento (UE) 2016/679 (il
+        &ldquo;Regolamento&rdquo; o &ldquo;GDPR&rdquo;) dal <b>Commissario Straordinario per l'attuazione e il
+          coordinamento delle misure occorrenti per il contenimento e contrasto dell'emergenza epidemiologica COVID-19
+        </b>(il &ldquo;Commissario&rdquo;), quale Responsabile del trattamento dei dati e descrive le modalit&agrave; di
+        trattamento dei dati personali forniti dagli utenti, e acquisiti esclusivamente per il servizio di contact
+        center (il &ldquo;Contact Center&rdquo;), che risponde al numero 800-912491, messo a disposizione dal
+        Commissario, su richiesta del Titolare Ministero della Salute, <b>al fine di fornire supporto agli utenti per
+          agevolare lo sblocco dell&rsquo;App Immuni tramite codice OTP</b> in caso di positivit&agrave; ed a beneficio
+        degli operatori sanitari cui il flusso informativo &egrave; diretto tramite i sistemi gestiti dal Ministero
+        della Salute.
+      </p>
+      <p class="smaller">
+        La presente informativa &egrave; ospitata sul sito <a
+          href="http://www.immuni.italia.it">www.immuni.italia.it</a> (il &ldquo;Sito&rdquo;) all&rsquo;interno della
+        sezione Informativa Privacy. Si fa presente che la stessa si riferisce esclusivamente al trattamento dei dati
+        degli utenti acquisiti per il tramite del Contact Center e non deve intendersi riferita al Sito, la cui
+        informativa &egrave; disponibile al seguente <a href="https://www.immuni.italia.it/pn.html">link</a>, n&eacute;
+        ad altri siti web eventualmente consultabili mediante collegamento ipertestuale dal Sito, n&eacute; ancora ad
+        alcun altro trattamento posto in essere dal Dipartimento per la Trasformazione Digitale della Presidenza del
+        Consiglio dei Ministri n&eacute; dal Ministero della Salute nel contesto della gestione dell'app Immuni.
+      </p>
+      <p class="smaller">
+        L'informativa relativa a ogni altro trattamento eventualmente posto in essere dal Dipartimento per la
+        Trasformazione Digitale della Presidenza del Consiglio dei Ministri &egrave; disponibile sul sito di tale
+        Dipartimento mentre quella relativa ai trattamenti posti in essere dal Ministero della Salute per la gestione
+        dell'app Immuni &egrave; resa disponibile attraverso detta app.
+      </p>
+      <h3 class="legal">Titolare del trattamento</h3>
+      <p class="smaller">
+        Il titolare del trattamento (di seguito, il &quot;Titolare&quot;) &egrave; il Ministero della salute con sede
+        legale in Roma, viale Giorgio Ribotta n. 5, in persona del Direttore generale Digitalizzazione, del Sistema
+        Informativo Sanitario e della Statistica (DGSISS) dott. Giuseppe Viggiano, che pu&ograve; essere contattato ai
+        seguenti recapiti:
+      </p>
+      <ul>
+        <li>
+          <p class="smaller">Sede Centrale - Viale Giorgio Ribotta, 5 - 00144 Roma</p>
+        </li>
+        <li>
+          <p class="smaller">Telefono: 06 5994 2440</p>
+        </li>
+        <li>
+          <p class="smaller">Fax: 06 5994 2015</p>
+        </li>
+        <li>
+          <p class="smaller">E-mail: <a
+              href="mailto:direzionesistemainformativo@sanita.it">direzionesistemainformativo@sanita.it</a></p>
+        </li>
+        <li>
+          <p class="smaller">PEC: <a href="mailto:dgsi@postacert.sanita.it">dgsi@postacert.sanita.it</a></p>
+        </li>
+      </ul>
+      <h3 class="legal">Titolare del trattamento</h3>
+      <p class="smaller">
+        Il responsabile del trattamento (di seguito anche, il &quot;Responsabile&quot;) nominato dal Ministero della
+        salute ai sensi e per gli effetti dell&rsquo;art. 28 del GDPR, &egrave; il <b>Commissario Straordinario per
+          l'attuazione e il coordinamento delle misure occorrenti per il contenimento e contrasto dell'emergenza
+          epidemiologica COVID-19</b>, con sede in Roma, Via Vitorchiano n. 4, che pu&ograve; essere contattato ai
+        seguenti recapiti
+      </p>
+      <ul>
+        <li>
+          <p class="smaller">PEC: <a
+              href="mailto:commissarioemergenzacovid19@pec.governo.it">commissarioemergenzacovid19@pec.governo.it</a>
           </p>
-        </div>
-        <img
-          src="<%= require('../assets/img/policy-illustration.png') %>"
-          alt="Illustration of a woman reading a document"
-          class="press-illustration"
-        />
-      </div>
-    </section>
-    <section class="section small-padding">
-      <div class="container container--align-left">
-        <p class="smaller">
-            La presente informativa &egrave; resa ai sensi dell&rsquo;art. 13 del Regolamento (UE) 2016/679 (il &ldquo;Regolamento&rdquo; o &ldquo;GDPR&rdquo;) dal <b>Commissario Straordinario per l'attuazione e il coordinamento delle misure occorrenti per il contenimento e contrasto dell'emergenza epidemiologica COVID-19 </b>(il &ldquo;Commissario&rdquo;), quale Responsabile del trattamento dei dati e descrive le modalit&agrave; di trattamento dei dati personali forniti dagli utenti, e acquisiti esclusivamente per il servizio di contact center (il &ldquo;Contact Center&rdquo;), che risponde al numero 800-912491, messo a disposizione dal Commissario, su richiesta del Titolare Ministero della Salute, <b>al fine di fornire supporto agli utenti per agevolare lo sblocco dell&rsquo;App Immuni tramite codice OTP</b> in caso di positivit&agrave; ed a beneficio degli operatori sanitari cui il flusso informativo &egrave; diretto tramite i sistemi gestiti dal Ministero della Salute.
-        </p>
-        <p class="smaller">
-          La presente informativa &egrave; ospitata sul sito <a href="http://www.immuni.italia.it">www.immuni.italia.it</a> (il &ldquo;Sito&rdquo;) all&rsquo;interno della sezione Informativa Privacy. Si fa presente che la stessa si riferisce esclusivamente al trattamento dei dati degli utenti acquisiti per il tramite del Contact Center e non deve intendersi riferita al Sito, la cui informativa &egrave; disponibile al seguente <a href="https://www.immuni.italia.it/pn.html">link</a>, n&eacute; ad altri siti web eventualmente consultabili mediante collegamento ipertestuale dal Sito, n&eacute; ancora ad alcun altro trattamento posto in essere dal Dipartimento per la Trasformazione Digitale della Presidenza del Consiglio dei Ministri n&eacute; dal Ministero della Salute nel contesto della gestione dell'app Immuni.
-        </p>
-        <p class="smaller">
-          L'informativa relativa a ogni altro trattamento eventualmente posto in essere dal Dipartimento per la Trasformazione Digitale della Presidenza del Consiglio dei Ministri &egrave; disponibile sul sito di tale Dipartimento mentre quella relativa ai trattamenti posti in essere dal Ministero della Salute per la gestione dell'app Immuni &egrave; resa disponibile attraverso detta app.
-        </p>
-        <h3 class="legal">Titolare del trattamento</h3>
-        <p class="smaller">
-        Il titolare del trattamento (di seguito, il &quot;Titolare&quot;) &egrave; il Ministero della salute con sede legale in Roma, viale Giorgio Ribotta n. 5, in persona del Direttore generale Digitalizzazione, del Sistema Informativo Sanitario e della Statistica (DGSISS) dott. Giuseppe Viggiano, che pu&ograve; essere contattato ai seguenti recapiti:
-        </p>
-        <ul>
-          <li>
-            <p class="smaller">Sede Centrale - Viale Giorgio Ribotta, 5 - 00144 Roma</p>
-          </li>
-          <li>
-            <p class="smaller">Telefono: 06 5994 2440</p>
-          </li>
-          <li>
-            <p class="smaller">Fax: 06 5994 2015</p>
-          </li>
-          <li>
-            <p class="smaller">E-mail: <a href="mailto:direzionesistemainformativo@sanita.it">direzionesistemainformativo@sanita.it</a></p>
-          </li>
-          <li>
-            <p class="smaller">PEC: <a href="mailto:dgsi@postacert.sanita.it">dgsi@postacert.sanita.it</a></p>
-          </li>
-        </ul>
-        <h3 class="legal">Titolare del trattamento</h3>
-        <p class="smaller">
-        Il responsabile del trattamento (di seguito anche, il &quot;Responsabile&quot;) nominato dal Ministero della salute ai sensi e per gli effetti dell&rsquo;art. 28 del GDPR, &egrave; il <b>Commissario Straordinario per l'attuazione e il coordinamento delle misure occorrenti per il contenimento e contrasto dell'emergenza epidemiologica COVID-19</b>, con sede in Roma, Via Vitorchiano n. 4, che pu&ograve; essere contattato ai seguenti recapiti
-        </p>
-        <ul>
-          <li>
-            <p class="smaller">PEC: <a href="mailto:commissarioemergenzacovid19@pec.governo.it">commissarioemergenzacovid19@pec.governo.it</a></p>
-          </li>
-        </ul>
-        <h3 class="legal">Sub-responsabile del trattamento</h3>
-        <p class="smaller">
-        Il sub-responsabile del trattamento nominato dal Commissario Straordinario per l'attuazione e il coordinamento delle misure occorrenti per il contenimento e contrasto dell'emergenza epidemiologica COVID-19, &egrave; aCapo SCSI, con sede legale in Via Cristoforo Colombo, 436 &ndash; 00145 Roma, P.IVA 01030041006, in persona del legale rappresentante pro-tempore, che pu&ograve; essere contattato ai seguenti recapiti:
-        </p>
-        <ul>
-          <li>
-            <p class="smaller">PEC: <a href="mailto:acapo@pec.it">acapo@pec.it</a></p>
-          </li>
-        </ul>
-        <h3 class="legal">
-            Categorie di dati trattati
-        </h3>
-        <p class="smaller">
-          I trattamenti e le operazioni necessarie agli operatori del Call Center per fornire supporto agli utenti per lo sblocco dei contatti dell&rsquo;App Immuni saranno effettuati, ad eccezione del numero di telefono, su dati e/o informazioni fornite in maniera anonima o pseudonimizzata, cos&igrave; come previsto dal &ldquo;Documento tecnico Sistema TS: servizi telematici, dati e relativo trattamento&rdquo; Allegato I all&rsquo;Ordinanza n. 34/2020 del Commissario Straordinario.
-          I numeri di telefono saranno utilizzati esclusivamente per l&rsquo;associazione operatore/chiamata, mediante l&rsquo;uso di procedure informatizzate, nei modi e nei limiti necessari per perseguire tali finalit&agrave;.
-        </p>
-        <h3 class="legal">Modalità, finalità e base giuridica del trattamento</h3>
-        <p class="smaller">
-          Le informazioni fornite dagli Utenti in maniera anonima o destrutturata (codice CUN e otto cifre del numero di tessera sanitaria) saranno utilizzate per fornire il supporto telefonico alle persone risultate positive al virus SARS-Cov-2, in modo da consentirgli di effettuare lo sblocco dei contatti dell&rsquo;App Immuni, tramite codice OTP (One Time Password) generato dalla stessa App. In nessun caso l&rsquo;utente deve comunicare al Call Center i suoi dati identificativi n&eacute; tantomeno per analogia il suo codice fiscale. L&rsquo;utente dovr&agrave; comunicare esclusivamente le ultime 8 cifre della tessera sanitaria. Questi dati non saranno in alcun modo conservati e memorizzati nei sistemi se non per lo stretto tempo necessario alla comunicazione con l&rsquo;utente n&eacute; tantomeno saranno utilizzati per l&rsquo;esecuzione del servizio e/o per altre finalit&agrave;.
-        </p>
-        <p class="smaller">
-          La base giuridica del trattamento &egrave; da rinvenirsi nei compiti istituzionali affidati al Titolare e al Responsabile del trattamento ai sensi dall&rsquo;art. 6, comma. 1, lett e) e &nbsp;dell&rsquo;art. 9, comma 2, lett. (i) del Regolamento.
-        </p>
-        <p class="smaller">
-          Il conferimento delle summenzionate informazioni &egrave; obbligatorio al fine di poter rendere possibile l&rsquo;esecuzione del servizio.
-        </p>
-        <h3 class="legal">
-          Categorie di soggetti ai quali i dati possono essere comunicati 
-        </h3>
-        <p class="smaller">
-          Il Titolare e il Responsabile si avvalgono, per la fornitura del suddetto servizio di supporto telefonico, della societ&agrave; <b>aCapo SCSI</b>, all&rsquo;uopo nominata sub responsabile del trattamento <em>ex</em> art. 28 del Regolamento. L&rsquo;accesso ai dati &egrave; consentito esclusivamente a soggetti autorizzati, debitamente istruiti, anche con riguardo al rispetto delle misure di sicurezza e agli obblighi di riservatezza.
-        </p>
-        <p class="smaller">
-            L’elenco dei responsabili del trattamento può essere richiesto al
-            Titolare in qualsiasi momento, scrivendo una PEC
-            a commissarioemergenzacovid19@pec.governo.it
-        </p>
-        <h3 class="legal">
-            Trasferimento dati fuori dall'UE
-        </h3>
-        <p class="smaller">
-            I dati personali non saranno trasferiti in Paesi situati al di
-            fuori dell'Unione Europea.
-        </p>
-        <h3 class="legal">
-          Periodo di conservazione 
-        </h3>
-        <p class="smaller">
-          I dati personali sono esclusivamente trattati dagli operatori del Call Center in costanza della telefonata dell&rsquo;utente ai fini della prestazione del servizio di sblocco dell&rsquo;App Immuni. Tali dati non vengono n&eacute; tracciati, n&eacute; conservati.
-        </p>
-        <h3 class="legal">Diritti degli interessati</h3>
-        <p class="smaller">
-          Gli utenti del Contact Center, in qualit&agrave; di interessati, hanno il diritto di ottenere dal Titolare, nei casi previsti e secondo la normativa vigente, l'accesso ai propri dati personali, la rettifica o la cancellazione degli stessi, la limitazione del trattamento che li riguarda o l&rsquo;opposizione al medesimo trattamento (artt. 15 e ss. del Regolamento).
-        </p>
-        <p class="smaller">
-          Tali diritti potranno essere esercitati inviando una pec o una lettera agli indirizzi del Titolare sopra indicati nella sezione Soggetti del Trattamento.
-        </p>
-        <h3 class="legal">Diritti di reclamo</h3>
-        <p class="smaller">
-          Per i trattamenti di cui alla presente informativa, gli interessati che ritengono che il trattamento che li riguardi avvenga in violazione di quanto previsto dal Regolamento, hanno il diritto di presentare un reclamo al Garante per la protezione dei dati personali, Piazza Venezia 11, 00187 ROMA (<a href="http://www.garanteprivacy.it">www.garanteprivacy.it</a>), ai sensi dell&rsquo;art. 77 del Regolamento.
-        </p>
-      </div>
-    </section>
-    <footer class="footer">
-      <div class="container">
-        <div class="footer__wrapper">
-          <div class="footer__brand">
-            <img
-              src="<%= require('../assets/img/logo-white.svg') %>"
-              alt="Immuni Logo"
-              class="footer__logo"
-            />
+        </li>
+      </ul>
+      <h3 class="legal">Sub-responsabile del trattamento</h3>
+      <p class="smaller">
+        Il sub-responsabile del trattamento nominato dal Commissario Straordinario per l'attuazione e il coordinamento
+        delle misure occorrenti per il contenimento e contrasto dell'emergenza epidemiologica COVID-19, &egrave; aCapo
+        SCSI, con sede legale in Via Cristoforo Colombo, 436 &ndash; 00145 Roma, P.IVA 01030041006, in persona del
+        legale rappresentante pro-tempore, che pu&ograve; essere contattato ai seguenti recapiti:
+      </p>
+      <ul>
+        <li>
+          <p class="smaller">PEC: <a href="mailto:acapo@pec.it">acapo@pec.it</a></p>
+        </li>
+      </ul>
+      <h3 class="legal">
+        Categorie di dati trattati
+      </h3>
+      <p class="smaller">
+        I trattamenti e le operazioni necessarie agli operatori del Call Center per fornire supporto agli utenti per lo
+        sblocco dei contatti dell&rsquo;App Immuni saranno effettuati, ad eccezione del numero di telefono, su dati e/o
+        informazioni fornite in maniera anonima o pseudonimizzata, cos&igrave; come previsto dal &ldquo;Documento
+        tecnico Sistema TS: servizi telematici, dati e relativo trattamento&rdquo; Allegato I all&rsquo;Ordinanza n.
+        34/2020 del Commissario Straordinario.
+        I numeri di telefono saranno utilizzati esclusivamente per l&rsquo;associazione operatore/chiamata, mediante
+        l&rsquo;uso di procedure informatizzate, nei modi e nei limiti necessari per perseguire tali finalit&agrave;.
+      </p>
+      <h3 class="legal">Modalità, finalità e base giuridica del trattamento</h3>
+      <p class="smaller">
+        Le informazioni fornite dagli Utenti in maniera anonima o destrutturata (codice CUN e otto cifre del numero di
+        tessera sanitaria) saranno utilizzate per fornire il supporto telefonico alle persone risultate positive al
+        virus SARS-Cov-2, in modo da consentirgli di effettuare lo sblocco dei contatti dell&rsquo;App Immuni, tramite
+        codice OTP (One Time Password) generato dalla stessa App. In nessun caso l&rsquo;utente deve comunicare al Call
+        Center i suoi dati identificativi n&eacute; tantomeno per analogia il suo codice fiscale. L&rsquo;utente
+        dovr&agrave; comunicare esclusivamente le ultime 8 cifre della tessera sanitaria. Questi dati non saranno in
+        alcun modo conservati e memorizzati nei sistemi se non per lo stretto tempo necessario alla comunicazione con
+        l&rsquo;utente n&eacute; tantomeno saranno utilizzati per l&rsquo;esecuzione del servizio e/o per altre
+        finalit&agrave;.
+      </p>
+      <p class="smaller">
+        La base giuridica del trattamento &egrave; da rinvenirsi nei compiti istituzionali affidati al Titolare e al
+        Responsabile del trattamento ai sensi dall&rsquo;art. 6, comma. 1, lett e) e &nbsp;dell&rsquo;art. 9, comma 2,
+        lett. (i) del Regolamento.
+      </p>
+      <p class="smaller">
+        Il conferimento delle summenzionate informazioni &egrave; obbligatorio al fine di poter rendere possibile
+        l&rsquo;esecuzione del servizio.
+      </p>
+      <h3 class="legal">
+        Categorie di soggetti ai quali i dati possono essere comunicati
+      </h3>
+      <p class="smaller">
+        Il Titolare e il Responsabile si avvalgono, per la fornitura del suddetto servizio di supporto telefonico, della
+        societ&agrave; <b>aCapo SCSI</b>, all&rsquo;uopo nominata sub responsabile del trattamento <em>ex</em> art. 28
+        del Regolamento. L&rsquo;accesso ai dati &egrave; consentito esclusivamente a soggetti autorizzati, debitamente
+        istruiti, anche con riguardo al rispetto delle misure di sicurezza e agli obblighi di riservatezza.
+      </p>
+      <p class="smaller">
+        L’elenco dei responsabili del trattamento può essere richiesto al
+        Titolare in qualsiasi momento, scrivendo una PEC
+        a commissarioemergenzacovid19@pec.governo.it
+      </p>
+      <h3 class="legal">
+        Trasferimento dati fuori dall'UE
+      </h3>
+      <p class="smaller">
+        I dati personali non saranno trasferiti in Paesi situati al di
+        fuori dell'Unione Europea.
+      </p>
+      <h3 class="legal">
+        Periodo di conservazione
+      </h3>
+      <p class="smaller">
+        I dati personali sono esclusivamente trattati dagli operatori del Call Center in costanza della telefonata
+        dell&rsquo;utente ai fini della prestazione del servizio di sblocco dell&rsquo;App Immuni. Tali dati non vengono
+        n&eacute; tracciati, n&eacute; conservati.
+      </p>
+      <h3 class="legal">Diritti degli interessati</h3>
+      <p class="smaller">
+        Gli utenti del Contact Center, in qualit&agrave; di interessati, hanno il diritto di ottenere dal Titolare, nei
+        casi previsti e secondo la normativa vigente, l'accesso ai propri dati personali, la rettifica o la
+        cancellazione degli stessi, la limitazione del trattamento che li riguarda o l&rsquo;opposizione al medesimo
+        trattamento (artt. 15 e ss. del Regolamento).
+      </p>
+      <p class="smaller">
+        Tali diritti potranno essere esercitati inviando una pec o una lettera agli indirizzi del Titolare sopra
+        indicati nella sezione Soggetti del Trattamento.
+      </p>
+      <h3 class="legal">Diritti di reclamo</h3>
+      <p class="smaller">
+        Per i trattamenti di cui alla presente informativa, gli interessati che ritengono che il trattamento che li
+        riguardi avvenga in violazione di quanto previsto dal Regolamento, hanno il diritto di presentare un reclamo al
+        Garante per la protezione dei dati personali, Piazza Venezia 11, 00187 ROMA (<a
+          href="http://www.garanteprivacy.it">www.garanteprivacy.it</a>), ai sensi dell&rsquo;art. 77 del Regolamento.
+      </p>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer__brand">
+          <img src="<%= require('../assets/img/logo-white.svg') %>" alt="Immuni Logo" class="footer__logo" />
 
-            <h4 class="list-title copyright">
-              © 2020 Presidenza del Consiglio dei Ministri
+          <h4 class="list-title copyright">
+            © 2020 Presidenza del Consiglio dei Ministri
+          </h4>
+        </div>
+        <div class="footer__content">
+          <div class="list-wrapper">
+            <h4 class="list-title list-wrapper__title" data-i18n="footer.sitemap.title">
+              Sezioni
             </h4>
-          </div>
-          <div class="footer__content">
-            <div class="list-wrapper">
-              <h4
-                class="list-title list-wrapper__title"
-                data-i18n="footer.sitemap.title"
-              >
-                Sezioni
-              </h4>
-              <ul class="list-wrapper__list">
-                <li>
-                  <a href="/" data-i18n="footer.sitemap.list.home">Home</a>
-                </li>
-                <li>
-                  <a
-                    data-i18n="footer.sitemap.list.documentation"
-                    href="https://github.com/immuni-app/documentation/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >Documentazione</a
-                  >
-                </li>
-                <li>
-                  <a href="/press.html" data-i18n="footer.sitemap.list.press"
-                    >Sala stampa</a
-                  >
-                </li>
-                <li>
-                  <a href="/dashboard.html" data-i18n="footer.sitemap.list.dashboard"
-                    >I numeri</a
-                  >
-                </li>
-                <li>
-                  <a href="/faq.html" data-i18n="footer.sitemap.list.faq"
-                    >Domande frequenti</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="/download.html"
-                    data-i18n="footer.sitemap.list.download"
-                    >Download</a
-                  >
-                </li>
-              </ul>
-              <div class="mobile-phone">
-                <h4
-                  class="list-title list-wrapper__title"
-                  style="margin-top: 24px;"
-                  data-i18n="footer.phone"
-                >
-                  Supporto
-                </h4>
-                <ul class="list-wrapper__list">
-                  <li>
-                    <span class="color-textFooter-white" data-i18n="footer.supporto_tecnico">Supporto tecnico: </span>
-                    <a href="mailto:cittadini@immuni.italia.it"
-                      >cittadini@immuni.italia.it</a
-                    ><br />
-                  </li>
-                  <li>
-                    <a 
-                      href="https://www.facebook.com/appimmuni/"
-                      target="_blank"
-                    >
-                    <img
-                      src="<%= require('../assets/img/icon-facebook.png') %>"
-                      alt="Facebook Logo"
-                      class="footer__social"
-                    />
-                  </a>
-                  <a 
-                    href="https://twitter.com/immuni_app"
-                    target="_blank"
-                  >
-                    <img
-                      src="<%= require('../assets/img/icon-twitter.png') %>"
-                      alt="Twitter Logo"
-                      class="footer__social"
-                    />
-                  </a>
-                  <a 
-                    href="https://www.instagram.com/immuni_app_official/?hl=it"
-                    target="_blank"
-                  >
-                    <img
-                      src="<%= require('../assets/img/icon-instagram.png') %>"
-                      alt="Instagram Logo"
-                      class="footer__social"
-                    />
-                  </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="list-wrapper">
-              <h4
-                class="list-title list-wrapper__title"
-                data-i18n="footer.info.title"
-              >
-                Informazioni
-              </h4>
-              <ul class="list-wrapper__list">
-                <li>
-                  <a href="/tou.html" data-i18n="footer.info.list.tos">
-                    Termini di utilizzo
-                  </a>
-                </li>
-                <li>
-                  <a href="/pn.html" data-i18n="footer.info.list.privacy">
-                      Informativa privacy
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="list-wrapper mobile-hidden">
-              <h4
-                class="list-title list-wrapper__title"
-                data-i18n="footer.phone"
-              >
-                Supporto
-              </h4>
-              <ul class="list-wrapper__list">
-                <li>
-                  <span class="color-textFooter-white" data-i18n="footer.supporto_tecnico">Supporto tecnico: </span>
-                  <a href="mailto:cittadini@immuni.italia.it"
-                    >cittadini@immuni.italia.it</a
-                  ><br />
-                </li>
-                <li>
+            <ul class="list-wrapper__list">
+              <li>
+                <a href="/" data-i18n="footer.sitemap.list.home">Home</a>
+              </li>
+              <li>
+                <a href="/funzionamento.html" data-i18n="navigation.funzionamento">Funzionamento</a>
+              </li>
+              <li>
+                <a data-i18n="footer.sitemap.list.documentation" href="https://github.com/immuni-app/documentation/"
+                  target="_blank" rel="noopener noreferrer">Documentazione</a>
+              </li>
+              <li>
+                <a href="/press.html" data-i18n="footer.sitemap.list.press">Sala stampa</a>
+              </li>
+              <li>
+                <a href="/dashboard.html" data-i18n="footer.sitemap.list.dashboard">I numeri</a>
+              </li>
 
-                  <a 
-                      href="https://www.facebook.com/appimmuni/"
-                      target="_blank"
-                    >
-                    <img
-                      src="<%= require('../assets/img/icon-facebook.png') %>"
-                      alt="Facebook Logo"
-                      class="footer__social"
-                    />
-                  </a>
-                  <a 
-                    href="https://twitter.com/immuni_app"
-                    target="_blank"
-                  >
-                    <img
-                      src="<%= require('../assets/img/icon-twitter.png') %>"
-                      alt="Twitter Logo"
-                      class="footer__social"
-                    />
-                  </a>
-                  <a 
-                    href="https://www.instagram.com/immuni_app_official/?hl=it"
-                    target="_blank"
-                  >
-                    <img
-                      src="<%= require('../assets/img/icon-instagram.png') %>"
-                      alt="Instagram Logo"
-                      class="footer__social"
-                    />
-                  </a>
-                </li>
-              </ul>
-            </div>
+            </ul>
+
           </div>
+          <div class="list-wrapper">
+            <h4 class="list-title list-wrapper__title" data-i18n="footer.info.title">
+              Informazioni
+            </h4>
+            <ul class="list-wrapper__list">
+              <li>
+                <a href="/tou.html" data-i18n="footer.info.list.tos">
+                  Termini di utilizzo
+                </a>
+              </li>
+              <li>
+                <a href="/pn.html" data-i18n="footer.info.list.privacy">
+                  Informativa privacy
+                </a>
+              </li>
+            </ul>
+          </div>
+
         </div>
       </div>
-    </footer>
-  </body>
+    </div>
+  </footer>
+</body>
+
 </html>

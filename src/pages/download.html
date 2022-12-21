@@ -1,462 +1,260 @@
 <!DOCTYPE html>
 <html lang="it">
-  <head>
-    <style>
-      html {
-        visibility: hidden;
-        opacity: 0;
-      }
-    </style>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Immuni - Download Immuni</title>
-    <meta
-      name="Description"
-      content="Ripartiamo insieme - Tornare a vivere normalmente è possibile. Immuni ci aiuta a farlo prima e senza rinunciare alla privacy."
-    />
-    <!-- Twitter Card data -->
-    <meta
-      name="twitter:card"
-      value="Ripartiamo insieme - Tornare a vivere normalmente è possibile. Immuni ci aiuta a farlo prima e senza rinunciare alla privacy."
-    />
-    <!-- Open Graph data -->
-    <meta property="og:title" content="Immuni - Download Immuni" />
-    <meta
-      property="og:description"
-      content="Tornare a vivere normalmente è possibile. Immuni ci aiuta a farlo prima e senza rinunciare alla privacy."
-    />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="www.immuni.italia.it" />
-    <meta
-      property="og:image"
-      content="<%= require('../assets/img/og-image.png') %>"
-    />
-    <!-- Mobile header color for Chrome, Firefox OS and Opera -->
-    <meta name="theme-color" content="#5751ff" />
-    <!-- Mobile header color Windows Phone -->
-    <meta name="msapplication-navbutton-color" content="#5751ff" />
-    <!-- Mobile header color for iOS Safari (supports black, black-translucent or default) -->
-    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-    <script type="text/javascript">
-      var _paq = window._paq = window._paq || [];
-      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-      _paq.push(['trackPageView']);
-      _paq.push(['enableLinkTracking']);
-      (function() {
-        var u="https://ingestion.webanalytics.italia.it/";
-        _paq.push(['setTrackerUrl', u+'matomo.php']);
-        _paq.push(['setSiteId', 'XKqJ17LpYR']);
-        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-        g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-      })();
-    </script>
-    <!-- End Matomo Code -->
-  </head>
 
-  <body>
-    <nav class="navigation navigation--desktop">
-      <a href="/">
-        <img
-          src="<%= require('../assets/img/logo.svg') %>"
-          alt="Immuni Logo"
-          class="navigation__logo"
-        />
-      </a>
-      <div class="navigation__wrapper">
+<head>
+  <style>
+    html {
+      visibility: hidden;
+      opacity: 0;
+    }
+  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Immuni - Download Immuni</title>
+  <meta name="Description"
+    content="Ripartiamo insieme - Tornare a vivere normalmente è possibile. Immuni ci aiuta a farlo prima e senza rinunciare alla privacy." />
+  <!-- Twitter Card data -->
+  <meta name="twitter:card"
+    value="Ripartiamo insieme - Tornare a vivere normalmente è possibile. Immuni ci aiuta a farlo prima e senza rinunciare alla privacy." />
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Immuni - Download Immuni" />
+  <meta property="og:description"
+    content="Tornare a vivere normalmente è possibile. Immuni ci aiuta a farlo prima e senza rinunciare alla privacy." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="www.immuni.italia.it" />
+  <meta property="og:image" content="<%= require('../assets/img/og-image.png') %>" />
+  <!-- Mobile header color for Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#5751ff" />
+  <!-- Mobile header color Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#5751ff" />
+  <!-- Mobile header color for iOS Safari (supports black, black-translucent or default) -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <script type="text/javascript">
+    var _paq = window._paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function () {
+      var u = "https://ingestion.webanalytics.italia.it/";
+      _paq.push(['setTrackerUrl', u + 'matomo.php']);
+      _paq.push(['setSiteId', 'XKqJ17LpYR']);
+      var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+      g.type = 'text/javascript'; g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+    })();
+  </script>
+  <!-- End Matomo Code -->
+</head>
+
+<body>
+  <nav class="navigation navigation--desktop">
+    <a href="/">
+      <img src="<%= require('../assets/img/logo.svg') %>" alt="Immuni Logo" class="navigation__logo" />
+    </a>
+    <div class="navigation__wrapper">
+      <a href="/" data-i18n="navigation.home">Home</a>
+      <a href="https://github.com/immuni-app/documentation/" target="_blank" rel="noopener noreferrer"
+        data-i18n="navigation.documentation">Documentazione</a>
+      <a href="/press.html" data-i18n="navigation.press">Sala stampa</a>
+      <a href="/dashboard.html" data-i18n="navigation.dashboard">I numeri</a>
+      <a href="/faq.html" data-i18n="navigation.faq"></a>
+      <a href="/download.html" class="button nav-button" data-i18n="navigation.download">Scarica l'app</a>
+
+      <select class="cs-select">
+        <option value="it">Italiano</option>
+        <option value="en">English</option>
+        <option value="de">Deutsch</option>
+        <option value="fr">Français</option>
+        <option value="es">Español</option>
+      </select>
+    </div>
+  </nav>
+  <nav class="navigation navigation--mobile">
+    <a href="/">
+      <img src="<%= require('../assets/img/logo.png') %>" alt="Immuni Logo" class="navigation__logo" />
+    </a>
+    <div class="navigation__wrapper">
+      <a href="/download.html" class="button nav-button" data-i18n="navigation.downloadMobile">Scarica</a>
+      <button class="hamburger hamburger--spring" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+    </div>
+  </nav>
+  <div class="menu-mobile">
+    <div class="menu-mobile__overlay"></div>
+    <ul class="menu-mobile__list">
+      <li>
         <a href="/" data-i18n="navigation.home">Home</a>
-        <a
-          href="https://github.com/immuni-app/documentation/"
-          target="_blank"
-          rel="noopener noreferrer"
-          data-i18n="navigation.documentation"
-          >Documentazione</a
-        >
+      </li>
+      <li>
+        <a href="https://github.com/immuni-app/documentation/" target="_blank" rel="noopener noreferrer"
+          data-i18n="navigation.documentation">Documentazione</a>
+      </li>
+      <li>
         <a href="/press.html" data-i18n="navigation.press">Sala stampa</a>
+      </li>
+      <li>
         <a href="/dashboard.html" data-i18n="navigation.dashboard">I numeri</a>
-        <a href="/faq.html" data-i18n="navigation.faq"></a>
-        <a
-          href="/download.html"
-          class="button nav-button"
-          data-i18n="navigation.download"
-          >Scarica l'app</a
-        >
-
-        <select class="cs-select">
+      </li>
+      <li>
+        <a href="/faq.html" data-i18n="navigation.faq">Domande frequenti</a>
+      </li>
+    </ul>
+    <ul class="menu-mobile__legal">
+      <li class="legal-link">
+        <select class="cs-select cs-select--mobile">
           <option value="it">Italiano</option>
           <option value="en">English</option>
           <option value="de">Deutsch</option>
           <option value="fr">Français</option>
           <option value="es">Español</option>
         </select>
+      </li>
+      <li class="legal-link">
+        <a href="/pn.html" data-i18n="footer.info.list.privacy">Informativa privacy</a>
+      </li>
+      <li class="legal-link">
+        <a href="/tou.html" data-i18n="footer.info.list.tos">Termini di utilizzo</a>
+      </li>
+    </ul>
+  </div>
+  <section class="section download froster">
+    <div class="container">
+      <div class="has-text-centered">
+        <h1>
+          <div class="text-wrapper intro" data-i18n="download.title">
+            Scarica Immuni
+          </div>
+        </h1>
+        <p class="intro delayed has-small-margin-bottom" data-i18n="download.content">
+          Scegli la versione compatibile con il tuo dispositivo mobile
+        </p>
+        <p class="smaller intro delayed" data-i18n="download.subcontent">
+          Puoi scaricare Immuni da tutto il mondo. Tuttavia, puoi utilizzarla
+          solo dall’Italia.
+        </p>
+        <div class="download-wrapper">
+          <div class="download-row intro delayed">
+            <div class="heading-wrapper">
+              <div class="copy-wrapper">
+                <img src="<%= require('../assets/img/icon-appstore.png') %>" alt="Immuni app icon"
+                  class="heading-wrapper__icon" />
+                <div class="heading-wrapper__copy">
+                  <h4>App Store</h4>
+                </div>
+              </div>
+              <a href="https://apps.apple.com/app/id1513940977" class="button button--press">
+                <img src="<%= require('../assets/img/icons/download.png') %>" alt="Download icon" class="icon" />
+                <span data-i18n="download.button" aria-label="App Store Download">
+                  Scarica
+                </span>
+              </a>
+            </div>
+            <p data-i18n="download.appleOs"></p>
+            <a class="device-link" href="/device-support.html" data-i18n="download.notSupported"></a>
+          </div>
+          <div class="download-row intro delayed">
+            <div class="heading-wrapper">
+              <div class="copy-wrapper">
+                <img src="<%= require('../assets/img/icon-playstore.png') %>" alt="Immuni app icon"
+                  class="heading-wrapper__icon" />
+                <div class="heading-wrapper__copy">
+                  <h4>Play Store</h4>
+                </div>
+              </div>
+              <a href="https://play.google.com/store/apps/details?id=it.ministerodellasalute.immuni"
+                class="button button--press">
+                <img src="<%= require('../assets/img/icons/download.png') %>" alt="Download icon" class="icon" />
+                <span data-i18n="download.button" aria-label="Play Store Download">
+                  Scarica
+                </span>
+              </a>
+            </div>
+            <p data-i18n="download.googleOs"></p>
+            <a class="device-link" href="/device-support.html" data-i18n="download.notSupported"></a>
+          </div>
+          <div class="download-row intro delayed">
+            <div class="heading-wrapper">
+              <div class="copy-wrapper">
+                <img src="<%= require('../assets/img/icon-huawei.png') %>" alt="Immuni app icon"
+                  class="heading-wrapper__icon" />
+                <div class="heading-wrapper__copy">
+                  <h4>AppGallery</h4>
+                </div>
+              </div>
+              <a href="https://appgallery.huawei.com/#/app/C103200367" class="button button--press">
+                <img src="<%= require('../assets/img/icons/download.png') %>" alt="Download icon" class="icon" />
+                <span data-i18n="download.button" aria-label="AppGallery Download">
+                  Scarica
+                </span>
+              </a>
+            </div>
+            <p data-i18n="download.huaweiOs"></p>
+            <a class="device-link" href="/device-support.html" data-i18n="download.notSupported"></a>
+          </div>
+        </div>
       </div>
-    </nav>
-    <nav class="navigation navigation--mobile">
-      <a href="/">
-        <img
-          src="<%= require('../assets/img/logo.png') %>"
-          alt="Immuni Logo"
-          class="navigation__logo"
-        />
-      </a>
-      <div class="navigation__wrapper">
-        <a
-          href="/download.html"
-          class="button nav-button"
-          data-i18n="navigation.downloadMobile"
-          >Scarica</a
-        >
-        <button class="hamburger hamburger--spring" type="button">
-          <span class="hamburger-box">
-            <span class="hamburger-inner"></span>
-          </span>
-        </button>
-      </div>
-    </nav>
-    <div class="menu-mobile">
-      <div class="menu-mobile__overlay"></div>
-      <ul class="menu-mobile__list">
-        <li>
-          <a href="/" data-i18n="navigation.home">Home</a>
-        </li>
-        <li>
-          <a
-            href="https://github.com/immuni-app/documentation/"
-            target="_blank"
-            rel="noopener noreferrer"
-            data-i18n="navigation.documentation"
-            >Documentazione</a
-          >
-        </li>
-        <li>
-          <a href="/press.html" data-i18n="navigation.press">Sala stampa</a>
-        </li>
-        <li>
-          <a href="/dashboard.html" data-i18n="navigation.dashboard">I numeri</a>
-        </li>
-        <li>
-          <a href="/faq.html" data-i18n="navigation.faq">Domande frequenti</a>
-        </li>
-      </ul>
-      <ul class="menu-mobile__legal">
-        <li class="legal-link">
-          <select class="cs-select cs-select--mobile">
-            <option value="it">Italiano</option>
-            <option value="en">English</option>
-            <option value="de">Deutsch</option>
-            <option value="fr">Français</option>
-            <option value="es">Español</option>
-          </select>
-        </li>
-        <li class="legal-link">
-          <a href="/pn.html" data-i18n="footer.info.list.privacy"
-            >Informativa privacy</a
-          >
-        </li>
-        <li class="legal-link">
-          <a href="/tou.html" data-i18n="footer.info.list.tos"
-            >Termini di utilizzo</a
-          >
-        </li>
-      </ul>
     </div>
-    <section class="section download froster">
-      <div class="container">
-        <div class="has-text-centered">
-          <h1>
-            <div class="text-wrapper intro" data-i18n="download.title">
-              Scarica Immuni
-            </div>
-          </h1>
-          <p
-            class="intro delayed has-small-margin-bottom"
-            data-i18n="download.content"
-          >
-            Scegli la versione compatibile con il tuo dispositivo mobile
-          </p>
-          <p class="smaller intro delayed" data-i18n="download.subcontent">
-            Puoi scaricare Immuni da tutto il mondo. Tuttavia, puoi utilizzarla
-            solo dall’Italia.
-          </p>
-          <div class="download-wrapper">
-            <div class="download-row intro delayed">
-              <div class="heading-wrapper">
-                <div class="copy-wrapper">
-                  <img
-                    src="<%= require('../assets/img/icon-appstore.png') %>"
-                    alt="Immuni app icon"
-                    class="heading-wrapper__icon"
-                  />
-                  <div class="heading-wrapper__copy">
-                    <h4>App Store</h4>
-                  </div>
-                </div>
-                <a
-                  href="https://apps.apple.com/app/id1513940977"
-                  class="button button--press"
-                >
-                  <img
-                    src="<%= require('../assets/img/icons/download.png') %>"
-                    alt="Download icon"
-                    class="icon"
-                  />
-                  <span data-i18n="download.button" aria-label="App Store Download">
-                    Scarica
-                  </span>
-                </a>
-              </div>
-              <p data-i18n="download.appleOs"></p>
-              <a
-                class="device-link"
-                href="/device-support.html"
-                data-i18n="download.notSupported"
-              ></a>
-            </div>
-            <div class="download-row intro delayed">
-              <div class="heading-wrapper">
-                <div class="copy-wrapper">
-                  <img
-                    src="<%= require('../assets/img/icon-playstore.png') %>"
-                    alt="Immuni app icon"
-                    class="heading-wrapper__icon"
-                  />
-                  <div class="heading-wrapper__copy">
-                    <h4>Play Store</h4>
-                  </div>
-                </div>
-                <a
-                  href="https://play.google.com/store/apps/details?id=it.ministerodellasalute.immuni"
-                  class="button button--press"
-                >
-                  <img
-                    src="<%= require('../assets/img/icons/download.png') %>"
-                    alt="Download icon"
-                    class="icon"
-                  />
-                  <span data-i18n="download.button" aria-label="Play Store Download">
-                    Scarica
-                  </span>
-                </a>
-              </div>
-              <p data-i18n="download.googleOs"></p>
-              <a
-                class="device-link"
-                href="/device-support.html"
-                data-i18n="download.notSupported"
-              ></a>
-            </div>
-            <div class="download-row intro delayed">
-              <div class="heading-wrapper">
-                <div class="copy-wrapper">
-                  <img
-                    src="<%= require('../assets/img/icon-huawei.png') %>"
-                    alt="Immuni app icon"
-                    class="heading-wrapper__icon"
-                  />
-                  <div class="heading-wrapper__copy">
-                    <h4>AppGallery</h4>
-                  </div>
-                </div>
-                <a href="https://appgallery.huawei.com/#/app/C103200367" class="button button--press">
-                  <img
-                    src="<%= require('../assets/img/icons/download.png') %>"
-                    alt="Download icon"
-                    class="icon"
-                  />
-                  <span data-i18n="download.button" aria-label="AppGallery Download">
-                    Scarica
-                  </span>
-                </a>
-              </div>
-              <p data-i18n="download.huaweiOs"></p>
-              <a class="device-link"
-                 href="/device-support.html"
-                 data-i18n="download.notSupported"
-              ></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <footer class="footer">
-      <div class="container">
-        <div class="footer__wrapper">
-          <div class="footer__brand">
-            <img
-              src="<%= require('../assets/img/logo-white.svg') %>"
-              alt="Immuni Logo"
-              class="footer__logo"
-            />
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer__brand">
+          <img src="<%= require('../assets/img/logo-white.svg') %>" alt="Immuni Logo" class="footer__logo" />
 
-            <h4 class="list-title copyright">
-              © 2020 Presidenza del Consiglio dei Ministri
+          <h4 class="list-title copyright">
+            © 2020 Presidenza del Consiglio dei Ministri
+          </h4>
+        </div>
+        <div class="footer__content">
+          <div class="list-wrapper">
+            <h4 class="list-title list-wrapper__title" data-i18n="footer.sitemap.title">
+              Sezioni
             </h4>
-          </div>
-          <div class="footer__content">
-            <div class="list-wrapper">
-              <h4
-                class="list-title list-wrapper__title"
-                data-i18n="footer.sitemap.title"
-              >
-                Sezioni
-              </h4>
-              <ul class="list-wrapper__list">
-                <li>
-                  <a href="/" data-i18n="footer.sitemap.list.home">Home</a>
-                </li>
-                <li>
-                  <a
-                    data-i18n="footer.sitemap.list.documentation"
-                    href="https://github.com/immuni-app/documentation/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >Documentazione</a
-                  >
-                </li>
-                <li>
-                  <a href="/press.html" data-i18n="footer.sitemap.list.press"
-                    >Sala stampa</a
-                  >
-                </li>
-                <li>
-                  <a href="/dashboard.html" data-i18n="footer.sitemap.list.dashboard"
-                    >I numeri</a
-                  >
-                </li>
-                <li>
-                  <a href="/faq.html" data-i18n="footer.sitemap.list.faq"
-                    >Domande frequenti</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="/download.html"
-                    data-i18n="footer.sitemap.list.download"
-                    >Download</a
-                  >
-                </li>
-              </ul>
-              <div class="mobile-phone">
-                <h4
-                  class="list-title list-wrapper__title"
-                  style="margin-top: 24px;"
-                  data-i18n="footer.phone"
-                >
-                  Supporto
-                </h4>
-                <ul class="list-wrapper__list">
-                  <li>
-                    <span class="color-textFooter-white" data-i18n="footer.supporto_tecnico">Supporto tecnico: </span>
-                    <a href="mailto:cittadini@immuni.italia.it"
-                      >cittadini@immuni.italia.it</a
-                    ><br />
-                  </li>
-                  <li>
-                    <a 
-                      href="https://www.facebook.com/appimmuni/"
-                      target="_blank"
-                    >
-                    <img
-                      src="<%= require('../assets/img/icon-facebook.png') %>"
-                      alt="Facebook Logo"
-                      class="footer__social"
-                    />
-                  </a>
-                  <a 
-                    href="https://twitter.com/immuni_app"
-                    target="_blank"
-                  >
-                    <img
-                      src="<%= require('../assets/img/icon-twitter.png') %>"
-                      alt="Twitter Logo"
-                      class="footer__social"
-                    />
-                  </a>
-                  <a 
-                    href="https://www.instagram.com/immuni_app_official/?hl=it"
-                    target="_blank"
-                  >
-                    <img
-                      src="<%= require('../assets/img/icon-instagram.png') %>"
-                      alt="Instagram Logo"
-                      class="footer__social"
-                    />
-                  </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="list-wrapper">
-              <h4
-                class="list-title list-wrapper__title"
-                data-i18n="footer.info.title"
-              >
-                Informazioni
-              </h4>
-              <ul class="list-wrapper__list">
-                <li>
-                  <a href="/tou.html" data-i18n="footer.info.list.tos">
-                      Termini di utilizzo
-                  </a>
-                </li>
-                <li>
-                  <a href="/pn.html" data-i18n="footer.info.list.privacy">
-                      Informativa privacy
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="list-wrapper mobile-hidden">
-              <h4
-                class="list-title list-wrapper__title"
-                data-i18n="footer.phone"
-              >
-                Supporto
-              </h4>
-              <ul class="list-wrapper__list">
-                <li>
-                  <span class="color-textFooter-white" data-i18n="footer.supporto_tecnico">Supporto tecnico: </span>
-                  <a href="mailto:cittadini@immuni.italia.it"
-                    >cittadini@immuni.italia.it</a
-                  ><br />
-                </li>
-                <li>
+            <ul class="list-wrapper__list">
+              <li>
+                <a href="/" data-i18n="footer.sitemap.list.home">Home</a>
+              </li>
+              <li>
+                <a href="/funzionamento.html" data-i18n="navigation.funzionamento">Funzionamento</a>
+              </li>
+              <li>
+                <a data-i18n="footer.sitemap.list.documentation" href="https://github.com/immuni-app/documentation/"
+                  target="_blank" rel="noopener noreferrer">Documentazione</a>
+              </li>
+              <li>
+                <a href="/press.html" data-i18n="footer.sitemap.list.press">Sala stampa</a>
+              </li>
+              <li>
+                <a href="/dashboard.html" data-i18n="footer.sitemap.list.dashboard">I numeri</a>
+              </li>
 
-                  <a 
-                      href="https://www.facebook.com/appimmuni/"
-                      target="_blank"
-                    >
-                    <img
-                      src="<%= require('../assets/img/icon-facebook.png') %>"
-                      alt="Facebook Logo"
-                      class="footer__social"
-                    />
-                  </a>
-                  <a 
-                    href="https://twitter.com/immuni_app"
-                    target="_blank"
-                  >
-                    <img
-                      src="<%= require('../assets/img/icon-twitter.png') %>"
-                      alt="Twitter Logo"
-                      class="footer__social"
-                    />
-                  </a>
-                  <a 
-                    href="https://www.instagram.com/immuni_app_official/?hl=it"
-                    target="_blank"
-                  >
-                    <img
-                      src="<%= require('../assets/img/icon-instagram.png') %>"
-                      alt="Instagram Logo"
-                      class="footer__social"
-                    />
-                  </a>
-                </li>
-              </ul>
-            </div>
+            </ul>
+
           </div>
+          <div class="list-wrapper">
+            <h4 class="list-title list-wrapper__title" data-i18n="footer.info.title">
+              Informazioni
+            </h4>
+            <ul class="list-wrapper__list">
+              <li>
+                <a href="/tou.html" data-i18n="footer.info.list.tos">
+                  Termini di utilizzo
+                </a>
+              </li>
+              <li>
+                <a href="/pn.html" data-i18n="footer.info.list.privacy">
+                  Informativa privacy
+                </a>
+              </li>
+            </ul>
+          </div>
+
         </div>
       </div>
-    </footer>
-  </body>
+    </div>
+  </footer>
+</body>
+
 </html>
