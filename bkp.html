@@ -1,0 +1,202 @@
+<section id="section1" class="section froster divider-bottom">
+    <div class="container">
+        <h5 class="tagline">
+            <div class="text-wrapper revealer" data-i18n="home.feats.tag">
+                Che cos'è Immuni
+            </div>
+        </h5>
+        <h2>
+            <div class="text-wrapper revealer" data-i18n="home.feats.title">
+                Uno strumento in più per spezzare la catena del contagio
+            </div>
+        </h2>
+        <p class="revealer delayed" data-i18n="home.feats.content">
+            Immuni è un'app creata per aiutarci a combattere l'epidemia di
+            COVID-19. L'app sfrutta la tecnologia per avvertire gli utenti
+            potenzialmente contagiati il prima possibile, anche quando sono
+            asintomatici. Lo fa più efficientemente e con anticipo rispetto ai
+            metodi alternativi.
+        </p>
+    </div>
+    <svg class="section-divider section-divider__bottom" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1440 197"
+        fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path opacity="0.1" d="M0 197V144.5C0 144.5 297 0 720 0C1143 0 1440 147 1440 147V197H0Z" fill="#5751FF" />
+        <path d="M720 50C1143 50 1440 197 1440 197H0C0 197 297 50 720 50Z" fill="#5751FF" />
+    </svg>
+</section>
+<section class="section blue no-padding-bottom">
+    <div class="container">
+        <div class="feat-illustration" data-i18n="home.benefits.image">
+            <img src="<%= require('./src/assets/img/feat-illustration-it.png') %>"
+                alt="Screenshot of the main Immuni App dashboard" />
+        </div>
+        <div class="feat-illustration--mobile">
+            <img src="<%= require('./src/assets/img/feat-illustration-mobile-it.png') %>"
+                alt="Screenshot of the main Immuni App dashboard" />
+        </div>
+
+        <h5 class="tagline smaller white" data-i18n="home.benefits.tag">
+            Perché installare Immuni
+        </h5>
+        <h2 class="light has-margin-bottom" data-i18n="home.benefits.title">
+            Proteggiamo noi stessi e i nostri cari
+        </h2>
+        <div class="tiles-wrapper">
+            <div class="tile windows">
+                <img src="<%= require('./src/assets/img/window-day-illustration.png') %>"
+                    alt="Illustration of a woman at the window working with a laptop during the day"
+                    class="window-illustration window-illustration--day" />
+                <p class="white" data-i18n="home.benefits.isolation">
+                    Gli utenti potenzialmente contagiati possono isolarsi per evitare
+                    di contagiare altri. Così facendo, aiutano a contenere l'epidemia
+                    e a consentire un rapido ritorno alla normalità.
+                </p>
+                <img src="<%= require('./src/assets/img/window-night-illustration.png') %>"
+                    alt="Illustration of a man at the window holding a toddler at night"
+                    class="window-illustration window-illustration--night" />
+            </div>
+            <div class="tile old-people">
+                <img src="<%= require('./src/assets/img/old-people-illustration.png') %>"
+                    alt="Illustration of an old couple smiling" class="old-people-illustration" />
+                <p class="white" data-i18n="home.benefits.oldPeople">
+                    Venendo informati tempestivamente, gli utenti possono anche
+                    contattare il proprio medico di base e ridurre così il rischio di
+                    complicanze.
+                </p>
+            </div>
+        </div>
+        <h5 class="tagline smaller white" data-i18n="home.tech.tag">
+            Tecnologia
+        </h5>
+        <h2 class="light" data-i18n="home.tech.title">
+            Innovazione al servizio della comunità
+        </h2>
+        <img src="<%= require('./src/assets/img/bluetooth-illustration.png') %>"
+            alt="Illustration of a man and a women getting notified by the app that they are making contact with one another"
+            class="tech-illustration" />
+        <p class="white has-margin-bottom" data-i18n="home.tech.content">
+            Utilizzando in modo innovativo la tecnologia Bluetooth, l’app invia
+            una notifica a chi si è trovato a stretto contatto con un utente
+            positivo al COVID-19, per avvertirlo del potenziale rischio di aver
+            contratto il virus. Questo avviene senza raccogliere dati
+            sull’identità o la posizione dell’utente.
+        </p>
+        <!-- <button class="button primary light">Scopri di più</button> -->
+    </div>
+</section>
+<section id="section2" class="section divider-top">
+    <svg class="section-divider section-divider__top" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1440 197"
+        fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path opacity="0.1" d="M0 0V52.5C0 52.5 297 197 720 197C1143 197 1440 50 1440 50V0H0Z" fill="#5751FF" />
+        <path d="M720 147C1143 147 1440 0 1440 0H0C0 0 297 147 720 147Z" fill="#5751FF" />
+    </svg>
+    <div class="container">
+        <h5 class="tagline">
+            <div class="text-wrapper revealer" data-i18n="home.privacy.tag">
+                Sicurezza
+            </div>
+        </h5>
+        <h2>
+            <div class="text-wrapper revealer" data-i18n="home.privacy.title">
+                La tua privacy è al sicuro
+            </div>
+        </h2>
+        <p class="wide revealer delayed" data-i18n="home.privacy.content">
+            Immuni rispetta tutte le normative vigenti, incluse quelle sulla
+            protezione dei dati. I tuoi dati, raccolti e gestiti dal Ministero
+            della Salute e da soggetti pubblici, sono salvati su server in Italia.
+            I dati e le connessioni dell'app con il server sono cifrati.
+        </p>
+        <div class="large-divider"></div>
+        <h3>
+            <div class="text-wrapper revealer" data-i18n="home.privacy.subtitle">
+                Immuni <span>non</span> raccoglie:
+            </div>
+        </h3>
+        <div class="privacy-cards-wrapper revealer staggered">
+            <div class="privacy-card">
+                <img src="<%= require('./src/assets/img/icons/identity.png') %>"
+                    alt="Illustration of an ID card with a prohibition sign on top of it" class="privacy-card__icon" />
+                <span class="privacy-card__title" data-i18n="home.privacy.icons.data">I tuoi dati anagrafici</span>
+            </div>
+            <div class="privacy-card">
+                <img src="<%= require('./src/assets/img/icons/phone.png') %>"
+                    alt="Illustration of a phone with a prohibition sign on top of it" class="privacy-card__icon" />
+                <span class="privacy-card__title" data-i18n="home.privacy.icons.phone">Il tuo numero di telefono</span>
+            </div>
+            <div class="privacy-card">
+                <img src="<%= require('./src/assets/img/icons/email.png') %>"
+                    alt="Illustration of an envelope with a prohibition sign on top of it" class="privacy-card__icon" />
+                <span class="privacy-card__title" data-i18n="home.privacy.icons.mail">Il tuo indirizzo email</span>
+            </div>
+            <div class="privacy-card">
+                <img src="<%= require('./src/assets/img/icons/people.png') %>"
+                    alt="Illustration of a stick man with a prohibition sign on top of it" class="privacy-card__icon" />
+                <span class="privacy-card__title" data-i18n="home.privacy.icons.identity">L’identità delle persone che
+                    incontri</span>
+            </div>
+            <div class="privacy-card">
+                <img src="<%= require('./src/assets/img/icons/location.png') %>"
+                    alt="Illustration of a map pin with a prohibition sign on top of it" class="privacy-card__icon" />
+                <span class="privacy-card__title" data-i18n="home.privacy.icons.position">La tua posizione e i tuoi
+                    movimenti</span>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="section3" class="section">
+    <div class="container">
+        <h5 class="tagline">
+            <div class="text-wrapper revealer" data-i18n="home.report.title">
+                Novità
+            </div>
+        </h5>
+        <h2 class="colored">
+            <div class="text-wrapper revealer" data-i18n="home.report.content">
+                Segnala positività
+            </div>
+        </h2>
+        <div class="tile rep-positivity">
+            <img src="<%= require('./src/assets/img/rep-positivity.png') %>"
+                alt="Illustration of a woman at the window with smartphone and alert symbol"
+                class="rep-positivity-illustration" />
+            <div class="section-right">
+                <p data-i18n="home.report.positivity">
+                    Segnalando la tua positività tramite app Immuni gli utenti con cui sei entrato in contatto verranno
+                    informati
+                    tempestivamente.
+                    Potranno così contattare subito il medico di medicina generale e ridurre il rischio di complicanze o
+                    di
+                    ulteriori contagi.
+                </p>
+                <div class="medium-divider"></div>
+                <a href="/report.html" class="button centered primary revealer label_not_de"
+                    data-i18n="home.report.button">
+                    Scopri come effettuare la segnalazione
+                </a>
+                <a href="/report.html" class="button centered primary revealer label_de" data-i18n="home.report.button">
+                    Scopri come effettuare la segnalazione
+                </a>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section class="section no-padding-bottom--smaller">
+    <img src="<%= require('./src/assets/img/man-faq.png') %>"
+        alt="Illustration of a man with a question mark on top of his head" class="faqbg faqbg__man" />
+    <img src="<%= require('./src/assets/img/girl-faq.png') %>"
+        alt="Illustration of a girl with a question mark on top of his head" class="faqbg faqbg__girl" />
+    <div class="container">
+        <h2>
+            <div class="text-wrapper revealer" data-i18n="home.faq.title">
+                Vuoi saperne di più?
+            </div>
+        </h2>
+        <div class="medium-divider"></div>
+        <a href="/faq.html" class="button primary centered revealer" data-i18n="home.faq.button">
+            Esplora le domande frequenti
+        </a>
+        <img src="<%= require('./src/assets/img/footer-illustration-mobile.png') %>" alt="" class="faqbg__mobile" />
+    </div>
+</section>

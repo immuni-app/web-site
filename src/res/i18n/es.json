@@ -7,7 +7,9 @@
     "faq": "Preguntas",
     "faqMobile": "Preguntas",
     "download": "Descárgate la aplicación",
-    "downloadMobile": "Descargar"
+    "downloadMobile": "Descargar",
+        "funzionamento":"Funzionamento"
+
   },
   "footer": {
     "sitemap": {
@@ -37,8 +39,8 @@
   },
   "home": {
     "hero": {
-      "title": "Salgamos adelante juntos",
-      "content": "Volver a la normalidad es posible. Con Immuni, podremos lograrlo antes y sin renunciar a nuestra privacidad."
+      "title": "A breve l’app Immuni non sarà più attiva",
+      "content": "Il 31 dicembre 2022 l’app Immuni  sarà eliminata dagli store. Non sarà più possibile scaricarla o aggiornarla.Non avviserà più in caso si sia stati esposti a un possibile contagio da COVID-19 né sarà possibile segnalare la propria positività per allertare altri utenti. Dalla stessa data verrà interrotto ogni trattamento di dati personali effettuato dal Ministero della salute. <br>(<a target='_blank' href='https://www.gazzettaufficiale.it/eli/id/2020/04/30/20G00046/sg'>art. 6 del decreto-legge 30 aprile 2020, n. 28</a>)"
     },
     "report":{
       "title": "Novedad",
@@ -53,11 +55,13 @@
     },
     "dgc": {
       "tag": "Novedad",
-      "title": "Certificado Covid Digital de la UE",
-      "content": "Puedes adquirir el certificado verde COVID-19 utilizando la aplicación Immuni a través de la sección correspondiente “Certificado COVID digital de la UE” visible en la pantalla de inicio de la aplicación. <br> El certificado verde COVID-19 se muestra en la pantalla y el código QR se guarda en el dispositivo móvil para que se pueda ver y mostrar incluso en modo fuera de línea.",
-      "link": "Visita la página web https://www.dgc.gov.it/"
+      "title": "Cosa accade alle Certificazioni verdi COVID-19 su app Immuni",
+      "content": "L’app non permetterà più di scaricare le Certificazioni verdi COVID-19. Quelle già recuperate sul proprio dispositivo restano disponibili nell’area Certificazioni, ma non verranno segnalate eventuali aggiornamenti delle scadenze.<br><br><br>Sarà possibile continuare a recuperare le Certificazioni verdi COVID-19 con le altre modalità indicate sul sito",
+      "link": " https://www.dgc.gov.it/"
     },
     "feats": {
+            "tagFunz":"Funzionamento",
+
       "tag": "¿Qué es Immuni?",
       "title": "Una herramienta más para romper la cadena de transmisión",
       "content": "Immuni es una aplicación que se ha desarrollado para ayudarnos a combatir la epidemia de la COVID-19. La aplicación se sirve de la tecnología para avisar a los usuarios que han estado expuestos al riesgo, aunque sean asintomáticos."

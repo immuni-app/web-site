@@ -137,6 +137,12 @@ module.exports = {
       inject: true,
       chunks: ['main']
     }),
+            new HtmlWebpackPlugin({
+      filename: "funzionamento.html",
+      template: "src/pages/funzionamento.html",
+      inject: true,
+      chunks: ['main']
+    }),
     new HtmlWebpackPlugin({
       filename: "app-pn.html",
       template: "src/pages/app-pn.html",
