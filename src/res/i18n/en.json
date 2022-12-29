@@ -8,7 +8,7 @@
     "faqMobile": "FAQ",
     "download": "Download the app",
     "downloadMobile": "Download",
-        "funzionamento":"Funzionamento"
+        "funzionamento":"How it works"
 
   },
   "footer": {
@@ -60,7 +60,7 @@
       "link": " https://www.dgc.gov.it/"
     },
     "feats": {
-            "tagFunz":"Funzionamento",
+            "tagFunz":"How it works",
 
       "tag": "What is Immuni?",
       "title": "One more tool to break the chain of contagion",
