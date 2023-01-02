@@ -113,7 +113,7 @@
     }
   },
   "dashboard": {
-    "title": "I numeri di immuni",
+    "title": "I numeri di Immuni al 31 Dicembre 2022",
     "content": "Report sui download e l'utilizzo di Immuni",
     "ofDownload": "download <sup>(1)</sup>",
     "positiveUser": "utenti positivi <sup>(2)</sup>",

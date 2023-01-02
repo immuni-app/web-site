@@ -112,7 +112,7 @@
     }
   },
   "dashboard": {
-    "title": "Les nombres de immuni",
+    "title": "Les chiffres d'Immuni au 31 décembre 2022",
     "content": "Rapports sur les téléchargements et l'utilisation de Immuni",
     "ofDownload": "download <sup>(1)</sup>",
     "positiveUser": "utilisateurs positifs <sup>(2)</sup>",

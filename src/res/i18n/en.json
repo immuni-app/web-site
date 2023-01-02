@@ -112,7 +112,7 @@
     }
   },
   "dashboard": {
-    "title": "The numbers of immuni",
+    "title": "The numbers of Immuni as of December 31, 2022",
     "content": "Reports on downloads and usage of Immuni",
     "ofDownload": "download <sup>(1)</sup>",
     "positiveUser": "positive users <sup>(2)</sup>",

@@ -193,7 +193,7 @@ function generateChart() {
 	let lastUpdateDiv = document.getElementById('lastUpdate')
 	if (lastUpdateDiv) {
 		let lastDate = andamentoNazionale[andamentoNazionale.length - 1].data
-		var lastUpdate = moment(lastDate)
+		var lastUpdate = moment("2022-12-31")
 		lastUpdateDiv.innerHTML = lastUpdate.format('D MMMM YYYY')
 	}
 
@@ -729,8 +729,8 @@ function generateChart() {
 	//}
 
 	//Notification and positive chart month
-	let meseLabel = monthNames[lang][formattedDate.getMonth()]
-	let annoLabel = formattedDate.getFullYear()
+	let meseLabel = monthNames[lang][11]
+	let annoLabel = 2022
 
 	let notificationByRegion = document.getElementById('notificationByRegion')
 	let positiveUsersByRegion = document.getElementById('positiveUsersByRegion')
@@ -834,8 +834,8 @@ export function updateChartLang() {
 
 	const lang = localStorage.getItem("language");
 	moment.locale(lang);
-	let meseLabel = monthNames[lang][formattedDate.getMonth()]
-	let annoLabel = formattedDate.getFullYear()
+	let meseLabel = monthNames[lang][11]
+	let annoLabel = 2022
 	if (lastWeekUpdateNotifications != undefined && lastWeekUpdateNotifications != "")
 		lastWeekUpdateNotifications.innerHTML = meseLabel + " " + annoLabel
 	if (lastWeekUpdatePositiveUsers != undefined && lastWeekUpdatePositiveUsers != "")
