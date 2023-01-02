@@ -8,7 +8,7 @@
     "faqMobile": "Preguntas",
     "download": "Descárgate la aplicación",
     "downloadMobile": "Descargar",
-        "funzionamento":"Funzionamento"
+        "funzionamento":"Como funciona"
 
   },
   "footer": {
@@ -60,7 +60,7 @@
       "link": " https://www.dgc.gov.it/"
     },
     "feats": {
-            "tagFunz":"Funzionamento",
+            "tagFunz":"Como funciona",
 
       "tag": "¿Qué es Immuni?",
       "title": "Una herramienta más para romper la cadena de transmisión",
