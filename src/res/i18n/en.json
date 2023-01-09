@@ -39,8 +39,8 @@
   },
   "home": {
     "hero": {
-      "title": "A breve l’app Immuni non sarà più attiva",
-      "content": "Il 31 dicembre 2022 l’app Immuni  sarà eliminata dagli store. Non sarà più possibile scaricarla o aggiornarla. Non avviserà più in caso si sia stati esposti a un possibile contagio da COVID-19 né sarà possibile segnalare la propria positività per allertare altri utenti. Dalla stessa data verrà interrotto ogni trattamento di dati personali effettuato dal Ministero della salute. <br>(<a target='_blank' href='https://www.gazzettaufficiale.it/eli/id/2020/04/30/20G00046/sg'>art. 6 del decreto-legge 30 aprile 2020, n. 28</a>)"
+      "title": "App Immuni is no longer active",
+      "content": "Since December 31, 2022, the Immuni app has been removed from the app stores. It is no longer possible to download or update it. It will no longer notify you if you have been exposed to a possible COVID-19 infection, nor is it possible to report your positivity to alert other users. From the same date, all processing of personal data carried out by the Ministry of Health was interrupted. (<a target='_blank' href='https://www.gazzettaufficiale.it/eli/id/2020/04/30/20G00046/sg'>art. 6 of the decree-law of 30 April 2020, n. 28</a>)"
     },
     "report":{
       "title": "News",
@@ -55,8 +55,8 @@
     },
     "dgc": {
       "tag": "News",
-      "title": "Cosa accade alle Certificazioni verdi COVID-19 su app Immuni",
-      "content": "L’app non permetterà più di scaricare le Certificazioni verdi COVID-19. Quelle già recuperate sul proprio dispositivo restano disponibili nell’area Certificazioni, ma non verranno segnalati eventuali aggiornamenti delle scadenze.<br><br><br>Sarà possibile continuare a recuperare le Certificazioni verdi COVID-19 con le altre modalità indicate sul sito",
+      "title": "What happens to the COVID-19 green certifications on the Immuni app",
+      "content": "The app doesn’t allow you to download COVID-19 Green Certifications anymore. Certifications already recovered on your device remain available in the Certifications area, but any updates of deadlines will not be reported.<br><br><br>It’s possible to continue recovering the COVID-19 Green Certifications with the other methods indicated on the site",
       "link": " https://www.dgc.gov.it/"
     },
     "feats": {
